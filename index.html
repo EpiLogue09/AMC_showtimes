@@ -127,6 +127,9 @@
         const lastUpdatedElement = document.getElementById('last-updated');
         lastUpdatedElement.textContent = `Current time: ${now.toLocaleString()} (This page updates thrice a day at midnight, noon, and 6pm)`;
     }
+
+     // Optionally pre-load one of the theaters
+     fetchShowtimes('showtime_AMC Phipps Plaza 14.json');
 </script>
 
 
