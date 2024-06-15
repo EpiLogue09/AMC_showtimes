@@ -15,11 +15,52 @@
         async function fetchShowtimes() {
             const response = await fetch('showtimes.json');
             const showtimes = await response.json();
-            const showtimesDiv = document.getElementById('showtimes');
-            showtimes.forEach(showtime => {
-                const showtimeElement = document.createElement('p');
-                showtimeElement.textContent = `Movie: ${showtime.movie}, Time: ${showtime.time}`;
-                showtimesDiv.appendChild(showtimeElement);
+
+            const todayDiv = document.getElementById('today');
+            const tomorrowDiv = document.getElementById('tomorrow');
+
+            showtimes.Today.forEach(movie => {
+                const movieElement = document.createElement('div');
+
+                const titleElement = document.createElement('h3');
+                const linkElement = document.createElement('a');
+                linkElement.href = movie.link;
+                linkElement.textContent = movie.title;
+                titleElement.appendChild(linkElement);
+
+                const standardElement = document.createElement('p');
+                standardElement.textContent = `Standard: ${movie.Standard.join(', ')}`;
+
+                const threeDElement = document.createElement('p');
+                threeDElement.textContent = `3D: ${movie["3D"].join(', ')}`;
+
+                movieElement.appendChild(titleElement);
+                movieElement.appendChild(standardElement);
+                movieElement.appendChild(threeDElement);
+
+                todayDiv.appendChild(movieElement);
+            });
+
+            showtimes.Tomorrow.forEach(movie => {
+                const movieElement = document.createElement('div');
+
+                const titleElement = document.createElement('h3');
+                const linkElement = document.createElement('a');
+                linkElement.href = movie.link;
+                linkElement.textContent = movie.title;
+                titleElement.appendChild(linkElement);
+
+                const standardElement = document.createElement('p');
+                standardElement.textContent = `Standard: ${movie.Standard.join(', ')}`;
+
+                const threeDElement = document.createElement('p');
+                threeDElement.textContent = `3D: ${movie["3D"].join(', ')}`;
+
+                movieElement.appendChild(titleElement);
+                movieElement.appendChild(standardElement);
+                movieElement.appendChild(threeDElement);
+
+                tomorrowDiv.appendChild(movieElement);
             });
         }
 
