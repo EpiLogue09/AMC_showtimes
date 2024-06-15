@@ -16,8 +16,8 @@
             const response = await fetch('showtimes.json');
             const showtimes = await response.json();
 
-            const todayDiv = document.getElementById('today');
-            const tomorrowDiv = document.getElementById('tomorrow');
+            const todayDiv = document.getElementById('day');
+            const tomorrowDiv = document.getElementById('Tomorrow');
 
             showtimes.Today.forEach(movie => {
                 const movieElement = document.createElement('div');
