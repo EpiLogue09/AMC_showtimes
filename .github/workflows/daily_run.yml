@@ -19,7 +19,6 @@ jobs:
       run: |
         python -m pip install --upgrade pip
         python -m pip install requests
-        python -m pip install json
         python -m pip install serpapi
         # If you have dependencies:
         # pip install -r requirements.txt
