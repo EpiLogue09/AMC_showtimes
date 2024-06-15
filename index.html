@@ -33,52 +33,51 @@
     <button onclick="fetchShowtimes('showtime_AMC North Point Mall 12.json')">North Point Mall 12</button>
     <div id="showtimes-container"></div>
 
-    <script>
-        function fetchShowtimes(file) {
-            fetch(file)
-            .then(response => response.json())
-            .then(data => displayShowtimes(data))
-            .catch(error => console.error('Error fetching data: ', error));
-        }
-
-        function displayShowtimes(data) {
-            const container = document.getElementById('showtimes-container');
-            container.innerHTML = ''; // Clear previous content
-            data.forEach(day_info => {
-                const dayElement = document.createElement('div');
-                dayElement.innerHTML = `<h2>Day: ${day_info.day}${day_info.date ? ', ' + day_info.date : ''}</h2>`;
-                const moviesElement = document.createElement('div');
-                moviesElement.className = 'movies';
-
-                // Sort movies by the number of showings
-                const sortedMovies = day_info.movies.sort((a, b) => {
-                    const totalShowingsA = a.showing.reduce((acc, cur) => acc + cur.time.length, 0);
-                    const totalShowingsB = b.showing.reduce((acc, cur) => acc + cur.time.length, 0);
-                    return totalShowingsB - totalShowingsA; // Descending order
-                });
-
-                sortedMovies.forEach(movie => {
-                    const movieElement = document.createElement('div');
-                    const totalShowings = movie.showing.reduce((acc, cur) => acc + cur.time.length, 0);
-                    movieElement.className = 'movie ' + getColorClass(totalShowings);
-                    movieElement.innerHTML = `<strong>${movie.name}</strong><div class='showtimes'>${movie.showing.map(show => `${show.type}: ${show.time.join(', ')}`).join('<br>')}</div>`;
-                    moviesElement.appendChild(movieElement);
-                });
-                dayElement.appendChild(moviesElement);
-                container.appendChild(dayElement);
-            });
-        }
-
-        function getColorClass(showCount) {
-            if (showCount <= 1) return 'shows-1';
-            else if (showCount === 2) return 'shows-2';
-            else if (showCount === 3) return 'shows-4';
-            else if (showCount === 4) return 'shows-4';
-            else return 'shows-5-more';
+<script>
+    function fetchShowtimes(file) {
+        fetch(file)
+        .then(response => response.json())
+        .then(data => displayShowtimes(data))
+        .catch(error => console.error('Error fetching data: ', error));
     }
 
-    // Optionally pre-load one of the theaters
-    fetchShowtimes('showtimes_theater1.json');
+    function displayShowtimes(data) {
+        const container = document.getElementById('showtimes-container');
+        container.innerHTML = ''; // Clear previous content
+        data.forEach(day_info => {
+            const dayElement = document.createElement('div');
+            dayElement.innerHTML = `<h2>Day: ${day_info.day}${day_info.date ? ', ' + day_info.date : ''}</h2>`;
+            const moviesElement = document.createElement('div');
+            moviesElement.className = 'movies';
+
+            day_info.movies.forEach(movie => {
+                const movieElement = document.createElement('div');
+                const totalShowings = movie.showing.reduce((acc, cur) => acc + cur.time.length, 0);
+                movieElement.className = 'movie ' + getColorClass(totalShowings);
+
+                let showingsDetail = movie.showing.map(show => {
+                    const times = show.time;
+                    const showCount = times.length;
+                    const displayTimes = showCount > 3 ? `${times.slice(0, 3).join(', ')}...(${showCount} total)` : times.join(', ');
+                    return `${show.type}: ${displayTimes}`;
+                }).join('<br>');
+
+                movieElement.innerHTML = `<strong>${movie.name}</strong><div class='showtimes'>${showingsDetail}</div>`;
+                moviesElement.appendChild(movieElement);
+            });
+            dayElement.appendChild(moviesElement);
+            container.appendChild(dayElement);
+        });
+    }
+
+    function getColorClass(totalShowings) {
+        // Apply coloring based on the total number of showtimes across all formats
+        if (totalShowings >= 7) return 'shows-5-more';
+        else if (totalShowings >= 5) return 'shows-4';
+        else if (totalShowings >= 3) return 'shows-3';
+        else if (totalShowings >= 2) return 'shows-2';
+        else return 'shows-1';
+    }
 </script>
 
 </body>
