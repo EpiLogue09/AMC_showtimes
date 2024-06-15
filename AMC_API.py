@@ -19,7 +19,6 @@ def movie_request():
         'X-AMC-Vendor-Key': api_key
     }
     print(headers)
-
     # Make the GET request
     response = requests.get(url, headers=headers)
 
@@ -35,7 +34,7 @@ def movie_request():
     print(data)
 
 def google_request():
-    url = 'https://serpapi.com/search.json?q=eternals+theater&location=Austin,+Texas,+United+States&hl=en&gl=us'
+    #url = 'https://serpapi.com/search.json?q=eternals+theater&location=Austin,+Texas,+United+States&hl=en&gl=us'
     with open('serp_api_key.txt', 'r') as file:
         api_key = file.read().strip()
     params = {
