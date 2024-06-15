@@ -3,47 +3,88 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>AMC showtimes</title>
+    <title>Movie Showtimes</title>
+    <style>
+        #showtimes-container {
+            font-family: Arial, sans-serif;
+        }
+        .day {
+            margin-bottom: 20px;
+        }
+        .movies {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 5px;
+        }
+        .movie {
+            padding: 10px;
+            border-radius: 5px;
+            background-color: rgba(255, 235, 238, 0.5); /* Light red as default */
+            transition: background-color 0.3s ease;
+        }
+        .showtimes {
+            font-size: 0.8rem;
+            color: #666;
+        }
+        /* Color coding for the number of showings */
+        .shows-1 { background-color: rgba(179, 229, 252, 0.5); } /* Cooler color, fewer shows */
+        .shows-2 { background-color: rgba(129, 212, 250, 0.5); }
+        .shows-3 { background-color: rgba(79, 195, 247, 0.5); }
+        .shows-4 { background-color: rgba(129, 199, 132, 0.5); }
+        .shows-5 { background-color: rgba(255, 204, 128, 0.5); }
+        .shows-6-more { background-color: rgba(255, 138, 101, 0.5); } /* Warmer color, more shows */
+    </style>
 </head>
 <body>
-    <h1>Welcome to My Webpage!</h1>
-    <p>This is a simple webpage hosted on GitHub Pages.</p>
-    <h2>Showtimes</h2>
-    <div id="showtimes"></div>
+    <h1>Movie Showtimes at AMC Phipps Plaza 14</h1>
+    <div id="showtimes-container">
+        <!-- Showtimes will be displayed here -->
+    </div>
 
     <script>
-        async function fetchShowtimes() {
-            const response = await fetch('showtimes.json');
-            //debug:
-            //console.log(response)
-            const data = await response.json();
+        document.addEventListener('DOMContentLoaded', function() {
+            fetchShowtimes();
+        });
 
-            const day = data.day;
-            //const date = data.date;
-            const movies = data.movies;
+        function fetchShowtimes() {
+            fetch('showtimes.json')  // Adjust the path as necessary to point to your JSON file on GitHub
+            .then(response => response.json())
+            .then(data => displayShowtimes(data))
+            .catch(error => console.error('Error fetching data: ', error));
+        }
 
-            const showtimesDiv = document.getElementById('showtimes');
+        function displayShowtimes(data) {
+            const container = document.getElementById('showtimes-container');
+            data.forEach(day_info => {
+                const dayDisplay = `Day: ${day_info.day}${day_info.date ? ', ' + day_info.date : ''}`;
+                const dayElement = document.createElement('div');
+                dayElement.className = 'day';
+                dayElement.innerHTML = `<h2>${dayDisplay}</h2>`;
+                const moviesElement = document.createElement('div');
+                moviesElement.className = 'movies';
 
-            movies.forEach(movie => {
-                const title = movie.name;
-                const showtimes = movie.showing.map(showing => {
-                    return {
-                        type: showing.type,
-                        times: showing.time
-                    };
+                day_info.movies.forEach(movie => {
+                    const movieElement = document.createElement('div');
+                    const totalShowings = movie.showing.reduce((acc, cur) => acc + cur.time.length, 0);
+                    movieElement.className = 'movie ' + getColorClass(totalShowings);
+                    movieElement.innerHTML = `<strong>${movie.name}</strong><div class='showtimes'>${movie.showing.map(show => `${show.type}: ${show.time.join(', ')}`).join('<br>')}</div>`;
+                    moviesElement.appendChild(movieElement);
                 });
 
-                const movieDiv = document.createElement('div');
-                movieDiv.innerHTML = `<h3>${title}</h3><p>Date: ${date}, Day: ${day}</p>`;
-                showtimes.forEach(showtime => {
-                    movieDiv.innerHTML += `<p>Type: ${showtime.type}, Times: ${showtime.times.join(', ')}</p>`;
-                });
-
-                showtimesDiv.appendChild(movieDiv);
+                dayElement.appendChild(moviesElement);
+                container.appendChild(dayElement);
             });
         }
 
-        fetchShowtimes();
+        function getColorClass(showCount) {
+            if (showCount <= 1) return 'shows-1';
+            else if (showCount === 2) return 'shows-2';
+            else if (showCount === 3) return 'shows-3';
+            else if (showCount === 4) return 'shows-4';
+            else if (showCount === 5) return 'shows-5';
+            else return 'shows-6-more';
+        }
     </script>
 </body>
 </html>

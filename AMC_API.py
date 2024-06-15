@@ -34,21 +34,27 @@ def movie_request():
     print(data)
 
 def google_request():
-    #url = 'https://serpapi.com/search.json?q=eternals+theater&location=Austin,+Texas,+United+States&hl=en&gl=us'
-    with open('serp_api_key.txt', 'r') as file:
-        api_key = file.read().strip()
     params = {
         "q": "AMC Phipps Plaza 14",
         "location": "Atlanta, Georgia, United States",
         "hl": "en",
         "gl": "us",
-        "api_key": api_key
+        "api_key": 'bbfe50c46d4021722d88400def34a38adf7f24b0be228c949140513d611abb7f'
     }
     search = serpapi.search(params)
     results = search.as_dict()
     showtimes = results["showtimes"]
     #extract only first 7 dictionaries
     showtimes = [showtime for showtime in showtimes[:7]]
+    #extract all movie titles
+    for day_info in showtimes:
+        day = day_info.get('day', 'No day provided')
+        print(f"Day: {day}")
+
+        # Print each movie showing on this day
+        movies = day_info.get('movies', [])
+        for movie in movies:
+            print(f" - {movie['name']}")
     #append results to a json file with correct indent
     with open('showtimes.json', 'w') as file:
         json.dump(showtimes, file, indent=4)
