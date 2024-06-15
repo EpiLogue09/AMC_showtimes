@@ -5,22 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Showtimes</title>
     <style>
-        #showtimes-container {
-            font-family: Arial, sans-serif;
-        }
-        .day {
-            margin-bottom: 20px;
-        }
         .movies {
             display: flex;
             flex-wrap: wrap;
             gap: 10px;
-            margin-top: 5px;
         }
         .movie {
             padding: 10px;
             border-radius: 5px;
-            background-color: rgba(255, 235, 238, 0.5); /* Light red as default */
             transition: background-color 0.3s ease;
         }
         .showtimes {
@@ -37,18 +29,14 @@
     </style>
 </head>
 <body>
-    <h1>Movie Showtimes at AMC Phipps Plaza 14</h1>
-    <div id="showtimes-container">
-        <!-- Showtimes will be displayed here -->
-    </div>
+    <h1>Movie Showtimes</h1>
+    <button onclick="fetchShowtimes('showtime_AMC North Point Mall 12.json')">North Point Mall 12</button>
+    <button onclick="fetchShowtimes('showtime_AMC Phipps Plaza 14.json')">Phipps Plaza 14</button>
+    <div id="showtimes-container"></div>
 
     <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            fetchShowtimes();
-        });
-
-        function fetchShowtimes() {
-            fetch('showtimes.json')  // Adjust the path as necessary to point to your JSON file on GitHub
+        function fetchShowtimes(file) {
+            fetch(file)
             .then(response => response.json())
             .then(data => displayShowtimes(data))
             .catch(error => console.error('Error fetching data: ', error));
@@ -56,14 +44,12 @@
 
         function displayShowtimes(data) {
             const container = document.getElementById('showtimes-container');
+            container.innerHTML = ''; // Clear previous content
             data.forEach(day_info => {
-                const dayDisplay = `Day: ${day_info.day}${day_info.date ? ', ' + day_info.date : ''}`;
                 const dayElement = document.createElement('div');
-                dayElement.className = 'day';
-                dayElement.innerHTML = `<h2>${dayDisplay}</h2>`;
+                dayElement.innerHTML = `<h2>Day: ${day_info.day}${day_info.date ? ', ' + day_info.date : ''}</h2>`;
                 const moviesElement = document.createElement('div');
                 moviesElement.className = 'movies';
-
                 day_info.movies.forEach(movie => {
                     const movieElement = document.createElement('div');
                     const totalShowings = movie.showing.reduce((acc, cur) => acc + cur.time.length, 0);
@@ -71,7 +57,6 @@
                     movieElement.innerHTML = `<strong>${movie.name}</strong><div class='showtimes'>${movie.showing.map(show => `${show.type}: ${show.time.join(', ')}`).join('<br>')}</div>`;
                     moviesElement.appendChild(movieElement);
                 });
-
                 dayElement.appendChild(moviesElement);
                 container.appendChild(dayElement);
             });
@@ -85,6 +70,9 @@
             else if (showCount === 5) return 'shows-5';
             else return 'shows-6-more';
         }
+
+        // Optionally pre-load one of the theaters
+        fetchShowtimes('showtimes_theater1.json');
     </script>
 </body>
 </html>

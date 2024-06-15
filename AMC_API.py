@@ -33,9 +33,9 @@ def movie_request():
     # Print the first 100 movie title
     print(data)
 
-def google_request():
+def google_request(amc_name):
     params = {
-        "q": "AMC Phipps Plaza 14",
+        "q": amc_name,
         "location": "Atlanta, Georgia, United States",
         "hl": "en",
         "gl": "us",
@@ -56,13 +56,14 @@ def google_request():
         for movie in movies:
             print(f" - {movie['name']}")
     #append results to a json file with correct indent
-    with open('showtimes.json', 'w') as file:
+    with open(f'showtime_{amc_name}.json', 'w') as file:
         json.dump(showtimes, file, indent=4)
 
 
 def main():
     #movie_request()
-    google_request()
+    google_request('AMC Phipps Plaza 14')
+    google_request('AMC North Point Mall 12')
 
 if __name__ == "__main__":
     main()
