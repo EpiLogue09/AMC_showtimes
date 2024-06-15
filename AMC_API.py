@@ -65,6 +65,7 @@ def main():
     google_request('AMC Phipps Plaza 14')
     google_request('AMC North Point Mall 12')
     google_request('AMC Parkway Pointe 15')
+    google_request('Regal Atlantic Station')
 
 if __name__ == "__main__":
     main()
