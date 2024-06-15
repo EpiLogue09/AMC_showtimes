@@ -2,10 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AMC showtimes</title>
 </head>
 <body>
     <h1>Welcome to My Webpage!</h1>
     <p>This is a simple webpage hosted on GitHub Pages.</p>
+    <h2>Showtimes</h2>
+    <div id="showtimes"></div>
+
+    <script>
+        async function fetchShowtimes() {
+            const response = await fetch('showtimes.json');
+            const showtimes = await response.json();
+            const showtimesDiv = document.getElementById('showtimes');
+            showtimes.forEach(showtime => {
+                const showtimeElement = document.createElement('p');
+                showtimeElement.textContent = `Movie: ${showtime.movie}, Time: ${showtime.time}`;
+                showtimesDiv.appendChild(showtimeElement);
+            });
+        }
+
+        fetchShowtimes();
+    </script>
 </body>
 </html>
