@@ -30,6 +30,18 @@
             margin-left: 10px; /* A bit of spacing from the main title */
             color: #666; /* Subtle color */
         }
+        /* Style for hyperlinks within movie boxes */
+        a.movie-link {
+            color: black; /* Set text color to black */
+            text-decoration: none; /* Remove underline from links */
+        }
+
+        /* Optional: Add hover effects for better user experience */
+        a.movie-link:hover {
+            text-decoration: underline; /* Adds underline on hover */
+            color: #333; /* Optional: Slightly darker color on hover */
+        }
+
     </style>
 </head>
 <body>
@@ -76,6 +88,12 @@
                 const totalShowings = getTotalShowings(movie);
                 movieElement.className = 'movie ' + getColorClass(totalShowings);
 
+                // Create an anchor tag that wraps the movie details
+                const linkElement = document.createElement('a');
+                linkElement.href = movie.link;  // Use the link from the JSON data
+                linkElement.target = "_blank"; // Opens the link in a new tab
+                linkElement.className = "movie-link"; // Apply custom styles to keep the text black
+
                 let showingsDetail = movie.showing.map(show => {
                     const times = show.time;
                     const showCount = times.length;
@@ -83,7 +101,8 @@
                     return `${show.type}: ${displayTimes}`;
                 }).join('<br>');
 
-                movieElement.innerHTML = `<strong>${movie.name}</strong><div class='showtimes'>${showingsDetail}</div>`;
+                linkElement.innerHTML = `<strong>${movie.name}</strong><div class='showtimes'>${showingsDetail}</div>`;
+                movieElement.appendChild(linkElement);
                 moviesElement.appendChild(movieElement);
             });
             dayElement.appendChild(moviesElement);
