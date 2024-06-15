@@ -23,9 +23,8 @@
         .shows-1 { background-color: rgba(179, 229, 252, 0.5); } /* Cooler color, fewer shows */
         .shows-2 { background-color: rgba(129, 212, 250, 0.5); }
         .shows-3 { background-color: rgba(79, 195, 247, 0.5); }
-        .shows-4 { background-color: rgba(129, 199, 132, 0.5); }
-        .shows-5 { background-color: rgba(255, 204, 128, 0.5); }
-        .shows-6-more { background-color: rgba(255, 138, 101, 0.5); } /* Warmer color, more shows */
+        .shows-4 { background-color: rgba(255, 204, 128, 0.5); }
+        .shows-5-more { background-color: rgba(255, 138, 101, 0.5); } /* Warmer color, more shows */
     </style>
 </head>
 <body>
@@ -50,7 +49,15 @@
                 dayElement.innerHTML = `<h2>Day: ${day_info.day}${day_info.date ? ', ' + day_info.date : ''}</h2>`;
                 const moviesElement = document.createElement('div');
                 moviesElement.className = 'movies';
-                day_info.movies.forEach(movie => {
+
+                // Sort movies by the number of showings
+                const sortedMovies = day_info.movies.sort((a, b) => {
+                    const totalShowingsA = a.showing.reduce((acc, cur) => acc + cur.time.length, 0);
+                    const totalShowingsB = b.showing.reduce((acc, cur) => acc + cur.time.length, 0);
+                    return totalShowingsB - totalShowingsA; // Descending order
+                });
+
+                sortedMovies.forEach(movie => {
                     const movieElement = document.createElement('div');
                     const totalShowings = movie.showing.reduce((acc, cur) => acc + cur.time.length, 0);
                     movieElement.className = 'movie ' + getColorClass(totalShowings);
@@ -65,14 +72,14 @@
         function getColorClass(showCount) {
             if (showCount <= 1) return 'shows-1';
             else if (showCount === 2) return 'shows-2';
-            else if (showCount === 3) return 'shows-3';
+            else if (showCount === 3) return 'shows-4';
             else if (showCount === 4) return 'shows-4';
-            else if (showCount === 5) return 'shows-5';
-            else return 'shows-6-more';
-        }
+            else return 'shows-5-more';
+    }
 
-        // Optionally pre-load one of the theaters
-        fetchShowtimes('showtime_AMC Phipps Plaza 14.json');
-    </script>
+    // Optionally pre-load one of the theaters
+    fetchShowtimes('showtimes_theater1.json');
+</script>
+
 </body>
 </html>
