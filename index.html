@@ -25,20 +25,32 @@
         .shows-3 { background-color: rgba(79, 195, 247, 0.5); }
         .shows-4 { background-color: rgba(255, 204, 128, 0.5); }
         .shows-5-more { background-color: rgba(255, 138, 101, 0.5); } /* Warmer color, more shows */
+        .last-updated {
+            font-size: 0.8rem; /* Small font size */
+            margin-left: 10px; /* A bit of spacing from the main title */
+            color: #666; /* Subtle color */
+        }
     </style>
 </head>
 <body>
-    <h1>Movie Showtimes</h1>
+    <h1>Movie Showtimes<span id="last-updated" class="last-updated"></span></h1>
     <button onclick="fetchShowtimes('showtime_AMC Phipps Plaza 14.json')">Phipps Plaza 14</button>
     <button onclick="fetchShowtimes('showtime_AMC North Point Mall 12.json')">North Point Mall 12</button>
     <button onclick="fetchShowtimes('showtime_AMC Parkway Pointe 15.json')">Parkway Pointe 15</button>
     <div id="showtimes-container"></div>
 
 <script>
+    document.addEventListener('DOMContentLoaded', function() {
+        updateLastUpdatedTime(); // Update the last updated time on initial load
+    });
+
     function fetchShowtimes(file) {
         fetch(file)
         .then(response => response.json())
-        .then(data => displayShowtimes(data))
+        .then(data => {
+            displayShowtimes(data);
+            updateLastUpdatedTime(); // Update the last updated time each time new data is fetched
+        })
         .catch(error => console.error('Error fetching data: ', error));
     }
 
@@ -51,9 +63,16 @@
             const moviesElement = document.createElement('div');
             moviesElement.className = 'movies';
 
-            day_info.movies.forEach(movie => {
+            // Sort movies by total showings descending
+            const sortedMovies = day_info.movies.sort((a, b) => {
+                const totalShowingsA = getTotalShowings(a);
+                const totalShowingsB = getTotalShowings(b);
+                return totalShowingsB - totalShowingsA;
+            });
+
+            sortedMovies.forEach(movie => {
                 const movieElement = document.createElement('div');
-                const totalShowings = movie.showing.reduce((acc, cur) => acc + cur.time.length, 0);
+                const totalShowings = getTotalShowings(movie);
                 movieElement.className = 'movie ' + getColorClass(totalShowings);
 
                 let showingsDetail = movie.showing.map(show => {
@@ -71,15 +90,25 @@
         });
     }
 
+    function getTotalShowings(movie) {
+        return movie.showing.reduce((acc, cur) => acc + cur.time.length, 0);
+    }
+
     function getColorClass(totalShowings) {
-        // Apply coloring based on the total number of showtimes across all formats
         if (totalShowings >= 7) return 'shows-5-more';
         else if (totalShowings >= 5) return 'shows-4';
         else if (totalShowings >= 3) return 'shows-3';
         else if (totalShowings >= 2) return 'shows-2';
         else return 'shows-1';
     }
+
+    function updateLastUpdatedTime() {
+        const now = new Date();
+        const lastUpdatedElement = document.getElementById('last-updated');
+        lastUpdatedElement.textContent = `Current time: ${now.toLocaleString()} (This page updates thrice a day at midnight, noon, and 6pm)`;
+    }
 </script>
+
 
 </body>
 </html>
