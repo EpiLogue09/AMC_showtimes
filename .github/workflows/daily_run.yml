@@ -5,7 +5,7 @@ on:
     - cron: '0 0 * * *'  # Runs at 00:00 UTC
     - cron: '0 12 * * *' # Runs at 12:00 UTC
     - cron: '0 18 * * *' # Runs at 18:00 UTC
-    - cron: '30 2 * * *' # Runs at 2:30 AM UTC (9:30 PM EST)
+    - cron: '18 2 * * *' # Runs at 2:30 AM UTC (9:30 PM EST)
 
 jobs:
   run-script:
