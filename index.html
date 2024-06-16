@@ -144,7 +144,7 @@
         function updateLastUpdatedTime() {
             const now = new Date();
             const lastUpdatedElement = document.getElementById('last-updated');
-            lastUpdatedElement.textContent = `Current time: ${now.toLocaleString()} (This page refreshes automatically every 5 minutes)`;
+            lastUpdatedElement.textContent = `Current time: ${now.toLocaleString()} (This page refreshes automatically every hour)`;
         }
 
         function updateNextRefreshTime() {
