@@ -2,10 +2,8 @@ name: Daily Python Script Run
 
 on:
   schedule:
-    - cron: '0 0 * * *'  # Runs at 00:00 UTC
-    - cron: '0 12 * * *' # Runs at 12:00 UTC
-    - cron: '0 18 * * *' # Runs at 18:00 UTC
-  workflow_dispatch:  # Allow manual trigger
+    - cron: '*/5 * * * *'  # Runs every 5 minutes
+      workflow_dispatch:  # Allow manual trigger
 
 jobs:
   run-script:
