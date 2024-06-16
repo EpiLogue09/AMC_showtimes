@@ -53,14 +53,25 @@
     <div id="showtimes-container"></div>
 
 <script>
-    document.addEventListener('DOMContentLoaded', function() {
-        updateLastUpdatedTime(); // Update the last updated time on initial load
-    });
+    let currentData = null;
 
-    function fetchShowtimes(file) {
+    document.addEventListener('DOMContentLoaded', function() {
+            updateLastUpdatedTime(); // Update the last updated time on initial load
+            fetchShowtimes('showtime_AMC Phipps Plaza 14.json');
+            setInterval(() => {
+                fetchShowtimes('showtime_AMC Phipps Plaza 14.json', true);
+            }, 300000); // Check for updates every 5 minutes
+        });
+
+    function fetchShowtimes(file, checkUpdate = false) {
         fetch(file)
         .then(response => response.json())
         .then(data => {
+            if (checkUpdate && JSON.stringify(data) === JSON.stringify(currentData)) {
+                console.log('No updates found');
+                return;
+            }
+            currentData = data;
             displayShowtimes(data);
             updateLastUpdatedTime(); // Update the last updated time each time new data is fetched
         })
