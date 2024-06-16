@@ -3,24 +3,17 @@ name: Daily Python Script Run
 on:
   schedule:
     - cron: '0 0 * * *'  # Runs at 00:00 UTC
-    - cron: '30 1 * * *' # Runs at 2:30 AM UTC (9:30 PM EST)
-    - cron: '40 1 * * *' # Runs at 2:30 AM UTC (9:30 PM EST)
-      always: true
-    - cron: '37 1 * * *'  # Runs at 6:00 UTC
-      always: true
-    - cron: '37 9 * * *'  # Runs at 6:00 UTC
-      always: true
     - cron: '0 12 * * *' # Runs at 12:00 UTC
     - cron: '0 18 * * *' # Runs at 18:00 UTC
-      always: true
-    workflow_dispatch:
-
+    - cron: '30 2 * * *' # Runs at 2:30 AM UTC (9:30 PM EST)
+  workflow_dispatch:  # Allow manual trigger
 
 jobs:
   run-script:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3  # Update to use Node.js 20
+    - name: Checkout repository
+      uses: actions/checkout@v3  # Update to use Node.js 20
     - name: Set up Python
       uses: actions/setup-python@v4  # Update to use Node.js 20
       with:
