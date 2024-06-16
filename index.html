@@ -116,7 +116,7 @@
                     let showingsDetail = movie.showing.map(show => {
                         const times = show.time;
                         const showCount = times.length;
-                        const displayTimes = showCount > 2 ? `${times.slice(0, 2).join(', ')}...(${showCount} total)` : times.join(', ');
+                        const displayTimes = showCount > 3 ? `${times.slice(0, 3).join(', ')}...(${showCount} total)` : times.join(', ');
                         return `${show.type}: ${displayTimes}`;
                     }).join('<br>');
 
