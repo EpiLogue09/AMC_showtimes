@@ -30,6 +30,11 @@
             margin-left: 10px; /* A bit of spacing from the main title */
             color: #666; /* Subtle color */
         }
+        .next-refresh {
+            font-size: 0.8rem; /* Small font size */
+            margin-left: 10px; /* A bit of spacing from the main title */
+            color: #666; /* Subtle color */
+        }
         /* Style for hyperlinks within movie boxes */
         a.movie-link {
             color: black; /* Set text color to black */
@@ -45,104 +50,109 @@
     </style>
 </head>
 <body>
-    <h1>Movie Showtimes<span id="last-updated" class="last-updated"></span></h1>
+    <h1>Movie Showtimes<span id="last-updated" class="last-updated"></span><span id="next-refresh" class="next-refresh"></span></h1>
     <button onclick="fetchShowtimes('showtime_AMC Phipps Plaza 14.json')">Phipps Plaza 14</button>
     <button onclick="fetchShowtimes('showtime_Regal Atlantic Station.json')">Regal Atlantic Station</button>
     <button onclick="fetchShowtimes('showtime_AMC North Point Mall 12.json')">North Point Mall 12</button>
     <button onclick="fetchShowtimes('showtime_AMC Parkway Pointe 15.json')">Parkway Pointe 15</button>
     <div id="showtimes-container"></div>
 
-<script>
-    let currentData = null;
+    <script>
+        const REFRESH_INTERVAL_MS = 300000; // 5 minutes in milliseconds
+        let currentData = null;
 
-    document.addEventListener('DOMContentLoaded', function() {
+        document.addEventListener('DOMContentLoaded', function() {
             updateLastUpdatedTime(); // Update the last updated time on initial load
+            updateNextRefreshTime(); // Update the next refresh time on initial load
             fetchShowtimes('showtime_AMC Phipps Plaza 14.json');
             setInterval(() => {
                 fetchShowtimes('showtime_AMC Phipps Plaza 14.json', true);
-            }, 300000); // Check for updates every 5 minutes
+                updateNextRefreshTime(); // Update the next refresh time each time new data is fetched
+            }, REFRESH_INTERVAL_MS); // Check for updates every 5 minutes
         });
 
-    function fetchShowtimes(file, checkUpdate = false) {
-        fetch(file)
-        .then(response => response.json())
-        .then(data => {
-            if (checkUpdate && JSON.stringify(data) === JSON.stringify(currentData)) {
-                console.log('No updates found');
-                return;
-            }
-            currentData = data;
-            displayShowtimes(data);
-            updateLastUpdatedTime(); // Update the last updated time each time new data is fetched
-        })
-        .catch(error => console.error('Error fetching data: ', error));
-    }
+        function fetchShowtimes(file, checkUpdate = false) {
+            fetch(file)
+            .then(response => response.json())
+            .then(data => {
+                if (checkUpdate && JSON.stringify(data) === JSON.stringify(currentData)) {
+                    console.log('No updates found');
+                    return;
+                }
+                currentData = data;
+                displayShowtimes(data);
+                updateLastUpdatedTime(); // Update the last updated time each time new data is fetched
+            })
+            .catch(error => console.error('Error fetching data: ', error));
+        }
 
-    function displayShowtimes(data) {
-        const container = document.getElementById('showtimes-container');
-        container.innerHTML = ''; // Clear previous content
-        data.forEach(day_info => {
-            const dayElement = document.createElement('div');
-            dayElement.innerHTML = `<h2>Day: ${day_info.day}${day_info.date ? ', ' + day_info.date : ''}</h2>`;
-            const moviesElement = document.createElement('div');
-            moviesElement.className = 'movies';
+        function displayShowtimes(data) {
+            const container = document.getElementById('showtimes-container');
+            container.innerHTML = ''; // Clear previous content
+            data.forEach(day_info => {
+                const dayElement = document.createElement('div');
+                dayElement.innerHTML = `<h2>Day: ${day_info.day}${day_info.date ? ', ' + day_info.date : ''}</h2>`;
+                const moviesElement = document.createElement('div');
+                moviesElement.className = 'movies';
 
-            // Sort movies by total showings descending
-            const sortedMovies = day_info.movies.sort((a, b) => {
-                const totalShowingsA = getTotalShowings(a);
-                const totalShowingsB = getTotalShowings(b);
-                return totalShowingsB - totalShowingsA;
+                // Sort movies by total showings descending
+                const sortedMovies = day_info.movies.sort((a, b) => {
+                    const totalShowingsA = getTotalShowings(a);
+                    const totalShowingsB = getTotalShowings(b);
+                    return totalShowingsB - totalShowingsA;
+                });
+
+                sortedMovies.forEach(movie => {
+                    const movieElement = document.createElement('div');
+                    const totalShowings = getTotalShowings(movie);
+                    movieElement.className = 'movie ' + getColorClass(totalShowings);
+
+                    // Create an anchor tag that wraps the movie details
+                    const linkElement = document.createElement('a');
+                    linkElement.href = movie.link;  // Use the link from the JSON data
+                    linkElement.target = "_blank"; // Opens the link in a new tab
+                    linkElement.className = "movie-link"; // Apply custom styles to keep the text black
+
+                    let showingsDetail = movie.showing.map(show => {
+                        const times = show.time;
+                        const showCount = times.length;
+                        const displayTimes = showCount > 3 ? `${times.slice(0, 3).join(', ')}...(${showCount} total)` : times.join(', ');
+                        return `${show.type}: ${displayTimes}`;
+                    }).join('<br>');
+
+                    linkElement.innerHTML = `<strong>${movie.name}</strong><div class='showtimes'>${showingsDetail}</div>`;
+                    movieElement.appendChild(linkElement);
+                    moviesElement.appendChild(movieElement);
+                });
+                dayElement.appendChild(moviesElement);
+                container.appendChild(dayElement);
             });
+        }
 
-            sortedMovies.forEach(movie => {
-                const movieElement = document.createElement('div');
-                const totalShowings = getTotalShowings(movie);
-                movieElement.className = 'movie ' + getColorClass(totalShowings);
+        function getTotalShowings(movie) {
+            return movie.showing.reduce((acc, cur) => acc + cur.time.length, 0);
+        }
 
-                // Create an anchor tag that wraps the movie details
-                const linkElement = document.createElement('a');
-                linkElement.href = movie.link;  // Use the link from the JSON data
-                linkElement.target = "_blank"; // Opens the link in a new tab
-                linkElement.className = "movie-link"; // Apply custom styles to keep the text black
+        function getColorClass(totalShowings) {
+            if (totalShowings >= 7) return 'shows-5-more';
+            else if (totalShowings >= 5) return 'shows-4';
+            else if (totalShowings >= 3) return 'shows-3';
+            else if (totalShowings >= 2) return 'shows-2';
+            else return 'shows-1';
+        }
 
-                let showingsDetail = movie.showing.map(show => {
-                    const times = show.time;
-                    const showCount = times.length;
-                    const displayTimes = showCount > 3 ? `${times.slice(0, 3).join(', ')}...(${showCount} total)` : times.join(', ');
-                    return `${show.type}: ${displayTimes}`;
-                }).join('<br>');
+        function updateLastUpdatedTime() {
+            const now = new Date();
+            const lastUpdatedElement = document.getElementById('last-updated');
+            lastUpdatedElement.textContent = `Current time: ${now.toLocaleString()} (This page updates automatically at midnight, noon, 4pm, 8pm)`;
+        }
 
-                linkElement.innerHTML = `<strong>${movie.name}</strong><div class='showtimes'>${showingsDetail}</div>`;
-                movieElement.appendChild(linkElement);
-                moviesElement.appendChild(movieElement);
-            });
-            dayElement.appendChild(moviesElement);
-            container.appendChild(dayElement);
-        });
-    }
-
-    function getTotalShowings(movie) {
-        return movie.showing.reduce((acc, cur) => acc + cur.time.length, 0);
-    }
-
-    function getColorClass(totalShowings) {
-        if (totalShowings >= 7) return 'shows-5-more';
-        else if (totalShowings >= 5) return 'shows-4';
-        else if (totalShowings >= 3) return 'shows-3';
-        else if (totalShowings >= 2) return 'shows-2';
-        else return 'shows-1';
-    }
-
-    function updateLastUpdatedTime() {
-        const now = new Date();
-        const lastUpdatedElement = document.getElementById('last-updated');
-        lastUpdatedElement.textContent = `Current time: ${now.toLocaleString()} (This page updates automatically at midnight, noon, 4pm, 8pm)`;
-    }
-
-     // Optionally pre-load one of the theaters
-     fetchShowtimes('showtime_AMC Phipps Plaza 14.json');
-</script>
-
-
+        function updateNextRefreshTime() {
+            const now = new Date();
+            const nextRefresh = new Date(now.getTime() + REFRESH_INTERVAL_MS);
+            const nextRefreshElement = document.getElementById('next-refresh');
+            nextRefreshElement.textContent = `Next refresh: ${nextRefresh.toLocaleTimeString()}`;
+        }
+    </script>
 </body>
 </html>
