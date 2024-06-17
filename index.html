@@ -149,7 +149,8 @@
 
         function updateNextRefreshTime() {
             const now = new Date();
-            const nextRefresh = new Date(now.getTime() + REFRESH_INTERVAL_MS);
+            //next refresh is the closest upcoming hour
+            const nextRefresh = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours() + 1, 0, 0);
             const nextRefreshElement = document.getElementById('next-refresh');
             nextRefreshElement.textContent = `Next refresh: ${nextRefresh.toLocaleTimeString()}`;
         }
