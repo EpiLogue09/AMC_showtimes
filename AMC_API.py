@@ -3,12 +3,16 @@ import json
 import serpapi
 
 def google_request(amc_name):
+    with open('serp_api_key.txt', 'r') as file:
+        serp_api_key = file.read().strip()
+
+    print(serp_api_key)
     params = {
         "q": amc_name,
         "location": "Atlanta, Georgia, United States",
         "hl": "en",
         "gl": "us",
-        "api_key": 'bbfe50c46d4021722d88400def34a38adf7f24b0be228c949140513d611abb7f'
+        "api_key": serp_api_key
     }
     search = serpapi.search(params)
     results = search.as_dict()
@@ -33,7 +37,6 @@ def main():
     #movie_request()
     google_request('AMC Phipps Plaza 14')
     google_request('AMC North Point Mall 12')
-    google_request('AMC Parkway Pointe 15')
     google_request('Regal Atlantic Station')
 
 if __name__ == "__main__":

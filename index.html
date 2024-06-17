@@ -54,7 +54,7 @@
     <button onclick="fetchShowtimes('showtime_AMC Phipps Plaza 14.json')">Phipps Plaza 14</button>
     <button onclick="fetchShowtimes('showtime_Regal Atlantic Station.json')">Regal Atlantic Station</button>
     <button onclick="fetchShowtimes('showtime_AMC North Point Mall 12.json')">North Point Mall 12</button>
-    <button onclick="fetchShowtimes('showtime_AMC Parkway Pointe 15.json')">Parkway Pointe 15</button>
+<!--    <button onclick="fetchShowtimes('showtime_AMC Parkway Pointe 15.json')">Parkway Pointe 15</button>-->
     <div id="showtimes-container"></div>
 
     <script>
@@ -144,15 +144,15 @@
         function updateLastUpdatedTime() {
             const now = new Date();
             const lastUpdatedElement = document.getElementById('last-updated');
-            lastUpdatedElement.textContent = `Current time: ${now.toLocaleString()} (This page refreshes automatically every hour)`;
+            lastUpdatedElement.textContent = `Current time: ${now.toLocaleString()} (This page refreshes automatically everyday)`;
         }
 
         function updateNextRefreshTime() {
             const now = new Date();
             //next refresh is the closest upcoming hour
-            const nextRefresh = new Date(now.getFullYear(), now.getMonth(), now.getDate(), now.getHours() + 1, 0, 0);
+            const nextRefresh = new Date(now.getFullYear(), now.getMonth(), now.getDate()+1 , 0, 30, 0);
             const nextRefreshElement = document.getElementById('next-refresh');
-            nextRefreshElement.textContent = `Next refresh: ${nextRefresh.toLocaleTimeString()}`;
+            nextRefreshElement.textContent = `Next refresh: ${nextRefresh.toLocaleString()}`;
         }
     </script>
 </body>
