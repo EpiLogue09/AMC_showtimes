@@ -24,10 +24,10 @@ def google_request(amc_name):
     #     day = day_info.get('day', 'No day provided')
     #     print(f"Day: {day}")
     #
-    #     # # Print each movie showing on this day
-    #     # movies = day_info.get('movies', [])
-    #     # for movie in movies:
-    #     #     print(f" - {movie['name']}")
+    #     # Print each movie showing on this day
+    #     movies = day_info.get('movies', [])
+    #     for movie in movies:
+    #         print(f" - {movie['name']}")
     #append results to a json file with correct indent
     with open(f'showtime_{amc_name}.json', 'w') as file:
         json.dump(showtimes, file, indent=4)

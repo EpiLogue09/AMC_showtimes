@@ -19,7 +19,11 @@ jobs:
       run: |
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run script
-      run: python AMC_API.py
+      env:
+        API_KEY: ${{ secrets.API_KEY }}  # Access the API key secret
+      run: |
+        echo "${API_KEY}" > serp_api_key.txt  # Write the API key to a file
+        python AMC_API.py
     - name: execute py script
       run: |
         python AMC_API.py
