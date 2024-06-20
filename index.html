@@ -72,7 +72,7 @@
         });
 
         function fetchShowtimes(file, checkUpdate = false) {
-            fetch(file)
+            fetch(file + '?cacheBust=' + new Date().getTime())
             .then(response => response.json())
             .then(data => {
                 if (checkUpdate && JSON.stringify(data) === JSON.stringify(currentData)) {
@@ -144,13 +144,13 @@
         function updateLastUpdatedTime() {
             const now = new Date();
             const lastUpdatedElement = document.getElementById('last-updated');
-            lastUpdatedElement.textContent = `Current time: ${now.toLocaleString()} (This page refreshes automatically everyday)`;
+            lastUpdatedElement.textContent = `Current time: ${now.toLocaleString()} (This page refreshes automatically every 5 minutes)`;
         }
 
         function updateNextRefreshTime() {
             const now = new Date();
-            //next refresh is the closest upcoming hour
-            const nextRefresh = new Date(now.getFullYear(), now.getMonth(), now.getDate()+1 , 0, 30, 0);
+            //next refresh is in 5 minutes
+            const nextRefresh = new Date(now.getTime() + REFRESH_INTERVAL_MS);
             const nextRefreshElement = document.getElementById('next-refresh');
             nextRefreshElement.textContent = `Next refresh: ${nextRefresh.toLocaleString()}`;
         }
