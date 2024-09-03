@@ -3,18 +3,15 @@ import json
 import serpapi
 
 def google_request(amc_name):
-    with open('serp_api_key.txt', 'r') as file:
-        serp_api_key = file.read().strip()
-
-    print(serp_api_key)
     params = {
         "q": amc_name,
-        "location": "Atlanta, Georgia, United States",
+        "location": "Evanston, Illinois, United States",
         "hl": "en",
         "gl": "us",
-        "api_key": serp_api_key
+        "api_key": '150ff32c2d8a1b43936df5fd284acf476f8bd492fe6daa7327ce2b6ea589abe4'
     }
     search = serpapi.search(params)
+
     results = search.as_dict()
     showtimes = results["showtimes"]
     #extract only first 7 dictionaries
@@ -35,9 +32,8 @@ def google_request(amc_name):
 
 def main():
     #movie_request()
-    google_request('AMC Phipps Plaza 14')
-    google_request('AMC North Point Mall 12')
-    google_request('Regal Atlantic Station')
+    google_request('AMC Evanston 12')
+    google_request('AMC Village Crossing 18')
 
 if __name__ == "__main__":
     main()

@@ -51,9 +51,8 @@
 </head>
 <body>
     <h1>Movie Showtimes<span id="last-updated" class="last-updated"></span><span id="next-refresh" class="next-refresh"></span></h1>
-    <button onclick="fetchShowtimes('showtime_AMC Phipps Plaza 14.json')">Phipps Plaza 14</button>
-    <button onclick="fetchShowtimes('showtime_Regal Atlantic Station.json')">Regal Atlantic Station</button>
-    <button onclick="fetchShowtimes('showtime_AMC North Point Mall 12.json')">North Point Mall 12</button>
+    <button onclick="fetchShowtimes('showtime_AMC Village Crossing 18.json')">AMC Village Crossing 18</button>
+    <button onclick="fetchShowtimes('showtime_AMC Evanston 12.json')">AMC Evanston 12</button>
 <!--    <button onclick="fetchShowtimes('showtime_AMC Parkway Pointe 15.json')">Parkway Pointe 15</button>-->
     <div id="showtimes-container"></div>
 
@@ -64,15 +63,15 @@
         document.addEventListener('DOMContentLoaded', function() {
             updateLastUpdatedTime(); // Update the last updated time on initial load
             updateNextRefreshTime(); // Update the next refresh time on initial load
-            fetchShowtimes('showtime_AMC Phipps Plaza 14.json');
+            fetchShowtimes('showtime_AMC Village Crossing 18.json');
             setInterval(() => {
-                fetchShowtimes('showtime_AMC Phipps Plaza 14.json', true);
+                fetchShowtimes('showtime_AMC Village Crossing 18.json', true);
                 updateNextRefreshTime(); // Update the next refresh time each time new data is fetched
             }, REFRESH_INTERVAL_MS); // Check for updates every 5 minutes
         });
 
         function fetchShowtimes(file, checkUpdate = false) {
-            fetch(file)
+            fetch(file + '?cacheBust=' + new Date().getTime())
             .then(response => response.json())
             .then(data => {
                 if (checkUpdate && JSON.stringify(data) === JSON.stringify(currentData)) {
@@ -144,13 +143,13 @@
         function updateLastUpdatedTime() {
             const now = new Date();
             const lastUpdatedElement = document.getElementById('last-updated');
-            lastUpdatedElement.textContent = `Current time: ${now.toLocaleString()} (This page refreshes automatically everyday)`;
+            lastUpdatedElement.textContent = `Current time: ${now.toLocaleString()} (This page refreshes automatically every 5 minutes)`;
         }
 
         function updateNextRefreshTime() {
             const now = new Date();
-            //next refresh is the closest upcoming hour
-            const nextRefresh = new Date(now.getFullYear(), now.getMonth(), now.getDate()+1 , 0, 30, 0);
+            //next refresh is in 5 minutes
+            const nextRefresh = new Date(now.getTime() + REFRESH_INTERVAL_MS);
             const nextRefreshElement = document.getElementById('next-refresh');
             nextRefreshElement.textContent = `Next refresh: ${nextRefresh.toLocaleString()}`;
         }
