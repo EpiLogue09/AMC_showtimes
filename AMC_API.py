@@ -18,7 +18,7 @@ def google_request(amc_name):
     results = search.as_dict()
     showtimes = results["showtimes"]
     #extract only first 7 dictionaries
-    showtimes = [showtime for showtime in showtimes[:7]]
+    showtimes = [showtime for showtime in showtimes[:14]]
     #extract all movie titles
     # for day_info in showtimes:
     #     day = day_info.get('day', 'No day provided')
