@@ -34,6 +34,7 @@ def main():
     #movie_request()
     google_request('AMC Evanston 12')
     google_request('AMC Village Crossing 18')
+    google_request('AMC River East 21')
 
 if __name__ == "__main__":
     main()
