@@ -4,7 +4,7 @@ import serpapi
 import os
 
 def google_request(amc_name):
-    api_key = os.getenv("GOOG_API_KEY")
+    api_key = os.getenv("API_KEY")
     print("API Key is set" if api_key else "API Key not found")
     params = {
         "q": amc_name,
