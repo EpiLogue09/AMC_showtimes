@@ -19,6 +19,8 @@ jobs:
       run: |
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Run script
+      env:
+        API_KEY: ${{ secrets.GOOG_API_KEY }}
       run: python AMC_API.py
     - name: execute py script
       env:
