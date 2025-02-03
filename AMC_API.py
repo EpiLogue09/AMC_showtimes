@@ -8,7 +8,7 @@ def google_request(amc_name):
         "location": "Evanston, Illinois, United States",
         "hl": "en",
         "gl": "us",
-        "api_key": '150ff32c2d8a1b43936df5fd284acf476f8bd492fe6daa7327ce2b6ea589abe4'
+        "api_key": '--'
     }
     search = serpapi.search(params)
 
