@@ -1,14 +1,16 @@
 import requests
 import json
 import serpapi
+import os
 
 def google_request(amc_name):
+    api_key = os.getenv("GOOG_API_KEY")
     params = {
         "q": amc_name,
         "location": "Evanston, Illinois, United States",
         "hl": "en",
         "gl": "us",
-        "api_key": '--'
+        "api_key": api_key
     }
     search = serpapi.search(params)
 
