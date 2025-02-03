@@ -5,6 +5,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Movie Showtimes</title>
     <style>
+        body {
+            background: url('assets/pic1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+
+        body::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(255, 255, 255, 0.4); /* Adjust transparency for readability */
+            z-index: -1;
+        }
         .movies {
             display: flex;
             flex-wrap: wrap;
