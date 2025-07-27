@@ -4,230 +4,7 @@
         "movies": [
             {
                 "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D&sa=X&ved=2ahUKEwic6eC729mOAxXg5ckDHdjYC_IQxyZ6BAgnEBM",
-                "showing": [
-                    {
-                        "time": [
-                            "10:40am",
-                            "11:25am",
-                            "1:45pm",
-                            "2:30pm",
-                            "4:50pm",
-                            "5:35pm",
-                            "7:35pm",
-                            "8:00pm",
-                            "8:45pm",
-                            "9:45pm",
-                            "11:15pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "10:00am",
-                            "1:00pm",
-                            "4:00pm",
-                            "10:15pm"
-                        ],
-                        "type": "IMAX"
-                    },
-                    {
-                        "time": [
-                            "7:05pm"
-                        ],
-                        "type": "IMAX 3D"
-                    },
-                    {
-                        "time": [
-                            "12:00pm",
-                            "3:00pm",
-                            "6:15pm",
-                            "9:15pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "Superman",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D&sa=X&ved=2ahUKEwic6eC729mOAxXg5ckDHdjYC_IQxyZ6BAgnEC0",
-                "showing": [
-                    {
-                        "time": [
-                            "10:50am",
-                            "2:00pm",
-                            "5:10pm",
-                            "8:15pm",
-                            "11:00pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "12:30pm",
-                            "4:05pm",
-                            "6:45pm",
-                            "10:00pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "Jurassic World Rebirth",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D&sa=X&ved=2ahUKEwic6eC729mOAxXg5ckDHdjYC_IQxyZ6BAgnEDo",
-                "showing": [
-                    {
-                        "time": [
-                            "11:15am",
-                            "12:50pm",
-                            "6:30pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "3:45pm",
-                            "10:35pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "Smurfs",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Smurfs&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsf_bJ0SKeADuJJ03Fn3AVfQhlbtaX4nyFXPwzURHJmlZBVzgvFm8m3I5r87-YhKop4R9ZMcqZJH46CRm9OomDybE-PLWnHUAy3L4Zy-zqND4DuLgeG4F8-_HFYCWGxHHBk1NBbg%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:15am",
-                            "11:00am",
-                            "1:30pm",
-                            "2:30pm",
-                            "4:00pm",
-                            "5:05pm",
-                            "7:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "I Know What You Did Last Summer",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=I+Know+What+You+Did+Last+Summer&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaOIdIZRtV0083SEeQyEocrkBGlJQ-yG5IpYcMFj_Wo7Qz5ZOME6kMhKmAUuVY_d1ePL_qTKuYiY-FrMlIAdqw0KDIaAHtweG-YyCJ5vQpId9e2pcvIAcZ6_xcvj4jaEMVavESo%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:30am",
-                            "1:45pm",
-                            "4:45pm",
-                            "7:45pm",
-                            "9:45pm",
-                            "11:20pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "F1",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "11:40am",
-                            "3:15pm",
-                            "7:15pm",
-                            "10:45pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "How to Train Your Dragon",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=How+to+Train+Your+Dragon&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsd3zd8hRsEvdm_dHi-3X8VmHcFupCcPtXFihd5oRheRxBCVlEuoIlG1B8vJiFSZPLTC2hEnsD6xDSbaIshxc29hXcyB5YjM4rs4eKlWxe6u7UBz2QmvI8EqZ0uu6nk2PlGpREAs%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:00am",
-                            "1:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Eddington",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Eddington&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsfIwWY75pRDsjfUgrerwq5ApQv_HYsUjbB8iO4SLgek8rIgfEfcDNGYhLAw1oixoWU1yG7_cauIRXkKWVYZmF69iVMc9ytEoeNmATVHbdAEVqSKI3Eccl1-wATDcy8S1WEW_NQc%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "12:50pm",
-                            "4:20pm",
-                            "7:35pm",
-                            "10:40pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Oh, Hi!",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Oh,+Hi!&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbWK41cXXKljD-5ylQLbnH0PnARSH1mQIMyXQX6A2VQ9ikuiP1rkfaGf38BmDA29PrFWSVM7dstGX1-ajFng_ewW_VcA4Q0Hvs5_ZhF5g_lcQKCRTKhxE2oZ4PdR5ufNZuOH3Wo%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:30am",
-                            "1:00pm",
-                            "3:30pm",
-                            "6:00pm",
-                            "8:30pm",
-                            "11:10pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "The Home",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Home&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRrpn03GBCtC9BLVHdrLtJOWHsJwDAsCBqzogMCkhy0Ry3u2MRkExkIPeJKJ8SeefDeDtqwwcFVoDH7kfJTI7bjwy1vY4OhjGArI_kn5hquXGh44MFcF9NjjOTufJAydld9SsfA%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "4:05pm",
-                            "6:45pm",
-                            "9:20pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Sorry, Baby",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Sorry,+Baby&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscwUK6EmpJcPCz2o0lPaUUipk55SKWpwEaKW1rSkpA78yGCRhTLaoZdazoLSD7ZTIYhApeLxBTzcT-9Tt9sYYgTMy-4lrALO-0WuZF-4HyDiIpn7-rAXgdEUpGSrM0b3RUBMF_g%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:10am",
-                            "11:25am",
-                            "2:15pm",
-                            "5:00pm",
-                            "7:50pm",
-                            "10:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "day": "Tomorrow",
-        "movies": [
-            {
-                "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D&sa=X&ved=2ahUKEwix8en4ndyOAxUYlIkEHbqvCCkQxyZ6BAgiEBM",
                 "showing": [
                     {
                         "time": [
@@ -250,7 +27,8 @@
                             "9:45am",
                             "12:55pm",
                             "4:00pm",
-                            "10:30pm"
+                            "10:30pm",
+                            "1:05am"
                         ],
                         "type": "IMAX"
                     },
@@ -273,7 +51,7 @@
             },
             {
                 "name": "Superman",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D&sa=X&ved=2ahUKEwix8en4ndyOAxUYlIkEHbqvCCkQxyZ6BAgiEC4",
                 "showing": [
                     {
                         "time": [
@@ -281,7 +59,8 @@
                             "1:30pm",
                             "4:45pm",
                             "8:00pm",
-                            "11:00pm"
+                            "11:00pm",
+                            "12:15am"
                         ],
                         "type": "Standard"
                     },
@@ -298,7 +77,7 @@
             },
             {
                 "name": "Jurassic World Rebirth",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D&sa=X&ved=2ahUKEwix8en4ndyOAxUYlIkEHbqvCCkQxyZ6BAgiEDw",
                 "showing": [
                     {
                         "time": [
@@ -319,15 +98,12 @@
             },
             {
                 "name": "Smurfs",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Smurfs&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsf_bJ0SKeADuJJ03Fn3AVfQhlbtaX4nyFXPwzURHJmlZBVzgvFm8m3I5r87-YhKop4R9ZMcqZJH46CRm9OomDybE-PLWnHUAy3L4Zy-zqND4DuLgeG4F8-_HFYCWGxHHBk1NBbg%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Smurfs&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsf_bJ0SKeADuJJ03Fn3AVfQhlbtaX4nyFXPwzURHJmlZBVzgvFm8m3I5r87-YhKop4R9ZMcqZJH46CRm9OomDybE-PLWnHUAy3L4Zy-zqND4DuLgeG4F8-_HFYCWGxHHBk1NBbg%3D",
                 "showing": [
                     {
                         "time": [
                             "10:00am",
                             "12:00pm",
-                            "1:30pm",
-                            "2:30pm",
-                            "5:00pm",
                             "7:00pm"
                         ],
                         "type": "Standard"
@@ -336,7 +112,7 @@
             },
             {
                 "name": "I Know What You Did Last Summer",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=I+Know+What+You+Did+Last+Summer&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaOIdIZRtV0083SEeQyEocrkBGlJQ-yG5IpYcMFj_Wo7Qz5ZOME6kMhKmAUuVY_d1ePL_qTKuYiY-FrMlIAdqw0KDIaAHtweG-YyCJ5vQpId9e2pcvIAcZ6_xcvj4jaEMVavESo%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=I+Know+What+You+Did+Last+Summer&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaOIdIZRtV0083SEeQyEocrkBGlJQ-yG5IpYcMFj_Wo7Qz5ZOME6kMhKmAUuVY_d1ePL_qTKuYiY-FrMlIAdqw0KDIaAHtweG-YyCJ5vQpId9e2pcvIAcZ6_xcvj4jaEMVavESo%3D",
                 "showing": [
                     {
                         "time": [
@@ -345,7 +121,8 @@
                             "4:50pm",
                             "7:05pm",
                             "10:00pm",
-                            "11:15pm"
+                            "11:15pm",
+                            "12:00am"
                         ],
                         "type": "Standard"
                     }
@@ -353,7 +130,7 @@
             },
             {
                 "name": "F1",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
                 "showing": [
                     {
                         "time": [
@@ -369,7 +146,7 @@
             },
             {
                 "name": "How to Train Your Dragon",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=How+to+Train+Your+Dragon&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsd3zd8hRsEvdm_dHi-3X8VmHcFupCcPtXFihd5oRheRxBCVlEuoIlG1B8vJiFSZPLTC2hEnsD6xDSbaIshxc29hXcyB5YjM4rs4eKlWxe6u7UBz2QmvI8EqZ0uu6nk2PlGpREAs%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=How+to+Train+Your+Dragon&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsd3zd8hRsEvdm_dHi-3X8VmHcFupCcPtXFihd5oRheRxBCVlEuoIlG1B8vJiFSZPLTC2hEnsD6xDSbaIshxc29hXcyB5YjM4rs4eKlWxe6u7UBz2QmvI8EqZ0uu6nk2PlGpREAs%3D",
                 "showing": [
                     {
                         "time": [
@@ -382,7 +159,7 @@
             },
             {
                 "name": "Eddington",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Eddington&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsfIwWY75pRDsjfUgrerwq5ApQv_HYsUjbB8iO4SLgek8rIgfEfcDNGYhLAw1oixoWU1yG7_cauIRXkKWVYZmF69iVMc9ytEoeNmATVHbdAEVqSKI3Eccl1-wATDcy8S1WEW_NQc%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Eddington&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsfIwWY75pRDsjfUgrerwq5ApQv_HYsUjbB8iO4SLgek8rIgfEfcDNGYhLAw1oixoWU1yG7_cauIRXkKWVYZmF69iVMc9ytEoeNmATVHbdAEVqSKI3Eccl1-wATDcy8S1WEW_NQc%3D",
                 "showing": [
                     {
                         "time": [
@@ -390,7 +167,8 @@
                             "1:25pm",
                             "4:05pm",
                             "7:30pm",
-                            "10:40pm"
+                            "10:40pm",
+                            "12:35am"
                         ],
                         "type": "Standard"
                     }
@@ -398,13 +176,17 @@
             },
             {
                 "name": "Oh, Hi!",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Oh,+Hi!&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbWK41cXXKljD-5ylQLbnH0PnARSH1mQIMyXQX6A2VQ9ikuiP1rkfaGf38BmDA29PrFWSVM7dstGX1-ajFng_ewW_VcA4Q0Hvs5_ZhF5g_lcQKCRTKhxE2oZ4PdR5ufNZuOH3Wo%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Oh,+Hi!&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbWK41cXXKljD-5ylQLbnH0PnARSH1mQIMyXQX6A2VQ9ikuiP1rkfaGf38BmDA29PrFWSVM7dstGX1-ajFng_ewW_VcA4Q0Hvs5_ZhF5g_lcQKCRTKhxE2oZ4PdR5ufNZuOH3Wo%3D",
                 "showing": [
                     {
                         "time": [
+                            "9:50am",
                             "10:30am",
                             "1:00pm",
+                            "1:30pm",
+                            "2:30pm",
                             "3:30pm",
+                            "5:00pm",
                             "6:00pm",
                             "8:30pm",
                             "11:00pm"
@@ -415,7 +197,7 @@
             },
             {
                 "name": "The Home",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Home&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRrpn03GBCtC9BLVHdrLtJOWHsJwDAsCBqzogMCkhy0Ry3u2MRkExkIPeJKJ8SeefDeDtqwwcFVoDH7kfJTI7bjwy1vY4OhjGArI_kn5hquXGh44MFcF9NjjOTufJAydld9SsfA%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Home&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRrpn03GBCtC9BLVHdrLtJOWHsJwDAsCBqzogMCkhy0Ry3u2MRkExkIPeJKJ8SeefDeDtqwwcFVoDH7kfJTI7bjwy1vY4OhjGArI_kn5hquXGh44MFcF9NjjOTufJAydld9SsfA%3D",
                 "showing": [
                     {
                         "time": [
@@ -429,7 +211,7 @@
             },
             {
                 "name": "Sorry, Baby",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Sorry,+Baby&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscwUK6EmpJcPCz2o0lPaUUipk55SKWpwEaKW1rSkpA78yGCRhTLaoZdazoLSD7ZTIYhApeLxBTzcT-9Tt9sYYgTMy-4lrALO-0WuZF-4HyDiIpn7-rAXgdEUpGSrM0b3RUBMF_g%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Sorry,+Baby&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscwUK6EmpJcPCz2o0lPaUUipk55SKWpwEaKW1rSkpA78yGCRhTLaoZdazoLSD7ZTIYhApeLxBTzcT-9Tt9sYYgTMy-4lrALO-0WuZF-4HyDiIpn7-rAXgdEUpGSrM0b3RUBMF_g%3D",
                 "showing": [
                     {
                         "time": [
@@ -444,7 +226,7 @@
             },
             {
                 "name": "Ick",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Ick&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSeHFrAWaIFKNMGgofhj7Surkp_KM2x9mw_FRnvkJW_HcYXQ-c7FXGPze1zcgWm2jA3gRHTIA_tQD7FdvxjoDwR-20mJ78Nyrj-LLrhMoUpo591X7_1SoEl4umISfcQlsa3vwH8%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Ick&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSeHFrAWaIFKNMGgofhj7Surkp_KM2x9mw_FRnvkJW_HcYXQ-c7FXGPze1zcgWm2jA3gRHTIA_tQD7FdvxjoDwR-20mJ78Nyrj-LLrhMoUpo591X7_1SoEl4umISfcQlsa3vwH8%3D",
                 "showing": [
                     {
                         "time": [
@@ -456,7 +238,7 @@
             },
             {
                 "name": "Summer Wars (2009) - 4K Restoration",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Summer+Wars+(2009)+-+4K+Restoration&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXseQKbhXMjvsp_hlr0wgKycpoJbsJ_O4KIwhsFthybxz1aipqvkXVVDAJ5odbxry6pjKS7VgvdhRkJqgNTixHVOKjwolbUKZKuzRpeq953t5psMMU3n0FgcXivajjn58ASuxuXaY%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Summer+Wars+(2009)+-+4K+Restoration&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXseQKbhXMjvsp_hlr0wgKycpoJbsJ_O4KIwhsFthybxz1aipqvkXVVDAJ5odbxry6pjKS7VgvdhRkJqgNTixHVOKjwolbUKZKuzRpeq953t5psMMU3n0FgcXivajjn58ASuxuXaY%3D",
                 "showing": [
                     {
                         "time": [
@@ -469,12 +251,11 @@
         ]
     },
     {
-        "day": "Mon",
-        "date": "Jul 28",
+        "day": "Tomorrow",
         "movies": [
             {
                 "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
                 "showing": [
                     {
                         "time": [
@@ -519,7 +300,7 @@
             },
             {
                 "name": "Superman",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
                 "showing": [
                     {
                         "time": [
@@ -544,7 +325,7 @@
             },
             {
                 "name": "Jurassic World Rebirth",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D",
                 "showing": [
                     {
                         "time": [
@@ -564,7 +345,7 @@
             },
             {
                 "name": "Smurfs",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Smurfs&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsf_bJ0SKeADuJJ03Fn3AVfQhlbtaX4nyFXPwzURHJmlZBVzgvFm8m3I5r87-YhKop4R9ZMcqZJH46CRm9OomDybE-PLWnHUAy3L4Zy-zqND4DuLgeG4F8-_HFYCWGxHHBk1NBbg%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Smurfs&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsf_bJ0SKeADuJJ03Fn3AVfQhlbtaX4nyFXPwzURHJmlZBVzgvFm8m3I5r87-YhKop4R9ZMcqZJH46CRm9OomDybE-PLWnHUAy3L4Zy-zqND4DuLgeG4F8-_HFYCWGxHHBk1NBbg%3D",
                 "showing": [
                     {
                         "time": [
@@ -577,7 +358,7 @@
             },
             {
                 "name": "I Know What You Did Last Summer",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=I+Know+What+You+Did+Last+Summer&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaOIdIZRtV0083SEeQyEocrkBGlJQ-yG5IpYcMFj_Wo7Qz5ZOME6kMhKmAUuVY_d1ePL_qTKuYiY-FrMlIAdqw0KDIaAHtweG-YyCJ5vQpId9e2pcvIAcZ6_xcvj4jaEMVavESo%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=I+Know+What+You+Did+Last+Summer&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaOIdIZRtV0083SEeQyEocrkBGlJQ-yG5IpYcMFj_Wo7Qz5ZOME6kMhKmAUuVY_d1ePL_qTKuYiY-FrMlIAdqw0KDIaAHtweG-YyCJ5vQpId9e2pcvIAcZ6_xcvj4jaEMVavESo%3D",
                 "showing": [
                     {
                         "time": [
@@ -593,7 +374,7 @@
             },
             {
                 "name": "F1",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
                 "showing": [
                     {
                         "time": [
@@ -609,7 +390,7 @@
             },
             {
                 "name": "How to Train Your Dragon",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=How+to+Train+Your+Dragon&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsd3zd8hRsEvdm_dHi-3X8VmHcFupCcPtXFihd5oRheRxBCVlEuoIlG1B8vJiFSZPLTC2hEnsD6xDSbaIshxc29hXcyB5YjM4rs4eKlWxe6u7UBz2QmvI8EqZ0uu6nk2PlGpREAs%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=How+to+Train+Your+Dragon&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsd3zd8hRsEvdm_dHi-3X8VmHcFupCcPtXFihd5oRheRxBCVlEuoIlG1B8vJiFSZPLTC2hEnsD6xDSbaIshxc29hXcyB5YjM4rs4eKlWxe6u7UBz2QmvI8EqZ0uu6nk2PlGpREAs%3D",
                 "showing": [
                     {
                         "time": [
@@ -621,7 +402,7 @@
             },
             {
                 "name": "Eddington",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Eddington&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsfIwWY75pRDsjfUgrerwq5ApQv_HYsUjbB8iO4SLgek8rIgfEfcDNGYhLAw1oixoWU1yG7_cauIRXkKWVYZmF69iVMc9ytEoeNmATVHbdAEVqSKI3Eccl1-wATDcy8S1WEW_NQc%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Eddington&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsfIwWY75pRDsjfUgrerwq5ApQv_HYsUjbB8iO4SLgek8rIgfEfcDNGYhLAw1oixoWU1yG7_cauIRXkKWVYZmF69iVMc9ytEoeNmATVHbdAEVqSKI3Eccl1-wATDcy8S1WEW_NQc%3D",
                 "showing": [
                     {
                         "time": [
@@ -636,7 +417,7 @@
             },
             {
                 "name": "Oh, Hi!",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Oh,+Hi!&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbWK41cXXKljD-5ylQLbnH0PnARSH1mQIMyXQX6A2VQ9ikuiP1rkfaGf38BmDA29PrFWSVM7dstGX1-ajFng_ewW_VcA4Q0Hvs5_ZhF5g_lcQKCRTKhxE2oZ4PdR5ufNZuOH3Wo%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Oh,+Hi!&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbWK41cXXKljD-5ylQLbnH0PnARSH1mQIMyXQX6A2VQ9ikuiP1rkfaGf38BmDA29PrFWSVM7dstGX1-ajFng_ewW_VcA4Q0Hvs5_ZhF5g_lcQKCRTKhxE2oZ4PdR5ufNZuOH3Wo%3D",
                 "showing": [
                     {
                         "time": [
@@ -652,7 +433,7 @@
             },
             {
                 "name": "The Home",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Home&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRrpn03GBCtC9BLVHdrLtJOWHsJwDAsCBqzogMCkhy0Ry3u2MRkExkIPeJKJ8SeefDeDtqwwcFVoDH7kfJTI7bjwy1vY4OhjGArI_kn5hquXGh44MFcF9NjjOTufJAydld9SsfA%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Home&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRrpn03GBCtC9BLVHdrLtJOWHsJwDAsCBqzogMCkhy0Ry3u2MRkExkIPeJKJ8SeefDeDtqwwcFVoDH7kfJTI7bjwy1vY4OhjGArI_kn5hquXGh44MFcF9NjjOTufJAydld9SsfA%3D",
                 "showing": [
                     {
                         "time": [
@@ -665,7 +446,7 @@
             },
             {
                 "name": "Sorry, Baby",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Sorry,+Baby&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscwUK6EmpJcPCz2o0lPaUUipk55SKWpwEaKW1rSkpA78yGCRhTLaoZdazoLSD7ZTIYhApeLxBTzcT-9Tt9sYYgTMy-4lrALO-0WuZF-4HyDiIpn7-rAXgdEUpGSrM0b3RUBMF_g%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Sorry,+Baby&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscwUK6EmpJcPCz2o0lPaUUipk55SKWpwEaKW1rSkpA78yGCRhTLaoZdazoLSD7ZTIYhApeLxBTzcT-9Tt9sYYgTMy-4lrALO-0WuZF-4HyDiIpn7-rAXgdEUpGSrM0b3RUBMF_g%3D",
                 "showing": [
                     {
                         "time": [
@@ -679,7 +460,7 @@
             },
             {
                 "name": "Ick",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Ick&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSeHFrAWaIFKNMGgofhj7Surkp_KM2x9mw_FRnvkJW_HcYXQ-c7FXGPze1zcgWm2jA3gRHTIA_tQD7FdvxjoDwR-20mJ78Nyrj-LLrhMoUpo591X7_1SoEl4umISfcQlsa3vwH8%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Ick&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSeHFrAWaIFKNMGgofhj7Surkp_KM2x9mw_FRnvkJW_HcYXQ-c7FXGPze1zcgWm2jA3gRHTIA_tQD7FdvxjoDwR-20mJ78Nyrj-LLrhMoUpo591X7_1SoEl4umISfcQlsa3vwH8%3D",
                 "showing": [
                     {
                         "time": [
@@ -691,7 +472,7 @@
             },
             {
                 "name": "Summer Wars (2009) - 4K Restoration",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Summer+Wars+(2009)+-+4K+Restoration&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXseQKbhXMjvsp_hlr0wgKycpoJbsJ_O4KIwhsFthybxz1aipqvkXVVDAJ5odbxry6pjKS7VgvdhRkJqgNTixHVOKjwolbUKZKuzRpeq953t5psMMU3n0FgcXivajjn58ASuxuXaY%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Summer+Wars+(2009)+-+4K+Restoration&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXseQKbhXMjvsp_hlr0wgKycpoJbsJ_O4KIwhsFthybxz1aipqvkXVVDAJ5odbxry6pjKS7VgvdhRkJqgNTixHVOKjwolbUKZKuzRpeq953t5psMMU3n0FgcXivajjn58ASuxuXaY%3D",
                 "showing": [
                     {
                         "time": [
@@ -703,7 +484,7 @@
             },
             {
                 "name": "Shrek",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Shrek&si=AMgyJEuxtneLQHak8i6sS_UnYB6UqZTLGixOzJC15sBQdyk2SJM7h-BWzM311c4J5gCtj3H1GqL0i9LtTAYlbXA2k2U0P-xmV0of3c1HXHPyunQOOs9VLphyDj8CoKCRPzHNr_0cq0rnpP5y-UbGIIjwdbcRNJPox01duwOV_mGzmzYvR1LH6OA%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Shrek&si=AMgyJEuxtneLQHak8i6sS_UnYB6UqZTLGixOzJC15sBQdyk2SJM7h-BWzM311c4J5gCtj3H1GqL0i9LtTAYlbXA2k2U0P-xmV0of3c1HXHPyunQOOs9VLphyDj8CoKCRPzHNr_0cq0rnpP5y-UbGIIjwdbcRNJPox01duwOV_mGzmzYvR1LH6OA%3D",
                 "showing": [
                     {
                         "time": [
@@ -716,7 +497,7 @@
             },
             {
                 "name": "AMC Screen Unseen",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=AMC+Screen+Unseen&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsUHvv-hVXEFClIZyuVZZsgS6gBZwBc6zVqi1ytcZJw29IngCviMghMHFBl9TQMrGJGCUpPvD_iplIjGYgxumch-qcKuO6k6AR4J7sRynSUYiGfUZxObB1Z9YRKqZtcvmXZlZpZo%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=AMC+Screen+Unseen&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsUHvv-hVXEFClIZyuVZZsgS6gBZwBc6zVqi1ytcZJw29IngCviMghMHFBl9TQMrGJGCUpPvD_iplIjGYgxumch-qcKuO6k6AR4J7sRynSUYiGfUZxObB1Z9YRKqZtcvmXZlZpZo%3D",
                 "showing": [
                     {
                         "time": [
@@ -734,7 +515,7 @@
         "movies": [
             {
                 "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
                 "showing": [
                     {
                         "time": [
@@ -745,7 +526,8 @@
                             "5:30pm",
                             "7:05pm",
                             "8:35pm",
-                            "10:15pm"
+                            "10:15pm",
+                            "11:30pm"
                         ],
                         "type": "Standard"
                     },
@@ -754,7 +536,7 @@
                             "10:45am",
                             "1:45pm",
                             "4:45pm",
-                            "11:00pm"
+                            "10:45pm"
                         ],
                         "type": "IMAX"
                     },
@@ -777,7 +559,7 @@
             },
             {
                 "name": "Superman",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
                 "showing": [
                     {
                         "time": [
@@ -802,7 +584,7 @@
             },
             {
                 "name": "Jurassic World Rebirth",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D",
                 "showing": [
                     {
                         "time": [
@@ -822,13 +604,12 @@
             },
             {
                 "name": "Smurfs",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Smurfs&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsf_bJ0SKeADuJJ03Fn3AVfQhlbtaX4nyFXPwzURHJmlZBVzgvFm8m3I5r87-YhKop4R9ZMcqZJH46CRm9OomDybE-PLWnHUAy3L4Zy-zqND4DuLgeG4F8-_HFYCWGxHHBk1NBbg%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Smurfs&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsf_bJ0SKeADuJJ03Fn3AVfQhlbtaX4nyFXPwzURHJmlZBVzgvFm8m3I5r87-YhKop4R9ZMcqZJH46CRm9OomDybE-PLWnHUAy3L4Zy-zqND4DuLgeG4F8-_HFYCWGxHHBk1NBbg%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:00am",
+                            "10:45am",
                             "1:40pm",
-                            "2:45pm",
                             "5:15pm",
                             "7:45pm"
                         ],
@@ -838,7 +619,7 @@
             },
             {
                 "name": "I Know What You Did Last Summer",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=I+Know+What+You+Did+Last+Summer&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaOIdIZRtV0083SEeQyEocrkBGlJQ-yG5IpYcMFj_Wo7Qz5ZOME6kMhKmAUuVY_d1ePL_qTKuYiY-FrMlIAdqw0KDIaAHtweG-YyCJ5vQpId9e2pcvIAcZ6_xcvj4jaEMVavESo%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=I+Know+What+You+Did+Last+Summer&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaOIdIZRtV0083SEeQyEocrkBGlJQ-yG5IpYcMFj_Wo7Qz5ZOME6kMhKmAUuVY_d1ePL_qTKuYiY-FrMlIAdqw0KDIaAHtweG-YyCJ5vQpId9e2pcvIAcZ6_xcvj4jaEMVavESo%3D",
                 "showing": [
                     {
                         "time": [
@@ -854,7 +635,7 @@
             },
             {
                 "name": "Together",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
                 "showing": [
                     {
                         "time": [
@@ -869,7 +650,7 @@
             },
             {
                 "name": "F1",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
                 "showing": [
                     {
                         "time": [
@@ -884,7 +665,7 @@
             },
             {
                 "name": "How to Train Your Dragon",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=How+to+Train+Your+Dragon&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsd3zd8hRsEvdm_dHi-3X8VmHcFupCcPtXFihd5oRheRxBCVlEuoIlG1B8vJiFSZPLTC2hEnsD6xDSbaIshxc29hXcyB5YjM4rs4eKlWxe6u7UBz2QmvI8EqZ0uu6nk2PlGpREAs%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=How+to+Train+Your+Dragon&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsd3zd8hRsEvdm_dHi-3X8VmHcFupCcPtXFihd5oRheRxBCVlEuoIlG1B8vJiFSZPLTC2hEnsD6xDSbaIshxc29hXcyB5YjM4rs4eKlWxe6u7UBz2QmvI8EqZ0uu6nk2PlGpREAs%3D",
                 "showing": [
                     {
                         "time": [
@@ -897,7 +678,7 @@
             },
             {
                 "name": "Eddington",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Eddington&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsfIwWY75pRDsjfUgrerwq5ApQv_HYsUjbB8iO4SLgek8rIgfEfcDNGYhLAw1oixoWU1yG7_cauIRXkKWVYZmF69iVMc9ytEoeNmATVHbdAEVqSKI3Eccl1-wATDcy8S1WEW_NQc%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Eddington&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsfIwWY75pRDsjfUgrerwq5ApQv_HYsUjbB8iO4SLgek8rIgfEfcDNGYhLAw1oixoWU1yG7_cauIRXkKWVYZmF69iVMc9ytEoeNmATVHbdAEVqSKI3Eccl1-wATDcy8S1WEW_NQc%3D",
                 "showing": [
                     {
                         "time": [
@@ -912,12 +693,14 @@
             },
             {
                 "name": "Oh, Hi!",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Oh,+Hi!&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbWK41cXXKljD-5ylQLbnH0PnARSH1mQIMyXQX6A2VQ9ikuiP1rkfaGf38BmDA29PrFWSVM7dstGX1-ajFng_ewW_VcA4Q0Hvs5_ZhF5g_lcQKCRTKhxE2oZ4PdR5ufNZuOH3Wo%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Oh,+Hi!&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbWK41cXXKljD-5ylQLbnH0PnARSH1mQIMyXQX6A2VQ9ikuiP1rkfaGf38BmDA29PrFWSVM7dstGX1-ajFng_ewW_VcA4Q0Hvs5_ZhF5g_lcQKCRTKhxE2oZ4PdR5ufNZuOH3Wo%3D",
                 "showing": [
                     {
                         "time": [
                             "10:45am",
+                            "11:10am",
                             "1:15pm",
+                            "2:45pm",
                             "3:45pm",
                             "6:15pm",
                             "8:45pm",
@@ -929,7 +712,7 @@
             },
             {
                 "name": "The Home",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Home&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRrpn03GBCtC9BLVHdrLtJOWHsJwDAsCBqzogMCkhy0Ry3u2MRkExkIPeJKJ8SeefDeDtqwwcFVoDH7kfJTI7bjwy1vY4OhjGArI_kn5hquXGh44MFcF9NjjOTufJAydld9SsfA%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Home&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRrpn03GBCtC9BLVHdrLtJOWHsJwDAsCBqzogMCkhy0Ry3u2MRkExkIPeJKJ8SeefDeDtqwwcFVoDH7kfJTI7bjwy1vY4OhjGArI_kn5hquXGh44MFcF9NjjOTufJAydld9SsfA%3D",
                 "showing": [
                     {
                         "time": [
@@ -942,7 +725,7 @@
             },
             {
                 "name": "Sorry, Baby",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Sorry,+Baby&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscwUK6EmpJcPCz2o0lPaUUipk55SKWpwEaKW1rSkpA78yGCRhTLaoZdazoLSD7ZTIYhApeLxBTzcT-9Tt9sYYgTMy-4lrALO-0WuZF-4HyDiIpn7-rAXgdEUpGSrM0b3RUBMF_g%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Sorry,+Baby&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscwUK6EmpJcPCz2o0lPaUUipk55SKWpwEaKW1rSkpA78yGCRhTLaoZdazoLSD7ZTIYhApeLxBTzcT-9Tt9sYYgTMy-4lrALO-0WuZF-4HyDiIpn7-rAXgdEUpGSrM0b3RUBMF_g%3D",
                 "showing": [
                     {
                         "time": [
@@ -957,7 +740,7 @@
             },
             {
                 "name": "Ick",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Ick&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSeHFrAWaIFKNMGgofhj7Surkp_KM2x9mw_FRnvkJW_HcYXQ-c7FXGPze1zcgWm2jA3gRHTIA_tQD7FdvxjoDwR-20mJ78Nyrj-LLrhMoUpo591X7_1SoEl4umISfcQlsa3vwH8%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Ick&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSeHFrAWaIFKNMGgofhj7Surkp_KM2x9mw_FRnvkJW_HcYXQ-c7FXGPze1zcgWm2jA3gRHTIA_tQD7FdvxjoDwR-20mJ78Nyrj-LLrhMoUpo591X7_1SoEl4umISfcQlsa3vwH8%3D",
                 "showing": [
                     {
                         "time": [
@@ -969,7 +752,7 @@
             },
             {
                 "name": "Summer Wars (2009) - 4K Restoration",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Summer+Wars+(2009)+-+4K+Restoration&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXseQKbhXMjvsp_hlr0wgKycpoJbsJ_O4KIwhsFthybxz1aipqvkXVVDAJ5odbxry6pjKS7VgvdhRkJqgNTixHVOKjwolbUKZKuzRpeq953t5psMMU3n0FgcXivajjn58ASuxuXaY%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Summer+Wars+(2009)+-+4K+Restoration&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXseQKbhXMjvsp_hlr0wgKycpoJbsJ_O4KIwhsFthybxz1aipqvkXVVDAJ5odbxry6pjKS7VgvdhRkJqgNTixHVOKjwolbUKZKuzRpeq953t5psMMU3n0FgcXivajjn58ASuxuXaY%3D",
                 "showing": [
                     {
                         "time": [
@@ -987,7 +770,7 @@
         "movies": [
             {
                 "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
                 "showing": [
                     {
                         "time": [
@@ -998,8 +781,7 @@
                             "5:15pm",
                             "7:00pm",
                             "8:30pm",
-                            "10:00pm",
-                            "10:15pm"
+                            "10:00pm"
                         ],
                         "type": "Standard"
                     },
@@ -1008,7 +790,7 @@
                             "10:45am",
                             "1:45pm",
                             "4:45pm",
-                            "10:45pm"
+                            "11:00pm"
                         ],
                         "type": "IMAX"
                     },
@@ -1023,7 +805,7 @@
                             "12:15pm",
                             "3:15pm",
                             "6:15pm",
-                            "9:15pm"
+                            "10:30pm"
                         ],
                         "type": "3D"
                     }
@@ -1031,14 +813,13 @@
             },
             {
                 "name": "Superman",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
                 "showing": [
                     {
                         "time": [
                             "1:30pm",
                             "4:45pm",
-                            "8:00pm",
-                            "11:00pm"
+                            "7:40pm"
                         ],
                         "type": "Standard"
                     },
@@ -1046,7 +827,8 @@
                         "time": [
                             "10:45am",
                             "3:45pm",
-                            "9:50pm"
+                            "9:50pm",
+                            "10:45pm"
                         ],
                         "type": "3D"
                     }
@@ -1054,7 +836,7 @@
             },
             {
                 "name": "Jurassic World Rebirth",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D",
                 "showing": [
                     {
                         "time": [
@@ -1074,13 +856,12 @@
             },
             {
                 "name": "Smurfs",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Smurfs&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsf_bJ0SKeADuJJ03Fn3AVfQhlbtaX4nyFXPwzURHJmlZBVzgvFm8m3I5r87-YhKop4R9ZMcqZJH46CRm9OomDybE-PLWnHUAy3L4Zy-zqND4DuLgeG4F8-_HFYCWGxHHBk1NBbg%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Smurfs&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsf_bJ0SKeADuJJ03Fn3AVfQhlbtaX4nyFXPwzURHJmlZBVzgvFm8m3I5r87-YhKop4R9ZMcqZJH46CRm9OomDybE-PLWnHUAy3L4Zy-zqND4DuLgeG4F8-_HFYCWGxHHBk1NBbg%3D",
                 "showing": [
                     {
                         "time": [
-                            "10:50am",
-                            "5:10pm",
-                            "7:40pm"
+                            "10:45am",
+                            "5:10pm"
                         ],
                         "type": "Standard"
                     }
@@ -1088,13 +869,13 @@
             },
             {
                 "name": "I Know What You Did Last Summer",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=I+Know+What+You+Did+Last+Summer&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaOIdIZRtV0083SEeQyEocrkBGlJQ-yG5IpYcMFj_Wo7Qz5ZOME6kMhKmAUuVY_d1ePL_qTKuYiY-FrMlIAdqw0KDIaAHtweG-YyCJ5vQpId9e2pcvIAcZ6_xcvj4jaEMVavESo%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=I+Know+What+You+Did+Last+Summer&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaOIdIZRtV0083SEeQyEocrkBGlJQ-yG5IpYcMFj_Wo7Qz5ZOME6kMhKmAUuVY_d1ePL_qTKuYiY-FrMlIAdqw0KDIaAHtweG-YyCJ5vQpId9e2pcvIAcZ6_xcvj4jaEMVavESo%3D",
                 "showing": [
                     {
                         "time": [
                             "11:15am",
                             "2:10pm",
-                            "5:25pm",
+                            "5:30pm",
                             "8:20pm",
                             "11:10pm"
                         ],
@@ -1104,17 +885,20 @@
             },
             {
                 "name": "Together",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
                 "showing": [
                     {
                         "time": [
                             "11:00am",
                             "1:45pm",
                             "4:30pm",
+                            "5:30pm",
                             "7:15pm",
+                            "7:50pm",
                             "8:15pm",
+                            "9:15pm",
                             "10:00pm",
-                            "11:05pm"
+                            "11:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -1122,13 +906,12 @@
             },
             {
                 "name": "F1",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
                 "showing": [
                     {
                         "time": [
                             "11:25am",
                             "1:55pm",
-                            "4:50pm",
                             "7:00pm",
                             "10:30pm"
                         ],
@@ -1138,7 +921,7 @@
             },
             {
                 "name": "How to Train Your Dragon",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=How+to+Train+Your+Dragon&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsd3zd8hRsEvdm_dHi-3X8VmHcFupCcPtXFihd5oRheRxBCVlEuoIlG1B8vJiFSZPLTC2hEnsD6xDSbaIshxc29hXcyB5YjM4rs4eKlWxe6u7UBz2QmvI8EqZ0uu6nk2PlGpREAs%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=How+to+Train+Your+Dragon&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsd3zd8hRsEvdm_dHi-3X8VmHcFupCcPtXFihd5oRheRxBCVlEuoIlG1B8vJiFSZPLTC2hEnsD6xDSbaIshxc29hXcyB5YjM4rs4eKlWxe6u7UBz2QmvI8EqZ0uu6nk2PlGpREAs%3D",
                 "showing": [
                     {
                         "time": [
@@ -1151,7 +934,7 @@
             },
             {
                 "name": "Eddington",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Eddington&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsfIwWY75pRDsjfUgrerwq5ApQv_HYsUjbB8iO4SLgek8rIgfEfcDNGYhLAw1oixoWU1yG7_cauIRXkKWVYZmF69iVMc9ytEoeNmATVHbdAEVqSKI3Eccl1-wATDcy8S1WEW_NQc%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Eddington&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsfIwWY75pRDsjfUgrerwq5ApQv_HYsUjbB8iO4SLgek8rIgfEfcDNGYhLAw1oixoWU1yG7_cauIRXkKWVYZmF69iVMc9ytEoeNmATVHbdAEVqSKI3Eccl1-wATDcy8S1WEW_NQc%3D",
                 "showing": [
                     {
                         "time": [
@@ -1166,11 +949,11 @@
             },
             {
                 "name": "Oh, Hi!",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Oh,+Hi!&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbWK41cXXKljD-5ylQLbnH0PnARSH1mQIMyXQX6A2VQ9ikuiP1rkfaGf38BmDA29PrFWSVM7dstGX1-ajFng_ewW_VcA4Q0Hvs5_ZhF5g_lcQKCRTKhxE2oZ4PdR5ufNZuOH3Wo%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Oh,+Hi!&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbWK41cXXKljD-5ylQLbnH0PnARSH1mQIMyXQX6A2VQ9ikuiP1rkfaGf38BmDA29PrFWSVM7dstGX1-ajFng_ewW_VcA4Q0Hvs5_ZhF5g_lcQKCRTKhxE2oZ4PdR5ufNZuOH3Wo%3D",
                 "showing": [
                     {
                         "time": [
-                            "10:45am",
+                            "11:00am",
                             "1:15pm",
                             "3:45pm",
                             "6:15pm",
@@ -1183,7 +966,7 @@
             },
             {
                 "name": "The Home",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Home&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRrpn03GBCtC9BLVHdrLtJOWHsJwDAsCBqzogMCkhy0Ry3u2MRkExkIPeJKJ8SeefDeDtqwwcFVoDH7kfJTI7bjwy1vY4OhjGArI_kn5hquXGh44MFcF9NjjOTufJAydld9SsfA%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Home&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRrpn03GBCtC9BLVHdrLtJOWHsJwDAsCBqzogMCkhy0Ry3u2MRkExkIPeJKJ8SeefDeDtqwwcFVoDH7kfJTI7bjwy1vY4OhjGArI_kn5hquXGh44MFcF9NjjOTufJAydld9SsfA%3D",
                 "showing": [
                     {
                         "time": [
@@ -1197,7 +980,7 @@
             },
             {
                 "name": "Shrek",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Shrek&si=AMgyJEuxtneLQHak8i6sS_UnYB6UqZTLGixOzJC15sBQdyk2SJM7h-BWzM311c4J5gCtj3H1GqL0i9LtTAYlbXA2k2U0P-xmV0of3c1HXHPyunQOOs9VLphyDj8CoKCRPzHNr_0cq0rnpP5y-UbGIIjwdbcRNJPox01duwOV_mGzmzYvR1LH6OA%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Shrek&si=AMgyJEuxtneLQHak8i6sS_UnYB6UqZTLGixOzJC15sBQdyk2SJM7h-BWzM311c4J5gCtj3H1GqL0i9LtTAYlbXA2k2U0P-xmV0of3c1HXHPyunQOOs9VLphyDj8CoKCRPzHNr_0cq0rnpP5y-UbGIIjwdbcRNJPox01duwOV_mGzmzYvR1LH6OA%3D",
                 "showing": [
                     {
                         "time": [
@@ -1216,7 +999,7 @@
         "movies": [
             {
                 "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
                 "showing": [
                     {
                         "time": [
@@ -1227,8 +1010,8 @@
                             "5:15pm",
                             "7:00pm",
                             "8:15pm",
-                            "10:00pm",
-                            "10:30pm"
+                            "9:55pm",
+                            "10:15pm"
                         ],
                         "type": "Standard"
                     },
@@ -1260,7 +1043,7 @@
             },
             {
                 "name": "Superman",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
                 "showing": [
                     {
                         "time": [
@@ -1276,14 +1059,14 @@
             },
             {
                 "name": "The Bad Guys 2",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Bad+Guys+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSBdH-eJjp7i_kYZrrqhYGmR1XSGwZd0ya30TCp_dximdGnUt1dJZgnt24S0M-Lgb90zzzs8vrGYudAPec7Qa6e8AQ_hGOzE4cp48cT463Zfevmz6VkFHrEITNqsmRNqrs6KOQM%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Bad+Guys+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSBdH-eJjp7i_kYZrrqhYGmR1XSGwZd0ya30TCp_dximdGnUt1dJZgnt24S0M-Lgb90zzzs8vrGYudAPec7Qa6e8AQ_hGOzE4cp48cT463Zfevmz6VkFHrEITNqsmRNqrs6KOQM%3D",
                 "showing": [
                     {
                         "time": [
                             "2:00pm",
                             "4:45pm",
                             "7:30pm",
-                            "9:55pm"
+                            "10:45pm"
                         ],
                         "type": "Standard"
                     }
@@ -1291,7 +1074,7 @@
             },
             {
                 "name": "The Naked Gun",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Naked+Gun&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV-GhducXxKmMcrTBCaYgovMAQovmWjK7Vd1L-ZTIpg5e7SmlMYyn_soaCeNSxRW8pGwOITZvfy_YVuHWgmCkwZicH5FBmBvDc014J7IK-yk67ZNMClaEnz5sKJ0pREuOiotd3Q%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Naked+Gun&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV-GhducXxKmMcrTBCaYgovMAQovmWjK7Vd1L-ZTIpg5e7SmlMYyn_soaCeNSxRW8pGwOITZvfy_YVuHWgmCkwZicH5FBmBvDc014J7IK-yk67ZNMClaEnz5sKJ0pREuOiotd3Q%3D",
                 "showing": [
                     {
                         "time": [
@@ -1304,15 +1087,16 @@
             },
             {
                 "name": "Together",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:15am",
+                            "10:05am",
+                            "11:00am",
                             "1:35pm",
                             "4:25pm",
                             "7:15pm",
-                            "10:45pm"
+                            "10:30pm"
                         ],
                         "type": "Standard"
                     }
@@ -1326,7 +1110,7 @@
         "movies": [
             {
                 "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
                 "showing": [
                     {
                         "time": [
@@ -1370,7 +1154,7 @@
             },
             {
                 "name": "The Bad Guys 2",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Bad+Guys+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSBdH-eJjp7i_kYZrrqhYGmR1XSGwZd0ya30TCp_dximdGnUt1dJZgnt24S0M-Lgb90zzzs8vrGYudAPec7Qa6e8AQ_hGOzE4cp48cT463Zfevmz6VkFHrEITNqsmRNqrs6KOQM%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Bad+Guys+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSBdH-eJjp7i_kYZrrqhYGmR1XSGwZd0ya30TCp_dximdGnUt1dJZgnt24S0M-Lgb90zzzs8vrGYudAPec7Qa6e8AQ_hGOzE4cp48cT463Zfevmz6VkFHrEITNqsmRNqrs6KOQM%3D",
                 "showing": [
                     {
                         "time": [
@@ -1386,7 +1170,7 @@
             },
             {
                 "name": "The Naked Gun",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=The+Naked+Gun&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV-GhducXxKmMcrTBCaYgovMAQovmWjK7Vd1L-ZTIpg5e7SmlMYyn_soaCeNSxRW8pGwOITZvfy_YVuHWgmCkwZicH5FBmBvDc014J7IK-yk67ZNMClaEnz5sKJ0pREuOiotd3Q%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Naked+Gun&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV-GhducXxKmMcrTBCaYgovMAQovmWjK7Vd1L-ZTIpg5e7SmlMYyn_soaCeNSxRW8pGwOITZvfy_YVuHWgmCkwZicH5FBmBvDc014J7IK-yk67ZNMClaEnz5sKJ0pREuOiotd3Q%3D",
                 "showing": [
                     {
                         "time": [
@@ -1402,7 +1186,7 @@
             },
             {
                 "name": "Together",
-                "link": "https://www.google.com/search?sca_esv=715cee73a46726fa&hl=en&gl=us&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
                 "showing": [
                     {
                         "time": [
@@ -1410,6 +1194,107 @@
                             "1:15pm",
                             "4:30pm",
                             "7:30pm",
+                            "9:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Sat",
+        "date": "Aug 2",
+        "movies": [
+            {
+                "name": "The Fantastic Four: First Steps",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "10:00am",
+                            "11:00am",
+                            "1:15pm",
+                            "2:15pm",
+                            "4:30pm",
+                            "5:15pm",
+                            "7:45pm",
+                            "8:15pm",
+                            "10:45pm",
+                            "11:15pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "9:30am",
+                            "12:45pm",
+                            "4:00pm",
+                            "10:15pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "7:15pm"
+                        ],
+                        "type": "IMAX 3D"
+                    },
+                    {
+                        "time": [
+                            "9:00am",
+                            "12:15pm",
+                            "3:15pm",
+                            "6:15pm",
+                            "9:15pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "The Bad Guys 2",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Bad+Guys+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSBdH-eJjp7i_kYZrrqhYGmR1XSGwZd0ya30TCp_dximdGnUt1dJZgnt24S0M-Lgb90zzzs8vrGYudAPec7Qa6e8AQ_hGOzE4cp48cT463Zfevmz6VkFHrEITNqsmRNqrs6KOQM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "10:45am",
+                            "1:30pm",
+                            "4:15pm",
+                            "7:30pm",
+                            "9:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Naked Gun",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=The+Naked+Gun&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV-GhducXxKmMcrTBCaYgovMAQovmWjK7Vd1L-ZTIpg5e7SmlMYyn_soaCeNSxRW8pGwOITZvfy_YVuHWgmCkwZicH5FBmBvDc014J7IK-yk67ZNMClaEnz5sKJ0pREuOiotd3Q%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:20am",
+                            "12:00pm",
+                            "2:30pm",
+                            "5:00pm",
+                            "7:15pm",
+                            "10:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Together",
+                "link": "https://www.google.com/search?sca_esv=501fd0474a6bbfab&gl=us&hl=en&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "10:40am",
+                            "1:35pm",
+                            "4:15pm",
+                            "7:00pm",
                             "9:45pm"
                         ],
                         "type": "Standard"
