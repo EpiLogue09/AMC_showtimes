@@ -3,24 +3,101 @@
         "day": "Today",
         "movies": [
             {
-                "name": "Freakier Friday",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Freakier+Friday&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsePxZH56_HrONYWZ5Pq46US1o45QCTGH8RNC0NskHIUhJuQraP5OAAHXC-kPnjgz3GoRdf88MyR5ZREx9hnt_nKlLD3IEyXkm5GFaaAhEEs_IUdm1gldYFl8iaQ1bYe4yLUkSJg%3D&sa=X&ved=2ahUKEwio6OqqtPqOAxVYRPEDHRenHYwQxyZ6BAhGEBM",
+                "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRMJSBsQmrnhzHQDajy0iQvSfQacUbUTDzC5IOj0ZYoifg61TtVgizkguwWckx42U83_IihKBgjR9b6F7zNPbelRBWEeL9NYwzGXtUn-Rt5Qcmi6MSiU-Dq9zU75C6y9Dl1_Vc8%3D&sa=X&ved=2ahUKEwjYnrrD8c-PAxUrJkQIHfO_IGcQxyZ6BAhAEBM",
                 "showing": [
                     {
                         "time": [
-                            "10:30am",
-                            "11:30am",
-                            "1:30pm",
-                            "2:30pm",
+                            "5:15pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "11:00pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "4:00pm",
+                            "7:30pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "6:15pm",
+                            "6:45pm",
+                            "7:00pm",
+                            "7:45pm",
+                            "8:15pm",
+                            "8:45pm",
+                            "9:45pm",
+                            "10:15pm",
+                            "10:45pm",
+                            "11:30pm",
+                            "11:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Conjuring: Last Rites",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Conjuring:+Last+Rites&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsb-rG_dj5haxjMdgqKxU6O6AxhEplQG2Qz-plHse1z29vkL85oRQZ4yjd15btLMAKAcrJSxmzc3_1GfzdyfpMIMKVPKwEk9QzpcbpEOQ8WsNTyxxAwLStRNAEp-BEAelwmAC8To%3D&sa=X&ved=2ahUKEwjYnrrD8c-PAxUrJkQIHfO_IGcQxyZ6BAhAECg",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "3:00pm",
                             "4:30pm",
-                            "5:20pm",
-                            "6:30pm",
+                            "8:40pm",
+                            "11:50pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Downton Abbey: The Grand Finale",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsXDxMsYl7vjOonWNKWYOlRTYi7XmLDrxveYhbdDSnFHwUMwlU9WRWSj8kSqxWHNqPNq3Ual0URA053zxebKOG7PvcmRSblAnmDYtHAaYz5pRxLBQHyWuaNz6rskrvlkFYKn_69g%3D&sa=X&ved=2ahUKEwjYnrrD8c-PAxUrJkQIHfO_IGcQxyZ6BAhAEDA",
+                "showing": [
+                    {
+                        "time": [
+                            "2:15pm",
+                            "3:45pm",
+                            "4:45pm",
                             "7:15pm",
-                            "7:30pm",
-                            "8:10pm",
-                            "9:30pm",
-                            "10:35pm",
-                            "12:00am"
+                            "10:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Long Walk",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Long+Walk&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV1kCqTxTn3G1pyg07IBvHkLjue8KoFeJ7gSh2O5VxI3ulEIbMxjBdRA_zMJ9YzbB7TQSwfoakofC81cAyt4dndL4k3yy2uiRvT2Ii880ctdpZxxg-0zLw5ljCkB9rQG4LlGLpM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "6:00pm",
+                            "10:10pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Spinal Tap II: The End Continues",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Spinal+Tap+II:+The+End+Continues&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZkfUSUPsE9ogfqKR5jvwCid9CDBQ9UsLIpb1SwfLpHeLDzgvWSyNCemSfCNjA1M9JVBMf9KY0u5AR4emLtnTBsDKFXn3GpjE7yacz6ZHByD-EphmRyzpsR5CnX8tzJmM9nMxXs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:00pm",
+                            "6:20pm",
+                            "8:40pm",
+                            "11:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -28,225 +105,119 @@
             },
             {
                 "name": "Weapons",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D&sa=X&ved=2ahUKEwio6OqqtPqOAxVYRPEDHRenHYwQxyZ6BAhGECM",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:45am",
-                            "3:00pm",
-                            "6:15pm",
-                            "9:30pm",
-                            "11:00pm"
+                            "10:20pm"
                         ],
                         "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "4:00pm",
-                            "7:15pm",
-                            "10:20pm",
-                            "12:00am"
-                        ],
-                        "type": "IMAX"
                     }
                 ]
             },
             {
-                "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D&sa=X&ved=2ahUKEwio6OqqtPqOAxVYRPEDHRenHYwQxyZ6BAhGEDA",
+                "name": "Freakier Friday",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Freakier+Friday&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsePxZH56_HrONYWZ5Pq46US1o45QCTGH8RNC0NskHIUhJuQraP5OAAHXC-kPnjgz3GoRdf88MyR5ZREx9hnt_nKlLD3IEyXkm5GFaaAhEEs_IUdm1gldYFl8iaQ1bYe4yLUkSJg%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:00am",
-                            "12:00pm",
+                            "3:10pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Hamilton",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Hamilton&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsUqnIP5QMa0HKuQaYhrIQkrUv6-2jrQK7N-evrSoITPvnvdRSpyxyauIWMaJ2mA_3vr8q1cRKHeUiKb5nt-NcoDQyQrT9g8-umX-Abaz-F3vDy2FwsBiA1KBJ6H6oZujVCaJhoo%3D",
+                "showing": [
+                    {
+                        "time": [
                             "2:00pm",
-                            "3:00pm",
-                            "5:00pm",
-                            "8:00pm",
-                            "9:15pm",
-                            "10:40pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "10:00am",
-                            "1:00pm"
-                        ],
-                        "type": "IMAX"
-                    }
-                ]
-            },
-            {
-                "name": "The Bad Guys 2",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Bad+Guys+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSBdH-eJjp7i_kYZrrqhYGmR1XSGwZd0ya30TCp_dximdGnUt1dJZgnt24S0M-Lgb90zzzs8vrGYudAPec7Qa6e8AQ_hGOzE4cp48cT463Zfevmz6VkFHrEITNqsmRNqrs6KOQM%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:00am",
-                            "12:50pm",
-                            "6:25pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "3:35pm",
-                            "9:10pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "The Naked Gun",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Naked+Gun&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV-GhducXxKmMcrTBCaYgovMAQovmWjK7Vd1L-ZTIpg5e7SmlMYyn_soaCeNSxRW8pGwOITZvfy_YVuHWgmCkwZicH5FBmBvDc014J7IK-yk67ZNMClaEnz5sKJ0pREuOiotd3Q%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:50am",
-                            "12:45pm",
-                            "2:05pm",
-                            "4:35pm",
-                            "5:45pm",
-                            "8:15pm",
-                            "10:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Superman",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:45am",
-                            "4:10pm",
+                            "6:00pm",
                             "10:15pm"
                         ],
                         "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "12:50pm",
-                            "6:00pm"
-                        ],
-                        "type": "3D"
                     }
                 ]
             },
             {
-                "name": "Sketch",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Sketch&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSaq4W6YeEf4t03JRUFGE3sWBmfSLkTJ0srqbki0Z1V_Os9eowr13g1w1lYwyRrp_OLi412gKAWEGmfF9WeLKbKEZg9LII5YztrWBrGbmrzw5UXjvCMbtC0FewMNRxbUh5QjqJg%3D",
+                "name": "Caught Stealing",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Caught+Stealing&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTfrMkvLvP4hwOOpPLm8GDVj7KnGeBmpGH0_sm7ZJ45GR9JPDSKZDh-5NgXhmLcqTFDkhN1sFLIKDHqvKj4_CZQ5GQ_e6EqnvS4JbQq9sYc2jfJXtsJkLnvIABf-08yIPmv4lkY%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:15am",
                             "2:00pm",
-                            "3:10pm",
-                            "7:05pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Together",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:10am",
-                            "1:30pm",
-                            "5:05pm",
-                            "7:10pm",
-                            "9:40pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Jurassic World Rebirth",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:50pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "F1",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:00am",
-                            "12:15pm",
-                            "4:10pm",
-                            "7:40pm",
-                            "10:25pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "My Mother's Wedding",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=My+Mother%27s+Wedding&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsWqPxnSttPTdxQ7H6g3kJmoZdXcQsMbNXcf4SL1EemwL5zjOIs5cgEYrHAUjkQKd8H7IUWN941TfyKml14YqlCCjUG8of8gLRGHxkx01zC04tftfQc49-GF1QV55bRPJ_ClTXsQ%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:15am",
-                            "12:00pm",
-                            "2:35pm",
                             "4:35pm",
                             "7:45pm",
-                            "11:10pm"
+                            "10:30pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "Strange Harvest",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Strange+Harvest&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsWLAOo2QyqJ0Aemx-cnsxeMN5S9RykUqxK7gxVVduwhJqyinvkgzlt8QbQVNbri0CkVAIhglnC5v3WwXmkIxDj9W-k4KEgIBOz99UsYIZopp1qv5jcZw4yEiyuTSSBxsGxnsbEY%3D",
+                "name": "The Roses",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Roses&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZ0xwDsw1YGeZ5haVo1uK2OXG9_yOA3tyHlcbc4TI7uTA59aENENS-TUby4xxXpxOmLZzqJFWDgelcbi-2bcYcyEfyZftClKjqgxVCOuQ_QRrt6SNDwXw26inWisQbrrxUwPQac%3D",
                 "showing": [
                     {
                         "time": [
-                            "10:50pm",
-                            "12:00am"
+                            "2:45pm",
+                            "5:20pm",
+                            "8:00pm",
+                            "10:45pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "Stans",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Stans&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsVRWyzModygZHrBLEPYQR3dvpaCPJvoIf8xh9OnBHX86k01rZwKbFZJBrAcLDkESifZRQRjJBiyQ8ZyIyTKqldhxX-vv4jaE6VesnRMYJs5KMcBBz1Ilu75R7xsKXMZWGaf3ZLs%3D",
+                "name": "Splitsville",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Splitsville&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsS_uO7Gh0f86NEZM-bUvt6iRArp6o-A1O7d7f1BfdTjHHIuPYE6IAV9DlU4ZTBwrwYZqI6YJ31M06DuIOmHZK9QqxqQck0upLnwhb9-lKR4CPJaXsEANZGxgEt7ImnfwQqstCYE%3D",
                 "showing": [
                     {
                         "time": [
-                            "7:00pm",
-                            "10:00pm"
+                            "3:30pm",
+                            "5:35pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "Oh, Hi!",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Oh,+Hi!&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbWK41cXXKljD-5ylQLbnH0PnARSH1mQIMyXQX6A2VQ9ikuiP1rkfaGf38BmDA29PrFWSVM7dstGX1-ajFng_ewW_VcA4Q0Hvs5_ZhF5g_lcQKCRTKhxE2oZ4PdR5ufNZuOH3Wo%3D",
+                "name": "The Baltimorons",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Baltimorons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSI0ZqGZc2X3B4SfOLrarkkSOsAUfQjZGAAV-eQ-xI-3c9Q9RcZstPEOsq7HfGXYve2IhD4sQsAiahCPic5_pfWlwRpkVMfym29J81YOMzjADTaRCoqJL4OeNwghvNYODmuDUrk%3D",
                 "showing": [
                     {
                         "time": [
-                            "1:20pm",
-                            "4:00pm"
+                            "2:00pm",
+                            "7:25pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Twinless",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Twinless&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXseipGwPIPsKs36NJlxQWZBlHuaPg_ZUecZkj2vqJ-LnA5sbrZn_TGJ6xmYbhK89pGsHWNXYEe5rjN1J_9dzyG9c7PRzg9aBaeGGdTizfpIecGoOF8hbOrCRULbCpvdswe5YWJHs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:05pm",
+                            "4:40pm",
+                            "7:50pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Love, Brooklyn",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Love,+Brooklyn&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXse86UqGeSBgBG_QhiWbdDFATHcEbv9bDMAFeUmRmZW03uMnsSpGEOT4ifmmBY0sFDokPnf_3LKl4mBAmZpM3pxmYZZ7OKQflBSt25q-oPcu6oFS8cNwE7V7k1ayl1Qnz5u5Bd3E%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:10pm"
                         ],
                         "type": "Standard"
                     }
@@ -258,19 +229,374 @@
         "day": "Tomorrow",
         "movies": [
             {
-                "name": "Freakier Friday",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Freakier+Friday&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsePxZH56_HrONYWZ5Pq46US1o45QCTGH8RNC0NskHIUhJuQraP5OAAHXC-kPnjgz3GoRdf88MyR5ZREx9hnt_nKlLD3IEyXkm5GFaaAhEEs_IUdm1gldYFl8iaQ1bYe4yLUkSJg%3D",
+                "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRMJSBsQmrnhzHQDajy0iQvSfQacUbUTDzC5IOj0ZYoifg61TtVgizkguwWckx42U83_IihKBgjR9b6F7zNPbelRBWEeL9NYwzGXtUn-Rt5Qcmi6MSiU-Dq9zU75C6y9Dl1_Vc8%3D",
                 "showing": [
                     {
                         "time": [
-                            "10:30am",
-                            "12:40pm",
-                            "1:30pm",
-                            "3:35pm",
+                            "2:30pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "10:30pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "12:00pm",
+                            "3:30pm",
+                            "7:00pm",
+                            "2:30am"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "1:00pm",
+                            "4:30pm",
+                            "6:00pm",
+                            "6:15pm",
+                            "7:30pm",
+                            "8:15pm",
+                            "9:30pm",
+                            "11:00pm",
+                            "12:15am",
+                            "1:15am",
+                            "1:45am"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Conjuring: Last Rites",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Conjuring:+Last+Rites&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsb-rG_dj5haxjMdgqKxU6O6AxhEplQG2Qz-plHse1z29vkL85oRQZ4yjd15btLMAKAcrJSxmzc3_1GfzdyfpMIMKVPKwEk9QzpcbpEOQ8WsNTyxxAwLStRNAEp-BEAelwmAC8To%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:45pm",
+                            "2:20pm",
+                            "4:10pm",
+                            "5:30pm",
+                            "7:25pm",
+                            "8:45pm",
+                            "10:45pm",
+                            "1:00am",
+                            "2:10am"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Downton Abbey: The Grand Finale",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsXDxMsYl7vjOonWNKWYOlRTYi7XmLDrxveYhbdDSnFHwUMwlU9WRWSj8kSqxWHNqPNq3Ual0URA053zxebKOG7PvcmRSblAnmDYtHAaYz5pRxLBQHyWuaNz6rskrvlkFYKn_69g%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:15pm",
+                            "2:00pm",
+                            "3:15pm",
+                            "5:00pm",
+                            "8:00pm",
+                            "9:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Long Walk",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Long+Walk&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV1kCqTxTn3G1pyg07IBvHkLjue8KoFeJ7gSh2O5VxI3ulEIbMxjBdRA_zMJ9YzbB7TQSwfoakofC81cAyt4dndL4k3yy2uiRvT2Ii880ctdpZxxg-0zLw5ljCkB9rQG4LlGLpM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:05pm",
+                            "2:00pm",
+                            "4:45pm",
+                            "7:30pm",
+                            "9:50pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Toy Story 30th Anniversary",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Toy+Story+30th+Anniversary&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaYSBFiJUqH1g5TotLUsVmMA3prKMLEFGgsa3J9sjf6pRCnPB06PVRpWiMa1Hrp0hyGVmCWqfpYikEEdxG-JK1pCkmbIDL236PrfwC7_HQ_-TUHXJQwXYXrqbyI1Ngmqh4FJzTE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:10pm",
+                            "2:00pm",
+                            "4:20pm",
+                            "6:45pm",
+                            "9:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Spinal Tap II: The End Continues",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Spinal+Tap+II:+The+End+Continues&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZkfUSUPsE9ogfqKR5jvwCid9CDBQ9UsLIpb1SwfLpHeLDzgvWSyNCemSfCNjA1M9JVBMf9KY0u5AR4emLtnTBsDKFXn3GpjE7yacz6ZHByD-EphmRyzpsR5CnX8tzJmM9nMxXs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:00pm",
+                            "3:00pm",
+                            "5:20pm",
+                            "7:45pm",
+                            "10:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Weapons",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "10:05pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Freakier Friday",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Freakier+Friday&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsePxZH56_HrONYWZ5Pq46US1o45QCTGH8RNC0NskHIUhJuQraP5OAAHXC-kPnjgz3GoRdf88MyR5ZREx9hnt_nKlLD3IEyXkm5GFaaAhEEs_IUdm1gldYFl8iaQ1bYe4yLUkSJg%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:55pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Hamilton",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Hamilton&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsUqnIP5QMa0HKuQaYhrIQkrUv6-2jrQK7N-evrSoITPvnvdRSpyxyauIWMaJ2mA_3vr8q1cRKHeUiKb5nt-NcoDQyQrT9g8-umX-Abaz-F3vDy2FwsBiA1KBJ6H6oZujVCaJhoo%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:30pm",
+                            "4:00pm",
+                            "9:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Caught Stealing",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Caught+Stealing&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTfrMkvLvP4hwOOpPLm8GDVj7KnGeBmpGH0_sm7ZJ45GR9JPDSKZDh-5NgXhmLcqTFDkhN1sFLIKDHqvKj4_CZQ5GQ_e6EqnvS4JbQq9sYc2jfJXtsJkLnvIABf-08yIPmv4lkY%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:45pm",
                             "4:30pm",
                             "6:35pm",
-                            "7:30pm",
-                            "9:35pm",
+                            "10:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Roses",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Roses&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZ0xwDsw1YGeZ5haVo1uK2OXG9_yOA3tyHlcbc4TI7uTA59aENENS-TUby4xxXpxOmLZzqJFWDgelcbi-2bcYcyEfyZftClKjqgxVCOuQ_QRrt6SNDwXw26inWisQbrrxUwPQac%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:15pm",
+                            "8:05pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Splitsville",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Splitsville&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsS_uO7Gh0f86NEZM-bUvt6iRArp6o-A1O7d7f1BfdTjHHIuPYE6IAV9DlU4ZTBwrwYZqI6YJ31M06DuIOmHZK9QqxqQck0upLnwhb9-lKR4CPJaXsEANZGxgEt7ImnfwQqstCYE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:45pm",
+                            "10:40pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Baltimorons",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Baltimorons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSI0ZqGZc2X3B4SfOLrarkkSOsAUfQjZGAAV-eQ-xI-3c9Q9RcZstPEOsq7HfGXYve2IhD4sQsAiahCPic5_pfWlwRpkVMfym29J81YOMzjADTaRCoqJL4OeNwghvNYODmuDUrk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:35pm",
+                            "7:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Twinless",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Twinless&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXseipGwPIPsKs36NJlxQWZBlHuaPg_ZUecZkj2vqJ-LnA5sbrZn_TGJ6xmYbhK89pGsHWNXYEe5rjN1J_9dzyG9c7PRzg9aBaeGGdTizfpIecGoOF8hbOrCRULbCpvdswe5YWJHs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:05pm",
+                            "2:45pm",
+                            "5:25pm",
+                            "8:00pm",
+                            "11:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Sat",
+        "date": "Sep 13",
+        "movies": [
+            {
+                "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRMJSBsQmrnhzHQDajy0iQvSfQacUbUTDzC5IOj0ZYoifg61TtVgizkguwWckx42U83_IihKBgjR9b6F7zNPbelRBWEeL9NYwzGXtUn-Rt5Qcmi6MSiU-Dq9zU75C6y9Dl1_Vc8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "10:00am",
+                            "3:00pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "11:00pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "9:00am",
+                            "12:30pm",
+                            "4:00pm",
+                            "7:30pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "11:30am",
+                            "1:30pm",
+                            "5:00pm",
+                            "6:30pm",
+                            "8:30pm",
+                            "10:00pm",
+                            "10:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Conjuring: Last Rites",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Conjuring:+Last+Rites&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsb-rG_dj5haxjMdgqKxU6O6AxhEplQG2Qz-plHse1z29vkL85oRQZ4yjd15btLMAKAcrJSxmzc3_1GfzdyfpMIMKVPKwEk9QzpcbpEOQ8WsNTyxxAwLStRNAEp-BEAelwmAC8To%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:30am",
+                            "11:20am",
+                            "12:50pm",
+                            "2:30pm",
+                            "4:10pm",
+                            "5:40pm",
+                            "7:25pm",
+                            "8:50pm",
+                            "10:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Downton Abbey: The Grand Finale",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsXDxMsYl7vjOonWNKWYOlRTYi7XmLDrxveYhbdDSnFHwUMwlU9WRWSj8kSqxWHNqPNq3Ual0URA053zxebKOG7PvcmRSblAnmDYtHAaYz5pRxLBQHyWuaNz6rskrvlkFYKn_69g%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:15am",
+                            "10:15am",
+                            "12:15pm",
+                            "1:15pm",
+                            "3:15pm",
+                            "4:15pm",
+                            "6:15pm",
+                            "7:15pm",
+                            "9:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Long Walk",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Long+Walk&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV1kCqTxTn3G1pyg07IBvHkLjue8KoFeJ7gSh2O5VxI3ulEIbMxjBdRA_zMJ9YzbB7TQSwfoakofC81cAyt4dndL4k3yy2uiRvT2Ii880ctdpZxxg-0zLw5ljCkB9rQG4LlGLpM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:10am",
+                            "12:00pm",
+                            "2:45pm",
+                            "5:30pm",
+                            "8:15pm",
+                            "11:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Toy Story 30th Anniversary",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Toy+Story+30th+Anniversary&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaYSBFiJUqH1g5TotLUsVmMA3prKMLEFGgsa3J9sjf6pRCnPB06PVRpWiMa1Hrp0hyGVmCWqfpYikEEdxG-JK1pCkmbIDL236PrfwC7_HQ_-TUHXJQwXYXrqbyI1Ngmqh4FJzTE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:00am",
+                            "9:45am",
+                            "12:10pm",
+                            "2:30pm",
+                            "4:50pm",
+                            "7:10pm",
+                            "9:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Spinal Tap II: The End Continues",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Spinal+Tap+II:+The+End+Continues&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZkfUSUPsE9ogfqKR5jvwCid9CDBQ9UsLIpb1SwfLpHeLDzgvWSyNCemSfCNjA1M9JVBMf9KY0u5AR4emLtnTBsDKFXn3GpjE7yacz6ZHByD-EphmRyzpsR5CnX8tzJmM9nMxXs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:00am",
+                            "10:40am",
+                            "12:30pm",
+                            "2:50pm",
+                            "5:15pm",
+                            "7:45pm",
                             "10:35pm"
                         ],
                         "type": "Standard"
@@ -279,141 +605,10 @@
             },
             {
                 "name": "Weapons",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D",
                 "showing": [
                     {
                         "time": [
-                            "10:25am",
-                            "11:45am",
-                            "3:00pm",
-                            "6:15pm",
-                            "9:25pm",
-                            "11:00pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "4:00pm",
-                            "7:15pm",
-                            "10:25pm"
-                        ],
-                        "type": "IMAX"
-                    }
-                ]
-            },
-            {
-                "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "11:15am",
-                            "12:00pm",
-                            "2:15pm",
-                            "4:10pm",
-                            "5:15pm",
-                            "7:10pm",
-                            "8:10pm",
-                            "10:00pm",
-                            "11:00pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "10:00am",
-                            "1:00pm"
-                        ],
-                        "type": "IMAX"
-                    }
-                ]
-            },
-            {
-                "name": "The Bad Guys 2",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Bad+Guys+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSBdH-eJjp7i_kYZrrqhYGmR1XSGwZd0ya30TCp_dximdGnUt1dJZgnt24S0M-Lgb90zzzs8vrGYudAPec7Qa6e8AQ_hGOzE4cp48cT463Zfevmz6VkFHrEITNqsmRNqrs6KOQM%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:05am",
-                            "12:45pm",
-                            "6:30pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "3:45pm",
-                            "9:15pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "The Naked Gun",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Naked+Gun&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV-GhducXxKmMcrTBCaYgovMAQovmWjK7Vd1L-ZTIpg5e7SmlMYyn_soaCeNSxRW8pGwOITZvfy_YVuHWgmCkwZicH5FBmBvDc014J7IK-yk67ZNMClaEnz5sKJ0pREuOiotd3Q%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:15am",
-                            "12:45pm",
-                            "3:15pm",
-                            "5:35pm",
-                            "8:00pm",
-                            "10:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Superman",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:10am",
-                            "11:45am",
-                            "9:10pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "2:50pm",
-                            "6:00pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "Sketch",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Sketch&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSaq4W6YeEf4t03JRUFGE3sWBmfSLkTJ0srqbki0Z1V_Os9eowr13g1w1lYwyRrp_OLi412gKAWEGmfF9WeLKbKEZg9LII5YztrWBrGbmrzw5UXjvCMbtC0FewMNRxbUh5QjqJg%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:45am",
-                            "1:30pm",
-                            "4:15pm",
-                            "7:25pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Together",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:05am",
-                            "1:05pm",
-                            "3:00pm",
-                            "5:40pm",
-                            "8:20pm",
                             "10:05pm"
                         ],
                         "type": "Standard"
@@ -421,84 +616,99 @@
                 ]
             },
             {
-                "name": "Jurassic World Rebirth",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D",
+                "name": "Freakier Friday",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Freakier+Friday&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsePxZH56_HrONYWZ5Pq46US1o45QCTGH8RNC0NskHIUhJuQraP5OAAHXC-kPnjgz3GoRdf88MyR5ZREx9hnt_nKlLD3IEyXkm5GFaaAhEEs_IUdm1gldYFl8iaQ1bYe4yLUkSJg%3D",
                 "showing": [
                     {
                         "time": [
-                            "2:50pm",
-                            "6:50pm"
+                            "10:10am",
+                            "1:05pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "F1",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
+                "name": "Hamilton",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Hamilton&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsUqnIP5QMa0HKuQaYhrIQkrUv6-2jrQK7N-evrSoITPvnvdRSpyxyauIWMaJ2mA_3vr8q1cRKHeUiKb5nt-NcoDQyQrT9g8-umX-Abaz-F3vDy2FwsBiA1KBJ6H6oZujVCaJhoo%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:05am",
-                            "1:15pm",
-                            "3:30pm",
-                            "6:10pm",
-                            "9:40pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "My Mother's Wedding",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=My+Mother%27s+Wedding&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsWqPxnSttPTdxQ7H6g3kJmoZdXcQsMbNXcf4SL1EemwL5zjOIs5cgEYrHAUjkQKd8H7IUWN941TfyKml14YqlCCjUG8of8gLRGHxkx01zC04tftfQc49-GF1QV55bRPJ_ClTXsQ%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:20am",
-                            "12:00pm",
-                            "2:35pm",
-                            "5:10pm",
-                            "7:45pm",
-                            "10:20pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Strange Harvest",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Strange+Harvest&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsWLAOo2QyqJ0Aemx-cnsxeMN5S9RykUqxK7gxVVduwhJqyinvkgzlt8QbQVNbri0CkVAIhglnC5v3WwXmkIxDj9W-k4KEgIBOz99UsYIZopp1qv5jcZw4yEiyuTSSBxsGxnsbEY%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:10pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Stans",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Stans&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsVRWyzModygZHrBLEPYQR3dvpaCPJvoIf8xh9OnBHX86k01rZwKbFZJBrAcLDkESifZRQRjJBiyQ8ZyIyTKqldhxX-vv4jaE6VesnRMYJs5KMcBBz1Ilu75R7xsKXMZWGaf3ZLs%3D",
-                "showing": [
-                    {
-                        "time": [
+                            "9:00am",
+                            "12:25pm",
+                            "4:00pm",
                             "7:00pm",
-                            "10:00pm"
+                            "9:30pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "Oh, Hi!",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Oh,+Hi!&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbWK41cXXKljD-5ylQLbnH0PnARSH1mQIMyXQX6A2VQ9ikuiP1rkfaGf38BmDA29PrFWSVM7dstGX1-ajFng_ewW_VcA4Q0Hvs5_ZhF5g_lcQKCRTKhxE2oZ4PdR5ufNZuOH3Wo%3D",
+                "name": "Caught Stealing",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Caught+Stealing&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTfrMkvLvP4hwOOpPLm8GDVj7KnGeBmpGH0_sm7ZJ45GR9JPDSKZDh-5NgXhmLcqTFDkhN1sFLIKDHqvKj4_CZQ5GQ_e6EqnvS4JbQq9sYc2jfJXtsJkLnvIABf-08yIPmv4lkY%3D",
                 "showing": [
                     {
                         "time": [
-                            "1:35pm",
-                            "4:50pm"
+                            "9:45am",
+                            "10:45am",
+                            "1:30pm",
+                            "4:15pm",
+                            "6:35pm",
+                            "11:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Roses",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Roses&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZ0xwDsw1YGeZ5haVo1uK2OXG9_yOA3tyHlcbc4TI7uTA59aENENS-TUby4xxXpxOmLZzqJFWDgelcbi-2bcYcyEfyZftClKjqgxVCOuQ_QRrt6SNDwXw26inWisQbrrxUwPQac%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:00pm",
+                            "8:05pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Splitsville",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Splitsville&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsS_uO7Gh0f86NEZM-bUvt6iRArp6o-A1O7d7f1BfdTjHHIuPYE6IAV9DlU4ZTBwrwYZqI6YJ31M06DuIOmHZK9QqxqQck0upLnwhb9-lKR4CPJaXsEANZGxgEt7ImnfwQqstCYE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:50pm",
+                            "10:40pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Baltimorons",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Baltimorons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSI0ZqGZc2X3B4SfOLrarkkSOsAUfQjZGAAV-eQ-xI-3c9Q9RcZstPEOsq7HfGXYve2IhD4sQsAiahCPic5_pfWlwRpkVMfym29J81YOMzjADTaRCoqJL4OeNwghvNYODmuDUrk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:25pm",
+                            "8:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Twinless",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Twinless&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXseipGwPIPsKs36NJlxQWZBlHuaPg_ZUecZkj2vqJ-LnA5sbrZn_TGJ6xmYbhK89pGsHWNXYEe5rjN1J_9dzyG9c7PRzg9aBaeGGdTizfpIecGoOF8hbOrCRULbCpvdswe5YWJHs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:50am",
+                            "4:20pm",
+                            "11:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -508,23 +718,135 @@
     },
     {
         "day": "Sun",
-        "date": "Aug 10",
+        "date": "Sep 14",
         "movies": [
             {
-                "name": "Freakier Friday",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Freakier+Friday&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsePxZH56_HrONYWZ5Pq46US1o45QCTGH8RNC0NskHIUhJuQraP5OAAHXC-kPnjgz3GoRdf88MyR5ZREx9hnt_nKlLD3IEyXkm5GFaaAhEEs_IUdm1gldYFl8iaQ1bYe4yLUkSJg%3D",
+                "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRMJSBsQmrnhzHQDajy0iQvSfQacUbUTDzC5IOj0ZYoifg61TtVgizkguwWckx42U83_IihKBgjR9b6F7zNPbelRBWEeL9NYwzGXtUn-Rt5Qcmi6MSiU-Dq9zU75C6y9Dl1_Vc8%3D",
                 "showing": [
                     {
                         "time": [
-                            "10:30am",
-                            "11:35am",
-                            "12:35pm",
+                            "3:00pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "11:00pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "9:00am",
+                            "12:30pm",
+                            "4:00pm",
+                            "7:30pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "10:00am",
+                            "11:20am",
                             "1:30pm",
-                            "3:30pm",
-                            "4:30pm",
+                            "5:00pm",
                             "6:30pm",
-                            "7:30pm",
-                            "9:20pm",
+                            "8:30pm",
+                            "10:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Conjuring: Last Rites",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Conjuring:+Last+Rites&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsb-rG_dj5haxjMdgqKxU6O6AxhEplQG2Qz-plHse1z29vkL85oRQZ4yjd15btLMAKAcrJSxmzc3_1GfzdyfpMIMKVPKwEk9QzpcbpEOQ8WsNTyxxAwLStRNAEp-BEAelwmAC8To%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:30am",
+                            "11:20am",
+                            "12:50pm",
+                            "2:30pm",
+                            "4:10pm",
+                            "5:40pm",
+                            "7:25pm",
+                            "8:50pm",
+                            "10:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Downton Abbey: The Grand Finale",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsXDxMsYl7vjOonWNKWYOlRTYi7XmLDrxveYhbdDSnFHwUMwlU9WRWSj8kSqxWHNqPNq3Ual0URA053zxebKOG7PvcmRSblAnmDYtHAaYz5pRxLBQHyWuaNz6rskrvlkFYKn_69g%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:15am",
+                            "10:15am",
+                            "12:15pm",
+                            "1:15pm",
+                            "3:15pm",
+                            "4:15pm",
+                            "6:15pm",
+                            "7:15pm",
+                            "9:15pm",
+                            "10:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Long Walk",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Long+Walk&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV1kCqTxTn3G1pyg07IBvHkLjue8KoFeJ7gSh2O5VxI3ulEIbMxjBdRA_zMJ9YzbB7TQSwfoakofC81cAyt4dndL4k3yy2uiRvT2Ii880ctdpZxxg-0zLw5ljCkB9rQG4LlGLpM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:10am",
+                            "12:00pm",
+                            "2:45pm",
+                            "5:30pm",
+                            "8:15pm",
+                            "11:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Toy Story 30th Anniversary",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Toy+Story+30th+Anniversary&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaYSBFiJUqH1g5TotLUsVmMA3prKMLEFGgsa3J9sjf6pRCnPB06PVRpWiMa1Hrp0hyGVmCWqfpYikEEdxG-JK1pCkmbIDL236PrfwC7_HQ_-TUHXJQwXYXrqbyI1Ngmqh4FJzTE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:00am",
+                            "9:45am",
+                            "12:10pm",
+                            "2:30pm",
+                            "4:50pm",
+                            "7:10pm",
+                            "9:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Spinal Tap II: The End Continues",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Spinal+Tap+II:+The+End+Continues&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZkfUSUPsE9ogfqKR5jvwCid9CDBQ9UsLIpb1SwfLpHeLDzgvWSyNCemSfCNjA1M9JVBMf9KY0u5AR4emLtnTBsDKFXn3GpjE7yacz6ZHByD-EphmRyzpsR5CnX8tzJmM9nMxXs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:00am",
+                            "10:40am",
+                            "12:30pm",
+                            "2:50pm",
+                            "5:15pm",
+                            "7:45pm",
                             "10:35pm"
                         ],
                         "type": "Standard"
@@ -533,196 +855,39 @@
             },
             {
                 "name": "Weapons",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D",
                 "showing": [
                     {
                         "time": [
-                            "10:15am",
-                            "11:45am",
-                            "3:00pm",
-                            "6:15pm",
-                            "9:35pm",
-                            "10:50pm"
+                            "10:05pm"
                         ],
                         "type": "Standard"
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Freakier Friday",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Freakier+Friday&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsePxZH56_HrONYWZ5Pq46US1o45QCTGH8RNC0NskHIUhJuQraP5OAAHXC-kPnjgz3GoRdf88MyR5ZREx9hnt_nKlLD3IEyXkm5GFaaAhEEs_IUdm1gldYFl8iaQ1bYe4yLUkSJg%3D",
+                "showing": [
                     {
                         "time": [
+                            "10:10am",
+                            "1:05pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Hamilton",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Hamilton&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsUqnIP5QMa0HKuQaYhrIQkrUv6-2jrQK7N-evrSoITPvnvdRSpyxyauIWMaJ2mA_3vr8q1cRKHeUiKb5nt-NcoDQyQrT9g8-umX-Abaz-F3vDy2FwsBiA1KBJ6H6oZujVCaJhoo%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:00am",
+                            "12:25pm",
                             "4:00pm",
-                            "7:15pm",
-                            "10:25pm"
-                        ],
-                        "type": "IMAX"
-                    }
-                ]
-            },
-            {
-                "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "11:00am",
-                            "12:15pm",
-                            "2:00pm",
-                            "3:45pm",
-                            "7:15pm",
-                            "8:00pm",
-                            "9:45pm",
-                            "10:30pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "10:00am",
-                            "1:00pm"
-                        ],
-                        "type": "IMAX"
-                    }
-                ]
-            },
-            {
-                "name": "The Bad Guys 2",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Bad+Guys+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSBdH-eJjp7i_kYZrrqhYGmR1XSGwZd0ya30TCp_dximdGnUt1dJZgnt24S0M-Lgb90zzzs8vrGYudAPec7Qa6e8AQ_hGOzE4cp48cT463Zfevmz6VkFHrEITNqsmRNqrs6KOQM%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:00pm",
-                            "5:00pm",
-                            "6:45pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "10:20am",
-                            "9:25pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "The Naked Gun",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Naked+Gun&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV-GhducXxKmMcrTBCaYgovMAQovmWjK7Vd1L-ZTIpg5e7SmlMYyn_soaCeNSxRW8pGwOITZvfy_YVuHWgmCkwZicH5FBmBvDc014J7IK-yk67ZNMClaEnz5sKJ0pREuOiotd3Q%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:15am",
-                            "12:45pm",
-                            "3:15pm",
-                            "5:35pm",
-                            "8:10pm",
-                            "9:15pm",
-                            "10:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Superman",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:05am",
-                            "12:50pm",
-                            "10:45pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "5:05pm",
-                            "7:40pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "Sketch",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Sketch&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSaq4W6YeEf4t03JRUFGE3sWBmfSLkTJ0srqbki0Z1V_Os9eowr13g1w1lYwyRrp_OLi412gKAWEGmfF9WeLKbKEZg9LII5YztrWBrGbmrzw5UXjvCMbtC0FewMNRxbUh5QjqJg%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:45am",
-                            "1:35pm",
-                            "4:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Together",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:10am",
-                            "1:20pm",
-                            "4:20pm",
-                            "6:45pm",
-                            "10:10pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Jurassic World Rebirth",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:10pm",
-                            "6:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "F1",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "11:35am",
-                            "3:15pm",
-                            "6:50pm",
-                            "10:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "My Mother's Wedding",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=My+Mother%27s+Wedding&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsWqPxnSttPTdxQ7H6g3kJmoZdXcQsMbNXcf4SL1EemwL5zjOIs5cgEYrHAUjkQKd8H7IUWN941TfyKml14YqlCCjUG8of8gLRGHxkx01zC04tftfQc49-GF1QV55bRPJ_ClTXsQ%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:10am",
-                            "12:00pm",
-                            "2:35pm",
-                            "5:10pm",
-                            "7:45pm",
-                            "10:20pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Strange Harvest",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Strange+Harvest&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsWLAOo2QyqJ0Aemx-cnsxeMN5S9RykUqxK7gxVVduwhJqyinvkgzlt8QbQVNbri0CkVAIhglnC5v3WwXmkIxDj9W-k4KEgIBOz99UsYIZopp1qv5jcZw4yEiyuTSSBxsGxnsbEY%3D",
-                "showing": [
-                    {
-                        "time": [
+                            "7:00pm",
                             "9:30pm"
                         ],
                         "type": "Standard"
@@ -730,39 +895,70 @@
                 ]
             },
             {
-                "name": "Grave of the Fireflies \u2013 Studio Ghibli Fest 2025",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Grave+of+the+Fireflies+%E2%80%93+Studio+Ghibli+Fest+2025&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscLdpB_IgOBUHVS7cetQ1gXJG1ww9N6xTGmrJ4luVknvMh1w4xQNKhUIK-ujBoOYbf4ERrnXg0fiboP5KDlidKgTzXjnu4iUgpTs3-pm76_qSf-EPaRFbm1jWmYDYWxxzRbK5Vc%3D",
+                "name": "Caught Stealing",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Caught+Stealing&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTfrMkvLvP4hwOOpPLm8GDVj7KnGeBmpGH0_sm7ZJ45GR9JPDSKZDh-5NgXhmLcqTFDkhN1sFLIKDHqvKj4_CZQ5GQ_e6EqnvS4JbQq9sYc2jfJXtsJkLnvIABf-08yIPmv4lkY%3D",
                 "showing": [
                     {
                         "time": [
-                            "4:00pm",
-                            "7:00pm"
+                            "9:45am",
+                            "10:45am",
+                            "1:30pm",
+                            "4:15pm",
+                            "6:35pm",
+                            "11:00pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "Stans",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Stans&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsVRWyzModygZHrBLEPYQR3dvpaCPJvoIf8xh9OnBHX86k01rZwKbFZJBrAcLDkESifZRQRjJBiyQ8ZyIyTKqldhxX-vv4jaE6VesnRMYJs5KMcBBz1Ilu75R7xsKXMZWGaf3ZLs%3D",
+                "name": "The Roses",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Roses&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZ0xwDsw1YGeZ5haVo1uK2OXG9_yOA3tyHlcbc4TI7uTA59aENENS-TUby4xxXpxOmLZzqJFWDgelcbi-2bcYcyEfyZftClKjqgxVCOuQ_QRrt6SNDwXw26inWisQbrrxUwPQac%3D",
                 "showing": [
                     {
                         "time": [
-                            "4:00pm",
-                            "7:00pm"
+                            "1:00pm",
+                            "8:05pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "Oh, Hi!",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Oh,+Hi!&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbWK41cXXKljD-5ylQLbnH0PnARSH1mQIMyXQX6A2VQ9ikuiP1rkfaGf38BmDA29PrFWSVM7dstGX1-ajFng_ewW_VcA4Q0Hvs5_ZhF5g_lcQKCRTKhxE2oZ4PdR5ufNZuOH3Wo%3D",
+                "name": "Splitsville",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Splitsville&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsS_uO7Gh0f86NEZM-bUvt6iRArp6o-A1O7d7f1BfdTjHHIuPYE6IAV9DlU4ZTBwrwYZqI6YJ31M06DuIOmHZK9QqxqQck0upLnwhb9-lKR4CPJaXsEANZGxgEt7ImnfwQqstCYE%3D",
                 "showing": [
                     {
                         "time": [
-                            "2:25pm",
-                            "3:25pm"
+                            "3:50pm",
+                            "10:40pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Baltimorons",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Baltimorons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSI0ZqGZc2X3B4SfOLrarkkSOsAUfQjZGAAV-eQ-xI-3c9Q9RcZstPEOsq7HfGXYve2IhD4sQsAiahCPic5_pfWlwRpkVMfym29J81YOMzjADTaRCoqJL4OeNwghvNYODmuDUrk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:25pm",
+                            "8:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Twinless",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Twinless&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXseipGwPIPsKs36NJlxQWZBlHuaPg_ZUecZkj2vqJ-LnA5sbrZn_TGJ6xmYbhK89pGsHWNXYEe5rjN1J_9dzyG9c7PRzg9aBaeGGdTizfpIecGoOF8hbOrCRULbCpvdswe5YWJHs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:50am",
+                            "4:20pm",
+                            "11:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -772,23 +968,124 @@
     },
     {
         "day": "Mon",
-        "date": "Aug 11",
+        "date": "Sep 15",
         "movies": [
             {
-                "name": "Freakier Friday",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Freakier+Friday&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsePxZH56_HrONYWZ5Pq46US1o45QCTGH8RNC0NskHIUhJuQraP5OAAHXC-kPnjgz3GoRdf88MyR5ZREx9hnt_nKlLD3IEyXkm5GFaaAhEEs_IUdm1gldYFl8iaQ1bYe4yLUkSJg%3D",
+                "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRMJSBsQmrnhzHQDajy0iQvSfQacUbUTDzC5IOj0ZYoifg61TtVgizkguwWckx42U83_IihKBgjR9b6F7zNPbelRBWEeL9NYwzGXtUn-Rt5Qcmi6MSiU-Dq9zU75C6y9Dl1_Vc8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:30pm",
+                            "2:30pm",
+                            "4:00pm",
+                            "8:00pm",
+                            "9:30pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "10:30pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "12:00pm",
+                            "3:30pm",
+                            "7:00pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "1:30pm",
+                            "6:00pm",
+                            "10:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Conjuring: Last Rites",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Conjuring:+Last+Rites&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsb-rG_dj5haxjMdgqKxU6O6AxhEplQG2Qz-plHse1z29vkL85oRQZ4yjd15btLMAKAcrJSxmzc3_1GfzdyfpMIMKVPKwEk9QzpcbpEOQ8WsNTyxxAwLStRNAEp-BEAelwmAC8To%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:45pm",
+                            "2:00pm",
+                            "4:30pm",
+                            "5:15pm",
+                            "7:45pm",
+                            "8:30pm",
+                            "10:40pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Downton Abbey: The Grand Finale",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsXDxMsYl7vjOonWNKWYOlRTYi7XmLDrxveYhbdDSnFHwUMwlU9WRWSj8kSqxWHNqPNq3Ual0URA053zxebKOG7PvcmRSblAnmDYtHAaYz5pRxLBQHyWuaNz6rskrvlkFYKn_69g%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:45pm",
+                            "2:00pm",
+                            "4:00pm",
+                            "5:00pm",
+                            "6:30pm",
+                            "7:30pm",
+                            "9:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Long Walk",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Long+Walk&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV1kCqTxTn3G1pyg07IBvHkLjue8KoFeJ7gSh2O5VxI3ulEIbMxjBdRA_zMJ9YzbB7TQSwfoakofC81cAyt4dndL4k3yy2uiRvT2Ii880ctdpZxxg-0zLw5ljCkB9rQG4LlGLpM%3D",
                 "showing": [
                     {
                         "time": [
                             "12:00pm",
-                            "1:30pm",
+                            "2:05pm",
+                            "5:15pm",
+                            "8:00pm",
+                            "11:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Toy Story 30th Anniversary",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Toy+Story+30th+Anniversary&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaYSBFiJUqH1g5TotLUsVmMA3prKMLEFGgsa3J9sjf6pRCnPB06PVRpWiMa1Hrp0hyGVmCWqfpYikEEdxG-JK1pCkmbIDL236PrfwC7_HQ_-TUHXJQwXYXrqbyI1Ngmqh4FJzTE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:10pm",
+                            "2:20pm",
+                            "4:40pm",
+                            "6:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Spinal Tap II: The End Continues",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Spinal+Tap+II:+The+End+Continues&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZkfUSUPsE9ogfqKR5jvwCid9CDBQ9UsLIpb1SwfLpHeLDzgvWSyNCemSfCNjA1M9JVBMf9KY0u5AR4emLtnTBsDKFXn3GpjE7yacz6ZHByD-EphmRyzpsR5CnX8tzJmM9nMxXs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:00pm",
                             "2:50pm",
-                            "3:10pm",
-                            "4:30pm",
-                            "6:00pm",
-                            "7:30pm",
-                            "9:35pm",
-                            "10:20pm"
+                            "4:50pm",
+                            "7:15pm",
+                            "9:35pm"
                         ],
                         "type": "Standard"
                     }
@@ -796,83 +1093,66 @@
             },
             {
                 "name": "Weapons",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:15am",
-                            "3:00pm",
-                            "6:15pm",
-                            "9:30pm"
+                            "9:40pm"
                         ],
                         "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "4:00pm",
-                            "7:15pm",
-                            "10:30pm"
-                        ],
-                        "type": "IMAX"
                     }
                 ]
             },
             {
-                "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
+                "name": "Hamilton",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Hamilton&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsUqnIP5QMa0HKuQaYhrIQkrUv6-2jrQK7N-evrSoITPvnvdRSpyxyauIWMaJ2mA_3vr8q1cRKHeUiKb5nt-NcoDQyQrT9g8-umX-Abaz-F3vDy2FwsBiA1KBJ6H6oZujVCaJhoo%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:00am",
-                            "2:00pm",
-                            "4:05pm",
-                            "5:00pm",
-                            "8:00pm",
-                            "10:00pm",
+                            "12:15pm",
+                            "2:50pm",
+                            "7:40pm",
+                            "9:10pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Caught Stealing",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Caught+Stealing&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTfrMkvLvP4hwOOpPLm8GDVj7KnGeBmpGH0_sm7ZJ45GR9JPDSKZDh-5NgXhmLcqTFDkhN1sFLIKDHqvKj4_CZQ5GQ_e6EqnvS4JbQq9sYc2jfJXtsJkLnvIABf-08yIPmv4lkY%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:25pm",
+                            "2:35pm",
+                            "5:20pm",
+                            "8:10pm",
                             "11:00pm"
                         ],
                         "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "1:00pm"
-                        ],
-                        "type": "IMAX"
                     }
                 ]
             },
             {
-                "name": "The Bad Guys 2",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Bad+Guys+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSBdH-eJjp7i_kYZrrqhYGmR1XSGwZd0ya30TCp_dximdGnUt1dJZgnt24S0M-Lgb90zzzs8vrGYudAPec7Qa6e8AQ_hGOzE4cp48cT463Zfevmz6VkFHrEITNqsmRNqrs6KOQM%3D",
+                "name": "The Roses",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Roses&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZ0xwDsw1YGeZ5haVo1uK2OXG9_yOA3tyHlcbc4TI7uTA59aENENS-TUby4xxXpxOmLZzqJFWDgelcbi-2bcYcyEfyZftClKjqgxVCOuQ_QRrt6SNDwXw26inWisQbrrxUwPQac%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:35am",
-                            "12:55pm",
-                            "6:30pm"
+                            "12:00pm"
                         ],
                         "type": "Standard"
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Splitsville",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Splitsville&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsS_uO7Gh0f86NEZM-bUvt6iRArp6o-A1O7d7f1BfdTjHHIuPYE6IAV9DlU4ZTBwrwYZqI6YJ31M06DuIOmHZK9QqxqQck0upLnwhb9-lKR4CPJaXsEANZGxgEt7ImnfwQqstCYE%3D",
+                "showing": [
                     {
                         "time": [
                             "3:45pm",
-                            "9:15pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "The Naked Gun",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Naked+Gun&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV-GhducXxKmMcrTBCaYgovMAQovmWjK7Vd1L-ZTIpg5e7SmlMYyn_soaCeNSxRW8pGwOITZvfy_YVuHWgmCkwZicH5FBmBvDc014J7IK-yk67ZNMClaEnz5sKJ0pREuOiotd3Q%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "11:05am",
-                            "2:20pm",
-                            "4:40pm",
-                            "5:45pm",
-                            "8:15pm",
                             "10:45pm"
                         ],
                         "type": "Standard"
@@ -880,133 +1160,28 @@
                 ]
             },
             {
-                "name": "Superman",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
+                "name": "The Baltimorons",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Baltimorons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSI0ZqGZc2X3B4SfOLrarkkSOsAUfQjZGAAV-eQ-xI-3c9Q9RcZstPEOsq7HfGXYve2IhD4sQsAiahCPic5_pfWlwRpkVMfym29J81YOMzjADTaRCoqJL4OeNwghvNYODmuDUrk%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:30am",
-                            "2:10pm",
-                            "7:50pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "4:35pm",
-                            "11:00pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "Sketch",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Sketch&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSaq4W6YeEf4t03JRUFGE3sWBmfSLkTJ0srqbki0Z1V_Os9eowr13g1w1lYwyRrp_OLi412gKAWEGmfF9WeLKbKEZg9LII5YztrWBrGbmrzw5UXjvCMbtC0FewMNRxbUh5QjqJg%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "12:30pm",
-                            "2:15pm",
-                            "5:00pm",
-                            "7:40pm"
+                            "5:10pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "Together",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
+                "name": "Twinless",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Twinless&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXseipGwPIPsKs36NJlxQWZBlHuaPg_ZUecZkj2vqJ-LnA5sbrZn_TGJ6xmYbhK89pGsHWNXYEe5rjN1J_9dzyG9c7PRzg9aBaeGGdTizfpIecGoOF8hbOrCRULbCpvdswe5YWJHs%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:20am",
-                            "2:45pm",
-                            "5:25pm",
-                            "8:05pm",
-                            "10:50pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Jurassic World Rebirth",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "5:15pm",
-                            "8:50pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "F1",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "12:30pm",
-                            "3:25pm",
-                            "8:25pm",
-                            "10:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "My Mother's Wedding",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=My+Mother%27s+Wedding&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsWqPxnSttPTdxQ7H6g3kJmoZdXcQsMbNXcf4SL1EemwL5zjOIs5cgEYrHAUjkQKd8H7IUWN941TfyKml14YqlCCjUG8of8gLRGHxkx01zC04tftfQc49-GF1QV55bRPJ_ClTXsQ%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "12:00pm",
-                            "2:35pm",
-                            "5:10pm",
-                            "7:45pm",
-                            "10:20pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Strange Harvest",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Strange+Harvest&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsWLAOo2QyqJ0Aemx-cnsxeMN5S9RykUqxK7gxVVduwhJqyinvkgzlt8QbQVNbri0CkVAIhglnC5v3WwXmkIxDj9W-k4KEgIBOz99UsYIZopp1qv5jcZw4yEiyuTSSBxsGxnsbEY%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "9:50pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Grave of the Fireflies \u2013 Studio Ghibli Fest 2025",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Grave+of+the+Fireflies+%E2%80%93+Studio+Ghibli+Fest+2025&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscLdpB_IgOBUHVS7cetQ1gXJG1ww9N6xTGmrJ4luVknvMh1w4xQNKhUIK-ujBoOYbf4ERrnXg0fiboP5KDlidKgTzXjnu4iUgpTs3-pm76_qSf-EPaRFbm1jWmYDYWxxzRbK5Vc%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "7:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "The Secret Life of Pets",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Secret+Life+of+Pets&si=AMgyJEvDuNtoSwOZKIBwvGbcU1F1FVeZFQNcnfDC5bzupeNMhcFP1_lDUxfJNCPK_TJvMSPb4Q-Fjkava0hDw6TSTBHdlTPhwICqhFHk1mopFqBQ84L8us0VdkGySv8XLgj1Mg9Ecu0XpfU6ehsu6Vlhw08che3Cbhi2Aq_gKW8wFxnF87xkz6A%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "11:00am",
-                            "2:00pm"
+                            "12:15pm",
+                            "3:10pm",
+                            "5:45pm",
+                            "8:20pm",
+                            "10:55pm"
                         ],
                         "type": "Standard"
                     }
@@ -1014,7 +1189,7 @@
             },
             {
                 "name": "AMC Screen Unseen",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=AMC+Screen+Unseen&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsUHvv-hVXEFClIZyuVZZsgS6gBZwBc6zVqi1ytcZJw29IngCviMghMHFBl9TQMrGJGCUpPvD_iplIjGYgxumch-qcKuO6k6AR4J7sRynSUYiGfUZxObB1Z9YRKqZtcvmXZlZpZo%3D",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=AMC+Screen+Unseen&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsUHvv-hVXEFClIZyuVZZsgS6gBZwBc6zVqi1ytcZJw29IngCviMghMHFBl9TQMrGJGCUpPvD_iplIjGYgxumch-qcKuO6k6AR4J7sRynSUYiGfUZxObB1Z9YRKqZtcvmXZlZpZo%3D",
                 "showing": [
                     {
                         "time": [
@@ -1028,23 +1203,124 @@
     },
     {
         "day": "Tue",
-        "date": "Aug 12",
+        "date": "Sep 16",
         "movies": [
             {
-                "name": "Freakier Friday",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Freakier+Friday&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsePxZH56_HrONYWZ5Pq46US1o45QCTGH8RNC0NskHIUhJuQraP5OAAHXC-kPnjgz3GoRdf88MyR5ZREx9hnt_nKlLD3IEyXkm5GFaaAhEEs_IUdm1gldYFl8iaQ1bYe4yLUkSJg%3D",
+                "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRMJSBsQmrnhzHQDajy0iQvSfQacUbUTDzC5IOj0ZYoifg61TtVgizkguwWckx42U83_IihKBgjR9b6F7zNPbelRBWEeL9NYwzGXtUn-Rt5Qcmi6MSiU-Dq9zU75C6y9Dl1_Vc8%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:45am",
-                            "12:30pm",
-                            "1:30pm",
-                            "3:30pm",
-                            "4:30pm",
-                            "6:30pm",
-                            "7:30pm",
-                            "9:20pm",
+                            "2:30pm",
+                            "4:30pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
                             "10:30pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "12:00pm",
+                            "3:30pm",
+                            "7:00pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "1:00pm",
+                            "6:00pm",
+                            "8:00pm",
+                            "9:30pm",
+                            "11:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Conjuring: Last Rites",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Conjuring:+Last+Rites&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsb-rG_dj5haxjMdgqKxU6O6AxhEplQG2Qz-plHse1z29vkL85oRQZ4yjd15btLMAKAcrJSxmzc3_1GfzdyfpMIMKVPKwEk9QzpcbpEOQ8WsNTyxxAwLStRNAEp-BEAelwmAC8To%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:50pm",
+                            "2:20pm",
+                            "4:10pm",
+                            "5:30pm",
+                            "7:25pm",
+                            "8:45pm",
+                            "10:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Downton Abbey: The Grand Finale",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsXDxMsYl7vjOonWNKWYOlRTYi7XmLDrxveYhbdDSnFHwUMwlU9WRWSj8kSqxWHNqPNq3Ual0URA053zxebKOG7PvcmRSblAnmDYtHAaYz5pRxLBQHyWuaNz6rskrvlkFYKn_69g%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:15pm",
+                            "2:00pm",
+                            "3:15pm",
+                            "5:00pm",
+                            "6:15pm",
+                            "8:00pm",
+                            "9:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Long Walk",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Long+Walk&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV1kCqTxTn3G1pyg07IBvHkLjue8KoFeJ7gSh2O5VxI3ulEIbMxjBdRA_zMJ9YzbB7TQSwfoakofC81cAyt4dndL4k3yy2uiRvT2Ii880ctdpZxxg-0zLw5ljCkB9rQG4LlGLpM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:50pm",
+                            "2:25pm",
+                            "5:30pm",
+                            "8:15pm",
+                            "11:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Toy Story 30th Anniversary",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Toy+Story+30th+Anniversary&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaYSBFiJUqH1g5TotLUsVmMA3prKMLEFGgsa3J9sjf6pRCnPB06PVRpWiMa1Hrp0hyGVmCWqfpYikEEdxG-JK1pCkmbIDL236PrfwC7_HQ_-TUHXJQwXYXrqbyI1Ngmqh4FJzTE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:10pm",
+                            "2:00pm",
+                            "4:20pm",
+                            "6:45pm",
+                            "9:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Spinal Tap II: The End Continues",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Spinal+Tap+II:+The+End+Continues&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZkfUSUPsE9ogfqKR5jvwCid9CDBQ9UsLIpb1SwfLpHeLDzgvWSyNCemSfCNjA1M9JVBMf9KY0u5AR4emLtnTBsDKFXn3GpjE7yacz6ZHByD-EphmRyzpsR5CnX8tzJmM9nMxXs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:00pm",
+                            "2:15pm",
+                            "4:45pm",
+                            "7:15pm",
+                            "10:20pm"
                         ],
                         "type": "Standard"
                     }
@@ -1052,85 +1328,77 @@
             },
             {
                 "name": "Weapons",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:45am",
-                            "3:00pm",
-                            "6:15pm",
-                            "9:30pm",
-                            "11:00pm"
+                            "9:40pm"
                         ],
                         "type": "Standard"
-                    },
+                    }
+                ]
+            },
+            {
+                "name": "Freakier Friday",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Freakier+Friday&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsePxZH56_HrONYWZ5Pq46US1o45QCTGH8RNC0NskHIUhJuQraP5OAAHXC-kPnjgz3GoRdf88MyR5ZREx9hnt_nKlLD3IEyXkm5GFaaAhEEs_IUdm1gldYFl8iaQ1bYe4yLUkSJg%3D",
+                "showing": [
                     {
                         "time": [
+                            "1:20pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Hamilton",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Hamilton&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsUqnIP5QMa0HKuQaYhrIQkrUv6-2jrQK7N-evrSoITPvnvdRSpyxyauIWMaJ2mA_3vr8q1cRKHeUiKb5nt-NcoDQyQrT9g8-umX-Abaz-F3vDy2FwsBiA1KBJ6H6oZujVCaJhoo%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:30pm",
                             "4:00pm",
-                            "7:15pm",
-                            "10:20pm"
-                        ],
-                        "type": "IMAX"
-                    }
-                ]
-            },
-            {
-                "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "12:00pm",
-                            "2:10pm",
-                            "3:00pm",
-                            "5:00pm",
-                            "6:00pm",
-                            "8:00pm",
-                            "9:00pm",
-                            "11:00pm"
+                            "7:00pm",
+                            "9:30pm"
                         ],
                         "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "1:00pm"
-                        ],
-                        "type": "IMAX"
                     }
                 ]
             },
             {
-                "name": "The Bad Guys 2",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Bad+Guys+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSBdH-eJjp7i_kYZrrqhYGmR1XSGwZd0ya30TCp_dximdGnUt1dJZgnt24S0M-Lgb90zzzs8vrGYudAPec7Qa6e8AQ_hGOzE4cp48cT463Zfevmz6VkFHrEITNqsmRNqrs6KOQM%3D",
+                "name": "Caught Stealing",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Caught+Stealing&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTfrMkvLvP4hwOOpPLm8GDVj7KnGeBmpGH0_sm7ZJ45GR9JPDSKZDh-5NgXhmLcqTFDkhN1sFLIKDHqvKj4_CZQ5GQ_e6EqnvS4JbQq9sYc2jfJXtsJkLnvIABf-08yIPmv4lkY%3D",
                 "showing": [
                     {
                         "time": [
-                            "12:45pm",
-                            "9:00pm"
+                            "1:15pm",
+                            "4:15pm",
+                            "6:35pm",
+                            "10:35pm"
                         ],
                         "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "3:25pm",
-                            "6:10pm"
-                        ],
-                        "type": "3D"
                     }
                 ]
             },
             {
-                "name": "The Naked Gun",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Naked+Gun&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV-GhducXxKmMcrTBCaYgovMAQovmWjK7Vd1L-ZTIpg5e7SmlMYyn_soaCeNSxRW8pGwOITZvfy_YVuHWgmCkwZicH5FBmBvDc014J7IK-yk67ZNMClaEnz5sKJ0pREuOiotd3Q%3D",
+                "name": "The Roses",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Roses&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZ0xwDsw1YGeZ5haVo1uK2OXG9_yOA3tyHlcbc4TI7uTA59aENENS-TUby4xxXpxOmLZzqJFWDgelcbi-2bcYcyEfyZftClKjqgxVCOuQ_QRrt6SNDwXw26inWisQbrrxUwPQac%3D",
                 "showing": [
                     {
                         "time": [
-                            "11:50am",
-                            "1:20pm",
-                            "3:25pm",
-                            "5:45pm",
-                            "8:15pm",
-                            "9:40pm",
+                            "8:05pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Splitsville",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Splitsville&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsS_uO7Gh0f86NEZM-bUvt6iRArp6o-A1O7d7f1BfdTjHHIuPYE6IAV9DlU4ZTBwrwYZqI6YJ31M06DuIOmHZK9QqxqQck0upLnwhb9-lKR4CPJaXsEANZGxgEt7ImnfwQqstCYE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:50pm",
                             "10:40pm"
                         ],
                         "type": "Standard"
@@ -1138,131 +1406,29 @@
                 ]
             },
             {
-                "name": "Superman",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
+                "name": "The Baltimorons",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Baltimorons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSI0ZqGZc2X3B4SfOLrarkkSOsAUfQjZGAAV-eQ-xI-3c9Q9RcZstPEOsq7HfGXYve2IhD4sQsAiahCPic5_pfWlwRpkVMfym29J81YOMzjADTaRCoqJL4OeNwghvNYODmuDUrk%3D",
                 "showing": [
                     {
                         "time": [
-                            "3:45pm",
-                            "10:35pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "12:15pm",
-                            "7:25pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "Sketch",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Sketch&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSaq4W6YeEf4t03JRUFGE3sWBmfSLkTJ0srqbki0Z1V_Os9eowr13g1w1lYwyRrp_OLi412gKAWEGmfF9WeLKbKEZg9LII5YztrWBrGbmrzw5UXjvCMbtC0FewMNRxbUh5QjqJg%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:50pm",
-                            "4:25pm",
-                            "7:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Together",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "12:35pm",
-                            "2:05pm",
-                            "4:45pm",
-                            "8:20pm",
-                            "11:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Jurassic World Rebirth",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Jurassic+World+Rebirth&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsYVAeQd8p-ohabjDmJo3pf-6kG22wQdoNvjYE9QvQ31wz9RbxeLzu3PqDKS876Qv_d8O2uHLOT4rHA05cbqjyZkAOSjsH40rY8WIXMxPO7oKNogVL943XC1HDmgvwIKukGqt1HA%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "4:40pm",
-                            "7:50pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "F1",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:05pm",
-                            "2:35pm",
-                            "6:05pm",
-                            "9:35pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "My Mother's Wedding",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=My+Mother%27s+Wedding&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsWqPxnSttPTdxQ7H6g3kJmoZdXcQsMbNXcf4SL1EemwL5zjOIs5cgEYrHAUjkQKd8H7IUWN941TfyKml14YqlCCjUG8of8gLRGHxkx01zC04tftfQc49-GF1QV55bRPJ_ClTXsQ%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "12:00pm",
-                            "2:40pm",
                             "5:10pm",
-                            "7:45pm",
-                            "10:20pm"
+                            "7:45pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "Strange Harvest",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Strange+Harvest&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsWLAOo2QyqJ0Aemx-cnsxeMN5S9RykUqxK7gxVVduwhJqyinvkgzlt8QbQVNbri0CkVAIhglnC5v3WwXmkIxDj9W-k4KEgIBOz99UsYIZopp1qv5jcZw4yEiyuTSSBxsGxnsbEY%3D",
+                "name": "Twinless",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Twinless&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXseipGwPIPsKs36NJlxQWZBlHuaPg_ZUecZkj2vqJ-LnA5sbrZn_TGJ6xmYbhK89pGsHWNXYEe5rjN1J_9dzyG9c7PRzg9aBaeGGdTizfpIecGoOF8hbOrCRULbCpvdswe5YWJHs%3D",
                 "showing": [
                     {
                         "time": [
-                            "9:45pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Grave of the Fireflies \u2013 Studio Ghibli Fest 2025",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Grave+of+the+Fireflies+%E2%80%93+Studio+Ghibli+Fest+2025&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscLdpB_IgOBUHVS7cetQ1gXJG1ww9N6xTGmrJ4luVknvMh1w4xQNKhUIK-ujBoOYbf4ERrnXg0fiboP5KDlidKgTzXjnu4iUgpTs3-pm76_qSf-EPaRFbm1jWmYDYWxxzRbK5Vc%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "7:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Oh, Hi!",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Oh,+Hi!&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbWK41cXXKljD-5ylQLbnH0PnARSH1mQIMyXQX6A2VQ9ikuiP1rkfaGf38BmDA29PrFWSVM7dstGX1-ajFng_ewW_VcA4Q0Hvs5_ZhF5g_lcQKCRTKhxE2oZ4PdR5ufNZuOH3Wo%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:15pm",
-                            "5:50pm"
+                            "12:10pm",
+                            "2:45pm",
+                            "5:25pm",
+                            "8:00pm",
+                            "11:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -1272,299 +1438,33 @@
     },
     {
         "day": "Wed",
-        "date": "Aug 13",
+        "date": "Sep 17",
         "movies": [
             {
-                "name": "Freakier Friday",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Freakier+Friday&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsePxZH56_HrONYWZ5Pq46US1o45QCTGH8RNC0NskHIUhJuQraP5OAAHXC-kPnjgz3GoRdf88MyR5ZREx9hnt_nKlLD3IEyXkm5GFaaAhEEs_IUdm1gldYFl8iaQ1bYe4yLUkSJg%3D",
+                "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsRMJSBsQmrnhzHQDajy0iQvSfQacUbUTDzC5IOj0ZYoifg61TtVgizkguwWckx42U83_IihKBgjR9b6F7zNPbelRBWEeL9NYwzGXtUn-Rt5Qcmi6MSiU-Dq9zU75C6y9Dl1_Vc8%3D",
                 "showing": [
                     {
                         "time": [
                             "12:30pm",
-                            "1:25pm",
-                            "3:30pm",
-                            "4:30pm",
-                            "6:30pm",
-                            "7:30pm",
-                            "9:30pm",
-                            "10:20pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Weapons",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "12:15pm",
-                            "1:40pm",
-                            "4:45pm",
-                            "6:50pm",
-                            "10:00pm",
-                            "10:50pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "3:45pm",
-                            "10:35pm"
-                        ],
-                        "type": "IMAX"
-                    }
-                ]
-            },
-            {
-                "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "2:45pm",
-                            "4:00pm",
-                            "8:00pm",
-                            "10:00pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "12:45pm"
-                        ],
-                        "type": "IMAX"
-                    }
-                ]
-            },
-            {
-                "name": "The Bad Guys 2",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Bad+Guys+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSBdH-eJjp7i_kYZrrqhYGmR1XSGwZd0ya30TCp_dximdGnUt1dJZgnt24S0M-Lgb90zzzs8vrGYudAPec7Qa6e8AQ_hGOzE4cp48cT463Zfevmz6VkFHrEITNqsmRNqrs6KOQM%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "12:05pm",
-                            "1:15pm",
-                            "4:40pm",
-                            "7:20pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "2:45pm",
-                            "9:45pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "The Naked Gun",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Naked+Gun&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV-GhducXxKmMcrTBCaYgovMAQovmWjK7Vd1L-ZTIpg5e7SmlMYyn_soaCeNSxRW8pGwOITZvfy_YVuHWgmCkwZicH5FBmBvDc014J7IK-yk67ZNMClaEnz5sKJ0pREuOiotd3Q%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:40pm",
-                            "3:25pm",
-                            "5:50pm",
-                            "8:15pm",
-                            "10:55pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Superman",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Superman&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsexviHEXoMErFoCXbdlHq0RPZTbPaoC2hoU2NgmIitrMu23yNoLD83Z2Zo2SUWj50bDopYCEwUW-7YNwizdRJwpyCJDJWPzj1nF-Y8vklN2BhqbexUeDG9tpFyBdmOl4qTzE1Pw%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "4:45pm",
-                            "10:10pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "12:35pm",
-                            "7:50pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "Sketch",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Sketch&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSaq4W6YeEf4t03JRUFGE3sWBmfSLkTJ0srqbki0Z1V_Os9eowr13g1w1lYwyRrp_OLi412gKAWEGmfF9WeLKbKEZg9LII5YztrWBrGbmrzw5UXjvCMbtC0FewMNRxbUh5QjqJg%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:50pm",
-                            "4:25pm",
-                            "7:10pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Together",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Together&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsQrKnVlHymfLOehVrLD_WHjLvMdwWk_JAZBCysWRTESMC5YkO8DYel24qqyO2q8FWgl2uOb2wfvBkYKrZuFzMkz9L02IeNDWvU0BRcqf5LeLOMcB8i2FqQI6SZXAP0ERksu4XrI%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "12:00pm",
-                            "3:40pm",
-                            "5:40pm",
-                            "8:20pm",
+                            "2:30pm",
                             "11:00pm"
                         ],
                         "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Shin Godzilla 4K",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Shin+Godzilla+4K&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsVmPvSuZCEfz911cg28hE2mYgfyoi57pFp65n9wUQSGjprajAWNiNoEjxSKXuol_4Fdkj8L1ketq1_UJwBaEejHTG9VA7qVbs5lMmFumnACEPn2QlJd2wTK0pv58S1nI_PVXP90%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "4:00pm",
-                            "7:00pm"
-                        ],
-                        "type": "4K"
-                    }
-                ]
-            },
-            {
-                "name": "F1",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=F1&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTP9Yhdu8mhfEK21FEJjd-xqcxitFm50MVOc2OjFzniEKkLTdzRLxAOxPngUw09yMQhRDo3vAqHyRuvmMLbLgZHCG8zRxPtK37GyjH9IhbPA3e6lzXuMLr0RHsxIR5U38xn1Gn0%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:15pm",
-                            "10:05pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "My Mother's Wedding",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=My+Mother%27s+Wedding&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsWqPxnSttPTdxQ7H6g3kJmoZdXcQsMbNXcf4SL1EemwL5zjOIs5cgEYrHAUjkQKd8H7IUWN941TfyKml14YqlCCjUG8of8gLRGHxkx01zC04tftfQc49-GF1QV55bRPJ_ClTXsQ%3D",
-                "showing": [
+                    },
                     {
                         "time": [
                             "12:00pm",
-                            "2:35pm",
-                            "5:10pm",
-                            "7:45pm",
-                            "10:20pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "War 2",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=War+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZvUPkSpdUVQGh4PK09b_65ESCUAse67LqJYQFneKT56_obuXNLOZsT1hdStu5z8Ix_NTzb2-f2HftTV6pKG-23kGi99juo_iEbWzY1IEHcKIQ9QaE0IeBszxrI_YfBgK86NNCY%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "5:30pm",
-                            "6:20pm",
-                            "9:20pm",
-                            "10:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Strange Harvest",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Strange+Harvest&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsWLAOo2QyqJ0Aemx-cnsxeMN5S9RykUqxK7gxVVduwhJqyinvkgzlt8QbQVNbri0CkVAIhglnC5v3WwXmkIxDj9W-k4KEgIBOz99UsYIZopp1qv5jcZw4yEiyuTSSBxsGxnsbEY%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:40pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "The Grateful Dead Movie 2025 Meet-Up",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Grateful+Dead+Movie+2025+Meet-Up&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsR25YbqTtkwFeFYyUcxvhmTGNBQDVzCgbruOEuvvVpGKThWKmdmqHsXgIQz7X8ECB58bdAEXiVDSn6-WdO2NuhfEAlK38-NOpdzIvZvjRJiTozybdvSZUfBDYhrokXPAoNkBPec%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "7:00pm"
-                        ],
-                        "type": "IMAX"
-                    }
-                ]
-            },
-            {
-                "name": "The Secret Life of Pets",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Secret+Life+of+Pets&si=AMgyJEvDuNtoSwOZKIBwvGbcU1F1FVeZFQNcnfDC5bzupeNMhcFP1_lDUxfJNCPK_TJvMSPb4Q-Fjkava0hDw6TSTBHdlTPhwICqhFHk1mopFqBQ84L8us0VdkGySv8XLgj1Mg9Ecu0XpfU6ehsu6Vlhw08che3Cbhi2Aq_gKW8wFxnF87xkz6A%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "11:40am",
-                            "2:10pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "day": "Thu",
-        "date": "Aug 14",
-        "movies": [
-            {
-                "name": "Weapons",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "12:45pm",
-                            "4:00pm",
-                            "7:15pm",
-                            "10:25pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "The Fantastic Four: First Steps",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Fantastic+Four:+First+Steps&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbyc6eqpm09zsUu5hK9gPwQhzMkOBomrvOyUPWiET0uL0TBskeEyT6wiPax7wIAPCiYyPfdzCggkJ9VF1W1gw_JpCmew6e1x9V5qTalnAVZZuQ11HwKNcGGMqpp1dza6cEMSHXE%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:30pm",
-                            "4:30pm",
-                            "7:30pm",
+                            "3:30pm",
                             "10:30pm"
                         ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Nobody 2",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Nobody+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbf8r8i6rIPEijxWjudaLiIqrjYoDB76gXPRWcFpwrvsNt4fNfkblKtHQBbdBaCbDbhJE6QnfZ-BSt3zsz9q0Nn1zpytaEo5ooAS3oqvMBeOeAmVaPl1r0LIbwNjq0pqFre61Dk%3D",
-                "showing": [
+                        "type": "IMAX"
+                    },
                     {
                         "time": [
-                            "2:00pm",
-                            "4:30pm",
-                            "7:00pm",
+                            "4:00pm",
+                            "6:00pm",
+                            "7:30pm",
                             "9:30pm"
                         ],
                         "type": "Standard"
@@ -1572,85 +1472,164 @@
                 ]
             },
             {
-                "name": "Shin Godzilla 4K",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Shin+Godzilla+4K&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsVmPvSuZCEfz911cg28hE2mYgfyoi57pFp65n9wUQSGjprajAWNiNoEjxSKXuol_4Fdkj8L1ketq1_UJwBaEejHTG9VA7qVbs5lMmFumnACEPn2QlJd2wTK0pv58S1nI_PVXP90%3D",
+                "name": "The Conjuring: Last Rites",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Conjuring:+Last+Rites&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsb-rG_dj5haxjMdgqKxU6O6AxhEplQG2Qz-plHse1z29vkL85oRQZ4yjd15btLMAKAcrJSxmzc3_1GfzdyfpMIMKVPKwEk9QzpcbpEOQ8WsNTyxxAwLStRNAEp-BEAelwmAC8To%3D",
                 "showing": [
                     {
                         "time": [
-                            "1:00pm",
-                            "4:00pm",
-                            "7:00pm",
-                            "10:00pm"
-                        ],
-                        "type": "4K"
-                    }
-                ]
-            },
-            {
-                "name": "My Mother's Wedding",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=My+Mother%27s+Wedding&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsWqPxnSttPTdxQ7H6g3kJmoZdXcQsMbNXcf4SL1EemwL5zjOIs5cgEYrHAUjkQKd8H7IUWN941TfyKml14YqlCCjUG8of8gLRGHxkx01zC04tftfQc49-GF1QV55bRPJ_ClTXsQ%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "12:00pm",
-                            "2:35pm",
-                            "5:10pm",
-                            "7:45pm",
-                            "10:20pm"
+                            "12:25pm",
+                            "2:25pm",
+                            "4:15pm",
+                            "5:35pm",
+                            "6:25pm",
+                            "8:45pm",
+                            "10:15pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "War 2",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=War+2&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZvUPkSpdUVQGh4PK09b_65ESCUAse67LqJYQFneKT56_obuXNLOZsT1hdStu5z8Ix_NTzb2-f2HftTV6pKG-23kGi99juo_iEbWzY1IEHcKIQ9QaE0IeBszxrI_YfBgK86NNCY%3D",
+                "name": "Downton Abbey: The Grand Finale",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsXDxMsYl7vjOonWNKWYOlRTYi7XmLDrxveYhbdDSnFHwUMwlU9WRWSj8kSqxWHNqPNq3Ual0URA053zxebKOG7PvcmRSblAnmDYtHAaYz5pRxLBQHyWuaNz6rskrvlkFYKn_69g%3D",
                 "showing": [
                     {
                         "time": [
                             "12:15pm",
-                            "4:10pm",
+                            "1:15pm",
+                            "2:00pm",
+                            "4:15pm",
+                            "5:00pm",
+                            "7:15pm",
+                            "8:00pm",
+                            "10:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Long Walk",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Long+Walk&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsV1kCqTxTn3G1pyg07IBvHkLjue8KoFeJ7gSh2O5VxI3ulEIbMxjBdRA_zMJ9YzbB7TQSwfoakofC81cAyt4dndL4k3yy2uiRvT2Ii880ctdpZxxg-0zLw5ljCkB9rQG4LlGLpM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:00pm",
+                            "2:45pm",
+                            "4:30pm",
+                            "7:30pm",
+                            "10:25pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Toy Story 30th Anniversary",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Toy+Story+30th+Anniversary&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsaYSBFiJUqH1g5TotLUsVmMA3prKMLEFGgsa3J9sjf6pRCnPB06PVRpWiMa1Hrp0hyGVmCWqfpYikEEdxG-JK1pCkmbIDL236PrfwC7_HQ_-TUHXJQwXYXrqbyI1Ngmqh4FJzTE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:00pm",
+                            "1:45pm",
+                            "4:25pm",
+                            "6:45pm",
+                            "9:05pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Spinal Tap II: The End Continues",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Spinal+Tap+II:+The+End+Continues&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZkfUSUPsE9ogfqKR5jvwCid9CDBQ9UsLIpb1SwfLpHeLDzgvWSyNCemSfCNjA1M9JVBMf9KY0u5AR4emLtnTBsDKFXn3GpjE7yacz6ZHByD-EphmRyzpsR5CnX8tzJmM9nMxXs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "11:50am",
+                            "2:05pm",
+                            "5:30pm",
+                            "7:15pm",
+                            "9:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Weapons",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Weapons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXscfeC2XOPNuFPddknXrUobaazWhKFyX2K69vzWNI_N8BRXwJNJo8wVfZ4W0ikRYdtKGTLpcTJ4zFSdzAT4iwo_lDj1XEBfruVDZ7TQJ8sB39081vhBVIDmQ6OdDRM1DgguYU1S8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "10:55pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Freakier Friday",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Freakier+Friday&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsePxZH56_HrONYWZ5Pq46US1o45QCTGH8RNC0NskHIUhJuQraP5OAAHXC-kPnjgz3GoRdf88MyR5ZREx9hnt_nKlLD3IEyXkm5GFaaAhEEs_IUdm1gldYFl8iaQ1bYe4yLUkSJg%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Hamilton",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Hamilton&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsUqnIP5QMa0HKuQaYhrIQkrUv6-2jrQK7N-evrSoITPvnvdRSpyxyauIWMaJ2mA_3vr8q1cRKHeUiKb5nt-NcoDQyQrT9g8-umX-Abaz-F3vDy2FwsBiA1KBJ6H6oZujVCaJhoo%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:15pm",
+                            "4:05pm",
+                            "8:00pm",
+                            "9:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Caught Stealing",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Caught+Stealing&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsTfrMkvLvP4hwOOpPLm8GDVj7KnGeBmpGH0_sm7ZJ45GR9JPDSKZDh-5NgXhmLcqTFDkhN1sFLIKDHqvKj4_CZQ5GQ_e6EqnvS4JbQq9sYc2jfJXtsJkLnvIABf-08yIPmv4lkY%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:45pm",
+                            "3:25pm",
                             "6:15pm",
-                            "8:35pm",
-                            "9:20pm",
-                            "10:05pm"
+                            "9:00pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "Eli Roth Presents: Jimmy and Stiggs",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=Eli+Roth+Presents:+Jimmy+and+Stiggs&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsfPDnrZHkz2aQWIAv9jL9DzF_d5DKe0tWHqskYqZEvGQvhLuq55GPHT2hacPuHVd3XiDyWTxsubd63j9hHGZEErsi1tPATcFYB3WWw6-vr8Mdhwx_LLqizC0vyfFbIZECpFBe64%3D",
+                "name": "The Roses",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Roses&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsZ0xwDsw1YGeZ5haVo1uK2OXG9_yOA3tyHlcbc4TI7uTA59aENENS-TUby4xxXpxOmLZzqJFWDgelcbi-2bcYcyEfyZftClKjqgxVCOuQ_QRrt6SNDwXw26inWisQbrrxUwPQac%3D",
                 "showing": [
                     {
                         "time": [
-                            "8:00pm"
+                            "11:50am",
+                            "6:35pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "East of Wall",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=East+of+Wall&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsbmvUvT5NjvKn2cQfXbm0Ub9-9dViGtWs-3-UEEeNA3l7jhdQXl8H6-rGsDFUi-T6Ul-GoAqM8f2CWSER4c7dLKQo66D8-uM586eOUvPYEmjkrLvAzGwYHj_RTozJqirazMREPk%3D",
+                "name": "Splitsville",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Splitsville&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsS_uO7Gh0f86NEZM-bUvt6iRArp6o-A1O7d7f1BfdTjHHIuPYE6IAV9DlU4ZTBwrwYZqI6YJ31M06DuIOmHZK9QqxqQck0upLnwhb9-lKR4CPJaXsEANZGxgEt7ImnfwQqstCYE%3D",
                 "showing": [
                     {
                         "time": [
-                            "3:00pm",
-                            "6:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "The Knife",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Knife&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsfFQQnI9yAPMKLs0dug5_tcD4DediQxbSRj_0f9SYYNAHmWLvZ_nlQIyEVahAOnonJxo-wuGnyhKPe1Bk8QRyHFix31wxrKUMStscPIEjpk79GrW7gvCgQCnHpNmD1k_MKbJ7xE%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "7:00pm",
+                            "3:40pm",
                             "11:00pm"
                         ],
                         "type": "Standard"
@@ -1658,14 +1637,29 @@
                 ]
             },
             {
-                "name": "The Grateful Dead Movie 2025 Meet-Up",
-                "link": "https://www.google.com/search?sca_esv=4f2a8e6ea63d0d42&gl=us&hl=en&q=The+Grateful+Dead+Movie+2025+Meet-Up&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsR25YbqTtkwFeFYyUcxvhmTGNBQDVzCgbruOEuvvVpGKThWKmdmqHsXgIQz7X8ECB58bdAEXiVDSn6-WdO2NuhfEAlK38-NOpdzIvZvjRJiTozybdvSZUfBDYhrokXPAoNkBPec%3D",
+                "name": "The Baltimorons",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=The+Baltimorons&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXsSI0ZqGZc2X3B4SfOLrarkkSOsAUfQjZGAAV-eQ-xI-3c9Q9RcZstPEOsq7HfGXYve2IhD4sQsAiahCPic5_pfWlwRpkVMfym29J81YOMzjADTaRCoqJL4OeNwghvNYODmuDUrk%3D",
                 "showing": [
                     {
                         "time": [
-                            "6:00pm"
+                            "4:25pm",
+                            "7:50pm"
                         ],
-                        "type": "IMAX"
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Twinless",
+                "link": "https://www.google.com/search?sca_esv=a41ed8ea23771f3d&gl=us&hl=en&q=Twinless&si=AMgyJEvM9H94H4dnrjd19c8lLJ6cAsCAD6q7ZO9ZSCs6yusXseipGwPIPsKs36NJlxQWZBlHuaPg_ZUecZkj2vqJ-LnA5sbrZn_TGJ6xmYbhK89pGsHWNXYEe5rjN1J_9dzyG9c7PRzg9aBaeGGdTizfpIecGoOF8hbOrCRULbCpvdswe5YWJHs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:20pm",
+                            "4:00pm",
+                            "9:15pm"
+                        ],
+                        "type": "Standard"
                     }
                 ]
             }
