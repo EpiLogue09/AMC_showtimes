@@ -4,7 +4,7 @@
         "movies": [
             {
                 "name": "Taylor Swift / The Official Release Party of a Showgirl",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Taylor+Swift+/+The+Official+Release+Party+of+a+Showgirl&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifPZqePViy8gYCip6T3efm-Lufa11_JOOUWQ4FeaBSR02zMK14OZaOubuMlLthuXXPhfa8WE1zN1tH3btUW_RQIr4t2cxRvdUkfsBITAmNPIJBWzsjk2dXQ4_sDGLIo_3S2T8uo_jvsTBxf3W5mISaCPVJX4pzB8bszsVH5biLgo4I2ykTtBaeU_GoSRV1iK0soQtzjl_QHeeLqPdOq6C6321Xbi5w%3D%3D&sa=X&ved=2ahUKEwi7q_yc3ImQAxUtmSYFHcDJGZAQxyZ6BAguEBM",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Taylor+Swift+/+The+Official+Release+Party+of+a+Showgirl&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifPZqePViy8gYCip6T3efm-Lufa11_JOOUWQ4FeaBSR02zMK14OZaOubuMlLthuXXPhfa8WE1zN1tH3btUW_RQIr4t2cxRvdUkfsBITAmNPIJBWzsjk2dXQ4_sDGLIo_3S2T8uo_jvsTBxf3W5mISaCPVJX4pzB8bszsVH5biLgo4I2ykTtBaeU_GoSRV1iK0soQtzjl_QHeeLqPdOq6C6321Xbi5w%3D%3D&sa=X&ved=2ahUKEwi1vMf_nYyQAxVDm2oFHapHEfUQxyZ6BAgiEBM",
                 "showing": [
                     {
                         "time": [
@@ -33,15 +33,41 @@
             },
             {
                 "name": "The Smashing Machine",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Smashing+Machine&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4nekrr4IBGscZQf1ARvXwEPebf9ibr4BqLPHuMsqeHXLwWzAmBxr0p6FI_G1RoUOj6pPQ7NzfElks1diwdDV7E6zbQ4Bo9-5jP__pCn3urdqwpDL8I91NzV5hxcOVRt18gkejqY%3D&sa=X&ved=2ahUKEwi7q_yc3ImQAxUtmSYFHcDJGZAQxyZ6BAguECQ",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Smashing+Machine&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4nekrr4IBGscZQf1ARvXwEPebf9ibr4BqLPHuMsqeHXLwWzAmBxr0p6FI_G1RoUOj6pPQ7NzfElks1diwdDV7E6zbQ4Bo9-5jP__pCn3urdqwpDL8I91NzV5hxcOVRt18gkejqY%3D&sa=X&ved=2ahUKEwi1vMf_nYyQAxVDm2oFHapHEfUQxyZ6BAgiECQ",
                 "showing": [
                     {
                         "time": [
                             "10:00am",
-                            "11:30am",
                             "1:00pm",
                             "4:00pm",
-                            "7:30pm",
+                            "7:00pm",
+                            "8:30pm",
+                            "10:00pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "10:45pm"
+                        ],
+                        "type": "Dolby Cinema"
+                    }
+                ]
+            },
+            {
+                "name": "One Battle After Another",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=One+Battle+After+Another&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4kYLorKkqOLUGce-MJQmw2mPfIOrIWY4lFBsLG1JUNUE6slfpCgv91unt9l_y0RdcKYaPq_jFdN5SBF6aX3ec-1CX59tAh6KA3hz3w9hodhodOtdxyCnxD-iEKICw7iO-l5pMHM%3D&sa=X&ved=2ahUKEwi1vMf_nYyQAxVDm2oFHapHEfUQxyZ6BAgiEC8",
+                "showing": [
+                    {
+                        "time": [
+                            "10:00am",
+                            "11:15am",
+                            "12:20pm",
+                            "3:00pm",
+                            "4:15pm",
+                            "6:45pm",
+                            "8:15pm",
+                            "9:30pm",
                             "10:30pm"
                         ],
                         "type": "Standard"
@@ -50,7 +76,7 @@
             },
             {
                 "name": "Gabby's Dollhouse: The Movie",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Gabby%27s+Dollhouse:+The+Movie&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mTWT1G5wls-2TTJXXWz0GNWF4Ziha3Knp3fdhTtg8OSsA6ZVcrzyq_WCvJ2ds5SyXaQYf2pYiEVCq5RgHphHD2bDhQN_ifC6CMhxyHjWLIcV4w3hkhvNa7Z3ptBfDfdwSsM4tE%3D&sa=X&ved=2ahUKEwi7q_yc3ImQAxUtmSYFHcDJGZAQxyZ6BAguEC0",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Gabby%27s+Dollhouse:+The+Movie&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mTWT1G5wls-2TTJXXWz0GNWF4Ziha3Knp3fdhTtg8OSsA6ZVcrzyq_WCvJ2ds5SyXaQYf2pYiEVCq5RgHphHD2bDhQN_ifC6CMhxyHjWLIcV4w3hkhvNa7Z3ptBfDfdwSsM4tE%3D",
                 "showing": [
                     {
                         "time": [
@@ -63,28 +89,12 @@
                 ]
             },
             {
-                "name": "One Battle After Another",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=One+Battle+After+Another&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4kYLorKkqOLUGce-MJQmw2mPfIOrIWY4lFBsLG1JUNUE6slfpCgv91unt9l_y0RdcKYaPq_jFdN5SBF6aX3ec-1CX59tAh6KA3hz3w9hodhodOtdxyCnxD-iEKICw7iO-l5pMHM%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:00am",
-                            "11:15am",
-                            "3:00pm",
-                            "6:45pm",
-                            "10:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "The Strangers \u2013 Chapter 2",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Strangers+%E2%80%93+Chapter+2&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uZ0a3caB7Pw6Ycp5DCYdchpbfOTNgfknW8_-4yWHsjYIyVpacJ3AzDimwlUHAbSMvOPw7tGNWBaXfmZYHz49GmHtrC3fimlkYkymon7nOZ8EjBpDZyP65CEFturerMhE5_yYDs%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Strangers+%E2%80%93+Chapter+2&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uZ0a3caB7Pw6Ycp5DCYdchpbfOTNgfknW8_-4yWHsjYIyVpacJ3AzDimwlUHAbSMvOPw7tGNWBaXfmZYHz49GmHtrC3fimlkYkymon7nOZ8EjBpDZyP65CEFturerMhE5_yYDs%3D",
                 "showing": [
                     {
                         "time": [
-                            "10:00pm"
+                            "11:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -92,11 +102,10 @@
             },
             {
                 "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jUdmKLAhHcS0mGldaX3r5s6VmSQH-24Evxbduy5ZVzPKbVrurh8QN-zBrA86DuuEzJ5yUp6RqBGY01OWgD4t9Gkq-1kMDhbk-N8_VHBYyFDCZXBNGbLGCvB5sAIkbS44-rUgEE%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jUdmKLAhHcS0mGldaX3r5s6VmSQH-24Evxbduy5ZVzPKbVrurh8QN-zBrA86DuuEzJ5yUp6RqBGY01OWgD4t9Gkq-1kMDhbk-N8_VHBYyFDCZXBNGbLGCvB5sAIkbS44-rUgEE%3D",
                 "showing": [
                     {
                         "time": [
-                            "10:30am",
                             "2:00pm"
                         ],
                         "type": "Standard"
@@ -105,11 +114,12 @@
             },
             {
                 "name": "Avatar: The Way of Water Re-Release 3D",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Avatar:+The+Way+of+Water+Re-Release+3D&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jDsov1f2SlwZT8cG_494iFkBGblMYkBUQTtsk2_GJId-0TltSlrBFUS_RM0wGsrFO25jgOq3aE7l_j8vk_lB_bTViGOm3qhm-MjrecAMxUrFxDjW8uku5j0GkuseGSu7V1HEvU%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Avatar:+The+Way+of+Water+Re-Release+3D&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jDsov1f2SlwZT8cG_494iFkBGblMYkBUQTtsk2_GJId-0TltSlrBFUS_RM0wGsrFO25jgOq3aE7l_j8vk_lB_bTViGOm3qhm-MjrecAMxUrFxDjW8uku5j0GkuseGSu7V1HEvU%3D",
                 "showing": [
                     {
                         "time": [
                             "2:00pm",
+                            "4:00pm",
                             "6:15pm"
                         ],
                         "type": "3D"
@@ -118,7 +128,7 @@
             },
             {
                 "name": "Good Boy",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Good+Boy&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4ohootycpjBiEVbIzJ8eb_xbxFDBlGc4l9odUxI7QQuat8EEzFrirKRPa2wJ4uc7YfbNedS7J3V9zHThalkKj-rbGP2fTKMi3jP3DIEmpEOk9PGqZCAB0S3j5W9MFGtcI9z2WDw%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Good+Boy&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4ohootycpjBiEVbIzJ8eb_xbxFDBlGc4l9odUxI7QQuat8EEzFrirKRPa2wJ4uc7YfbNedS7J3V9zHThalkKj-rbGP2fTKMi3jP3DIEmpEOk9PGqZCAB0S3j5W9MFGtcI9z2WDw%3D",
                 "showing": [
                     {
                         "time": [
@@ -131,7 +141,7 @@
             },
             {
                 "name": "Downton Abbey: The Grand Finale",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4umq_C7AyhSE6oueDWo4I-2S0e3Pscr_eE1oB7VpouUWs9wU5mEoY0a6PyQMq3e0FaVDpJ8-b8M4I4XwV6nP-EIkjJDSVM9CNsF9mTMvPaR67Ih93DVG85WkYGKATTGOPKiIeos%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4umq_C7AyhSE6oueDWo4I-2S0e3Pscr_eE1oB7VpouUWs9wU5mEoY0a6PyQMq3e0FaVDpJ8-b8M4I4XwV6nP-EIkjJDSVM9CNsF9mTMvPaR67Ih93DVG85WkYGKATTGOPKiIeos%3D",
                 "showing": [
                     {
                         "time": [
@@ -146,7 +156,7 @@
             },
             {
                 "name": "Him",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Him&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jxAbFzyQ4WoEdWPP9YZ9v3w2kEcEqkF_vp477VL_LP277dxVT1oLOAHLIsIqDyiBoCiAKKXtgHIoqyEilMrG8i-g0Iml4HWTA5-SSTVAWPLKTMDfy8jtEHnSwNPXw1WNk0JIAQ%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Him&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jxAbFzyQ4WoEdWPP9YZ9v3w2kEcEqkF_vp477VL_LP277dxVT1oLOAHLIsIqDyiBoCiAKKXtgHIoqyEilMrG8i-g0Iml4HWTA5-SSTVAWPLKTMDfy8jtEHnSwNPXw1WNk0JIAQ%3D",
                 "showing": [
                     {
                         "time": [
@@ -159,15 +169,16 @@
             },
             {
                 "name": "Anemone",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Anemone&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4p5Z2qdkSiFcrQW52KjjgugffjWRimNwGNbtQZ0TYFxyvptLpm7b3YJ5OI4JqFDl37wWU6hXitc5NEjmmslZvcDJCVp41btpcNEoAooi_QZB5Pc1IiO_2uqUubbwohpvhj1TOvw%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Anemone&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4p5Z2qdkSiFcrQW52KjjgugffjWRimNwGNbtQZ0TYFxyvptLpm7b3YJ5OI4JqFDl37wWU6hXitc5NEjmmslZvcDJCVp41btpcNEoAooi_QZB5Pc1IiO_2uqUubbwohpvhj1TOvw%3D",
                 "showing": [
                     {
                         "time": [
                             "10:30am",
                             "1:30pm",
                             "4:30pm",
-                            "7:15pm",
-                            "10:15pm"
+                            "7:30pm",
+                            "8:45pm",
+                            "10:30pm"
                         ],
                         "type": "Standard"
                     }
@@ -175,13 +186,13 @@
             },
             {
                 "name": "Bone Lake",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Bone+Lake&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mtR0TcFg9NsLtqNH-AULAbdvhcU0Yjw-3YT4Mgvvo64LtZV7gGIWqD25NNNX1ZKBANBRhL_vnGOCncsR7RpBlIE9L7w8cifk2VFc5GYcGxy1VnNC-Sp08WDlJEZRWgYwcL4uF8%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Bone+Lake&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mtR0TcFg9NsLtqNH-AULAbdvhcU0Yjw-3YT4Mgvvo64LtZV7gGIWqD25NNNX1ZKBANBRhL_vnGOCncsR7RpBlIE9L7w8cifk2VFc5GYcGxy1VnNC-Sp08WDlJEZRWgYwcL4uF8%3D",
                 "showing": [
                     {
                         "time": [
+                            "10:00am",
                             "5:30pm",
-                            "8:30pm",
-                            "11:00pm"
+                            "8:30pm"
                         ],
                         "type": "Standard"
                     }
@@ -189,7 +200,7 @@
             },
             {
                 "name": "Eleanor the Great",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Eleanor+the+Great&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4n69xt7HzEx4L_bHogRnZQhPlUTGfQwLss8VqAfMIPGa72jG-aALx7pPGavWOQJbQx9NsWjIt5eX71oUCbZEu09cz5asP63_oRlauDse8yZm6mpri7DEzXq400hqcIjCUrYDGFg%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Eleanor+the+Great&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4n69xt7HzEx4L_bHogRnZQhPlUTGfQwLss8VqAfMIPGa72jG-aALx7pPGavWOQJbQx9NsWjIt5eX71oUCbZEu09cz5asP63_oRlauDse8yZm6mpri7DEzXq400hqcIjCUrYDGFg%3D",
                 "showing": [
                     {
                         "time": [
@@ -203,42 +214,13 @@
                 ]
             },
             {
-                "name": "The Rocky Horror Picture Show",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Rocky+Horror+Picture+Show&si=AMgyJEuxtneLQHak8i6sS_UnYB6UG_UWa1adEMLg7m9jfw9bDMEAPDLqhPjiRP4V2WZ4RelUP4xXxlx6dIwVGvr5wp5fDZKgacualqjX2HpdGoegvAy_JSOdtmxb19ewiHvbHgwgOqD6wfObeIA-5QZoDT9q4GyzKX1f-pgEclfG8oqdazcHZCs%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:30pm"
-                        ],
-                        "type": "Dolby Cinema"
-                    }
-                ]
-            },
-            {
-                "name": "After the Hunt - Early Access Screening",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=After+the+Hunt+-+Early+Access+Screening&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifMMh-opvlHMcITX_XGVuC9SQDJ2VwNd4ZP8qzj4KIh1gyeLtTA7gQ7O7Nwp96-HPbsIhYZgduXQwT6nm4UKpWQxaHt0QNyONhsYx50pba4CYpaFbkC5Y19benGLM-12IiED30VU5pqy3RqcqENYQiODMj_GTX4RSZ0U2mhSqYO5yiMAKOQD_kMhegfIQyNdKSgcdwWy",
-                "showing": [
-                    {
-                        "time": [
-                            "7:00pm",
-                            "8:30pm",
-                            "9:30pm",
-                            "10:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "The Road Between Us: The Ultimate Rescue",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Road+Between+Us:+The+Ultimate+Rescue&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifPfw1ax0sy1YXsH1Y-vF868BcdF78SvnXnSYqBvIUH0obNGDRCz5Ya6W1WAtamyWXVznscPjgyTrctcwAzJAxRiI4ZSrhLnLahN_fsUxesjmiNQ7N_YVx0WWx6e_oFPBtAJByoQBkelJQ5Xc6brkeD8r_WbhDJsNRJ61d_CRv-lZNrf30SoE229M69ZknrRbN2oKJcp",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Road+Between+Us:+The+Ultimate+Rescue&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifPfw1ax0sy1YXsH1Y-vF868BcdF78SvnXnSYqBvIUH0obNGDRCz5Ya6W1WAtamyWXVznscPjgyTrctcwAzJAxRiI4ZSrhLnLahN_fsUxesjmiNQ7N_YVx0WWx6e_oFPBtAJByoQBkelJQ5Xc6brkeD8r_WbhDJsNRJ61d_CRv-lZNrf30SoE229M69ZknrRbN2oKJcp",
                 "showing": [
                     {
                         "time": [
                             "10:00am",
-                            "1:45pm",
-                            "4:30pm",
-                            "7:30pm"
+                            "1:30pm"
                         ],
                         "type": "Standard"
                     }
@@ -246,7 +228,7 @@
             },
             {
                 "name": "One Battle After Another: The IMAX 70mm Experience",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=One+Battle+After+Another:+The+IMAX+70mm+Experience&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifN0NN4Z6SSVjzlcBl1bIWZ_aQ8AmbKRxOOSfOtgspvkW0EOd118MJEwR34ee7slBjkwVNuDIdYBoe28fKZQLOU_2LCQIhLJx0Mu32r3Qg6K6GkNAkekPBBul6V3w5HLUgv_K5gMSGoqNNQFWjg296PTOKFgP6aptaYdNVGA0oQ1li99ZfOo6SJC91nRej3JRDnxlDHUXeBPwN0D89JDaBAX6uFaIA%3D%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=One+Battle+After+Another:+The+IMAX+70mm+Experience&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifN0NN4Z6SSVjzlcBl1bIWZ_aQ8AmbKRxOOSfOtgspvkW0EOd118MJEwR34ee7slBjkwVNuDIdYBoe28fKZQLOU_2LCQIhLJx0Mu32r3Qg6K6GkNAkekPBBul6V3w5HLUgv_K5gMSGoqNNQFWjg296PTOKFgP6aptaYdNVGA0oQ1li99ZfOo6SJC91nRej3JRDnxlDHUXeBPwN0D89JDaBAX6uFaIA%3D%3D",
                 "showing": [
                     {
                         "time": [
@@ -266,254 +248,8 @@
         "day": "Tomorrow",
         "movies": [
             {
-                "name": "Taylor Swift / The Official Release Party of a Showgirl",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Taylor+Swift+/+The+Official+Release+Party+of+a+Showgirl&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifPZqePViy8gYCip6T3efm-Lufa11_JOOUWQ4FeaBSR02zMK14OZaOubuMlLthuXXPhfa8WE1zN1tH3btUW_RQIr4t2cxRvdUkfsBITAmNPIJBWzsjk2dXQ4_sDGLIo_3S2T8uo_jvsTBxf3W5mISaCPVJX4pzB8bszsVH5biLgo4I2ykTtBaeU_GoSRV1iK0soQtzjl_QHeeLqPdOq6C6321Xbi5w%3D%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "11:00am",
-                            "1:00pm",
-                            "2:00pm",
-                            "3:00pm",
-                            "4:00pm",
-                            "5:00pm",
-                            "6:00pm",
-                            "7:00pm",
-                            "8:00pm",
-                            "9:00pm",
-                            "10:00pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "10:00am",
-                            "12:00pm"
-                        ],
-                        "type": "Dolby Cinema"
-                    }
-                ]
-            },
-            {
                 "name": "The Smashing Machine",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Smashing+Machine&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4nekrr4IBGscZQf1ARvXwEPebf9ibr4BqLPHuMsqeHXLwWzAmBxr0p6FI_G1RoUOj6pPQ7NzfElks1diwdDV7E6zbQ4Bo9-5jP__pCn3urdqwpDL8I91NzV5hxcOVRt18gkejqY%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:00am",
-                            "1:00pm",
-                            "4:00pm",
-                            "7:00pm",
-                            "8:30pm",
-                            "10:00pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "10:45pm"
-                        ],
-                        "type": "Dolby Cinema"
-                    }
-                ]
-            },
-            {
-                "name": "Gabby's Dollhouse: The Movie",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Gabby%27s+Dollhouse:+The+Movie&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mTWT1G5wls-2TTJXXWz0GNWF4Ziha3Knp3fdhTtg8OSsA6ZVcrzyq_WCvJ2ds5SyXaQYf2pYiEVCq5RgHphHD2bDhQN_ifC6CMhxyHjWLIcV4w3hkhvNa7Z3ptBfDfdwSsM4tE%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:00am",
-                            "12:40pm",
-                            "3:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "One Battle After Another",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=One+Battle+After+Another&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4kYLorKkqOLUGce-MJQmw2mPfIOrIWY4lFBsLG1JUNUE6slfpCgv91unt9l_y0RdcKYaPq_jFdN5SBF6aX3ec-1CX59tAh6KA3hz3w9hodhodOtdxyCnxD-iEKICw7iO-l5pMHM%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:00am",
-                            "11:15am",
-                            "3:00pm",
-                            "6:45pm",
-                            "9:30pm",
-                            "10:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "The Strangers \u2013 Chapter 2",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Strangers+%E2%80%93+Chapter+2&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uZ0a3caB7Pw6Ycp5DCYdchpbfOTNgfknW8_-4yWHsjYIyVpacJ3AzDimwlUHAbSMvOPw7tGNWBaXfmZYHz49GmHtrC3fimlkYkymon7nOZ8EjBpDZyP65CEFturerMhE5_yYDs%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "7:00pm",
-                            "11:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jUdmKLAhHcS0mGldaX3r5s6VmSQH-24Evxbduy5ZVzPKbVrurh8QN-zBrA86DuuEzJ5yUp6RqBGY01OWgD4t9Gkq-1kMDhbk-N8_VHBYyFDCZXBNGbLGCvB5sAIkbS44-rUgEE%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "2:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Avatar: The Way of Water Re-Release 3D",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Avatar:+The+Way+of+Water+Re-Release+3D&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jDsov1f2SlwZT8cG_494iFkBGblMYkBUQTtsk2_GJId-0TltSlrBFUS_RM0wGsrFO25jgOq3aE7l_j8vk_lB_bTViGOm3qhm-MjrecAMxUrFxDjW8uku5j0GkuseGSu7V1HEvU%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "2:00pm",
-                            "4:00pm",
-                            "6:15pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "Good Boy",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Good+Boy&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4ohootycpjBiEVbIzJ8eb_xbxFDBlGc4l9odUxI7QQuat8EEzFrirKRPa2wJ4uc7YfbNedS7J3V9zHThalkKj-rbGP2fTKMi3jP3DIEmpEOk9PGqZCAB0S3j5W9MFGtcI9z2WDw%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "6:00pm",
-                            "10:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Downton Abbey: The Grand Finale",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4umq_C7AyhSE6oueDWo4I-2S0e3Pscr_eE1oB7VpouUWs9wU5mEoY0a6PyQMq3e0FaVDpJ8-b8M4I4XwV6nP-EIkjJDSVM9CNsF9mTMvPaR67Ih93DVG85WkYGKATTGOPKiIeos%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:30am",
-                            "12:30pm",
-                            "3:30pm",
-                            "6:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Him",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Him&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jxAbFzyQ4WoEdWPP9YZ9v3w2kEcEqkF_vp477VL_LP277dxVT1oLOAHLIsIqDyiBoCiAKKXtgHIoqyEilMrG8i-g0Iml4HWTA5-SSTVAWPLKTMDfy8jtEHnSwNPXw1WNk0JIAQ%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "8:00pm",
-                            "10:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Anemone",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Anemone&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4p5Z2qdkSiFcrQW52KjjgugffjWRimNwGNbtQZ0TYFxyvptLpm7b3YJ5OI4JqFDl37wWU6hXitc5NEjmmslZvcDJCVp41btpcNEoAooi_QZB5Pc1IiO_2uqUubbwohpvhj1TOvw%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:30am",
-                            "1:30pm",
-                            "4:30pm",
-                            "7:30pm",
-                            "8:45pm",
-                            "10:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Bone Lake",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Bone+Lake&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mtR0TcFg9NsLtqNH-AULAbdvhcU0Yjw-3YT4Mgvvo64LtZV7gGIWqD25NNNX1ZKBANBRhL_vnGOCncsR7RpBlIE9L7w8cifk2VFc5GYcGxy1VnNC-Sp08WDlJEZRWgYwcL4uF8%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:00am",
-                            "5:30pm",
-                            "8:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Eleanor the Great",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Eleanor+the+Great&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4n69xt7HzEx4L_bHogRnZQhPlUTGfQwLss8VqAfMIPGa72jG-aALx7pPGavWOQJbQx9NsWjIt5eX71oUCbZEu09cz5asP63_oRlauDse8yZm6mpri7DEzXq400hqcIjCUrYDGFg%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "10:00am",
-                            "12:40pm",
-                            "3:15pm",
-                            "6:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "The Road Between Us: The Ultimate Rescue",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Road+Between+Us:+The+Ultimate+Rescue&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifPfw1ax0sy1YXsH1Y-vF868BcdF78SvnXnSYqBvIUH0obNGDRCz5Ya6W1WAtamyWXVznscPjgyTrctcwAzJAxRiI4ZSrhLnLahN_fsUxesjmiNQ7N_YVx0WWx6e_oFPBtAJByoQBkelJQ5Xc6brkeD8r_WbhDJsNRJ61d_CRv-lZNrf30SoE229M69ZknrRbN2oKJcp",
-                "showing": [
-                    {
-                        "time": [
-                            "10:00am",
-                            "1:00pm",
-                            "1:45pm",
-                            "4:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "One Battle After Another: The IMAX 70mm Experience",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=One+Battle+After+Another:+The+IMAX+70mm+Experience&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifN0NN4Z6SSVjzlcBl1bIWZ_aQ8AmbKRxOOSfOtgspvkW0EOd118MJEwR34ee7slBjkwVNuDIdYBoe28fKZQLOU_2LCQIhLJx0Mu32r3Qg6K6GkNAkekPBBul6V3w5HLUgv_K5gMSGoqNNQFWjg296PTOKFgP6aptaYdNVGA0oQ1li99ZfOo6SJC91nRej3JRDnxlDHUXeBPwN0D89JDaBAX6uFaIA%3D%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "8:30am",
-                            "12:15pm",
-                            "4:00pm",
-                            "7:45pm",
-                            "11:30pm"
-                        ],
-                        "type": "IMAX (70mm)"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "day": "Mon",
-        "date": "Oct 6",
-        "movies": [
-            {
-                "name": "The Smashing Machine",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Smashing+Machine&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4nekrr4IBGscZQf1ARvXwEPebf9ibr4BqLPHuMsqeHXLwWzAmBxr0p6FI_G1RoUOj6pPQ7NzfElks1diwdDV7E6zbQ4Bo9-5jP__pCn3urdqwpDL8I91NzV5hxcOVRt18gkejqY%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Smashing+Machine&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4nekrr4IBGscZQf1ARvXwEPebf9ibr4BqLPHuMsqeHXLwWzAmBxr0p6FI_G1RoUOj6pPQ7NzfElks1diwdDV7E6zbQ4Bo9-5jP__pCn3urdqwpDL8I91NzV5hxcOVRt18gkejqY%3D",
                 "showing": [
                     {
                         "time": [
@@ -538,21 +274,8 @@
                 ]
             },
             {
-                "name": "Gabby's Dollhouse: The Movie",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Gabby%27s+Dollhouse:+The+Movie&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mTWT1G5wls-2TTJXXWz0GNWF4Ziha3Knp3fdhTtg8OSsA6ZVcrzyq_WCvJ2ds5SyXaQYf2pYiEVCq5RgHphHD2bDhQN_ifC6CMhxyHjWLIcV4w3hkhvNa7Z3ptBfDfdwSsM4tE%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:00pm",
-                            "3:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "One Battle After Another",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=One+Battle+After+Another&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4kYLorKkqOLUGce-MJQmw2mPfIOrIWY4lFBsLG1JUNUE6slfpCgv91unt9l_y0RdcKYaPq_jFdN5SBF6aX3ec-1CX59tAh6KA3hz3w9hodhodOtdxyCnxD-iEKICw7iO-l5pMHM%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=One+Battle+After+Another&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4kYLorKkqOLUGce-MJQmw2mPfIOrIWY4lFBsLG1JUNUE6slfpCgv91unt9l_y0RdcKYaPq_jFdN5SBF6aX3ec-1CX59tAh6KA3hz3w9hodhodOtdxyCnxD-iEKICw7iO-l5pMHM%3D",
                 "showing": [
                     {
                         "time": [
@@ -566,8 +289,21 @@
                 ]
             },
             {
+                "name": "Gabby's Dollhouse: The Movie",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Gabby%27s+Dollhouse:+The+Movie&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mTWT1G5wls-2TTJXXWz0GNWF4Ziha3Knp3fdhTtg8OSsA6ZVcrzyq_WCvJ2ds5SyXaQYf2pYiEVCq5RgHphHD2bDhQN_ifC6CMhxyHjWLIcV4w3hkhvNa7Z3ptBfDfdwSsM4tE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:00pm",
+                            "3:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "The Strangers \u2013 Chapter 2",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Strangers+%E2%80%93+Chapter+2&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uZ0a3caB7Pw6Ycp5DCYdchpbfOTNgfknW8_-4yWHsjYIyVpacJ3AzDimwlUHAbSMvOPw7tGNWBaXfmZYHz49GmHtrC3fimlkYkymon7nOZ8EjBpDZyP65CEFturerMhE5_yYDs%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Strangers+%E2%80%93+Chapter+2&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uZ0a3caB7Pw6Ycp5DCYdchpbfOTNgfknW8_-4yWHsjYIyVpacJ3AzDimwlUHAbSMvOPw7tGNWBaXfmZYHz49GmHtrC3fimlkYkymon7nOZ8EjBpDZyP65CEFturerMhE5_yYDs%3D",
                 "showing": [
                     {
                         "time": [
@@ -580,11 +316,12 @@
             },
             {
                 "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jUdmKLAhHcS0mGldaX3r5s6VmSQH-24Evxbduy5ZVzPKbVrurh8QN-zBrA86DuuEzJ5yUp6RqBGY01OWgD4t9Gkq-1kMDhbk-N8_VHBYyFDCZXBNGbLGCvB5sAIkbS44-rUgEE%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jUdmKLAhHcS0mGldaX3r5s6VmSQH-24Evxbduy5ZVzPKbVrurh8QN-zBrA86DuuEzJ5yUp6RqBGY01OWgD4t9Gkq-1kMDhbk-N8_VHBYyFDCZXBNGbLGCvB5sAIkbS44-rUgEE%3D",
                 "showing": [
                     {
                         "time": [
                             "1:30pm",
+                            "3:30pm",
                             "10:30pm"
                         ],
                         "type": "Standard"
@@ -593,7 +330,7 @@
             },
             {
                 "name": "Avatar: The Way of Water Re-Release 3D",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Avatar:+The+Way+of+Water+Re-Release+3D&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jDsov1f2SlwZT8cG_494iFkBGblMYkBUQTtsk2_GJId-0TltSlrBFUS_RM0wGsrFO25jgOq3aE7l_j8vk_lB_bTViGOm3qhm-MjrecAMxUrFxDjW8uku5j0GkuseGSu7V1HEvU%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Avatar:+The+Way+of+Water+Re-Release+3D&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jDsov1f2SlwZT8cG_494iFkBGblMYkBUQTtsk2_GJId-0TltSlrBFUS_RM0wGsrFO25jgOq3aE7l_j8vk_lB_bTViGOm3qhm-MjrecAMxUrFxDjW8uku5j0GkuseGSu7V1HEvU%3D",
                 "showing": [
                     {
                         "time": [
@@ -606,7 +343,7 @@
             },
             {
                 "name": "Good Boy",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Good+Boy&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4ohootycpjBiEVbIzJ8eb_xbxFDBlGc4l9odUxI7QQuat8EEzFrirKRPa2wJ4uc7YfbNedS7J3V9zHThalkKj-rbGP2fTKMi3jP3DIEmpEOk9PGqZCAB0S3j5W9MFGtcI9z2WDw%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Good+Boy&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4ohootycpjBiEVbIzJ8eb_xbxFDBlGc4l9odUxI7QQuat8EEzFrirKRPa2wJ4uc7YfbNedS7J3V9zHThalkKj-rbGP2fTKMi3jP3DIEmpEOk9PGqZCAB0S3j5W9MFGtcI9z2WDw%3D",
                 "showing": [
                     {
                         "time": [
@@ -620,7 +357,7 @@
             },
             {
                 "name": "Downton Abbey: The Grand Finale",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4umq_C7AyhSE6oueDWo4I-2S0e3Pscr_eE1oB7VpouUWs9wU5mEoY0a6PyQMq3e0FaVDpJ8-b8M4I4XwV6nP-EIkjJDSVM9CNsF9mTMvPaR67Ih93DVG85WkYGKATTGOPKiIeos%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4umq_C7AyhSE6oueDWo4I-2S0e3Pscr_eE1oB7VpouUWs9wU5mEoY0a6PyQMq3e0FaVDpJ8-b8M4I4XwV6nP-EIkjJDSVM9CNsF9mTMvPaR67Ih93DVG85WkYGKATTGOPKiIeos%3D",
                 "showing": [
                     {
                         "time": [
@@ -634,7 +371,7 @@
             },
             {
                 "name": "Him",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Him&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jxAbFzyQ4WoEdWPP9YZ9v3w2kEcEqkF_vp477VL_LP277dxVT1oLOAHLIsIqDyiBoCiAKKXtgHIoqyEilMrG8i-g0Iml4HWTA5-SSTVAWPLKTMDfy8jtEHnSwNPXw1WNk0JIAQ%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Him&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jxAbFzyQ4WoEdWPP9YZ9v3w2kEcEqkF_vp477VL_LP277dxVT1oLOAHLIsIqDyiBoCiAKKXtgHIoqyEilMrG8i-g0Iml4HWTA5-SSTVAWPLKTMDfy8jtEHnSwNPXw1WNk0JIAQ%3D",
                 "showing": [
                     {
                         "time": [
@@ -647,7 +384,7 @@
             },
             {
                 "name": "Anemone",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Anemone&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4p5Z2qdkSiFcrQW52KjjgugffjWRimNwGNbtQZ0TYFxyvptLpm7b3YJ5OI4JqFDl37wWU6hXitc5NEjmmslZvcDJCVp41btpcNEoAooi_QZB5Pc1IiO_2uqUubbwohpvhj1TOvw%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Anemone&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4p5Z2qdkSiFcrQW52KjjgugffjWRimNwGNbtQZ0TYFxyvptLpm7b3YJ5OI4JqFDl37wWU6hXitc5NEjmmslZvcDJCVp41btpcNEoAooi_QZB5Pc1IiO_2uqUubbwohpvhj1TOvw%3D",
                 "showing": [
                     {
                         "time": [
@@ -664,7 +401,7 @@
             },
             {
                 "name": "Bone Lake",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Bone+Lake&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mtR0TcFg9NsLtqNH-AULAbdvhcU0Yjw-3YT4Mgvvo64LtZV7gGIWqD25NNNX1ZKBANBRhL_vnGOCncsR7RpBlIE9L7w8cifk2VFc5GYcGxy1VnNC-Sp08WDlJEZRWgYwcL4uF8%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Bone+Lake&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mtR0TcFg9NsLtqNH-AULAbdvhcU0Yjw-3YT4Mgvvo64LtZV7gGIWqD25NNNX1ZKBANBRhL_vnGOCncsR7RpBlIE9L7w8cifk2VFc5GYcGxy1VnNC-Sp08WDlJEZRWgYwcL4uF8%3D",
                 "showing": [
                     {
                         "time": [
@@ -680,7 +417,7 @@
             },
             {
                 "name": "Eleanor the Great",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Eleanor+the+Great&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4n69xt7HzEx4L_bHogRnZQhPlUTGfQwLss8VqAfMIPGa72jG-aALx7pPGavWOQJbQx9NsWjIt5eX71oUCbZEu09cz5asP63_oRlauDse8yZm6mpri7DEzXq400hqcIjCUrYDGFg%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Eleanor+the+Great&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4n69xt7HzEx4L_bHogRnZQhPlUTGfQwLss8VqAfMIPGa72jG-aALx7pPGavWOQJbQx9NsWjIt5eX71oUCbZEu09cz5asP63_oRlauDse8yZm6mpri7DEzXq400hqcIjCUrYDGFg%3D",
                 "showing": [
                     {
                         "time": [
@@ -694,13 +431,12 @@
             },
             {
                 "name": "The Road Between Us: The Ultimate Rescue",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Road+Between+Us:+The+Ultimate+Rescue&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifPfw1ax0sy1YXsH1Y-vF868BcdF78SvnXnSYqBvIUH0obNGDRCz5Ya6W1WAtamyWXVznscPjgyTrctcwAzJAxRiI4ZSrhLnLahN_fsUxesjmiNQ7N_YVx0WWx6e_oFPBtAJByoQBkelJQ5Xc6brkeD8r_WbhDJsNRJ61d_CRv-lZNrf30SoE229M69ZknrRbN2oKJcp",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Road+Between+Us:+The+Ultimate+Rescue&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifPfw1ax0sy1YXsH1Y-vF868BcdF78SvnXnSYqBvIUH0obNGDRCz5Ya6W1WAtamyWXVznscPjgyTrctcwAzJAxRiI4ZSrhLnLahN_fsUxesjmiNQ7N_YVx0WWx6e_oFPBtAJByoQBkelJQ5Xc6brkeD8r_WbhDJsNRJ61d_CRv-lZNrf30SoE229M69ZknrRbN2oKJcp",
                 "showing": [
                     {
                         "time": [
                             "10:00am",
-                            "1:45pm",
-                            "4:15pm"
+                            "1:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -708,7 +444,7 @@
             },
             {
                 "name": "One Battle After Another: The IMAX 70mm Experience",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=One+Battle+After+Another:+The+IMAX+70mm+Experience&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifN0NN4Z6SSVjzlcBl1bIWZ_aQ8AmbKRxOOSfOtgspvkW0EOd118MJEwR34ee7slBjkwVNuDIdYBoe28fKZQLOU_2LCQIhLJx0Mu32r3Qg6K6GkNAkekPBBul6V3w5HLUgv_K5gMSGoqNNQFWjg296PTOKFgP6aptaYdNVGA0oQ1li99ZfOo6SJC91nRej3JRDnxlDHUXeBPwN0D89JDaBAX6uFaIA%3D%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=One+Battle+After+Another:+The+IMAX+70mm+Experience&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifN0NN4Z6SSVjzlcBl1bIWZ_aQ8AmbKRxOOSfOtgspvkW0EOd118MJEwR34ee7slBjkwVNuDIdYBoe28fKZQLOU_2LCQIhLJx0Mu32r3Qg6K6GkNAkekPBBul6V3w5HLUgv_K5gMSGoqNNQFWjg296PTOKFgP6aptaYdNVGA0oQ1li99ZfOo6SJC91nRej3JRDnxlDHUXeBPwN0D89JDaBAX6uFaIA%3D%3D",
                 "showing": [
                     {
                         "time": [
@@ -729,7 +465,7 @@
         "movies": [
             {
                 "name": "The Smashing Machine",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Smashing+Machine&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4nekrr4IBGscZQf1ARvXwEPebf9ibr4BqLPHuMsqeHXLwWzAmBxr0p6FI_G1RoUOj6pPQ7NzfElks1diwdDV7E6zbQ4Bo9-5jP__pCn3urdqwpDL8I91NzV5hxcOVRt18gkejqY%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Smashing+Machine&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4nekrr4IBGscZQf1ARvXwEPebf9ibr4BqLPHuMsqeHXLwWzAmBxr0p6FI_G1RoUOj6pPQ7NzfElks1diwdDV7E6zbQ4Bo9-5jP__pCn3urdqwpDL8I91NzV5hxcOVRt18gkejqY%3D",
                 "showing": [
                     {
                         "time": [
@@ -754,21 +490,8 @@
                 ]
             },
             {
-                "name": "Gabby's Dollhouse: The Movie",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Gabby%27s+Dollhouse:+The+Movie&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mTWT1G5wls-2TTJXXWz0GNWF4Ziha3Knp3fdhTtg8OSsA6ZVcrzyq_WCvJ2ds5SyXaQYf2pYiEVCq5RgHphHD2bDhQN_ifC6CMhxyHjWLIcV4w3hkhvNa7Z3ptBfDfdwSsM4tE%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:00pm",
-                            "3:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "One Battle After Another",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=One+Battle+After+Another&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4kYLorKkqOLUGce-MJQmw2mPfIOrIWY4lFBsLG1JUNUE6slfpCgv91unt9l_y0RdcKYaPq_jFdN5SBF6aX3ec-1CX59tAh6KA3hz3w9hodhodOtdxyCnxD-iEKICw7iO-l5pMHM%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=One+Battle+After+Another&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4kYLorKkqOLUGce-MJQmw2mPfIOrIWY4lFBsLG1JUNUE6slfpCgv91unt9l_y0RdcKYaPq_jFdN5SBF6aX3ec-1CX59tAh6KA3hz3w9hodhodOtdxyCnxD-iEKICw7iO-l5pMHM%3D",
                 "showing": [
                     {
                         "time": [
@@ -786,8 +509,21 @@
                 ]
             },
             {
+                "name": "Gabby's Dollhouse: The Movie",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Gabby%27s+Dollhouse:+The+Movie&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mTWT1G5wls-2TTJXXWz0GNWF4Ziha3Knp3fdhTtg8OSsA6ZVcrzyq_WCvJ2ds5SyXaQYf2pYiEVCq5RgHphHD2bDhQN_ifC6CMhxyHjWLIcV4w3hkhvNa7Z3ptBfDfdwSsM4tE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:00pm",
+                            "3:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "The Strangers \u2013 Chapter 2",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Strangers+%E2%80%93+Chapter+2&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uZ0a3caB7Pw6Ycp5DCYdchpbfOTNgfknW8_-4yWHsjYIyVpacJ3AzDimwlUHAbSMvOPw7tGNWBaXfmZYHz49GmHtrC3fimlkYkymon7nOZ8EjBpDZyP65CEFturerMhE5_yYDs%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Strangers+%E2%80%93+Chapter+2&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uZ0a3caB7Pw6Ycp5DCYdchpbfOTNgfknW8_-4yWHsjYIyVpacJ3AzDimwlUHAbSMvOPw7tGNWBaXfmZYHz49GmHtrC3fimlkYkymon7nOZ8EjBpDZyP65CEFturerMhE5_yYDs%3D",
                 "showing": [
                     {
                         "time": [
@@ -800,7 +536,7 @@
             },
             {
                 "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jUdmKLAhHcS0mGldaX3r5s6VmSQH-24Evxbduy5ZVzPKbVrurh8QN-zBrA86DuuEzJ5yUp6RqBGY01OWgD4t9Gkq-1kMDhbk-N8_VHBYyFDCZXBNGbLGCvB5sAIkbS44-rUgEE%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jUdmKLAhHcS0mGldaX3r5s6VmSQH-24Evxbduy5ZVzPKbVrurh8QN-zBrA86DuuEzJ5yUp6RqBGY01OWgD4t9Gkq-1kMDhbk-N8_VHBYyFDCZXBNGbLGCvB5sAIkbS44-rUgEE%3D",
                 "showing": [
                     {
                         "time": [
@@ -813,7 +549,7 @@
             },
             {
                 "name": "Avatar: The Way of Water Re-Release 3D",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Avatar:+The+Way+of+Water+Re-Release+3D&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jDsov1f2SlwZT8cG_494iFkBGblMYkBUQTtsk2_GJId-0TltSlrBFUS_RM0wGsrFO25jgOq3aE7l_j8vk_lB_bTViGOm3qhm-MjrecAMxUrFxDjW8uku5j0GkuseGSu7V1HEvU%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Avatar:+The+Way+of+Water+Re-Release+3D&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jDsov1f2SlwZT8cG_494iFkBGblMYkBUQTtsk2_GJId-0TltSlrBFUS_RM0wGsrFO25jgOq3aE7l_j8vk_lB_bTViGOm3qhm-MjrecAMxUrFxDjW8uku5j0GkuseGSu7V1HEvU%3D",
                 "showing": [
                     {
                         "time": [
@@ -827,7 +563,7 @@
             },
             {
                 "name": "Good Boy",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Good+Boy&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4ohootycpjBiEVbIzJ8eb_xbxFDBlGc4l9odUxI7QQuat8EEzFrirKRPa2wJ4uc7YfbNedS7J3V9zHThalkKj-rbGP2fTKMi3jP3DIEmpEOk9PGqZCAB0S3j5W9MFGtcI9z2WDw%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Good+Boy&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4ohootycpjBiEVbIzJ8eb_xbxFDBlGc4l9odUxI7QQuat8EEzFrirKRPa2wJ4uc7YfbNedS7J3V9zHThalkKj-rbGP2fTKMi3jP3DIEmpEOk9PGqZCAB0S3j5W9MFGtcI9z2WDw%3D",
                 "showing": [
                     {
                         "time": [
@@ -840,7 +576,7 @@
             },
             {
                 "name": "Downton Abbey: The Grand Finale",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4umq_C7AyhSE6oueDWo4I-2S0e3Pscr_eE1oB7VpouUWs9wU5mEoY0a6PyQMq3e0FaVDpJ8-b8M4I4XwV6nP-EIkjJDSVM9CNsF9mTMvPaR67Ih93DVG85WkYGKATTGOPKiIeos%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4umq_C7AyhSE6oueDWo4I-2S0e3Pscr_eE1oB7VpouUWs9wU5mEoY0a6PyQMq3e0FaVDpJ8-b8M4I4XwV6nP-EIkjJDSVM9CNsF9mTMvPaR67Ih93DVG85WkYGKATTGOPKiIeos%3D",
                 "showing": [
                     {
                         "time": [
@@ -855,7 +591,7 @@
             },
             {
                 "name": "Him",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Him&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jxAbFzyQ4WoEdWPP9YZ9v3w2kEcEqkF_vp477VL_LP277dxVT1oLOAHLIsIqDyiBoCiAKKXtgHIoqyEilMrG8i-g0Iml4HWTA5-SSTVAWPLKTMDfy8jtEHnSwNPXw1WNk0JIAQ%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Him&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jxAbFzyQ4WoEdWPP9YZ9v3w2kEcEqkF_vp477VL_LP277dxVT1oLOAHLIsIqDyiBoCiAKKXtgHIoqyEilMrG8i-g0Iml4HWTA5-SSTVAWPLKTMDfy8jtEHnSwNPXw1WNk0JIAQ%3D",
                 "showing": [
                     {
                         "time": [
@@ -868,12 +604,13 @@
             },
             {
                 "name": "Anemone",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Anemone&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4p5Z2qdkSiFcrQW52KjjgugffjWRimNwGNbtQZ0TYFxyvptLpm7b3YJ5OI4JqFDl37wWU6hXitc5NEjmmslZvcDJCVp41btpcNEoAooi_QZB5Pc1IiO_2uqUubbwohpvhj1TOvw%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Anemone&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4p5Z2qdkSiFcrQW52KjjgugffjWRimNwGNbtQZ0TYFxyvptLpm7b3YJ5OI4JqFDl37wWU6hXitc5NEjmmslZvcDJCVp41btpcNEoAooi_QZB5Pc1IiO_2uqUubbwohpvhj1TOvw%3D",
                 "showing": [
                     {
                         "time": [
                             "10:30am",
                             "1:30pm",
+                            "3:45pm",
                             "4:30pm",
                             "7:30pm",
                             "9:30pm",
@@ -885,7 +622,7 @@
             },
             {
                 "name": "Bone Lake",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Bone+Lake&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mtR0TcFg9NsLtqNH-AULAbdvhcU0Yjw-3YT4Mgvvo64LtZV7gGIWqD25NNNX1ZKBANBRhL_vnGOCncsR7RpBlIE9L7w8cifk2VFc5GYcGxy1VnNC-Sp08WDlJEZRWgYwcL4uF8%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Bone+Lake&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mtR0TcFg9NsLtqNH-AULAbdvhcU0Yjw-3YT4Mgvvo64LtZV7gGIWqD25NNNX1ZKBANBRhL_vnGOCncsR7RpBlIE9L7w8cifk2VFc5GYcGxy1VnNC-Sp08WDlJEZRWgYwcL4uF8%3D",
                 "showing": [
                     {
                         "time": [
@@ -900,7 +637,7 @@
             },
             {
                 "name": "Eleanor the Great",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Eleanor+the+Great&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4n69xt7HzEx4L_bHogRnZQhPlUTGfQwLss8VqAfMIPGa72jG-aALx7pPGavWOQJbQx9NsWjIt5eX71oUCbZEu09cz5asP63_oRlauDse8yZm6mpri7DEzXq400hqcIjCUrYDGFg%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Eleanor+the+Great&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4n69xt7HzEx4L_bHogRnZQhPlUTGfQwLss8VqAfMIPGa72jG-aALx7pPGavWOQJbQx9NsWjIt5eX71oUCbZEu09cz5asP63_oRlauDse8yZm6mpri7DEzXq400hqcIjCUrYDGFg%3D",
                 "showing": [
                     {
                         "time": [
@@ -915,13 +652,12 @@
             },
             {
                 "name": "The Road Between Us: The Ultimate Rescue",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Road+Between+Us:+The+Ultimate+Rescue&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifPfw1ax0sy1YXsH1Y-vF868BcdF78SvnXnSYqBvIUH0obNGDRCz5Ya6W1WAtamyWXVznscPjgyTrctcwAzJAxRiI4ZSrhLnLahN_fsUxesjmiNQ7N_YVx0WWx6e_oFPBtAJByoQBkelJQ5Xc6brkeD8r_WbhDJsNRJ61d_CRv-lZNrf30SoE229M69ZknrRbN2oKJcp",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Road+Between+Us:+The+Ultimate+Rescue&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifPfw1ax0sy1YXsH1Y-vF868BcdF78SvnXnSYqBvIUH0obNGDRCz5Ya6W1WAtamyWXVznscPjgyTrctcwAzJAxRiI4ZSrhLnLahN_fsUxesjmiNQ7N_YVx0WWx6e_oFPBtAJByoQBkelJQ5Xc6brkeD8r_WbhDJsNRJ61d_CRv-lZNrf30SoE229M69ZknrRbN2oKJcp",
                 "showing": [
                     {
                         "time": [
                             "10:00am",
-                            "1:45pm",
-                            "4:15pm"
+                            "1:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -929,7 +665,7 @@
             },
             {
                 "name": "One Battle After Another: The IMAX 70mm Experience",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=One+Battle+After+Another:+The+IMAX+70mm+Experience&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifN0NN4Z6SSVjzlcBl1bIWZ_aQ8AmbKRxOOSfOtgspvkW0EOd118MJEwR34ee7slBjkwVNuDIdYBoe28fKZQLOU_2LCQIhLJx0Mu32r3Qg6K6GkNAkekPBBul6V3w5HLUgv_K5gMSGoqNNQFWjg296PTOKFgP6aptaYdNVGA0oQ1li99ZfOo6SJC91nRej3JRDnxlDHUXeBPwN0D89JDaBAX6uFaIA%3D%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=One+Battle+After+Another:+The+IMAX+70mm+Experience&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifN0NN4Z6SSVjzlcBl1bIWZ_aQ8AmbKRxOOSfOtgspvkW0EOd118MJEwR34ee7slBjkwVNuDIdYBoe28fKZQLOU_2LCQIhLJx0Mu32r3Qg6K6GkNAkekPBBul6V3w5HLUgv_K5gMSGoqNNQFWjg296PTOKFgP6aptaYdNVGA0oQ1li99ZfOo6SJC91nRej3JRDnxlDHUXeBPwN0D89JDaBAX6uFaIA%3D%3D",
                 "showing": [
                     {
                         "time": [
@@ -950,7 +686,7 @@
         "movies": [
             {
                 "name": "The Smashing Machine",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Smashing+Machine&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4nekrr4IBGscZQf1ARvXwEPebf9ibr4BqLPHuMsqeHXLwWzAmBxr0p6FI_G1RoUOj6pPQ7NzfElks1diwdDV7E6zbQ4Bo9-5jP__pCn3urdqwpDL8I91NzV5hxcOVRt18gkejqY%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Smashing+Machine&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4nekrr4IBGscZQf1ARvXwEPebf9ibr4BqLPHuMsqeHXLwWzAmBxr0p6FI_G1RoUOj6pPQ7NzfElks1diwdDV7E6zbQ4Bo9-5jP__pCn3urdqwpDL8I91NzV5hxcOVRt18gkejqY%3D",
                 "showing": [
                     {
                         "time": [
@@ -974,21 +710,8 @@
                 ]
             },
             {
-                "name": "Gabby's Dollhouse: The Movie",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Gabby%27s+Dollhouse:+The+Movie&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mTWT1G5wls-2TTJXXWz0GNWF4Ziha3Knp3fdhTtg8OSsA6ZVcrzyq_WCvJ2ds5SyXaQYf2pYiEVCq5RgHphHD2bDhQN_ifC6CMhxyHjWLIcV4w3hkhvNa7Z3ptBfDfdwSsM4tE%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:15pm",
-                            "4:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "One Battle After Another",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=One+Battle+After+Another&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4kYLorKkqOLUGce-MJQmw2mPfIOrIWY4lFBsLG1JUNUE6slfpCgv91unt9l_y0RdcKYaPq_jFdN5SBF6aX3ec-1CX59tAh6KA3hz3w9hodhodOtdxyCnxD-iEKICw7iO-l5pMHM%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=One+Battle+After+Another&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4kYLorKkqOLUGce-MJQmw2mPfIOrIWY4lFBsLG1JUNUE6slfpCgv91unt9l_y0RdcKYaPq_jFdN5SBF6aX3ec-1CX59tAh6KA3hz3w9hodhodOtdxyCnxD-iEKICw7iO-l5pMHM%3D",
                 "showing": [
                     {
                         "time": [
@@ -996,7 +719,7 @@
                             "12:30pm",
                             "2:00pm",
                             "6:00pm",
-                            "10:00pm"
+                            "9:45pm"
                         ],
                         "type": "Standard"
                     },
@@ -1009,8 +732,21 @@
                 ]
             },
             {
+                "name": "Gabby's Dollhouse: The Movie",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Gabby%27s+Dollhouse:+The+Movie&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mTWT1G5wls-2TTJXXWz0GNWF4Ziha3Knp3fdhTtg8OSsA6ZVcrzyq_WCvJ2ds5SyXaQYf2pYiEVCq5RgHphHD2bDhQN_ifC6CMhxyHjWLIcV4w3hkhvNa7Z3ptBfDfdwSsM4tE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:15pm",
+                            "4:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "The Strangers \u2013 Chapter 2",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Strangers+%E2%80%93+Chapter+2&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uZ0a3caB7Pw6Ycp5DCYdchpbfOTNgfknW8_-4yWHsjYIyVpacJ3AzDimwlUHAbSMvOPw7tGNWBaXfmZYHz49GmHtrC3fimlkYkymon7nOZ8EjBpDZyP65CEFturerMhE5_yYDs%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Strangers+%E2%80%93+Chapter+2&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uZ0a3caB7Pw6Ycp5DCYdchpbfOTNgfknW8_-4yWHsjYIyVpacJ3AzDimwlUHAbSMvOPw7tGNWBaXfmZYHz49GmHtrC3fimlkYkymon7nOZ8EjBpDZyP65CEFturerMhE5_yYDs%3D",
                 "showing": [
                     {
                         "time": [
@@ -1023,7 +759,7 @@
             },
             {
                 "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jUdmKLAhHcS0mGldaX3r5s6VmSQH-24Evxbduy5ZVzPKbVrurh8QN-zBrA86DuuEzJ5yUp6RqBGY01OWgD4t9Gkq-1kMDhbk-N8_VHBYyFDCZXBNGbLGCvB5sAIkbS44-rUgEE%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jUdmKLAhHcS0mGldaX3r5s6VmSQH-24Evxbduy5ZVzPKbVrurh8QN-zBrA86DuuEzJ5yUp6RqBGY01OWgD4t9Gkq-1kMDhbk-N8_VHBYyFDCZXBNGbLGCvB5sAIkbS44-rUgEE%3D",
                 "showing": [
                     {
                         "time": [
@@ -1036,7 +772,7 @@
             },
             {
                 "name": "Avatar: The Way of Water Re-Release 3D",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Avatar:+The+Way+of+Water+Re-Release+3D&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jDsov1f2SlwZT8cG_494iFkBGblMYkBUQTtsk2_GJId-0TltSlrBFUS_RM0wGsrFO25jgOq3aE7l_j8vk_lB_bTViGOm3qhm-MjrecAMxUrFxDjW8uku5j0GkuseGSu7V1HEvU%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Avatar:+The+Way+of+Water+Re-Release+3D&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jDsov1f2SlwZT8cG_494iFkBGblMYkBUQTtsk2_GJId-0TltSlrBFUS_RM0wGsrFO25jgOq3aE7l_j8vk_lB_bTViGOm3qhm-MjrecAMxUrFxDjW8uku5j0GkuseGSu7V1HEvU%3D",
                 "showing": [
                     {
                         "time": [
@@ -1048,11 +784,12 @@
             },
             {
                 "name": "Good Boy",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Good+Boy&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4ohootycpjBiEVbIzJ8eb_xbxFDBlGc4l9odUxI7QQuat8EEzFrirKRPa2wJ4uc7YfbNedS7J3V9zHThalkKj-rbGP2fTKMi3jP3DIEmpEOk9PGqZCAB0S3j5W9MFGtcI9z2WDw%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Good+Boy&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4ohootycpjBiEVbIzJ8eb_xbxFDBlGc4l9odUxI7QQuat8EEzFrirKRPa2wJ4uc7YfbNedS7J3V9zHThalkKj-rbGP2fTKMi3jP3DIEmpEOk9PGqZCAB0S3j5W9MFGtcI9z2WDw%3D",
                 "showing": [
                     {
                         "time": [
                             "10:30am",
+                            "3:45pm",
                             "10:15pm"
                         ],
                         "type": "Standard"
@@ -1061,7 +798,7 @@
             },
             {
                 "name": "Downton Abbey: The Grand Finale",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4umq_C7AyhSE6oueDWo4I-2S0e3Pscr_eE1oB7VpouUWs9wU5mEoY0a6PyQMq3e0FaVDpJ8-b8M4I4XwV6nP-EIkjJDSVM9CNsF9mTMvPaR67Ih93DVG85WkYGKATTGOPKiIeos%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Downton+Abbey:+The+Grand+Finale&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4umq_C7AyhSE6oueDWo4I-2S0e3Pscr_eE1oB7VpouUWs9wU5mEoY0a6PyQMq3e0FaVDpJ8-b8M4I4XwV6nP-EIkjJDSVM9CNsF9mTMvPaR67Ih93DVG85WkYGKATTGOPKiIeos%3D",
                 "showing": [
                     {
                         "time": [
@@ -1076,7 +813,7 @@
             },
             {
                 "name": "Him",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Him&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jxAbFzyQ4WoEdWPP9YZ9v3w2kEcEqkF_vp477VL_LP277dxVT1oLOAHLIsIqDyiBoCiAKKXtgHIoqyEilMrG8i-g0Iml4HWTA5-SSTVAWPLKTMDfy8jtEHnSwNPXw1WNk0JIAQ%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Him&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4jxAbFzyQ4WoEdWPP9YZ9v3w2kEcEqkF_vp477VL_LP277dxVT1oLOAHLIsIqDyiBoCiAKKXtgHIoqyEilMrG8i-g0Iml4HWTA5-SSTVAWPLKTMDfy8jtEHnSwNPXw1WNk0JIAQ%3D",
                 "showing": [
                     {
                         "time": [
@@ -1089,7 +826,7 @@
             },
             {
                 "name": "Anemone",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Anemone&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4p5Z2qdkSiFcrQW52KjjgugffjWRimNwGNbtQZ0TYFxyvptLpm7b3YJ5OI4JqFDl37wWU6hXitc5NEjmmslZvcDJCVp41btpcNEoAooi_QZB5Pc1IiO_2uqUubbwohpvhj1TOvw%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Anemone&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4p5Z2qdkSiFcrQW52KjjgugffjWRimNwGNbtQZ0TYFxyvptLpm7b3YJ5OI4JqFDl37wWU6hXitc5NEjmmslZvcDJCVp41btpcNEoAooi_QZB5Pc1IiO_2uqUubbwohpvhj1TOvw%3D",
                 "showing": [
                     {
                         "time": [
@@ -1106,7 +843,7 @@
             },
             {
                 "name": "Bone Lake",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Bone+Lake&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mtR0TcFg9NsLtqNH-AULAbdvhcU0Yjw-3YT4Mgvvo64LtZV7gGIWqD25NNNX1ZKBANBRhL_vnGOCncsR7RpBlIE9L7w8cifk2VFc5GYcGxy1VnNC-Sp08WDlJEZRWgYwcL4uF8%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Bone+Lake&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mtR0TcFg9NsLtqNH-AULAbdvhcU0Yjw-3YT4Mgvvo64LtZV7gGIWqD25NNNX1ZKBANBRhL_vnGOCncsR7RpBlIE9L7w8cifk2VFc5GYcGxy1VnNC-Sp08WDlJEZRWgYwcL4uF8%3D",
                 "showing": [
                     {
                         "time": [
@@ -1120,27 +857,13 @@
             },
             {
                 "name": "Eleanor the Great",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Eleanor+the+Great&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4n69xt7HzEx4L_bHogRnZQhPlUTGfQwLss8VqAfMIPGa72jG-aALx7pPGavWOQJbQx9NsWjIt5eX71oUCbZEu09cz5asP63_oRlauDse8yZm6mpri7DEzXq400hqcIjCUrYDGFg%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Eleanor+the+Great&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4n69xt7HzEx4L_bHogRnZQhPlUTGfQwLss8VqAfMIPGa72jG-aALx7pPGavWOQJbQx9NsWjIt5eX71oUCbZEu09cz5asP63_oRlauDse8yZm6mpri7DEzXq400hqcIjCUrYDGFg%3D",
                 "showing": [
                     {
                         "time": [
                             "10:00am",
                             "12:40pm",
-                            "3:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "The Road Between Us: The Ultimate Rescue",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Road+Between+Us:+The+Ultimate+Rescue&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifPfw1ax0sy1YXsH1Y-vF868BcdF78SvnXnSYqBvIUH0obNGDRCz5Ya6W1WAtamyWXVznscPjgyTrctcwAzJAxRiI4ZSrhLnLahN_fsUxesjmiNQ7N_YVx0WWx6e_oFPBtAJByoQBkelJQ5Xc6brkeD8r_WbhDJsNRJ61d_CRv-lZNrf30SoE229M69ZknrRbN2oKJcp",
-                "showing": [
-                    {
-                        "time": [
-                            "10:00am",
-                            "1:00pm",
-                            "3:30pm",
+                            "3:15pm",
                             "5:00pm"
                         ],
                         "type": "Standard"
@@ -1148,8 +871,21 @@
                 ]
             },
             {
+                "name": "The Road Between Us: The Ultimate Rescue",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Road+Between+Us:+The+Ultimate+Rescue&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifPfw1ax0sy1YXsH1Y-vF868BcdF78SvnXnSYqBvIUH0obNGDRCz5Ya6W1WAtamyWXVznscPjgyTrctcwAzJAxRiI4ZSrhLnLahN_fsUxesjmiNQ7N_YVx0WWx6e_oFPBtAJByoQBkelJQ5Xc6brkeD8r_WbhDJsNRJ61d_CRv-lZNrf30SoE229M69ZknrRbN2oKJcp",
+                "showing": [
+                    {
+                        "time": [
+                            "10:00am",
+                            "1:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "Tron: Ares Early Access Screening 3D",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Tron:+Ares+Early+Access+Screening+3D&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifMIt5QSzT6AGTL387SamdvIZ5WmCxJVTQo7Vn0AlSZBPKafjDmO1Y3TG9Q9cQw5s1REdLfygE9iKtqZKBfX754WMZGt-oIOzcmu9AFqzV1uO79yA0vCiirlR16arBAzT8PrCwcOW1Wk4VfiHb9dVbC1vTbhDsZKNDokiaNZc3awYS1WBuwhsDBtRG_ggUusH-kvsxkT",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Tron:+Ares+Early+Access+Screening+3D&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifMIt5QSzT6AGTL387SamdvIZ5WmCxJVTQo7Vn0AlSZBPKafjDmO1Y3TG9Q9cQw5s1REdLfygE9iKtqZKBfX754WMZGt-oIOzcmu9AFqzV1uO79yA0vCiirlR16arBAzT8PrCwcOW1Wk4VfiHb9dVbC1vTbhDsZKNDokiaNZc3awYS1WBuwhsDBtRG_ggUusH-kvsxkT",
                 "showing": [
                     {
                         "time": [
@@ -1161,7 +897,7 @@
             },
             {
                 "name": "One Battle After Another: The IMAX 70mm Experience",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=One+Battle+After+Another:+The+IMAX+70mm+Experience&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifN0NN4Z6SSVjzlcBl1bIWZ_aQ8AmbKRxOOSfOtgspvkW0EOd118MJEwR34ee7slBjkwVNuDIdYBoe28fKZQLOU_2LCQIhLJx0Mu32r3Qg6K6GkNAkekPBBul6V3w5HLUgv_K5gMSGoqNNQFWjg296PTOKFgP6aptaYdNVGA0oQ1li99ZfOo6SJC91nRej3JRDnxlDHUXeBPwN0D89JDaBAX6uFaIA%3D%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=One+Battle+After+Another:+The+IMAX+70mm+Experience&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifN0NN4Z6SSVjzlcBl1bIWZ_aQ8AmbKRxOOSfOtgspvkW0EOd118MJEwR34ee7slBjkwVNuDIdYBoe28fKZQLOU_2LCQIhLJx0Mu32r3Qg6K6GkNAkekPBBul6V3w5HLUgv_K5gMSGoqNNQFWjg296PTOKFgP6aptaYdNVGA0oQ1li99ZfOo6SJC91nRej3JRDnxlDHUXeBPwN0D89JDaBAX6uFaIA%3D%3D",
                 "showing": [
                     {
                         "time": [
@@ -1181,7 +917,7 @@
         "movies": [
             {
                 "name": "Tron: Ares",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Tron:+Ares&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4h9MAq3AUwAttlTx4axtuwJc7PgUgUCbByQerDyviM_wqR-NMAyyq6CmX6lj5dhOupfCeKFGEFLZ2POjoDD50G5o7Kiagn4PokoDRBBmZxj0biZjSmofHJis0kIjVitr3iRutNE%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Tron:+Ares&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4h9MAq3AUwAttlTx4axtuwJc7PgUgUCbByQerDyviM_wqR-NMAyyq6CmX6lj5dhOupfCeKFGEFLZ2POjoDD50G5o7Kiagn4PokoDRBBmZxj0biZjSmofHJis0kIjVitr3iRutNE%3D",
                 "showing": [
                     {
                         "time": [
@@ -1222,8 +958,18 @@
             },
             {
                 "name": "The Smashing Machine",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=The+Smashing+Machine&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4nekrr4IBGscZQf1ARvXwEPebf9ibr4BqLPHuMsqeHXLwWzAmBxr0p6FI_G1RoUOj6pPQ7NzfElks1diwdDV7E6zbQ4Bo9-5jP__pCn3urdqwpDL8I91NzV5hxcOVRt18gkejqY%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Smashing+Machine&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4nekrr4IBGscZQf1ARvXwEPebf9ibr4BqLPHuMsqeHXLwWzAmBxr0p6FI_G1RoUOj6pPQ7NzfElks1diwdDV7E6zbQ4Bo9-5jP__pCn3urdqwpDL8I91NzV5hxcOVRt18gkejqY%3D",
                 "showing": [
+                    {
+                        "time": [
+                            "11:30am",
+                            "2:30pm",
+                            "4:00pm",
+                            "7:00pm",
+                            "10:00pm"
+                        ],
+                        "type": "Standard"
+                    },
                     {
                         "time": [
                             "10:00am",
@@ -1234,13 +980,12 @@
                 ]
             },
             {
-                "name": "Roofman",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Roofman&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uHXH0mIN5q9fyEfCsrJT-j62vXfIpDrOFBge0jJR4rsPbhOLWl8mH_vkt1Ur3jQyBxgrJ-1gEyBdkJV1ZEMlaIieTNtY7difaQ6wP2NjFyxr_l671UhY7IdT-GvlzLUgk9oylE%3D",
+                "name": "One Battle After Another",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=One+Battle+After+Another&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4kYLorKkqOLUGce-MJQmw2mPfIOrIWY4lFBsLG1JUNUE6slfpCgv91unt9l_y0RdcKYaPq_jFdN5SBF6aX3ec-1CX59tAh6KA3hz3w9hodhodOtdxyCnxD-iEKICw7iO-l5pMHM%3D",
                 "showing": [
                     {
                         "time": [
-                            "7:00pm",
-                            "7:45pm",
+                            "6:15pm",
                             "10:15pm"
                         ],
                         "type": "Standard"
@@ -1248,15 +993,43 @@
                 ]
             },
             {
+                "name": "Roofman",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Roofman&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uHXH0mIN5q9fyEfCsrJT-j62vXfIpDrOFBge0jJR4rsPbhOLWl8mH_vkt1Ur3jQyBxgrJ-1gEyBdkJV1ZEMlaIieTNtY7difaQ6wP2NjFyxr_l671UhY7IdT-GvlzLUgk9oylE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "7:00pm",
+                            "7:45pm",
+                            "10:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Strangers \u2013 Chapter 2",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=The+Strangers+%E2%80%93+Chapter+2&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uZ0a3caB7Pw6Ycp5DCYdchpbfOTNgfknW8_-4yWHsjYIyVpacJ3AzDimwlUHAbSMvOPw7tGNWBaXfmZYHz49GmHtrC3fimlkYkymon7nOZ8EjBpDZyP65CEFturerMhE5_yYDs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "11:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "After the Hunt",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=After+the+Hunt&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mrrC4y18wv2Qs9rkW5g6EY5BBx8OmP3d0BI7oREO3Vs0VlJsody0uYXV9nuGjuIbpALO--sEdeYmdIikns2d-XXaLkbfsLwZKpx2rW51lOG_4RB31bs5o_032OuKVah7FYc5nE%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=After+the+Hunt&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mrrC4y18wv2Qs9rkW5g6EY5BBx8OmP3d0BI7oREO3Vs0VlJsody0uYXV9nuGjuIbpALO--sEdeYmdIikns2d-XXaLkbfsLwZKpx2rW51lOG_4RB31bs5o_032OuKVah7FYc5nE%3D",
                 "showing": [
                     {
                         "time": [
                             "4:00pm",
+                            "4:45pm",
                             "6:00pm",
                             "7:00pm",
                             "8:00pm",
+                            "9:15pm",
                             "10:00pm"
                         ],
                         "type": "Standard"
@@ -1265,7 +1038,7 @@
             },
             {
                 "name": "Kiss of the Spider Woman",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Kiss+of+the+Spider+Woman&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4vJ8f9YJUorW61R-4NFqCrukxgd6RfB3Dq7mjygusfUB7TFYSZYg8YPkTQ_VBjF2yaZgwEbwUtRr-Aze233soVVynU0faqP_e9lKqhbK7n0vreLpwWRNJXHwImIcI1Tlo2pLKh4%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Kiss+of+the+Spider+Woman&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4vJ8f9YJUorW61R-4NFqCrukxgd6RfB3Dq7mjygusfUB7TFYSZYg8YPkTQ_VBjF2yaZgwEbwUtRr-Aze233soVVynU0faqP_e9lKqhbK7n0vreLpwWRNJXHwImIcI1Tlo2pLKh4%3D",
                 "showing": [
                     {
                         "time": [
@@ -1279,7 +1052,7 @@
             },
             {
                 "name": "If I Had Legs I'd Kick You",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=If+I+Had+Legs+I%27d+Kick+You&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4gQPyCqECuIkyHCtSd7mQHTKZKJlz9ymwMwyTXORXKFzWRMRpHiHamIZhKPua2vt3EAChMAydKlHKbJQyFZ4xmY_ntgfkvmSftedXsEFDmBCR2PUO9c2sexCYL_qmPH89M6mhFk%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=If+I+Had+Legs+I%27d+Kick+You&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4gQPyCqECuIkyHCtSd7mQHTKZKJlz9ymwMwyTXORXKFzWRMRpHiHamIZhKPua2vt3EAChMAydKlHKbJQyFZ4xmY_ntgfkvmSftedXsEFDmBCR2PUO9c2sexCYL_qmPH89M6mhFk%3D",
                 "showing": [
                     {
                         "time": [
@@ -1292,7 +1065,7 @@
             },
             {
                 "name": "One Battle After Another: The IMAX 70mm Experience",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=One+Battle+After+Another:+The+IMAX+70mm+Experience&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifN0NN4Z6SSVjzlcBl1bIWZ_aQ8AmbKRxOOSfOtgspvkW0EOd118MJEwR34ee7slBjkwVNuDIdYBoe28fKZQLOU_2LCQIhLJx0Mu32r3Qg6K6GkNAkekPBBul6V3w5HLUgv_K5gMSGoqNNQFWjg296PTOKFgP6aptaYdNVGA0oQ1li99ZfOo6SJC91nRej3JRDnxlDHUXeBPwN0D89JDaBAX6uFaIA%3D%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=One+Battle+After+Another:+The+IMAX+70mm+Experience&si=AMgyJEt_FubFnOfDVRhWrEVtjLn3STzkvXrIbRozpksLvDUclCJET0arwXEXmOKRd-lKifN0NN4Z6SSVjzlcBl1bIWZ_aQ8AmbKRxOOSfOtgspvkW0EOd118MJEwR34ee7slBjkwVNuDIdYBoe28fKZQLOU_2LCQIhLJx0Mu32r3Qg6K6GkNAkekPBBul6V3w5HLUgv_K5gMSGoqNNQFWjg296PTOKFgP6aptaYdNVGA0oQ1li99ZfOo6SJC91nRej3JRDnxlDHUXeBPwN0D89JDaBAX6uFaIA%3D%3D",
                 "showing": [
                     {
                         "time": [
@@ -1310,7 +1083,7 @@
         "movies": [
             {
                 "name": "Tron: Ares",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Tron:+Ares&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4h9MAq3AUwAttlTx4axtuwJc7PgUgUCbByQerDyviM_wqR-NMAyyq6CmX6lj5dhOupfCeKFGEFLZ2POjoDD50G5o7Kiagn4PokoDRBBmZxj0biZjSmofHJis0kIjVitr3iRutNE%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Tron:+Ares&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4h9MAq3AUwAttlTx4axtuwJc7PgUgUCbByQerDyviM_wqR-NMAyyq6CmX6lj5dhOupfCeKFGEFLZ2POjoDD50G5o7Kiagn4PokoDRBBmZxj0biZjSmofHJis0kIjVitr3iRutNE%3D",
                 "showing": [
                     {
                         "time": [
@@ -1346,7 +1119,7 @@
             },
             {
                 "name": "Roofman",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Roofman&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uHXH0mIN5q9fyEfCsrJT-j62vXfIpDrOFBge0jJR4rsPbhOLWl8mH_vkt1Ur3jQyBxgrJ-1gEyBdkJV1ZEMlaIieTNtY7difaQ6wP2NjFyxr_l671UhY7IdT-GvlzLUgk9oylE%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Roofman&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uHXH0mIN5q9fyEfCsrJT-j62vXfIpDrOFBge0jJR4rsPbhOLWl8mH_vkt1Ur3jQyBxgrJ-1gEyBdkJV1ZEMlaIieTNtY7difaQ6wP2NjFyxr_l671UhY7IdT-GvlzLUgk9oylE%3D",
                 "showing": [
                     {
                         "time": [
@@ -1362,7 +1135,7 @@
             },
             {
                 "name": "After the Hunt",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=After+the+Hunt&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mrrC4y18wv2Qs9rkW5g6EY5BBx8OmP3d0BI7oREO3Vs0VlJsody0uYXV9nuGjuIbpALO--sEdeYmdIikns2d-XXaLkbfsLwZKpx2rW51lOG_4RB31bs5o_032OuKVah7FYc5nE%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=After+the+Hunt&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mrrC4y18wv2Qs9rkW5g6EY5BBx8OmP3d0BI7oREO3Vs0VlJsody0uYXV9nuGjuIbpALO--sEdeYmdIikns2d-XXaLkbfsLwZKpx2rW51lOG_4RB31bs5o_032OuKVah7FYc5nE%3D",
                 "showing": [
                     {
                         "time": [
@@ -1378,7 +1151,7 @@
             },
             {
                 "name": "Kiss of the Spider Woman",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=Kiss+of+the+Spider+Woman&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4vJ8f9YJUorW61R-4NFqCrukxgd6RfB3Dq7mjygusfUB7TFYSZYg8YPkTQ_VBjF2yaZgwEbwUtRr-Aze233soVVynU0faqP_e9lKqhbK7n0vreLpwWRNJXHwImIcI1Tlo2pLKh4%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Kiss+of+the+Spider+Woman&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4vJ8f9YJUorW61R-4NFqCrukxgd6RfB3Dq7mjygusfUB7TFYSZYg8YPkTQ_VBjF2yaZgwEbwUtRr-Aze233soVVynU0faqP_e9lKqhbK7n0vreLpwWRNJXHwImIcI1Tlo2pLKh4%3D",
                 "showing": [
                     {
                         "time": [
@@ -1394,7 +1167,120 @@
             },
             {
                 "name": "If I Had Legs I'd Kick You",
-                "link": "https://www.google.com/search?sca_esv=5c791b440f8b35d9&hl=en&gl=us&q=If+I+Had+Legs+I%27d+Kick+You&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4gQPyCqECuIkyHCtSd7mQHTKZKJlz9ymwMwyTXORXKFzWRMRpHiHamIZhKPua2vt3EAChMAydKlHKbJQyFZ4xmY_ntgfkvmSftedXsEFDmBCR2PUO9c2sexCYL_qmPH89M6mhFk%3D",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=If+I+Had+Legs+I%27d+Kick+You&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4gQPyCqECuIkyHCtSd7mQHTKZKJlz9ymwMwyTXORXKFzWRMRpHiHamIZhKPua2vt3EAChMAydKlHKbJQyFZ4xmY_ntgfkvmSftedXsEFDmBCR2PUO9c2sexCYL_qmPH89M6mhFk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "10:15am",
+                            "1:15pm",
+                            "4:15pm",
+                            "6:00pm",
+                            "10:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Sat",
+        "date": "Oct 11",
+        "movies": [
+            {
+                "name": "Tron: Ares",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Tron:+Ares&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4h9MAq3AUwAttlTx4axtuwJc7PgUgUCbByQerDyviM_wqR-NMAyyq6CmX6lj5dhOupfCeKFGEFLZ2POjoDD50G5o7Kiagn4PokoDRBBmZxj0biZjSmofHJis0kIjVitr3iRutNE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:00pm",
+                            "3:00pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "10:00am",
+                            "4:00pm",
+                            "7:00pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "1:00pm",
+                            "10:00pm"
+                        ],
+                        "type": "IMAX 3D"
+                    },
+                    {
+                        "time": [
+                            "5:00pm",
+                            "8:00pm"
+                        ],
+                        "type": "3D"
+                    },
+                    {
+                        "time": [
+                            "11:00am",
+                            "2:00pm",
+                            "11:00pm"
+                        ],
+                        "type": "Dolby Cinema"
+                    }
+                ]
+            },
+            {
+                "name": "Roofman",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Roofman&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4uHXH0mIN5q9fyEfCsrJT-j62vXfIpDrOFBge0jJR4rsPbhOLWl8mH_vkt1Ur3jQyBxgrJ-1gEyBdkJV1ZEMlaIieTNtY7difaQ6wP2NjFyxr_l671UhY7IdT-GvlzLUgk9oylE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "10:45am",
+                            "1:45pm",
+                            "4:45pm",
+                            "7:45pm",
+                            "10:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "After the Hunt",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=After+the+Hunt&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4mrrC4y18wv2Qs9rkW5g6EY5BBx8OmP3d0BI7oREO3Vs0VlJsody0uYXV9nuGjuIbpALO--sEdeYmdIikns2d-XXaLkbfsLwZKpx2rW51lOG_4RB31bs5o_032OuKVah7FYc5nE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "10:00am",
+                            "1:00pm",
+                            "4:00pm",
+                            "7:00pm",
+                            "10:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Kiss of the Spider Woman",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=Kiss+of+the+Spider+Woman&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4vJ8f9YJUorW61R-4NFqCrukxgd6RfB3Dq7mjygusfUB7TFYSZYg8YPkTQ_VBjF2yaZgwEbwUtRr-Aze233soVVynU0faqP_e9lKqhbK7n0vreLpwWRNJXHwImIcI1Tlo2pLKh4%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "10:30am",
+                            "1:30pm",
+                            "4:30pm",
+                            "7:30pm",
+                            "10:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "If I Had Legs I'd Kick You",
+                "link": "https://www.google.com/search?sca_esv=d844d2feba1985a5&hl=en&gl=us&q=If+I+Had+Legs+I%27d+Kick+You&si=AMgyJEs5lr7SzekA1cvEku4MpAHMDtajtVX0AtysqjP6S2tM4gQPyCqECuIkyHCtSd7mQHTKZKJlz9ymwMwyTXORXKFzWRMRpHiHamIZhKPua2vt3EAChMAydKlHKbJQyFZ4xmY_ntgfkvmSftedXsEFDmBCR2PUO9c2sexCYL_qmPH89M6mhFk%3D",
                 "showing": [
                     {
                         "time": [
