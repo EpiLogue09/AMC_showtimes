@@ -35,9 +35,9 @@ def google_request(amc_name):
 
 def main():
     #movie_request()
-    google_request('AMC Linscoln Square 13')
-    google_request('AMC Empire 25')
-    google_request('AMC Kips Bay 15')
+    google_request('AMC Village Crossing 18')
+    google_request('AMC River East 21')
+    google_request('AMC Evanston 12')
 
 if __name__ == "__main__":
     main()
