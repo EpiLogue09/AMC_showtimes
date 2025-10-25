@@ -8,7 +8,7 @@ def google_request(amc_name):
     print("API Key is set" if api_key else "API Key not found")
     params = {
         "q": amc_name,
-        "location": "New York, New York, United States",
+        "location": "Chicago, Illinois, United States",
         "hl": "en",
         "gl": "us",
         "api_key": api_key
