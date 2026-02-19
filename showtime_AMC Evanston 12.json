@@ -3,16 +3,51 @@
         "day": "Tomorrow",
         "movies": [
             {
-                "name": "Wuthering Heights",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D&sa=X&ved=2ahUKEwj38YGArOKSAxWQr5UCHbJ-KgwQxyZ6BAghEBM",
+                "name": "Goat",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D&sa=X&ved=2ahUKEwil_ojR7eSSAxXk5MkDHVMjGigQxyZ6BAhQEBM",
                 "showing": [
                     {
                         "time": [
-                            "1:15pm",
-                            "2:15pm",
+                            "1:00pm",
+                            "4:45pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "7:00pm",
+                            "9:30pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Wuthering Heights",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D&sa=X&ved=2ahUKEwil_ojR7eSSAxXk5MkDHVMjGigQxyZ6BAhQEBs",
+                "showing": [
+                    {
+                        "time": [
+                            "1:20pm",
+                            "2:20pm",
                             "3:35pm",
-                            "5:45pm",
+                            "5:40pm",
                             "7:30pm",
+                            "9:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "I Can Only Imagine 2",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DikkuMj5QArX8nWa6T2ktMHrXHeHKAjS6Uoq8N7eAyp_Om3qlWb7hN4TzLP2WUvnf9RLkglkFcRX7nkzcmEvfppWpai9x3NpiNQ0aleo68zhAMs717tdu6EzE4rmg2wl0EfL9o%3D&sa=X&ved=2ahUKEwil_ojR7eSSAxXk5MkDHVMjGigQxyZ6BAhQECQ",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "5:15pm",
+                            "8:15pm",
                             "9:10pm"
                         ],
                         "type": "Standard"
@@ -20,35 +55,15 @@
                 ]
             },
             {
-                "name": "Goat",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D&sa=X&ved=2ahUKEwj38YGArOKSAxWQr5UCHbJ-KgwQxyZ6BAghEBw",
-                "showing": [
-                    {
-                        "time": [
-                            "1:00pm",
-                            "4:45pm",
-                            "9:30pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "7:00pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
                 "name": "Crime 101",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D&sa=X&ved=2ahUKEwj38YGArOKSAxWQr5UCHbJ-KgwQxyZ6BAghECQ",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D",
                 "showing": [
                     {
                         "time": [
-                            "1:10pm",
-                            "4:40pm",
-                            "8:00pm",
-                            "9:25pm"
+                            "1:45pm",
+                            "3:45pm",
+                            "6:00pm",
+                            "9:15pm"
                         ],
                         "type": "Standard"
                     }
@@ -56,19 +71,18 @@
             },
             {
                 "name": "Send Help",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Send+Help&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8HKJNlWVbJnmCFFAFY8ALHJLlxmWGYAI24wK8fktFVmmEbNl7PbhOkkMK0hwNEGPoV57mS531P2r-mOzM6NQgs0a1KkJi7aguNfnwdRw6269MQpigXgO1c5D_9Ly8RAjc_izsW8%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Send+Help&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8HKJNlWVbJnmCFFAFY8ALHJLlxmWGYAI24wK8fktFVmmEbNl7PbhOkkMK0hwNEGPoV57mS531P2r-mOzM6NQgs0a1KkJi7aguNfnwdRw6269MQpigXgO1c5D_9Ly8RAjc_izsW8%3D",
                 "showing": [
                     {
                         "time": [
-                            "1:05pm",
-                            "4:00pm",
-                            "9:00pm"
+                            "1:00pm"
                         ],
                         "type": "Standard"
                     },
                     {
                         "time": [
-                            "6:50pm"
+                            "5:00pm",
+                            "8:00pm"
                         ],
                         "type": "3D"
                     }
@@ -76,202 +90,11 @@
             },
             {
                 "name": "Solo Mio",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Solo+Mio&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8OT6OkivXJ5Fz1swwY_7r9IOlkfJd4CIOZP2PRoz-ztY6k24-1j-ofywhc-E4PVala6afbF19nMNefx-OlcX760b52cIkonouVzerIzb7ubBYUfW592f_v2I_ZkIbYEGNxfUc_g%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Solo+Mio&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8OT6OkivXJ5Fz1swwY_7r9IOlkfJd4CIOZP2PRoz-ztY6k24-1j-ofywhc-E4PVala6afbF19nMNefx-OlcX760b52cIkonouVzerIzb7ubBYUfW592f_v2I_ZkIbYEGNxfUc_g%3D",
                 "showing": [
                     {
                         "time": [
-                            "1:05pm",
-                            "7:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Good Luck, Have Fun, Don't Die",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8G-DbFTJ0ri7pQbaTdWDWLmHFNCGNMtEQJx1jdVhNXEi2cHWBbkRhrT4SvD0pa2eihLvhnszex3WT_3SvqviedUwAjzrqjYdsWi9bjyi-B-0eO5e75gxJJ33NtkV5QJnqjVHZy8%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:00pm",
-                            "4:20pm",
-                            "7:45pm",
-                            "9:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Iron Lung",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Iron+Lung&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8EBeO2iN4Fg-ufgEosUgohWBz76dC9vk7RS54He6WYLfB119M8OZF40Pl3U9SAZhpalFz1RhRovR2TeUP_NRVZyZtZYoSU4MsmkTVGVrQPn3lHM-muqT0zqH3MV3LTkaWp9nYQ0%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:45pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Zootopia 2",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Zootopia+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NQJUjJqFRcmDNSd4NIRL2El9uZl7ax_7UUYEZrJzRKrWphS504ghSwJTjs9IayegtUC_kbZ9w6GBvhNoIEAuk-mIi1A1P7vDWz3vSuyacxoXfIg1WQZndd8dYenbr9veuJkUUA%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:55pm",
-                            "3:50pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "The Strangers \u2013 Chapter 3",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=The+Strangers+%E2%80%93+Chapter+3&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8H097CGN7DwiWu_5KhhZGf06ftcf3ae6HgchlP6wTQsLG5y0LtqgK2KIuPvklPdP4xPZoPPeGlnCiJJ9ngk9rM2iAOm3KS9lfqmoV9Q2_4yyWAQsMT1KfrR2G1100c7NUxMZhE8%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "9:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Dracula",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Dracula&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8CfZf9aHhahP6H-yacFrix4D3jCflUXjgRn-Rc74NcXxOrRdS7mKJVHCapspmSvnVNb8ZaVHW6ZFxqYWR3UVfM51jXrR0a4-rn9Ugd8_mIOGVB_sGOamZTOBqaujfkgEMm6Agu4%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "5:40pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Cold Storage",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Cold+Storage&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Gee3FXK00imDkxqVKGYF0GoK6QL8PD2PdVTKDICKqPxRJywBD8I9oaJQ7wARulppLnKQO-uZi-BTznkjEnuLmaqZak3kS8iT6stv0hkpzZkZkZdiCkJHL2vILDBEGC-kg3GbRU%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:25pm",
-                            "6:50pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "The Moment",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=The+Moment&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8CaaD2z1SSPqhD9FEUsWg_qrEbxkp29NrKLTVz7QNBOAV5V4b4oG7wOMwPU_Pvny2_kR44VGaz9IH0bSeg3851HSXyNV5lblwnZ0AfgT91B44zjWMMpdBWo2gOLsZWi1CUAgv30%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:10pm",
-                            "3:55pm",
-                            "6:40pm",
-                            "9:40pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Marty Supreme",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Marty+Supreme&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8MX0Clu2SoTk896mt_vjfWV9nYSBsAHVyrxYi5b2F9Oof-oAVyFRMhyKPkKr8oCOCsXPjtYE2zYYUzQ5E0c4T0wOkTp0iPLypEYNlKM5ahafMhA2xmzs6ZObs93WMQ3EkIs6xCg%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "4:30pm",
-                            "8:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Nirvanna: The Band - the Show - the Movie",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Nirvanna:+The+Band+-+the+Show+-+the+Movie&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8JOJCcDx-aAC2Rgh-qBOg39kz81-eVvQdJG5DAY9y_KRL2ESVAY4lfbuIowxKEqOovKfFyNXE4WXQhs-_hQ1XnQ3b1Q_l0eNHmgDNLpl9ZVH6eGt1I4JD-am3YoPvR8_NYZr5-Q%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:20pm",
-                            "4:10pm",
-                            "6:30pm",
-                            "9:40pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "day": "Thu",
-        "date": "Feb 19",
-        "movies": [
-            {
-                "name": "Wuthering Heights",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:15pm",
-                            "3:35pm",
-                            "7:30pm",
-                            "9:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Goat",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:00pm",
-                            "4:45pm",
-                            "9:30pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "6:55pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "I Can Only Imagine 2",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DikkuMj5QArX8nWa6T2ktMHrXHeHKAjS6Uoq8N7eAyp_Om3qlWb7hN4TzLP2WUvnf9RLkglkFcRX7nkzcmEvfppWpai9x3NpiNQ0aleo68zhAMs717tdu6EzE4rmg2wl0EfL9o%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "2:00pm",
-                            "4:30pm",
-                            "7:15pm",
-                            "9:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Crime 101",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:00pm",
-                            "4:45pm",
-                            "8:15pm"
+                            "1:10pm"
                         ],
                         "type": "Standard"
                     }
@@ -279,12 +102,13 @@
             },
             {
                 "name": "How to Make a Killing",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DbWJhk98DAhwmQwHx1iUbBE99hvIceaehldZ7a7RRv8UXn92rhn9DvIaBUwLcea1xr3ZtYJnOl2zlxM_wnCvpqjwY5CrvjzpQFFJzBxeklBvToua0_7P-4eIsJ08yRlaZAZ9AQ%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DbWJhk98DAhwmQwHx1iUbBE99hvIceaehldZ7a7RRv8UXn92rhn9DvIaBUwLcea1xr3ZtYJnOl2zlxM_wnCvpqjwY5CrvjzpQFFJzBxeklBvToua0_7P-4eIsJ08yRlaZAZ9AQ%3D",
                 "showing": [
                     {
                         "time": [
                             "4:00pm",
-                            "6:45pm"
+                            "6:45pm",
+                            "9:25pm"
                         ],
                         "type": "Standard"
                     }
@@ -292,14 +116,27 @@
             },
             {
                 "name": "Good Luck, Have Fun, Don't Die",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8G-DbFTJ0ri7pQbaTdWDWLmHFNCGNMtEQJx1jdVhNXEi2cHWBbkRhrT4SvD0pa2eihLvhnszex3WT_3SvqviedUwAjzrqjYdsWi9bjyi-B-0eO5e75gxJJ33NtkV5QJnqjVHZy8%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8G-DbFTJ0ri7pQbaTdWDWLmHFNCGNMtEQJx1jdVhNXEi2cHWBbkRhrT4SvD0pa2eihLvhnszex3WT_3SvqviedUwAjzrqjYdsWi9bjyi-B-0eO5e75gxJJ33NtkV5QJnqjVHZy8%3D",
                 "showing": [
                     {
                         "time": [
                             "1:00pm",
                             "4:20pm",
                             "7:45pm",
-                            "9:10pm"
+                            "9:20pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Zootopia 2",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Zootopia+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NQJUjJqFRcmDNSd4NIRL2El9uZl7ax_7UUYEZrJzRKrWphS504ghSwJTjs9IayegtUC_kbZ9w6GBvhNoIEAuk-mIi1A1P7vDWz3vSuyacxoXfIg1WQZndd8dYenbr9veuJkUUA%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:00pm",
+                            "6:20pm"
                         ],
                         "type": "Standard"
                     }
@@ -307,13 +144,74 @@
             },
             {
                 "name": "Midwinter Break",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Cto4gA9Ogc-hC16uhwgmytvNIIM0v6JWb-Dp45_A1e3fPBGnCDNnhwPdIcqr_cxwrAOXMi3kSDJO0zzVH4UnkrStAg7V28GiCj9hG336_brmQTYkaOA4JO0OjJcI1WyP3li4es%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Cto4gA9Ogc-hC16uhwgmytvNIIM0v6JWb-Dp45_A1e3fPBGnCDNnhwPdIcqr_cxwrAOXMi3kSDJO0zzVH4UnkrStAg7V28GiCj9hG336_brmQTYkaOA4JO0OjJcI1WyP3li4es%3D",
                 "showing": [
                     {
                         "time": [
                             "2:00pm",
-                            "4:20pm",
-                            "6:45pm"
+                            "4:25pm",
+                            "6:50pm",
+                            "9:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Cold Storage",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Cold+Storage&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Gee3FXK00imDkxqVKGYF0GoK6QL8PD2PdVTKDICKqPxRJywBD8I9oaJQ7wARulppLnKQO-uZi-BTznkjEnuLmaqZak3kS8iT6stv0hkpzZkZkZdiCkJHL2vILDBEGC-kg3GbRU%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "7:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "This Is Not a Test",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=This+Is+Not+a+Test&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8CZCHODEyyBlZwK0tjTDYZggZnjyv6JAD5xE6kT1WMIQtcFFePqJ5SsI2BReyDdb_dpabGv5FsJGbtUvRtjaIHgYvYMeoHbmL1E7nF1d33X2XlpGFCqwhB4ri9sr8EiBNIgYx0Y%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Marty Supreme",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Marty+Supreme&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8MX0Clu2SoTk896mt_vjfWV9nYSBsAHVyrxYi5b2F9Oof-oAVyFRMhyKPkKr8oCOCsXPjtYE2zYYUzQ5E0c4T0wOkTp0iPLypEYNlKM5ahafMhA2xmzs6ZObs93WMQ3EkIs6xCg%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Nirvanna: The Band - the Show - the Movie",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Nirvanna:+The+Band+-+the+Show+-+the+Movie&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8JOJCcDx-aAC2Rgh-qBOg39kz81-eVvQdJG5DAY9y_KRL2ESVAY4lfbuIowxKEqOovKfFyNXE4WXQhs-_hQ1XnQ3b1Q_l0eNHmgDNLpl9ZVH6eGt1I4JD-am3YoPvR8_NYZr5-Q%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:40pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Kokuho",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Kokuho&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8O0ncr8v4RrlRwU15aY0NJHt5OouG2yc77sGeZw1msh75VXSg12leYFdojuANlmHQZFvVI47S6QzvBVZZOQXerOaW9jIjY8Whox7KOReADPbSWn8Gzk4MlLsIjn99Ui8yDnGPuM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "7:15pm"
                         ],
                         "type": "Standard"
                     }
@@ -326,27 +224,38 @@
         "date": "Feb 20",
         "movies": [
             {
-                "name": "Wuthering Heights",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D",
+                "name": "Goat",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D",
                 "showing": [
                     {
                         "time": [
-                            "1:15pm",
-                            "3:40pm",
-                            "7:15pm"
+                            "5:00pm",
+                            "9:30pm"
                         ],
                         "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "1:00pm",
+                            "7:40pm"
+                        ],
+                        "type": "3D"
                     }
                 ]
             },
             {
-                "name": "Goat",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D",
+                "name": "Wuthering Heights",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D",
                 "showing": [
                     {
                         "time": [
-                            "1:00pm",
-                            "7:00pm"
+                            "1:15pm",
+                            "2:30pm",
+                            "3:40pm",
+                            "6:00pm",
+                            "7:15pm",
+                            "9:15pm",
+                            "10:10pm"
                         ],
                         "type": "Standard"
                     }
@@ -354,14 +263,14 @@
             },
             {
                 "name": "I Can Only Imagine 2",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DikkuMj5QArX8nWa6T2ktMHrXHeHKAjS6Uoq8N7eAyp_Om3qlWb7hN4TzLP2WUvnf9RLkglkFcRX7nkzcmEvfppWpai9x3NpiNQ0aleo68zhAMs717tdu6EzE4rmg2wl0EfL9o%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DikkuMj5QArX8nWa6T2ktMHrXHeHKAjS6Uoq8N7eAyp_Om3qlWb7hN4TzLP2WUvnf9RLkglkFcRX7nkzcmEvfppWpai9x3NpiNQ0aleo68zhAMs717tdu6EzE4rmg2wl0EfL9o%3D",
                 "showing": [
                     {
                         "time": [
                             "1:30pm",
                             "4:30pm",
                             "7:30pm",
-                            "10:30pm"
+                            "10:20pm"
                         ],
                         "type": "Standard"
                     }
@@ -369,12 +278,46 @@
             },
             {
                 "name": "Crime 101",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D",
                 "showing": [
                     {
                         "time": [
-                            "3:40pm",
-                            "7:00pm"
+                            "1:01pm",
+                            "3:35pm",
+                            "6:45pm",
+                            "9:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Send Help",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Send+Help&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8HKJNlWVbJnmCFFAFY8ALHJLlxmWGYAI24wK8fktFVmmEbNl7PbhOkkMK0hwNEGPoV57mS531P2r-mOzM6NQgs0a1KkJi7aguNfnwdRw6269MQpigXgO1c5D_9Ly8RAjc_izsW8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:00pm",
+                            "7:35pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "4:40pm",
+                            "10:10pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Solo Mio",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Solo+Mio&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8OT6OkivXJ5Fz1swwY_7r9IOlkfJd4CIOZP2PRoz-ztY6k24-1j-ofywhc-E4PVala6afbF19nMNefx-OlcX760b52cIkonouVzerIzb7ubBYUfW592f_v2I_ZkIbYEGNxfUc_g%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -382,7 +325,7 @@
             },
             {
                 "name": "How to Make a Killing",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DbWJhk98DAhwmQwHx1iUbBE99hvIceaehldZ7a7RRv8UXn92rhn9DvIaBUwLcea1xr3ZtYJnOl2zlxM_wnCvpqjwY5CrvjzpQFFJzBxeklBvToua0_7P-4eIsJ08yRlaZAZ9AQ%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DbWJhk98DAhwmQwHx1iUbBE99hvIceaehldZ7a7RRv8UXn92rhn9DvIaBUwLcea1xr3ZtYJnOl2zlxM_wnCvpqjwY5CrvjzpQFFJzBxeklBvToua0_7P-4eIsJ08yRlaZAZ9AQ%3D",
                 "showing": [
                     {
                         "time": [
@@ -396,15 +339,94 @@
                 ]
             },
             {
+                "name": "Good Luck, Have Fun, Don't Die",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8G-DbFTJ0ri7pQbaTdWDWLmHFNCGNMtEQJx1jdVhNXEi2cHWBbkRhrT4SvD0pa2eihLvhnszex3WT_3SvqviedUwAjzrqjYdsWi9bjyi-B-0eO5e75gxJJ33NtkV5QJnqjVHZy8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:20pm",
+                            "5:00pm",
+                            "6:55pm",
+                            "10:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Zootopia 2",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Zootopia+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NQJUjJqFRcmDNSd4NIRL2El9uZl7ax_7UUYEZrJzRKrWphS504ghSwJTjs9IayegtUC_kbZ9w6GBvhNoIEAuk-mIi1A1P7vDWz3vSuyacxoXfIg1WQZndd8dYenbr9veuJkUUA%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:15pm",
+                            "6:50pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "Midwinter Break",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Cto4gA9Ogc-hC16uhwgmytvNIIM0v6JWb-Dp45_A1e3fPBGnCDNnhwPdIcqr_cxwrAOXMi3kSDJO0zzVH4UnkrStAg7V28GiCj9hG336_brmQTYkaOA4JO0OjJcI1WyP3li4es%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Cto4gA9Ogc-hC16uhwgmytvNIIM0v6JWb-Dp45_A1e3fPBGnCDNnhwPdIcqr_cxwrAOXMi3kSDJO0zzVH4UnkrStAg7V28GiCj9hG336_brmQTYkaOA4JO0OjJcI1WyP3li4es%3D",
                 "showing": [
                     {
                         "time": [
                             "1:10pm",
-                            "4:40pm",
-                            "7:20pm",
-                            "9:50pm"
+                            "4:25pm",
+                            "7:00pm",
+                            "10:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "This Is Not a Test",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=This+Is+Not+a+Test&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8CZCHODEyyBlZwK0tjTDYZggZnjyv6JAD5xE6kT1WMIQtcFFePqJ5SsI2BReyDdb_dpabGv5FsJGbtUvRtjaIHgYvYMeoHbmL1E7nF1d33X2XlpGFCqwhB4ri9sr8EiBNIgYx0Y%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:30pm",
+                            "10:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Marty Supreme",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Marty+Supreme&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8MX0Clu2SoTk896mt_vjfWV9nYSBsAHVyrxYi5b2F9Oof-oAVyFRMhyKPkKr8oCOCsXPjtYE2zYYUzQ5E0c4T0wOkTp0iPLypEYNlKM5ahafMhA2xmzs6ZObs93WMQ3EkIs6xCg%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:30pm",
+                            "8:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Nirvanna: The Band - the Show - the Movie",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Nirvanna:+The+Band+-+the+Show+-+the+Movie&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8JOJCcDx-aAC2Rgh-qBOg39kz81-eVvQdJG5DAY9y_KRL2ESVAY4lfbuIowxKEqOovKfFyNXE4WXQhs-_hQ1XnQ3b1Q_l0eNHmgDNLpl9ZVH6eGt1I4JD-am3YoPvR8_NYZr5-Q%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Kokuho",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Kokuho&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8O0ncr8v4RrlRwU15aY0NJHt5OouG2yc77sGeZw1msh75VXSg12leYFdojuANlmHQZFvVI47S6QzvBVZZOQXerOaW9jIjY8Whox7KOReADPbSWn8Gzk4MlLsIjn99Ui8yDnGPuM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:55pm",
+                            "8:30pm"
                         ],
                         "type": "Standard"
                     }
@@ -417,26 +439,37 @@
         "date": "Feb 21",
         "movies": [
             {
-                "name": "Wuthering Heights",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D",
+                "name": "Goat",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D",
                 "showing": [
                     {
                         "time": [
-                            "1:15pm",
-                            "3:40pm",
-                            "7:15pm"
+                            "4:45pm"
                         ],
                         "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "7:00pm",
+                            "9:45pm"
+                        ],
+                        "type": "3D"
                     }
                 ]
             },
             {
-                "name": "Goat",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D",
+                "name": "Wuthering Heights",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D",
                 "showing": [
                     {
                         "time": [
-                            "7:00pm"
+                            "1:15pm",
+                            "2:30pm",
+                            "3:45pm",
+                            "6:00pm",
+                            "7:15pm",
+                            "9:15pm",
+                            "10:10pm"
                         ],
                         "type": "Standard"
                     }
@@ -444,7 +477,7 @@
             },
             {
                 "name": "I Can Only Imagine 2",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DikkuMj5QArX8nWa6T2ktMHrXHeHKAjS6Uoq8N7eAyp_Om3qlWb7hN4TzLP2WUvnf9RLkglkFcRX7nkzcmEvfppWpai9x3NpiNQ0aleo68zhAMs717tdu6EzE4rmg2wl0EfL9o%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DikkuMj5QArX8nWa6T2ktMHrXHeHKAjS6Uoq8N7eAyp_Om3qlWb7hN4TzLP2WUvnf9RLkglkFcRX7nkzcmEvfppWpai9x3NpiNQ0aleo68zhAMs717tdu6EzE4rmg2wl0EfL9o%3D",
                 "showing": [
                     {
                         "time": [
@@ -459,12 +492,89 @@
             },
             {
                 "name": "Crime 101",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D",
                 "showing": [
                     {
                         "time": [
+                            "1:01pm",
                             "3:40pm",
-                            "7:00pm"
+                            "7:00pm",
+                            "10:05pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Send Help",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Send+Help&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8HKJNlWVbJnmCFFAFY8ALHJLlxmWGYAI24wK8fktFVmmEbNl7PbhOkkMK0hwNEGPoV57mS531P2r-mOzM6NQgs0a1KkJi7aguNfnwdRw6269MQpigXgO1c5D_9Ly8RAjc_izsW8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:05pm",
+                            "7:20pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "12:55pm",
+                            "10:10pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Solo Mio",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Solo+Mio&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8OT6OkivXJ5Fz1swwY_7r9IOlkfJd4CIOZP2PRoz-ztY6k24-1j-ofywhc-E4PVala6afbF19nMNefx-OlcX760b52cIkonouVzerIzb7ubBYUfW592f_v2I_ZkIbYEGNxfUc_g%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:20pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "How to Make a Killing",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DbWJhk98DAhwmQwHx1iUbBE99hvIceaehldZ7a7RRv8UXn92rhn9DvIaBUwLcea1xr3ZtYJnOl2zlxM_wnCvpqjwY5CrvjzpQFFJzBxeklBvToua0_7P-4eIsJ08yRlaZAZ9AQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:15pm",
+                            "5:10pm",
+                            "8:00pm",
+                            "10:40pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Good Luck, Have Fun, Don't Die",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8G-DbFTJ0ri7pQbaTdWDWLmHFNCGNMtEQJx1jdVhNXEi2cHWBbkRhrT4SvD0pa2eihLvhnszex3WT_3SvqviedUwAjzrqjYdsWi9bjyi-B-0eO5e75gxJJ33NtkV5QJnqjVHZy8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:55pm",
+                            "5:00pm",
+                            "6:55pm",
+                            "10:20pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Zootopia 2",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Zootopia+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NQJUjJqFRcmDNSd4NIRL2El9uZl7ax_7UUYEZrJzRKrWphS504ghSwJTjs9IayegtUC_kbZ9w6GBvhNoIEAuk-mIi1A1P7vDWz3vSuyacxoXfIg1WQZndd8dYenbr9veuJkUUA%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:45pm",
+                            "7:45pm"
                         ],
                         "type": "Standard"
                     }
@@ -472,13 +582,65 @@
             },
             {
                 "name": "Midwinter Break",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Cto4gA9Ogc-hC16uhwgmytvNIIM0v6JWb-Dp45_A1e3fPBGnCDNnhwPdIcqr_cxwrAOXMi3kSDJO0zzVH4UnkrStAg7V28GiCj9hG336_brmQTYkaOA4JO0OjJcI1WyP3li4es%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Cto4gA9Ogc-hC16uhwgmytvNIIM0v6JWb-Dp45_A1e3fPBGnCDNnhwPdIcqr_cxwrAOXMi3kSDJO0zzVH4UnkrStAg7V28GiCj9hG336_brmQTYkaOA4JO0OjJcI1WyP3li4es%3D",
                 "showing": [
                     {
                         "time": [
                             "1:10pm",
-                            "7:20pm",
-                            "9:50pm"
+                            "5:15pm",
+                            "6:55pm",
+                            "10:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "This Is Not a Test",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=This+Is+Not+a+Test&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8CZCHODEyyBlZwK0tjTDYZggZnjyv6JAD5xE6kT1WMIQtcFFePqJ5SsI2BReyDdb_dpabGv5FsJGbtUvRtjaIHgYvYMeoHbmL1E7nF1d33X2XlpGFCqwhB4ri9sr8EiBNIgYx0Y%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:30pm",
+                            "10:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Marty Supreme",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Marty+Supreme&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8MX0Clu2SoTk896mt_vjfWV9nYSBsAHVyrxYi5b2F9Oof-oAVyFRMhyKPkKr8oCOCsXPjtYE2zYYUzQ5E0c4T0wOkTp0iPLypEYNlKM5ahafMhA2xmzs6ZObs93WMQ3EkIs6xCg%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:20pm",
+                            "8:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Nirvanna: The Band - the Show - the Movie",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Nirvanna:+The+Band+-+the+Show+-+the+Movie&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8JOJCcDx-aAC2Rgh-qBOg39kz81-eVvQdJG5DAY9y_KRL2ESVAY4lfbuIowxKEqOovKfFyNXE4WXQhs-_hQ1XnQ3b1Q_l0eNHmgDNLpl9ZVH6eGt1I4JD-am3YoPvR8_NYZr5-Q%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Kokuho",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Kokuho&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8O0ncr8v4RrlRwU15aY0NJHt5OouG2yc77sGeZw1msh75VXSg12leYFdojuANlmHQZFvVI47S6QzvBVZZOQXerOaW9jIjY8Whox7KOReADPbSWn8Gzk4MlLsIjn99Ui8yDnGPuM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:25pm",
+                            "6:20pm"
                         ],
                         "type": "Standard"
                     }
@@ -486,7 +648,7 @@
             },
             {
                 "name": "GOAT Sensory Friendly",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=GOAT+Sensory+Friendly&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DKD_mordFhvgeUSkEEBlmhZrCbWrzSExyGKJKo8LmiggVO-fjeI4V76MKx8B4VOl1KCYmYm-6f0cT2cUNVx9ugiPc74Beeaqt2ucLmXimQjUVYM-LQfa4pU6MiPOTF31OeYByU%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=GOAT+Sensory+Friendly&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DKD_mordFhvgeUSkEEBlmhZrCbWrzSExyGKJKo8LmiggVO-fjeI4V76MKx8B4VOl1KCYmYm-6f0cT2cUNVx9ugiPc74Beeaqt2ucLmXimQjUVYM-LQfa4pU6MiPOTF31OeYByU%3D",
                 "showing": [
                     {
                         "time": [
@@ -503,27 +665,38 @@
         "date": "Feb 22",
         "movies": [
             {
-                "name": "Wuthering Heights",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:15pm",
-                            "3:40pm",
-                            "7:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "Goat",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D",
                 "showing": [
                     {
                         "time": [
                             "1:00pm",
-                            "7:00pm"
+                            "4:45pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "7:00pm",
+                            "9:30pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Wuthering Heights",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:15pm",
+                            "2:15pm",
+                            "3:40pm",
+                            "5:45pm",
+                            "7:30pm",
+                            "8:20pm",
+                            "9:10pm"
                         ],
                         "type": "Standard"
                     }
@@ -531,13 +704,14 @@
             },
             {
                 "name": "I Can Only Imagine 2",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DikkuMj5QArX8nWa6T2ktMHrXHeHKAjS6Uoq8N7eAyp_Om3qlWb7hN4TzLP2WUvnf9RLkglkFcRX7nkzcmEvfppWpai9x3NpiNQ0aleo68zhAMs717tdu6EzE4rmg2wl0EfL9o%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DikkuMj5QArX8nWa6T2ktMHrXHeHKAjS6Uoq8N7eAyp_Om3qlWb7hN4TzLP2WUvnf9RLkglkFcRX7nkzcmEvfppWpai9x3NpiNQ0aleo68zhAMs717tdu6EzE4rmg2wl0EfL9o%3D",
                 "showing": [
                     {
                         "time": [
-                            "1:30pm",
-                            "4:30pm",
-                            "7:30pm"
+                            "1:20pm",
+                            "4:15pm",
+                            "6:30pm",
+                            "9:15pm"
                         ],
                         "type": "Standard"
                     }
@@ -545,12 +719,87 @@
             },
             {
                 "name": "Crime 101",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D",
                 "showing": [
                     {
                         "time": [
-                            "3:40pm",
-                            "7:00pm"
+                            "2:45pm",
+                            "6:10pm",
+                            "9:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Send Help",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Send+Help&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8HKJNlWVbJnmCFFAFY8ALHJLlxmWGYAI24wK8fktFVmmEbNl7PbhOkkMK0hwNEGPoV57mS531P2r-mOzM6NQgs0a1KkJi7aguNfnwdRw6269MQpigXgO1c5D_9Ly8RAjc_izsW8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:05pm",
+                            "9:30pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "4:55pm",
+                            "7:45pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Solo Mio",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Solo+Mio&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8OT6OkivXJ5Fz1swwY_7r9IOlkfJd4CIOZP2PRoz-ztY6k24-1j-ofywhc-E4PVala6afbF19nMNefx-OlcX760b52cIkonouVzerIzb7ubBYUfW592f_v2I_ZkIbYEGNxfUc_g%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:40pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "How to Make a Killing",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DbWJhk98DAhwmQwHx1iUbBE99hvIceaehldZ7a7RRv8UXn92rhn9DvIaBUwLcea1xr3ZtYJnOl2zlxM_wnCvpqjwY5CrvjzpQFFJzBxeklBvToua0_7P-4eIsJ08yRlaZAZ9AQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:15pm",
+                            "4:00pm",
+                            "6:45pm",
+                            "9:25pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Good Luck, Have Fun, Don't Die",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8G-DbFTJ0ri7pQbaTdWDWLmHFNCGNMtEQJx1jdVhNXEi2cHWBbkRhrT4SvD0pa2eihLvhnszex3WT_3SvqviedUwAjzrqjYdsWi9bjyi-B-0eO5e75gxJJ33NtkV5QJnqjVHZy8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:50pm",
+                            "5:00pm",
+                            "8:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Zootopia 2",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Zootopia+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NQJUjJqFRcmDNSd4NIRL2El9uZl7ax_7UUYEZrJzRKrWphS504ghSwJTjs9IayegtUC_kbZ9w6GBvhNoIEAuk-mIi1A1P7vDWz3vSuyacxoXfIg1WQZndd8dYenbr9veuJkUUA%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "6:15pm"
                         ],
                         "type": "Standard"
                     }
@@ -558,13 +807,63 @@
             },
             {
                 "name": "Midwinter Break",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Cto4gA9Ogc-hC16uhwgmytvNIIM0v6JWb-Dp45_A1e3fPBGnCDNnhwPdIcqr_cxwrAOXMi3kSDJO0zzVH4UnkrStAg7V28GiCj9hG336_brmQTYkaOA4JO0OjJcI1WyP3li4es%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Cto4gA9Ogc-hC16uhwgmytvNIIM0v6JWb-Dp45_A1e3fPBGnCDNnhwPdIcqr_cxwrAOXMi3kSDJO0zzVH4UnkrStAg7V28GiCj9hG336_brmQTYkaOA4JO0OjJcI1WyP3li4es%3D",
                 "showing": [
                     {
                         "time": [
                             "1:10pm",
                             "4:00pm",
-                            "6:40pm"
+                            "7:15pm",
+                            "9:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "This Is Not a Test",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=This+Is+Not+a+Test&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8CZCHODEyyBlZwK0tjTDYZggZnjyv6JAD5xE6kT1WMIQtcFFePqJ5SsI2BReyDdb_dpabGv5FsJGbtUvRtjaIHgYvYMeoHbmL1E7nF1d33X2XlpGFCqwhB4ri9sr8EiBNIgYx0Y%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:10pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Marty Supreme",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Marty+Supreme&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8MX0Clu2SoTk896mt_vjfWV9nYSBsAHVyrxYi5b2F9Oof-oAVyFRMhyKPkKr8oCOCsXPjtYE2zYYUzQ5E0c4T0wOkTp0iPLypEYNlKM5ahafMhA2xmzs6ZObs93WMQ3EkIs6xCg%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:40pm",
+                            "8:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Nirvanna: The Band - the Show - the Movie",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Nirvanna:+The+Band+-+the+Show+-+the+Movie&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8JOJCcDx-aAC2Rgh-qBOg39kz81-eVvQdJG5DAY9y_KRL2ESVAY4lfbuIowxKEqOovKfFyNXE4WXQhs-_hQ1XnQ3b1Q_l0eNHmgDNLpl9ZVH6eGt1I4JD-am3YoPvR8_NYZr5-Q%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Kokuho",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Kokuho&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8O0ncr8v4RrlRwU15aY0NJHt5OouG2yc77sGeZw1msh75VXSg12leYFdojuANlmHQZFvVI47S6QzvBVZZOQXerOaW9jIjY8Whox7KOReADPbSWn8Gzk4MlLsIjn99Ui8yDnGPuM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:50pm"
                         ],
                         "type": "Standard"
                     }
@@ -577,26 +876,36 @@
         "date": "Feb 23",
         "movies": [
             {
-                "name": "Wuthering Heights",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D",
+                "name": "Goat",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D",
                 "showing": [
                     {
                         "time": [
-                            "3:40pm",
-                            "7:15pm"
+                            "3:10pm",
+                            "4:45pm"
                         ],
                         "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "7:00pm",
+                            "9:30pm"
+                        ],
+                        "type": "3D"
                     }
                 ]
             },
             {
-                "name": "Goat",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D",
+                "name": "Wuthering Heights",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D",
                 "showing": [
                     {
                         "time": [
-                            "4:30pm",
-                            "7:00pm"
+                            "3:30pm",
+                            "4:40pm",
+                            "5:45pm",
+                            "7:30pm",
+                            "9:10pm"
                         ],
                         "type": "Standard"
                     }
@@ -604,12 +913,13 @@
             },
             {
                 "name": "I Can Only Imagine 2",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DikkuMj5QArX8nWa6T2ktMHrXHeHKAjS6Uoq8N7eAyp_Om3qlWb7hN4TzLP2WUvnf9RLkglkFcRX7nkzcmEvfppWpai9x3NpiNQ0aleo68zhAMs717tdu6EzE4rmg2wl0EfL9o%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DikkuMj5QArX8nWa6T2ktMHrXHeHKAjS6Uoq8N7eAyp_Om3qlWb7hN4TzLP2WUvnf9RLkglkFcRX7nkzcmEvfppWpai9x3NpiNQ0aleo68zhAMs717tdu6EzE4rmg2wl0EfL9o%3D",
                 "showing": [
                     {
                         "time": [
-                            "4:45pm",
-                            "7:45pm"
+                            "4:15pm",
+                            "6:30pm",
+                            "9:25pm"
                         ],
                         "type": "Standard"
                     }
@@ -617,12 +927,44 @@
             },
             {
                 "name": "Crime 101",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D",
                 "showing": [
                     {
                         "time": [
-                            "3:30pm",
-                            "7:00pm"
+                            "3:00pm",
+                            "6:15pm",
+                            "9:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Send Help",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Send+Help&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8HKJNlWVbJnmCFFAFY8ALHJLlxmWGYAI24wK8fktFVmmEbNl7PbhOkkMK0hwNEGPoV57mS531P2r-mOzM6NQgs0a1KkJi7aguNfnwdRw6269MQpigXgO1c5D_9Ly8RAjc_izsW8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:05pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "5:40pm",
+                            "8:30pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Solo Mio",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Solo+Mio&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8OT6OkivXJ5Fz1swwY_7r9IOlkfJd4CIOZP2PRoz-ztY6k24-1j-ofywhc-E4PVala6afbF19nMNefx-OlcX760b52cIkonouVzerIzb7ubBYUfW592f_v2I_ZkIbYEGNxfUc_g%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -630,13 +972,39 @@
             },
             {
                 "name": "How to Make a Killing",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DbWJhk98DAhwmQwHx1iUbBE99hvIceaehldZ7a7RRv8UXn92rhn9DvIaBUwLcea1xr3ZtYJnOl2zlxM_wnCvpqjwY5CrvjzpQFFJzBxeklBvToua0_7P-4eIsJ08yRlaZAZ9AQ%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DbWJhk98DAhwmQwHx1iUbBE99hvIceaehldZ7a7RRv8UXn92rhn9DvIaBUwLcea1xr3ZtYJnOl2zlxM_wnCvpqjwY5CrvjzpQFFJzBxeklBvToua0_7P-4eIsJ08yRlaZAZ9AQ%3D",
                 "showing": [
                     {
                         "time": [
-                            "3:20pm",
-                            "6:15pm",
-                            "9:00pm"
+                            "3:00pm",
+                            "6:45pm",
+                            "9:25pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Good Luck, Have Fun, Don't Die",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8G-DbFTJ0ri7pQbaTdWDWLmHFNCGNMtEQJx1jdVhNXEi2cHWBbkRhrT4SvD0pa2eihLvhnszex3WT_3SvqviedUwAjzrqjYdsWi9bjyi-B-0eO5e75gxJJ33NtkV5QJnqjVHZy8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:20pm",
+                            "8:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Zootopia 2",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Zootopia+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NQJUjJqFRcmDNSd4NIRL2El9uZl7ax_7UUYEZrJzRKrWphS504ghSwJTjs9IayegtUC_kbZ9w6GBvhNoIEAuk-mIi1A1P7vDWz3vSuyacxoXfIg1WQZndd8dYenbr9veuJkUUA%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:00pm",
+                            "7:45pm"
                         ],
                         "type": "Standard"
                     }
@@ -644,13 +1012,61 @@
             },
             {
                 "name": "Midwinter Break",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Cto4gA9Ogc-hC16uhwgmytvNIIM0v6JWb-Dp45_A1e3fPBGnCDNnhwPdIcqr_cxwrAOXMi3kSDJO0zzVH4UnkrStAg7V28GiCj9hG336_brmQTYkaOA4JO0OjJcI1WyP3li4es%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Cto4gA9Ogc-hC16uhwgmytvNIIM0v6JWb-Dp45_A1e3fPBGnCDNnhwPdIcqr_cxwrAOXMi3kSDJO0zzVH4UnkrStAg7V28GiCj9hG336_brmQTYkaOA4JO0OjJcI1WyP3li4es%3D",
                 "showing": [
                     {
                         "time": [
-                            "4:10pm",
-                            "6:45pm",
-                            "9:20pm"
+                            "4:00pm",
+                            "7:15pm",
+                            "9:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "This Is Not a Test",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=This+Is+Not+a+Test&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8CZCHODEyyBlZwK0tjTDYZggZnjyv6JAD5xE6kT1WMIQtcFFePqJ5SsI2BReyDdb_dpabGv5FsJGbtUvRtjaIHgYvYMeoHbmL1E7nF1d33X2XlpGFCqwhB4ri9sr8EiBNIgYx0Y%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Marty Supreme",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Marty+Supreme&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8MX0Clu2SoTk896mt_vjfWV9nYSBsAHVyrxYi5b2F9Oof-oAVyFRMhyKPkKr8oCOCsXPjtYE2zYYUzQ5E0c4T0wOkTp0iPLypEYNlKM5ahafMhA2xmzs6ZObs93WMQ3EkIs6xCg%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "8:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Nirvanna: The Band - the Show - the Movie",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Nirvanna:+The+Band+-+the+Show+-+the+Movie&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8JOJCcDx-aAC2Rgh-qBOg39kz81-eVvQdJG5DAY9y_KRL2ESVAY4lfbuIowxKEqOovKfFyNXE4WXQhs-_hQ1XnQ3b1Q_l0eNHmgDNLpl9ZVH6eGt1I4JD-am3YoPvR8_NYZr5-Q%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:55pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Kokuho",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Kokuho&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8O0ncr8v4RrlRwU15aY0NJHt5OouG2yc77sGeZw1msh75VXSg12leYFdojuANlmHQZFvVI47S6QzvBVZZOQXerOaW9jIjY8Whox7KOReADPbSWn8Gzk4MlLsIjn99Ui8yDnGPuM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:35pm"
                         ],
                         "type": "Standard"
                     }
@@ -663,26 +1079,36 @@
         "date": "Feb 24",
         "movies": [
             {
-                "name": "Wuthering Heights",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D",
+                "name": "Goat",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D",
                 "showing": [
                     {
                         "time": [
-                            "3:40pm",
-                            "7:15pm"
+                            "3:10pm",
+                            "7:00pm"
                         ],
                         "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "5:00pm",
+                            "9:30pm"
+                        ],
+                        "type": "3D"
                     }
                 ]
             },
             {
-                "name": "Goat",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D",
+                "name": "Wuthering Heights",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D",
                 "showing": [
                     {
                         "time": [
-                            "4:30pm",
-                            "7:00pm"
+                            "3:30pm",
+                            "4:40pm",
+                            "5:45pm",
+                            "7:45pm",
+                            "9:10pm"
                         ],
                         "type": "Standard"
                     }
@@ -690,12 +1116,13 @@
             },
             {
                 "name": "I Can Only Imagine 2",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DikkuMj5QArX8nWa6T2ktMHrXHeHKAjS6Uoq8N7eAyp_Om3qlWb7hN4TzLP2WUvnf9RLkglkFcRX7nkzcmEvfppWpai9x3NpiNQ0aleo68zhAMs717tdu6EzE4rmg2wl0EfL9o%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DikkuMj5QArX8nWa6T2ktMHrXHeHKAjS6Uoq8N7eAyp_Om3qlWb7hN4TzLP2WUvnf9RLkglkFcRX7nkzcmEvfppWpai9x3NpiNQ0aleo68zhAMs717tdu6EzE4rmg2wl0EfL9o%3D",
                 "showing": [
                     {
                         "time": [
-                            "4:45pm",
-                            "7:45pm"
+                            "3:05pm",
+                            "6:30pm",
+                            "9:25pm"
                         ],
                         "type": "Standard"
                     }
@@ -703,12 +1130,43 @@
             },
             {
                 "name": "Crime 101",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D",
                 "showing": [
                     {
                         "time": [
-                            "3:30pm",
-                            "7:00pm"
+                            "3:00pm",
+                            "6:15pm",
+                            "9:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Send Help",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Send+Help&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8HKJNlWVbJnmCFFAFY8ALHJLlxmWGYAI24wK8fktFVmmEbNl7PbhOkkMK0hwNEGPoV57mS531P2r-mOzM6NQgs0a1KkJi7aguNfnwdRw6269MQpigXgO1c5D_9Ly8RAjc_izsW8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "8:30pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "5:40pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Solo Mio",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Solo+Mio&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8OT6OkivXJ5Fz1swwY_7r9IOlkfJd4CIOZP2PRoz-ztY6k24-1j-ofywhc-E4PVala6afbF19nMNefx-OlcX760b52cIkonouVzerIzb7ubBYUfW592f_v2I_ZkIbYEGNxfUc_g%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -716,7 +1174,222 @@
             },
             {
                 "name": "How to Make a Killing",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DbWJhk98DAhwmQwHx1iUbBE99hvIceaehldZ7a7RRv8UXn92rhn9DvIaBUwLcea1xr3ZtYJnOl2zlxM_wnCvpqjwY5CrvjzpQFFJzBxeklBvToua0_7P-4eIsJ08yRlaZAZ9AQ%3D",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DbWJhk98DAhwmQwHx1iUbBE99hvIceaehldZ7a7RRv8UXn92rhn9DvIaBUwLcea1xr3ZtYJnOl2zlxM_wnCvpqjwY5CrvjzpQFFJzBxeklBvToua0_7P-4eIsJ08yRlaZAZ9AQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:00pm",
+                            "6:45pm",
+                            "9:25pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Good Luck, Have Fun, Don't Die",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8G-DbFTJ0ri7pQbaTdWDWLmHFNCGNMtEQJx1jdVhNXEi2cHWBbkRhrT4SvD0pa2eihLvhnszex3WT_3SvqviedUwAjzrqjYdsWi9bjyi-B-0eO5e75gxJJ33NtkV5QJnqjVHZy8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:20pm",
+                            "8:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Zootopia 2",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Zootopia+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NQJUjJqFRcmDNSd4NIRL2El9uZl7ax_7UUYEZrJzRKrWphS504ghSwJTjs9IayegtUC_kbZ9w6GBvhNoIEAuk-mIi1A1P7vDWz3vSuyacxoXfIg1WQZndd8dYenbr9veuJkUUA%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:00pm",
+                            "8:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Midwinter Break",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Cto4gA9Ogc-hC16uhwgmytvNIIM0v6JWb-Dp45_A1e3fPBGnCDNnhwPdIcqr_cxwrAOXMi3kSDJO0zzVH4UnkrStAg7V28GiCj9hG336_brmQTYkaOA4JO0OjJcI1WyP3li4es%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:10pm",
+                            "7:15pm",
+                            "9:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "K-Pops!",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=K-Pops!&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NEqv3jrb46Wz7Lsf_fT1e5iynEuwR47peffVFwnDI8QOrb496q28W1LhEviaRBL6hJXbCiltc5sxbYvWv3Pf-9pkJhJRG4c-dnc21x_j1QIi6mFFkioG0CeT_MwlB1SkeiwOME%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "7:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "This Is Not a Test",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=This+Is+Not+a+Test&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8CZCHODEyyBlZwK0tjTDYZggZnjyv6JAD5xE6kT1WMIQtcFFePqJ5SsI2BReyDdb_dpabGv5FsJGbtUvRtjaIHgYvYMeoHbmL1E7nF1d33X2XlpGFCqwhB4ri9sr8EiBNIgYx0Y%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Marty Supreme",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Marty+Supreme&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8MX0Clu2SoTk896mt_vjfWV9nYSBsAHVyrxYi5b2F9Oof-oAVyFRMhyKPkKr8oCOCsXPjtYE2zYYUzQ5E0c4T0wOkTp0iPLypEYNlKM5ahafMhA2xmzs6ZObs93WMQ3EkIs6xCg%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Nirvanna: The Band - the Show - the Movie",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Nirvanna:+The+Band+-+the+Show+-+the+Movie&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8JOJCcDx-aAC2Rgh-qBOg39kz81-eVvQdJG5DAY9y_KRL2ESVAY4lfbuIowxKEqOovKfFyNXE4WXQhs-_hQ1XnQ3b1Q_l0eNHmgDNLpl9ZVH6eGt1I4JD-am3YoPvR8_NYZr5-Q%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:55pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Kokuho",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Kokuho&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8O0ncr8v4RrlRwU15aY0NJHt5OouG2yc77sGeZw1msh75VXSg12leYFdojuANlmHQZFvVI47S6QzvBVZZOQXerOaW9jIjY8Whox7KOReADPbSWn8Gzk4MlLsIjn99Ui8yDnGPuM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Wed",
+        "date": "Feb 25",
+        "movies": [
+            {
+                "name": "Goat",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Goat&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8P_sZGUo0h0JzVMJQGPRlV9CXbDNYDwn4QjKeAaYhr2quJ6kw76gHi2lVcevPoHZ0-CDBfFt4HSI2xJSiHWZe_vXZ9VYS8PH74Ket3uv_rcG7mtx17Lcd84r-1sG7zrLr-pJ9RU%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:10pm",
+                            "4:45pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "7:00pm",
+                            "9:30pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Wuthering Heights",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NynnwzEj6-OHuSkMbFgE_jL5w7uAuXnozQLTi_9k0IIwSoEvfwL6DgeQfT5PuQQ3nD0OFj9u1VIo-Eo4a6eGw1Qqhhd4w1YI_QyLUteggyTTMpV_1M4WK9mjD5t7_-B94WKilU%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:30pm",
+                            "4:40pm",
+                            "5:45pm",
+                            "7:20pm",
+                            "9:10pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "I Can Only Imagine 2",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DikkuMj5QArX8nWa6T2ktMHrXHeHKAjS6Uoq8N7eAyp_Om3qlWb7hN4TzLP2WUvnf9RLkglkFcRX7nkzcmEvfppWpai9x3NpiNQ0aleo68zhAMs717tdu6EzE4rmg2wl0EfL9o%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:15pm",
+                            "7:00pm",
+                            "9:25pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Crime 101",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Crime+101&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8BDYJ0GAyMOr2JHIAnDYJICOpeo88dDl1oVlDH6TKp_7EwCLsg6ubApaaPk_3hyYy63wbuyfjENqrCmF23vcF-tcvweQ3e5U6Ktq4rx-UlXCyQ7VOwefKhnl_Qq445Zjl9ghaKc%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:00pm",
+                            "6:15pm",
+                            "9:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Send Help",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Send+Help&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8HKJNlWVbJnmCFFAFY8ALHJLlxmWGYAI24wK8fktFVmmEbNl7PbhOkkMK0hwNEGPoV57mS531P2r-mOzM6NQgs0a1KkJi7aguNfnwdRw6269MQpigXgO1c5D_9Ly8RAjc_izsW8%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:05pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "5:40pm",
+                            "8:30pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Solo Mio",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Solo+Mio&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8OT6OkivXJ5Fz1swwY_7r9IOlkfJd4CIOZP2PRoz-ztY6k24-1j-ofywhc-E4PVala6afbF19nMNefx-OlcX760b52cIkonouVzerIzb7ubBYUfW592f_v2I_ZkIbYEGNxfUc_g%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "How to Make a Killing",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8DbWJhk98DAhwmQwHx1iUbBE99hvIceaehldZ7a7RRv8UXn92rhn9DvIaBUwLcea1xr3ZtYJnOl2zlxM_wnCvpqjwY5CrvjzpQFFJzBxeklBvToua0_7P-4eIsJ08yRlaZAZ9AQ%3D",
                 "showing": [
                     {
                         "time": [
@@ -729,26 +1402,88 @@
                 ]
             },
             {
-                "name": "Midwinter Break",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Cto4gA9Ogc-hC16uhwgmytvNIIM0v6JWb-Dp45_A1e3fPBGnCDNnhwPdIcqr_cxwrAOXMi3kSDJO0zzVH4UnkrStAg7V28GiCj9hG336_brmQTYkaOA4JO0OjJcI1WyP3li4es%3D",
+                "name": "Good Luck, Have Fun, Don't Die",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8G-DbFTJ0ri7pQbaTdWDWLmHFNCGNMtEQJx1jdVhNXEi2cHWBbkRhrT4SvD0pa2eihLvhnszex3WT_3SvqviedUwAjzrqjYdsWi9bjyi-B-0eO5e75gxJJ33NtkV5QJnqjVHZy8%3D",
                 "showing": [
                     {
                         "time": [
-                            "4:10pm",
-                            "6:45pm",
-                            "9:20pm"
+                            "4:20pm",
+                            "8:45pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "K-Pops!",
-                "link": "https://www.google.com/search?sca_esv=fd1b7ca8ddeb381e&gl=us&hl=en&q=K-Pops!&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NEqv3jrb46Wz7Lsf_fT1e5iynEuwR47peffVFwnDI8QOrb496q28W1LhEviaRBL6hJXbCiltc5sxbYvWv3Pf-9pkJhJRG4c-dnc21x_j1QIi6mFFkioG0CeT_MwlB1SkeiwOME%3D",
+                "name": "Zootopia 2",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Zootopia+2&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8NQJUjJqFRcmDNSd4NIRL2El9uZl7ax_7UUYEZrJzRKrWphS504ghSwJTjs9IayegtUC_kbZ9w6GBvhNoIEAuk-mIi1A1P7vDWz3vSuyacxoXfIg1WQZndd8dYenbr9veuJkUUA%3D",
                 "showing": [
                     {
                         "time": [
-                            "7:30pm"
+                            "4:00pm",
+                            "7:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Midwinter Break",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8Cto4gA9Ogc-hC16uhwgmytvNIIM0v6JWb-Dp45_A1e3fPBGnCDNnhwPdIcqr_cxwrAOXMi3kSDJO0zzVH4UnkrStAg7V28GiCj9hG336_brmQTYkaOA4JO0OjJcI1WyP3li4es%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:15pm",
+                            "7:10pm",
+                            "9:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "This Is Not a Test",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=This+Is+Not+a+Test&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8CZCHODEyyBlZwK0tjTDYZggZnjyv6JAD5xE6kT1WMIQtcFFePqJ5SsI2BReyDdb_dpabGv5FsJGbtUvRtjaIHgYvYMeoHbmL1E7nF1d33X2XlpGFCqwhB4ri9sr8EiBNIgYx0Y%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Marty Supreme",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Marty+Supreme&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8MX0Clu2SoTk896mt_vjfWV9nYSBsAHVyrxYi5b2F9Oof-oAVyFRMhyKPkKr8oCOCsXPjtYE2zYYUzQ5E0c4T0wOkTp0iPLypEYNlKM5ahafMhA2xmzs6ZObs93WMQ3EkIs6xCg%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "8:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Nirvanna: The Band - the Show - the Movie",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Nirvanna:+The+Band+-+the+Show+-+the+Movie&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8JOJCcDx-aAC2Rgh-qBOg39kz81-eVvQdJG5DAY9y_KRL2ESVAY4lfbuIowxKEqOovKfFyNXE4WXQhs-_hQ1XnQ3b1Q_l0eNHmgDNLpl9ZVH6eGt1I4JD-am3YoPvR8_NYZr5-Q%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:55pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Kokuho",
+                "link": "https://www.google.com/search?sca_esv=db43bf9cab898b26&gl=us&hl=en&q=Kokuho&si=AL3DRZHDFGDFspvDylwh0VS9LfAgjsUpo91IDKDzLF8L2V3D8O0ncr8v4RrlRwU15aY0NJHt5OouG2yc77sGeZw1msh75VXSg12leYFdojuANlmHQZFvVI47S6QzvBVZZOQXerOaW9jIjY8Whox7KOReADPbSWn8Gzk4MlLsIjn99Ui8yDnGPuM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:35pm"
                         ],
                         "type": "Standard"
                     }
