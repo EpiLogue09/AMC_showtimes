@@ -3,344 +3,8 @@
         "day": "Tomorrow",
         "movies": [
             {
-                "name": "Scream 7",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D&sa=X&ved=2ahUKEwiQ_4HzxIWTAxUDLlkFHUo9C1MQxyZ6BQiEARAT",
-                "showing": [
-                    {
-                        "time": [
-                            "5:30pm",
-                            "8:30pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "4:00pm",
-                            "7:00pm"
-                        ],
-                        "type": "IMAX"
-                    },
-                    {
-                        "time": [
-                            "3:00pm",
-                            "6:00pm",
-                            "9:00pm"
-                        ],
-                        "type": "Dolby Cinema"
-                    }
-                ]
-            },
-            {
-                "name": "Goat",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Goat&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs9LiapGf3oCcOA-TlmrU5kdvI4d7NDn1UEB4H8_3tgGsgrXxRDw71UyPVvUxMhaiJEmyfCdOsT1N6gyBLIOJOJSSqPDQOa33ItBZXwYjEC9Qokg00bUFHXYRv7EQg7ihkbLFqQ%3D&sa=X&ved=2ahUKEwiQ_4HzxIWTAxUDLlkFHUo9C1MQxyZ6BQiEARAf",
-                "showing": [
-                    {
-                        "time": [
-                            "5:30pm",
-                            "9:00pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "4:00pm",
-                            "6:30pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "Wuthering Heights",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSszlmDCQdJ-kDNU5nkj-SkuQP9JDSIt6uJQUjx0-N3vDQTVWB81A3xCq-XgSIxHGn-p2jtbV7K3iNwKCU0rT7lSKJibb_tP4IWC556B98yzK9g7mh45IDjCBn5Zto4gAA92UIC0%3D&sa=X&ved=2ahUKEwiQ_4HzxIWTAxUDLlkFHUo9C1MQxyZ6BQiEARAn",
-                "showing": [
-                    {
-                        "time": [
-                            "4:15pm",
-                            "7:30pm",
-                            "9:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "I Can Only Imagine 2",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqeGollB_06YkUf7k5jX4xdELaggM-sEkOADTmjCG1B7CbKKT_2-kfKr5ff6ufINmAmNAXPqvO0oGRBZTBmghI8I4TkMjMnMbTsJAijrmZAOieNBosMVWRYvyoHI7ziL4dZLVcU%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "4:15pm",
-                            "7:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "EPiC: Elvis Presley in Concert",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=EPiC:+Elvis+Presley+in+Concert&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSjghhEzS8Ax68fHk3xvDwAhjLycqDa4NY_s2VIXHMGGKslYah7w1SDTEOsK9MoXeKSii5pazHGJEj18IiBu08O4RoY9c05bVzNioPwye_YY2kjL2Ofv1dzMHFLVnkC4waVlKqoI%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:00pm",
-                            "6:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Crime 101",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Crime+101&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSli3PEDTyp0au_TfAVcsIZzJP7gI50ZTD5HXKp_-5o3xj57zjg_C_NorICSQ57tUeZIsz4WEvpw-GC8J5t1c27_fEuXPc1rLMj_1lLclwbAdUavtk6-qlWJQDRsRyYLGNckI-Pw%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:00pm",
-                            "8:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Send Help",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Send+Help&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSm-VrVaEnvqYXout3dX-5HpD5L7InRWttjldyk9y_W8iQRNTU5IumrPJsurEZhz6uXTJUE6Bnzn8UfUiOhK5DSZAXFoOOHHwKubmBIq5lEIp-QpDWH5ihoI0B6-31dnniqAvWSA%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "9:00pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "3:00pm",
-                            "6:00pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "Solo Mio",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Solo+Mio&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmoAfLGZ51AmGG7XinnNL5-B8-t4YIB0Se07DEpBBVBZwmMtvcOP46s6V1wsPq0lcJZWGXbDjcdc3FPCPey87wy8Rt7ihEIy9uHIZ6Ew15x88F7IA3yIzHYyvu48KbRjwray5dk%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "4:30pm",
-                            "6:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "How to Make a Killing",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs2VkS9M6t5GEZQkthLE-_TSmf_Frr0febWSnZoeMCN7HsBKdn2MZZNEUSooqYefRAhtJklw6ENHdCQFTXAIo8OtwEWXe49ZO-L5fu6PCwQxxEhEYmUXIT2dJc_LgVdPMtxcCrQ%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:30pm",
-                            "6:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Avatar: Fire and Ash",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Avatar:+Fire+and+Ash&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSi3mgVGEMzMcfAMFap9UdCctL9ZMPXTi9HJ9G_nOe4c4EuMMwBEfP9fDDKm3pZuFXL7aa7K4v07v9mPHnpiyEkjyRYc3O6EB_tMddQ-kI59WiU2wiYqxfoHEO_tXbYWkp-tG_5c%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:00pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
-                "name": "Psycho Killer",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Psycho+Killer&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSow7aM06qa1QIMZ7I1NbXt7ygu-p1zkp3LJEes2_YiiYtXDkMuameXaiKcyKFySx7uBWGbcFJEGutcx_JkL0fzTnUu9qQ249Ah63y-z70_jmVIfdWttNj1wltHxFJCa77yFSzYw%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:00pm",
-                            "7:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Umamusume: Pretty Derby - Beginning of a New Era",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Umamusume:+Pretty+Derby+-+Beginning+of+a+New+Era&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrTtLKs8M1jZwf4SN2izf3wLdMoSPZJJrqx5-CyR0hiH9rKuWwcy5Guwe6hRrwk7UT_9C8vUtz3kKmH4HjAw33wVAlKF4hiYbpbZxSlyGfD54EfpbylrTCrcbMKrWCvKSjY70S0%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "4:00pm",
-                            "7:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Good Luck, Have Fun, Don't Die",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiouYUirIbRAUlpgB_pJwpogMY-booZDz4Nadpd-ZFRU9N-BpjA9DZSF89XqshKrNsENW-koTLRUzTU0K7djRCgaqZvUcDZlz6EjqPXuz_WQosomYUZUbcXIoRk92WNo0Fi6MTs%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "4:15pm",
-                            "8:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Midwinter Break",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Midwinter+Break&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpxZiMETpIvuUkVvUQC0CTuzztlhrE58ZbXC6nhu62KWvMd9rDoi6yHO603RB-v1J2_SRwk_UCkjt0bqn8tzr2bdpBmNIAQaU3Fb74Vt8C0i0KcBJNDoVCFaHMpcAaqLTX0cPBg%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Sinners",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Sinners&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpXABoK11ENjpfdSjy15I-5zbLbTAMaiU94XUTROYJF29fvADnr-YahmvkcyFLD3skd859UwHT-e-dEbIx0DZQ123jmeZ-oQ-pafLC9zT4hlAUuBjhYyWCKNUkdDslYrL0y5m64%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Pegasus 3",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Pegasus+3&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSgpjMDfdTIjSFTG0dTp4YWI8lOiMTQoVVkL2XjYUYOWSLs3PWexTO-YCjDvR1bAZ9FiMqM4Y5IrBBsYf-FgjwU50OafMMsH_ucr968m1bmbFJJ-0Fc5PGFF_o_jzH4h_bu2Nu6E%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "9:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "K-Pops!",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=K-Pops!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuQsjvaP9Ce5J7UdaPsQ001jJ1YmVvC9zRJC7ow-2qv2OndcT8MQWsuC_tuaRnbR5CsOKXGPrTolIsZBYGm5z7i3cmRHgKCfq2TH5FAE5kdwVOEvbbqEgZC146n3wDi5aXDkZBk%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:00pm",
-                            "6:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Dreams",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Dreams&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiXHOuI5R2nDPfChGcrrgE0LCqYEauuIsdfKOnE4bpzz4JgTIOWzu1vtjufFsWhKd-BbBSleB5PGhGxGiRMDiR_L8ADkKrPaQA2YQ2shFXFWUXmVAm4yaRrtZmPUFNvTg4jW7Ig%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "9:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "The President's Cake",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=The+President%27s+Cake&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSkasFYdYB84A_JCPCHXHhReQRxO3354KnseDrTFNBfcNgj6Ma3l4J3HYop-_8B8uQuB6eK9hd-Qadfo93N1G-q6Y03Chr_swPiPuBDwP5ziM0GypUPfg5DPQe9uy9wAFH3uxFLw%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "5:35pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Undercard",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Undercard&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSgkWVEQkjVij1RmBmGq6B229FZsi5I2vtaFmFsgrV7GZY7M9MNhb1yxg_K2pqKBqT_OhrvVFo71GLOYJ3hmY2EHhvgEOJj0qU388S6EMOBd4iqyE8PbWqbZdpnz_HLdAk2q4kZI%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "9:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "AURORA: What Happened To The Earth?",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=AURORA:+What+Happened+To+The+Earth%3F&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnVOeS_gaTUIkakFYAkP5J4UcWvWcXEmuMllViYr0aI6pvungkN4IrWdaRgg1VG9KiCUpnoYqXROeVLGefMprooIyWJl-mC7QGdnAXVr9lqYf_UKrGQBsICma_H5xHjYyYgNzJg%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "7:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "A Better Tomorrow - Hong Kong Cinema Classics",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=A+Better+Tomorrow+-+Hong+Kong+Cinema+Classics&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSjJ47ICiTk13Aao5UJLC1oaeDKvM6vxIr2oIHiz6jNCtWz03YafIxs8FVMFEEnP_qOPh9-r0EVm4CfOXz5la5ojLYqR_O1OEvzKAolEQijNRCsMtWBdCS_kLo3Bxairx6oi55nA%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "7:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "The Woman King",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=The+Woman+King&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdStitwRvsfu5c8eFyhfyiT4NKYwmG7ejITeSInrEgh2_Q9cEGhseh0ohNnY03Ud1xpuyQ_CS0axdjm7PW67zmGIgK3X146-57tyJJP_8pYyUnBzEf01Ndea9Tis_zmWlirnFFw14%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "7:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Get on the Bus",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Get+on+the+Bus&si=AL3DRZHAWfvNdk06i2gcUVkfbv_GrpmNAtdve9GWM1w8TqOFOJ42_SUn-EDE38corOfAkRGL05fRex04AT4K7X4jU25AyLIIEg2ZoA53P8DVcG1dv9nWCaRBWGHsKXE8Hw6bYlf4XuQjU92q3OQnsbXdZ6gvqQCYLq877gfk-QWyCJACg19c8uM%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "4:00pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "day": "Thu",
-        "date": "Mar 5",
-        "movies": [
-            {
                 "name": "Hoppers",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Hoppers&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmFXsoRCrsp1baeHj9z8r_FGbP0xvJO1T3rbtOjZIad9ZqIkkU4hBrUI_iFdJFU2Qz9y35KLxaGZ-xlzVx0LTKxgHLBfcITItNkl1Yf0cqjpjSELmpnIBnb0Qy4qBZT7NAl4gIM%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Hoppers&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmFXsoRCrsp1baeHj9z8r_FGbP0xvJO1T3rbtOjZIad9ZqIkkU4hBrUI_iFdJFU2Qz9y35KLxaGZ-xlzVx0LTKxgHLBfcITItNkl1Yf0cqjpjSELmpnIBnb0Qy4qBZT7NAl4gIM%3D&sa=X&ved=2ahUKEwifnOKFh4iTAxWUrJUCHa4_HmAQxyZ6BAhZEBM",
                 "showing": [
                     {
                         "time": [
@@ -371,7 +35,7 @@
             },
             {
                 "name": "Scream 7",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D&sa=X&ved=2ahUKEwifnOKFh4iTAxWUrJUCHa4_HmAQxyZ6BAhZEB4",
                 "showing": [
                     {
                         "time": [
@@ -392,7 +56,7 @@
             },
             {
                 "name": "The Bride!",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=The+Bride!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShYbUJkt_wZ7cjWYY2UKVdABCIZiEHFk0ZDPC72jzeonRLkb11KNkyw40E7U-Hxqig3xR3ZuGdtQtIyaBiz8M0we8b0knw-p2QFpJERcpWY0E3EHQ1OA7qG8CbKMISNHmlQ1nSc%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=The+Bride!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShYbUJkt_wZ7cjWYY2UKVdABCIZiEHFk0ZDPC72jzeonRLkb11KNkyw40E7U-Hxqig3xR3ZuGdtQtIyaBiz8M0we8b0knw-p2QFpJERcpWY0E3EHQ1OA7qG8CbKMISNHmlQ1nSc%3D&sa=X&ved=2ahUKEwifnOKFh4iTAxWUrJUCHa4_HmAQxyZ6BAhZECc",
                 "showing": [
                     {
                         "time": [
@@ -413,7 +77,7 @@
             },
             {
                 "name": "Goat",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Goat&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs9LiapGf3oCcOA-TlmrU5kdvI4d7NDn1UEB4H8_3tgGsgrXxRDw71UyPVvUxMhaiJEmyfCdOsT1N6gyBLIOJOJSSqPDQOa33ItBZXwYjEC9Qokg00bUFHXYRv7EQg7ihkbLFqQ%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Goat&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs9LiapGf3oCcOA-TlmrU5kdvI4d7NDn1UEB4H8_3tgGsgrXxRDw71UyPVvUxMhaiJEmyfCdOsT1N6gyBLIOJOJSSqPDQOa33ItBZXwYjEC9Qokg00bUFHXYRv7EQg7ihkbLFqQ%3D",
                 "showing": [
                     {
                         "time": [
@@ -433,7 +97,7 @@
             },
             {
                 "name": "Wuthering Heights",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSszlmDCQdJ-kDNU5nkj-SkuQP9JDSIt6uJQUjx0-N3vDQTVWB81A3xCq-XgSIxHGn-p2jtbV7K3iNwKCU0rT7lSKJibb_tP4IWC556B98yzK9g7mh45IDjCBn5Zto4gAA92UIC0%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSszlmDCQdJ-kDNU5nkj-SkuQP9JDSIt6uJQUjx0-N3vDQTVWB81A3xCq-XgSIxHGn-p2jtbV7K3iNwKCU0rT7lSKJibb_tP4IWC556B98yzK9g7mh45IDjCBn5Zto4gAA92UIC0%3D",
                 "showing": [
                     {
                         "time": [
@@ -448,7 +112,7 @@
             },
             {
                 "name": "Crime 101",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Crime+101&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSli3PEDTyp0au_TfAVcsIZzJP7gI50ZTD5HXKp_-5o3xj57zjg_C_NorICSQ57tUeZIsz4WEvpw-GC8J5t1c27_fEuXPc1rLMj_1lLclwbAdUavtk6-qlWJQDRsRyYLGNckI-Pw%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Crime+101&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSli3PEDTyp0au_TfAVcsIZzJP7gI50ZTD5HXKp_-5o3xj57zjg_C_NorICSQ57tUeZIsz4WEvpw-GC8J5t1c27_fEuXPc1rLMj_1lLclwbAdUavtk6-qlWJQDRsRyYLGNckI-Pw%3D",
                 "showing": [
                     {
                         "time": [
@@ -462,7 +126,7 @@
             },
             {
                 "name": "Send Help",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Send+Help&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSm-VrVaEnvqYXout3dX-5HpD5L7InRWttjldyk9y_W8iQRNTU5IumrPJsurEZhz6uXTJUE6Bnzn8UfUiOhK5DSZAXFoOOHHwKubmBIq5lEIp-QpDWH5ihoI0B6-31dnniqAvWSA%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Send+Help&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSm-VrVaEnvqYXout3dX-5HpD5L7InRWttjldyk9y_W8iQRNTU5IumrPJsurEZhz6uXTJUE6Bnzn8UfUiOhK5DSZAXFoOOHHwKubmBIq5lEIp-QpDWH5ihoI0B6-31dnniqAvWSA%3D",
                 "showing": [
                     {
                         "time": [
@@ -481,7 +145,7 @@
             },
             {
                 "name": "Protector",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Protector&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpDthHd5X_MJeftBA9I0hx70ENiEdaE_DWrDXRJHkcl60mJa7U_vrTFDHAwAYeS5Av1Imguh8K86AS32pv9x9x94sOpKLB1NxE2J4zhdhNUY10K7Kam7VrQ3XkMErn92DnJDv8Q%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Protector&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpDthHd5X_MJeftBA9I0hx70ENiEdaE_DWrDXRJHkcl60mJa7U_vrTFDHAwAYeS5Av1Imguh8K86AS32pv9x9x94sOpKLB1NxE2J4zhdhNUY10K7Kam7VrQ3XkMErn92DnJDv8Q%3D",
                 "showing": [
                     {
                         "time": [
@@ -493,7 +157,7 @@
             },
             {
                 "name": "Solo Mio",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Solo+Mio&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmoAfLGZ51AmGG7XinnNL5-B8-t4YIB0Se07DEpBBVBZwmMtvcOP46s6V1wsPq0lcJZWGXbDjcdc3FPCPey87wy8Rt7ihEIy9uHIZ6Ew15x88F7IA3yIzHYyvu48KbRjwray5dk%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Solo+Mio&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmoAfLGZ51AmGG7XinnNL5-B8-t4YIB0Se07DEpBBVBZwmMtvcOP46s6V1wsPq0lcJZWGXbDjcdc3FPCPey87wy8Rt7ihEIy9uHIZ6Ew15x88F7IA3yIzHYyvu48KbRjwray5dk%3D",
                 "showing": [
                     {
                         "time": [
@@ -507,7 +171,7 @@
             },
             {
                 "name": "How to Make a Killing",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs2VkS9M6t5GEZQkthLE-_TSmf_Frr0febWSnZoeMCN7HsBKdn2MZZNEUSooqYefRAhtJklw6ENHdCQFTXAIo8OtwEWXe49ZO-L5fu6PCwQxxEhEYmUXIT2dJc_LgVdPMtxcCrQ%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs2VkS9M6t5GEZQkthLE-_TSmf_Frr0febWSnZoeMCN7HsBKdn2MZZNEUSooqYefRAhtJklw6ENHdCQFTXAIo8OtwEWXe49ZO-L5fu6PCwQxxEhEYmUXIT2dJc_LgVdPMtxcCrQ%3D",
                 "showing": [
                     {
                         "time": [
@@ -518,20 +182,8 @@
                 ]
             },
             {
-                "name": "Avatar: Fire and Ash",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Avatar:+Fire+and+Ash&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSi3mgVGEMzMcfAMFap9UdCctL9ZMPXTi9HJ9G_nOe4c4EuMMwBEfP9fDDKm3pZuFXL7aa7K4v07v9mPHnpiyEkjyRYc3O6EB_tMddQ-kI59WiU2wiYqxfoHEO_tXbYWkp-tG_5c%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "2:00pm"
-                        ],
-                        "type": "3D"
-                    }
-                ]
-            },
-            {
                 "name": "Dolly",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Dolly&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnyCNpxHTpcHUSwXJSNPqL3t6X1rVvOE84mu3wiOr22KuPyPS-f1d2NcD30VSbQZCdF_Mpr5YF8HL5UwBr29drc3kuR4v3uA9lhjolwcleDqix2pwtyes1aZDXNiNzhNubvN8Cw%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Dolly&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnyCNpxHTpcHUSwXJSNPqL3t6X1rVvOE84mu3wiOr22KuPyPS-f1d2NcD30VSbQZCdF_Mpr5YF8HL5UwBr29drc3kuR4v3uA9lhjolwcleDqix2pwtyes1aZDXNiNzhNubvN8Cw%3D",
                 "showing": [
                     {
                         "time": [
@@ -543,22 +195,20 @@
                 ]
             },
             {
-                "name": "Psycho Killer",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Psycho+Killer&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSow7aM06qa1QIMZ7I1NbXt7ygu-p1zkp3LJEes2_YiiYtXDkMuameXaiKcyKFySx7uBWGbcFJEGutcx_JkL0fzTnUu9qQ249Ah63y-z70_jmVIfdWttNj1wltHxFJCa77yFSzYw%3D",
+                "name": "Avatar: Fire and Ash",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Avatar:+Fire+and+Ash&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSi3mgVGEMzMcfAMFap9UdCctL9ZMPXTi9HJ9G_nOe4c4EuMMwBEfP9fDDKm3pZuFXL7aa7K4v07v9mPHnpiyEkjyRYc3O6EB_tMddQ-kI59WiU2wiYqxfoHEO_tXbYWkp-tG_5c%3D",
                 "showing": [
                     {
                         "time": [
-                            "2:30pm",
-                            "5:00pm",
-                            "6:30pm"
+                            "2:00pm"
                         ],
-                        "type": "Standard"
+                        "type": "3D"
                     }
                 ]
             },
             {
                 "name": "Umamusume: Pretty Derby - Beginning of a New Era",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Umamusume:+Pretty+Derby+-+Beginning+of+a+New+Era&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrTtLKs8M1jZwf4SN2izf3wLdMoSPZJJrqx5-CyR0hiH9rKuWwcy5Guwe6hRrwk7UT_9C8vUtz3kKmH4HjAw33wVAlKF4hiYbpbZxSlyGfD54EfpbylrTCrcbMKrWCvKSjY70S0%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Umamusume:+Pretty+Derby+-+Beginning+of+a+New+Era&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrTtLKs8M1jZwf4SN2izf3wLdMoSPZJJrqx5-CyR0hiH9rKuWwcy5Guwe6hRrwk7UT_9C8vUtz3kKmH4HjAw33wVAlKF4hiYbpbZxSlyGfD54EfpbylrTCrcbMKrWCvKSjY70S0%3D",
                 "showing": [
                     {
                         "time": [
@@ -571,20 +221,8 @@
                 ]
             },
             {
-                "name": "Good Luck, Have Fun, Don't Die",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiouYUirIbRAUlpgB_pJwpogMY-booZDz4Nadpd-ZFRU9N-BpjA9DZSF89XqshKrNsENW-koTLRUzTU0K7djRCgaqZvUcDZlz6EjqPXuz_WQosomYUZUbcXIoRk92WNo0Fi6MTs%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:45pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "Youngblood",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Youngblood&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSteanWjZG8UryZ9C0Kvg65lvhS1o9XBxpcLeeey9uB6d8OeQUIYdDBYN6xTNnrGa3PnwA8EqyJ_yEbBzeUM7wY8WD29dtfJgsba4TCiXxuP_CAbEQ23n9zNWIKZzNWkawn-7fKs%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Youngblood&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSteanWjZG8UryZ9C0Kvg65lvhS1o9XBxpcLeeey9uB6d8OeQUIYdDBYN6xTNnrGa3PnwA8EqyJ_yEbBzeUM7wY8WD29dtfJgsba4TCiXxuP_CAbEQ23n9zNWIKZzNWkawn-7fKs%3D",
                 "showing": [
                     {
                         "time": [
@@ -595,8 +233,34 @@
                 ]
             },
             {
+                "name": "Good Luck, Have Fun, Don't Die",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiouYUirIbRAUlpgB_pJwpogMY-booZDz4Nadpd-ZFRU9N-BpjA9DZSF89XqshKrNsENW-koTLRUzTU0K7djRCgaqZvUcDZlz6EjqPXuz_WQosomYUZUbcXIoRk92WNo0Fi6MTs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Psycho Killer",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Psycho+Killer&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSow7aM06qa1QIMZ7I1NbXt7ygu-p1zkp3LJEes2_YiiYtXDkMuameXaiKcyKFySx7uBWGbcFJEGutcx_JkL0fzTnUu9qQ249Ah63y-z70_jmVIfdWttNj1wltHxFJCa77yFSzYw%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:30pm",
+                            "5:00pm",
+                            "6:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "K-Pops!",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=K-Pops!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuQsjvaP9Ce5J7UdaPsQ001jJ1YmVvC9zRJC7ow-2qv2OndcT8MQWsuC_tuaRnbR5CsOKXGPrTolIsZBYGm5z7i3cmRHgKCfq2TH5FAE5kdwVOEvbbqEgZC146n3wDi5aXDkZBk%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=K-Pops!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuQsjvaP9Ce5J7UdaPsQ001jJ1YmVvC9zRJC7ow-2qv2OndcT8MQWsuC_tuaRnbR5CsOKXGPrTolIsZBYGm5z7i3cmRHgKCfq2TH5FAE5kdwVOEvbbqEgZC146n3wDi5aXDkZBk%3D",
                 "showing": [
                     {
                         "time": [
@@ -609,7 +273,7 @@
             },
             {
                 "name": "The Woman King",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=The+Woman+King&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdStitwRvsfu5c8eFyhfyiT4NKYwmG7ejITeSInrEgh2_Q9cEGhseh0ohNnY03Ud1xpuyQ_CS0axdjm7PW67zmGIgK3X146-57tyJJP_8pYyUnBzEf01Ndea9Tis_zmWlirnFFw14%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=The+Woman+King&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdStitwRvsfu5c8eFyhfyiT4NKYwmG7ejITeSInrEgh2_Q9cEGhseh0ohNnY03Ud1xpuyQ_CS0axdjm7PW67zmGIgK3X146-57tyJJP_8pYyUnBzEf01Ndea9Tis_zmWlirnFFw14%3D",
                 "showing": [
                     {
                         "time": [
@@ -621,7 +285,7 @@
             },
             {
                 "name": "Get on the Bus",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Get+on+the+Bus&si=AL3DRZHAWfvNdk06i2gcUVkfbv_GrpmNAtdve9GWM1w8TqOFOJ42_SUn-EDE38corOfAkRGL05fRex04AT4K7X4jU25AyLIIEg2ZoA53P8DVcG1dv9nWCaRBWGHsKXE8Hw6bYlf4XuQjU92q3OQnsbXdZ6gvqQCYLq877gfk-QWyCJACg19c8uM%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Get+on+the+Bus&si=AL3DRZHAWfvNdk06i2gcUVkfbv_GrpmNAtdve9GWM1w8TqOFOJ42_SUn-EDE38corOfAkRGL05fRex04AT4K7X4jU25AyLIIEg2ZoA53P8DVcG1dv9nWCaRBWGHsKXE8Hw6bYlf4XuQjU92q3OQnsbXdZ6gvqQCYLq877gfk-QWyCJACg19c8uM%3D",
                 "showing": [
                     {
                         "time": [
@@ -639,7 +303,7 @@
         "movies": [
             {
                 "name": "Hoppers",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Hoppers&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmFXsoRCrsp1baeHj9z8r_FGbP0xvJO1T3rbtOjZIad9ZqIkkU4hBrUI_iFdJFU2Qz9y35KLxaGZ-xlzVx0LTKxgHLBfcITItNkl1Yf0cqjpjSELmpnIBnb0Qy4qBZT7NAl4gIM%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Hoppers&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmFXsoRCrsp1baeHj9z8r_FGbP0xvJO1T3rbtOjZIad9ZqIkkU4hBrUI_iFdJFU2Qz9y35KLxaGZ-xlzVx0LTKxgHLBfcITItNkl1Yf0cqjpjSELmpnIBnb0Qy4qBZT7NAl4gIM%3D",
                 "showing": [
                     {
                         "time": [
@@ -663,7 +327,9 @@
                     },
                     {
                         "time": [
-                            "1:45pm"
+                            "1:45pm",
+                            "4:30pm",
+                            "7:15pm"
                         ],
                         "type": "Dolby Cinema"
                     }
@@ -671,25 +337,37 @@
             },
             {
                 "name": "Scream 7",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D",
                 "showing": [
                     {
                         "time": [
-                            "9:30pm"
+                            "2:00pm",
+                            "4:00pm",
+                            "5:00pm",
+                            "7:00pm",
+                            "8:00pm",
+                            "11:00pm"
                         ],
                         "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "10:00pm"
+                        ],
+                        "type": "Dolby Cinema"
                     }
                 ]
             },
             {
                 "name": "The Bride!",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=The+Bride!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShYbUJkt_wZ7cjWYY2UKVdABCIZiEHFk0ZDPC72jzeonRLkb11KNkyw40E7U-Hxqig3xR3ZuGdtQtIyaBiz8M0we8b0knw-p2QFpJERcpWY0E3EHQ1OA7qG8CbKMISNHmlQ1nSc%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=The+Bride!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShYbUJkt_wZ7cjWYY2UKVdABCIZiEHFk0ZDPC72jzeonRLkb11KNkyw40E7U-Hxqig3xR3ZuGdtQtIyaBiz8M0we8b0knw-p2QFpJERcpWY0E3EHQ1OA7qG8CbKMISNHmlQ1nSc%3D",
                 "showing": [
                     {
                         "time": [
                             "1:00pm",
                             "4:00pm",
                             "7:00pm",
+                            "8:00pm",
                             "10:00pm"
                         ],
                         "type": "Standard"
@@ -704,8 +382,103 @@
                 ]
             },
             {
+                "name": "Goat",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Goat&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs9LiapGf3oCcOA-TlmrU5kdvI4d7NDn1UEB4H8_3tgGsgrXxRDw71UyPVvUxMhaiJEmyfCdOsT1N6gyBLIOJOJSSqPDQOa33ItBZXwYjEC9Qokg00bUFHXYRv7EQg7ihkbLFqQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:00pm",
+                            "10:15pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "2:15pm",
+                            "7:45pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Wuthering Heights",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSszlmDCQdJ-kDNU5nkj-SkuQP9JDSIt6uJQUjx0-N3vDQTVWB81A3xCq-XgSIxHGn-p2jtbV7K3iNwKCU0rT7lSKJibb_tP4IWC556B98yzK9g7mh45IDjCBn5Zto4gAA92UIC0%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:15pm",
+                            "4:30pm",
+                            "7:45pm",
+                            "10:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "EPiC: Elvis Presley in Concert",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=EPiC:+Elvis+Presley+in+Concert&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSjghhEzS8Ax68fHk3xvDwAhjLycqDa4NY_s2VIXHMGGKslYah7w1SDTEOsK9MoXeKSii5pazHGJEj18IiBu08O4RoY9c05bVzNioPwye_YY2kjL2Ofv1dzMHFLVnkC4waVlKqoI%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:30pm",
+                            "4:15pm",
+                            "7:00pm",
+                            "9:40pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "I Can Only Imagine 2",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqeGollB_06YkUf7k5jX4xdELaggM-sEkOADTmjCG1B7CbKKT_2-kfKr5ff6ufINmAmNAXPqvO0oGRBZTBmghI8I4TkMjMnMbTsJAijrmZAOieNBosMVWRYvyoHI7ziL4dZLVcU%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Crime 101",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Crime+101&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSli3PEDTyp0au_TfAVcsIZzJP7gI50ZTD5HXKp_-5o3xj57zjg_C_NorICSQ57tUeZIsz4WEvpw-GC8J5t1c27_fEuXPc1rLMj_1lLclwbAdUavtk6-qlWJQDRsRyYLGNckI-Pw%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:45pm",
+                            "9:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Send Help",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Send+Help&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSm-VrVaEnvqYXout3dX-5HpD5L7InRWttjldyk9y_W8iQRNTU5IumrPJsurEZhz6uXTJUE6Bnzn8UfUiOhK5DSZAXFoOOHHwKubmBIq5lEIp-QpDWH5ihoI0B6-31dnniqAvWSA%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:30pm",
+                            "4:30pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "7:30pm",
+                            "10:30pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
                 "name": "Protector",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Protector&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpDthHd5X_MJeftBA9I0hx70ENiEdaE_DWrDXRJHkcl60mJa7U_vrTFDHAwAYeS5Av1Imguh8K86AS32pv9x9x94sOpKLB1NxE2J4zhdhNUY10K7Kam7VrQ3XkMErn92DnJDv8Q%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Protector&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpDthHd5X_MJeftBA9I0hx70ENiEdaE_DWrDXRJHkcl60mJa7U_vrTFDHAwAYeS5Av1Imguh8K86AS32pv9x9x94sOpKLB1NxE2J4zhdhNUY10K7Kam7VrQ3XkMErn92DnJDv8Q%3D",
                 "showing": [
                     {
                         "time": [
@@ -719,8 +492,21 @@
                 ]
             },
             {
+                "name": "Solo Mio",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Solo+Mio&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmoAfLGZ51AmGG7XinnNL5-B8-t4YIB0Se07DEpBBVBZwmMtvcOP46s6V1wsPq0lcJZWGXbDjcdc3FPCPey87wy8Rt7ihEIy9uHIZ6Ew15x88F7IA3yIzHYyvu48KbRjwray5dk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:00pm",
+                            "7:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSgHctYGoBrSlEQkB-wrCmJUBfRly9N_GvSQHWMzHe5Ggv__W-0gyKvDpR0JL78UFDcC-kB7Ppytwy842FQTkFGgSNyji_h6Q9r1o4eJualA2mhv0Slu8cldGB6pMfkCL2MwbQ8k%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSgHctYGoBrSlEQkB-wrCmJUBfRly9N_GvSQHWMzHe5Ggv__W-0gyKvDpR0JL78UFDcC-kB7Ppytwy842FQTkFGgSNyji_h6Q9r1o4eJualA2mhv0Slu8cldGB6pMfkCL2MwbQ8k%3D",
                 "showing": [
                     {
                         "time": [
@@ -737,12 +523,53 @@
                 ]
             },
             {
-                "name": "Dolly",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Dolly&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnyCNpxHTpcHUSwXJSNPqL3t6X1rVvOE84mu3wiOr22KuPyPS-f1d2NcD30VSbQZCdF_Mpr5YF8HL5UwBr29drc3kuR4v3uA9lhjolwcleDqix2pwtyes1aZDXNiNzhNubvN8Cw%3D",
+                "name": "How to Make a Killing",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs2VkS9M6t5GEZQkthLE-_TSmf_Frr0febWSnZoeMCN7HsBKdn2MZZNEUSooqYefRAhtJklw6ENHdCQFTXAIo8OtwEWXe49ZO-L5fu6PCwQxxEhEYmUXIT2dJc_LgVdPMtxcCrQ%3D",
                 "showing": [
                     {
                         "time": [
-                            "8:30pm"
+                            "1:15pm",
+                            "5:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Dolly",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Dolly&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnyCNpxHTpcHUSwXJSNPqL3t6X1rVvOE84mu3wiOr22KuPyPS-f1d2NcD30VSbQZCdF_Mpr5YF8HL5UwBr29drc3kuR4v3uA9lhjolwcleDqix2pwtyes1aZDXNiNzhNubvN8Cw%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "8:30pm",
+                            "11:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Avatar: Fire and Ash",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Avatar:+Fire+and+Ash&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSi3mgVGEMzMcfAMFap9UdCctL9ZMPXTi9HJ9G_nOe4c4EuMMwBEfP9fDDKm3pZuFXL7aa7K4v07v9mPHnpiyEkjyRYc3O6EB_tMddQ-kI59WiU2wiYqxfoHEO_tXbYWkp-tG_5c%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:45pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Umamusume: Pretty Derby - Beginning of a New Era",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Umamusume:+Pretty+Derby+-+Beginning+of+a+New+Era&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrTtLKs8M1jZwf4SN2izf3wLdMoSPZJJrqx5-CyR0hiH9rKuWwcy5Guwe6hRrwk7UT_9C8vUtz3kKmH4HjAw33wVAlKF4hiYbpbZxSlyGfD54EfpbylrTCrcbMKrWCvKSjY70S0%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:15pm",
+                            "4:00pm",
+                            "6:45pm",
+                            "9:30pm"
                         ],
                         "type": "Standard"
                     }
@@ -750,12 +577,63 @@
             },
             {
                 "name": "Youngblood",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Youngblood&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSteanWjZG8UryZ9C0Kvg65lvhS1o9XBxpcLeeey9uB6d8OeQUIYdDBYN6xTNnrGa3PnwA8EqyJ_yEbBzeUM7wY8WD29dtfJgsba4TCiXxuP_CAbEQ23n9zNWIKZzNWkawn-7fKs%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Youngblood&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSteanWjZG8UryZ9C0Kvg65lvhS1o9XBxpcLeeey9uB6d8OeQUIYdDBYN6xTNnrGa3PnwA8EqyJ_yEbBzeUM7wY8WD29dtfJgsba4TCiXxuP_CAbEQ23n9zNWIKZzNWkawn-7fKs%3D",
                 "showing": [
                     {
                         "time": [
                             "4:15pm",
                             "7:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Good Luck, Have Fun, Don't Die",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiouYUirIbRAUlpgB_pJwpogMY-booZDz4Nadpd-ZFRU9N-BpjA9DZSF89XqshKrNsENW-koTLRUzTU0K7djRCgaqZvUcDZlz6EjqPXuz_WQosomYUZUbcXIoRk92WNo0Fi6MTs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:45pm",
+                            "5:00pm",
+                            "8:15pm",
+                            "9:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Sinners",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Sinners&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpXABoK11ENjpfdSjy15I-5zbLbTAMaiU94XUTROYJF29fvADnr-YahmvkcyFLD3skd859UwHT-e-dEbIx0DZQ123jmeZ-oQ-pafLC9zT4hlAUuBjhYyWCKNUkdDslYrL0y5m64%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "10:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Bugonia",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Bugonia&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrx3tX6WYCWGgaJfXGcOHDuZcJt7cLUIP5So3DZUTAO49fXkbiZjONXjqxh2RN74eeL8lA0xLj9hkV-byyg3m4Cs4V1L989Cc0kafmDHM2IDxmcEljy7rWI3WHbepmTAdEDEGMc%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "K-Pops!",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=K-Pops!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuQsjvaP9Ce5J7UdaPsQ001jJ1YmVvC9zRJC7ow-2qv2OndcT8MQWsuC_tuaRnbR5CsOKXGPrTolIsZBYGm5z7i3cmRHgKCfq2TH5FAE5kdwVOEvbbqEgZC146n3wDi5aXDkZBk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:15pm"
                         ],
                         "type": "Standard"
                     }
@@ -769,13 +647,12 @@
         "movies": [
             {
                 "name": "Hoppers",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Hoppers&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmFXsoRCrsp1baeHj9z8r_FGbP0xvJO1T3rbtOjZIad9ZqIkkU4hBrUI_iFdJFU2Qz9y35KLxaGZ-xlzVx0LTKxgHLBfcITItNkl1Yf0cqjpjSELmpnIBnb0Qy4qBZT7NAl4gIM%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Hoppers&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmFXsoRCrsp1baeHj9z8r_FGbP0xvJO1T3rbtOjZIad9ZqIkkU4hBrUI_iFdJFU2Qz9y35KLxaGZ-xlzVx0LTKxgHLBfcITItNkl1Yf0cqjpjSELmpnIBnb0Qy4qBZT7NAl4gIM%3D",
                 "showing": [
                     {
                         "time": [
                             "1:00pm",
-                            "6:30pm",
-                            "9:15pm"
+                            "9:30pm"
                         ],
                         "type": "Standard"
                     },
@@ -787,13 +664,17 @@
                     },
                     {
                         "time": [
-                            "3:45pm"
+                            "3:45pm",
+                            "6:30pm"
                         ],
                         "type": "3D"
                     },
                     {
                         "time": [
-                            "1:45pm"
+                            "11:00am",
+                            "1:45pm",
+                            "4:30pm",
+                            "7:15pm"
                         ],
                         "type": "Dolby Cinema"
                     }
@@ -801,19 +682,30 @@
             },
             {
                 "name": "Scream 7",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D",
                 "showing": [
                     {
                         "time": [
-                            "1:30pm"
+                            "11:00am",
+                            "1:30pm",
+                            "2:00pm",
+                            "5:00pm",
+                            "8:00pm",
+                            "11:00pm"
                         ],
                         "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "10:00pm"
+                        ],
+                        "type": "Dolby Cinema"
                     }
                 ]
             },
             {
                 "name": "The Bride!",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=The+Bride!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShYbUJkt_wZ7cjWYY2UKVdABCIZiEHFk0ZDPC72jzeonRLkb11KNkyw40E7U-Hxqig3xR3ZuGdtQtIyaBiz8M0we8b0knw-p2QFpJERcpWY0E3EHQ1OA7qG8CbKMISNHmlQ1nSc%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=The+Bride!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShYbUJkt_wZ7cjWYY2UKVdABCIZiEHFk0ZDPC72jzeonRLkb11KNkyw40E7U-Hxqig3xR3ZuGdtQtIyaBiz8M0we8b0knw-p2QFpJERcpWY0E3EHQ1OA7qG8CbKMISNHmlQ1nSc%3D",
                 "showing": [
                     {
                         "time": [
@@ -821,6 +713,7 @@
                             "2:30pm",
                             "4:00pm",
                             "7:00pm",
+                            "8:20pm",
                             "10:00pm"
                         ],
                         "type": "Standard"
@@ -835,8 +728,103 @@
                 ]
             },
             {
+                "name": "Goat",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Goat&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs9LiapGf3oCcOA-TlmrU5kdvI4d7NDn1UEB4H8_3tgGsgrXxRDw71UyPVvUxMhaiJEmyfCdOsT1N6gyBLIOJOJSSqPDQOa33ItBZXwYjEC9Qokg00bUFHXYRv7EQg7ihkbLFqQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:45pm",
+                            "8:15pm",
+                            "9:15pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "12:00pm",
+                            "5:30pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Wuthering Heights",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSszlmDCQdJ-kDNU5nkj-SkuQP9JDSIt6uJQUjx0-N3vDQTVWB81A3xCq-XgSIxHGn-p2jtbV7K3iNwKCU0rT7lSKJibb_tP4IWC556B98yzK9g7mh45IDjCBn5Zto4gAA92UIC0%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:45pm",
+                            "4:30pm",
+                            "7:45pm",
+                            "9:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "EPiC: Elvis Presley in Concert",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=EPiC:+Elvis+Presley+in+Concert&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSjghhEzS8Ax68fHk3xvDwAhjLycqDa4NY_s2VIXHMGGKslYah7w1SDTEOsK9MoXeKSii5pazHGJEj18IiBu08O4RoY9c05bVzNioPwye_YY2kjL2Ofv1dzMHFLVnkC4waVlKqoI%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:30pm",
+                            "4:15pm",
+                            "6:30pm",
+                            "9:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "I Can Only Imagine 2",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqeGollB_06YkUf7k5jX4xdELaggM-sEkOADTmjCG1B7CbKKT_2-kfKr5ff6ufINmAmNAXPqvO0oGRBZTBmghI8I4TkMjMnMbTsJAijrmZAOieNBosMVWRYvyoHI7ziL4dZLVcU%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Crime 101",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Crime+101&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSli3PEDTyp0au_TfAVcsIZzJP7gI50ZTD5HXKp_-5o3xj57zjg_C_NorICSQ57tUeZIsz4WEvpw-GC8J5t1c27_fEuXPc1rLMj_1lLclwbAdUavtk6-qlWJQDRsRyYLGNckI-Pw%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:45pm",
+                            "10:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Send Help",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Send+Help&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSm-VrVaEnvqYXout3dX-5HpD5L7InRWttjldyk9y_W8iQRNTU5IumrPJsurEZhz6uXTJUE6Bnzn8UfUiOhK5DSZAXFoOOHHwKubmBIq5lEIp-QpDWH5ihoI0B6-31dnniqAvWSA%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "11:45am",
+                            "3:00pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "6:45pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
                 "name": "Protector",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Protector&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpDthHd5X_MJeftBA9I0hx70ENiEdaE_DWrDXRJHkcl60mJa7U_vrTFDHAwAYeS5Av1Imguh8K86AS32pv9x9x94sOpKLB1NxE2J4zhdhNUY10K7Kam7VrQ3XkMErn92DnJDv8Q%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Protector&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpDthHd5X_MJeftBA9I0hx70ENiEdaE_DWrDXRJHkcl60mJa7U_vrTFDHAwAYeS5Av1Imguh8K86AS32pv9x9x94sOpKLB1NxE2J4zhdhNUY10K7Kam7VrQ3XkMErn92DnJDv8Q%3D",
                 "showing": [
                     {
                         "time": [
@@ -851,8 +839,20 @@
                 ]
             },
             {
+                "name": "Solo Mio",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Solo+Mio&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmoAfLGZ51AmGG7XinnNL5-B8-t4YIB0Se07DEpBBVBZwmMtvcOP46s6V1wsPq0lcJZWGXbDjcdc3FPCPey87wy8Rt7ihEIy9uHIZ6Ew15x88F7IA3yIzHYyvu48KbRjwray5dk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "11:45am"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSgHctYGoBrSlEQkB-wrCmJUBfRly9N_GvSQHWMzHe5Ggv__W-0gyKvDpR0JL78UFDcC-kB7Ppytwy842FQTkFGgSNyji_h6Q9r1o4eJualA2mhv0Slu8cldGB6pMfkCL2MwbQ8k%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSgHctYGoBrSlEQkB-wrCmJUBfRly9N_GvSQHWMzHe5Ggv__W-0gyKvDpR0JL78UFDcC-kB7Ppytwy842FQTkFGgSNyji_h6Q9r1o4eJualA2mhv0Slu8cldGB6pMfkCL2MwbQ8k%3D",
                 "showing": [
                     {
                         "time": [
@@ -869,8 +869,20 @@
                 ]
             },
             {
+                "name": "How to Make a Killing",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs2VkS9M6t5GEZQkthLE-_TSmf_Frr0febWSnZoeMCN7HsBKdn2MZZNEUSooqYefRAhtJklw6ENHdCQFTXAIo8OtwEWXe49ZO-L5fu6PCwQxxEhEYmUXIT2dJc_LgVdPMtxcCrQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "Dolly",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Dolly&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnyCNpxHTpcHUSwXJSNPqL3t6X1rVvOE84mu3wiOr22KuPyPS-f1d2NcD30VSbQZCdF_Mpr5YF8HL5UwBr29drc3kuR4v3uA9lhjolwcleDqix2pwtyes1aZDXNiNzhNubvN8Cw%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Dolly&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnyCNpxHTpcHUSwXJSNPqL3t6X1rVvOE84mu3wiOr22KuPyPS-f1d2NcD30VSbQZCdF_Mpr5YF8HL5UwBr29drc3kuR4v3uA9lhjolwcleDqix2pwtyes1aZDXNiNzhNubvN8Cw%3D",
                 "showing": [
                     {
                         "time": [
@@ -881,12 +893,37 @@
                 ]
             },
             {
-                "name": "Youngblood",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Youngblood&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSteanWjZG8UryZ9C0Kvg65lvhS1o9XBxpcLeeey9uB6d8OeQUIYdDBYN6xTNnrGa3PnwA8EqyJ_yEbBzeUM7wY8WD29dtfJgsba4TCiXxuP_CAbEQ23n9zNWIKZzNWkawn-7fKs%3D",
+                "name": "Avatar: Fire and Ash",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Avatar:+Fire+and+Ash&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSi3mgVGEMzMcfAMFap9UdCctL9ZMPXTi9HJ9G_nOe4c4EuMMwBEfP9fDDKm3pZuFXL7aa7K4v07v9mPHnpiyEkjyRYc3O6EB_tMddQ-kI59WiU2wiYqxfoHEO_tXbYWkp-tG_5c%3D",
                 "showing": [
                     {
                         "time": [
-                            "4:15pm",
+                            "2:30pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Umamusume: Pretty Derby - Beginning of a New Era",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Umamusume:+Pretty+Derby+-+Beginning+of+a+New+Era&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrTtLKs8M1jZwf4SN2izf3wLdMoSPZJJrqx5-CyR0hiH9rKuWwcy5Guwe6hRrwk7UT_9C8vUtz3kKmH4HjAw33wVAlKF4hiYbpbZxSlyGfD54EfpbylrTCrcbMKrWCvKSjY70S0%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "11:45am",
+                            "2:30pm",
+                            "5:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Youngblood",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Youngblood&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSteanWjZG8UryZ9C0Kvg65lvhS1o9XBxpcLeeey9uB6d8OeQUIYdDBYN6xTNnrGa3PnwA8EqyJ_yEbBzeUM7wY8WD29dtfJgsba4TCiXxuP_CAbEQ23n9zNWIKZzNWkawn-7fKs%3D",
+                "showing": [
+                    {
+                        "time": [
                             "7:00pm"
                         ],
                         "type": "Standard"
@@ -894,8 +931,47 @@
                 ]
             },
             {
+                "name": "Good Luck, Have Fun, Don't Die",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiouYUirIbRAUlpgB_pJwpogMY-booZDz4Nadpd-ZFRU9N-BpjA9DZSF89XqshKrNsENW-koTLRUzTU0K7djRCgaqZvUcDZlz6EjqPXuz_WQosomYUZUbcXIoRk92WNo0Fi6MTs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "12:30pm",
+                            "3:45pm",
+                            "7:00pm",
+                            "9:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "F1",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=F1&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqmVnqAq2_7xNFZEh6ARRj3JCiEdzPyp8wFMUSEdMEpzVstlKsCpurzByMwkI7UbLw1rpTMKJDOZRCTkdv1wsvZTpa9rgNZ6IfAKB57XZ0xUjH11dR9gTlOuzmsvXvIr0iMCu9c%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "11:30am"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "K-Pops!",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=K-Pops!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuQsjvaP9Ce5J7UdaPsQ001jJ1YmVvC9zRJC7ow-2qv2OndcT8MQWsuC_tuaRnbR5CsOKXGPrTolIsZBYGm5z7i3cmRHgKCfq2TH5FAE5kdwVOEvbbqEgZC146n3wDi5aXDkZBk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "AURORA: What Happened To The Earth?",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=AURORA:+What+Happened+To+The+Earth%3F&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnVOeS_gaTUIkakFYAkP5J4UcWvWcXEmuMllViYr0aI6pvungkN4IrWdaRgg1VG9KiCUpnoYqXROeVLGefMprooIyWJl-mC7QGdnAXVr9lqYf_UKrGQBsICma_H5xHjYyYgNzJg%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=AURORA:+What+Happened+To+The+Earth%3F&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnVOeS_gaTUIkakFYAkP5J4UcWvWcXEmuMllViYr0aI6pvungkN4IrWdaRgg1VG9KiCUpnoYqXROeVLGefMprooIyWJl-mC7QGdnAXVr9lqYf_UKrGQBsICma_H5xHjYyYgNzJg%3D",
                 "showing": [
                     {
                         "time": [
@@ -907,7 +983,7 @@
             },
             {
                 "name": "Little Women",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Little+Women&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdStkQ2ml5elS7k8wWyIC00qLR9pIbTh85pB1nrl754uLA8D7wpxL_LX1xzuvJ0bE7AjEkQLqBPi7ilH3Fj2J8OPFligPzbK7sHfAWcMFWIaIK03qmqzH75tCWizcBWGK4fzO9q_I%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Little+Women&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdStkQ2ml5elS7k8wWyIC00qLR9pIbTh85pB1nrl754uLA8D7wpxL_LX1xzuvJ0bE7AjEkQLqBPi7ilH3Fj2J8OPFligPzbK7sHfAWcMFWIaIK03qmqzH75tCWizcBWGK4fzO9q_I%3D",
                 "showing": [
                     {
                         "time": [
@@ -919,7 +995,7 @@
             },
             {
                 "name": "A Beautiful Planet",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=A+Beautiful+Planet&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqCCus8p8g6IF97k3bsyCyh34E4GlnknrrAEPUnd4QjuyeuhG_aNocINCAunYPH36lVYa8L8ehnCELqwFsFWTEuIpTVINiiWyiESbMnH_OvzTWWy1WPn1MRs2F8hegbZ35bV26o%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=A+Beautiful+Planet&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqCCus8p8g6IF97k3bsyCyh34E4GlnknrrAEPUnd4QjuyeuhG_aNocINCAunYPH36lVYa8L8ehnCELqwFsFWTEuIpTVINiiWyiESbMnH_OvzTWWy1WPn1MRs2F8hegbZ35bV26o%3D",
                 "showing": [
                     {
                         "time": [
@@ -931,7 +1007,7 @@
             },
             {
                 "name": "2026 Best Picture Showcase Day One Marathon",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=2026+Best+Picture+Showcase+Day+One+Marathon&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiNfZeFqmIg3mi04ikorSgRqoCpt3EuHrlDd1W8jzMN9c6N7xDbg4si7m_obSAb1O-pRwgwFRVH2ZV7QJlMGlyQgzdUZzrUACLvIFBj6i6sAr_kn7M5sfGPEI41lwdReV4Cjr9c%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=2026+Best+Picture+Showcase+Day+One+Marathon&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiNfZeFqmIg3mi04ikorSgRqoCpt3EuHrlDd1W8jzMN9c6N7xDbg4si7m_obSAb1O-pRwgwFRVH2ZV7QJlMGlyQgzdUZzrUACLvIFBj6i6sAr_kn7M5sfGPEI41lwdReV4Cjr9c%3D",
                 "showing": [
                     {
                         "time": [
@@ -949,7 +1025,7 @@
         "movies": [
             {
                 "name": "Hoppers",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Hoppers&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmFXsoRCrsp1baeHj9z8r_FGbP0xvJO1T3rbtOjZIad9ZqIkkU4hBrUI_iFdJFU2Qz9y35KLxaGZ-xlzVx0LTKxgHLBfcITItNkl1Yf0cqjpjSELmpnIBnb0Qy4qBZT7NAl4gIM%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Hoppers&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmFXsoRCrsp1baeHj9z8r_FGbP0xvJO1T3rbtOjZIad9ZqIkkU4hBrUI_iFdJFU2Qz9y35KLxaGZ-xlzVx0LTKxgHLBfcITItNkl1Yf0cqjpjSELmpnIBnb0Qy4qBZT7NAl4gIM%3D",
                 "showing": [
                     {
                         "time": [
@@ -973,7 +1049,9 @@
                     },
                     {
                         "time": [
-                            "1:45pm"
+                            "1:45pm",
+                            "4:30pm",
+                            "7:15pm"
                         ],
                         "type": "Dolby Cinema"
                     }
@@ -981,27 +1059,35 @@
             },
             {
                 "name": "Scream 7",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D",
                 "showing": [
                     {
                         "time": [
                             "1:30pm",
                             "4:30pm",
-                            "9:30pm"
+                            "7:30pm",
+                            "9:00pm"
                         ],
                         "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "10:00pm"
+                        ],
+                        "type": "Dolby Cinema"
                     }
                 ]
             },
             {
                 "name": "The Bride!",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=The+Bride!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShYbUJkt_wZ7cjWYY2UKVdABCIZiEHFk0ZDPC72jzeonRLkb11KNkyw40E7U-Hxqig3xR3ZuGdtQtIyaBiz8M0we8b0knw-p2QFpJERcpWY0E3EHQ1OA7qG8CbKMISNHmlQ1nSc%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=The+Bride!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShYbUJkt_wZ7cjWYY2UKVdABCIZiEHFk0ZDPC72jzeonRLkb11KNkyw40E7U-Hxqig3xR3ZuGdtQtIyaBiz8M0we8b0knw-p2QFpJERcpWY0E3EHQ1OA7qG8CbKMISNHmlQ1nSc%3D",
                 "showing": [
                     {
                         "time": [
                             "1:00pm",
                             "4:00pm",
                             "7:00pm",
+                            "8:00pm",
                             "10:00pm"
                         ],
                         "type": "Standard"
@@ -1016,8 +1102,117 @@
                 ]
             },
             {
+                "name": "Goat",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Goat&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs9LiapGf3oCcOA-TlmrU5kdvI4d7NDn1UEB4H8_3tgGsgrXxRDw71UyPVvUxMhaiJEmyfCdOsT1N6gyBLIOJOJSSqPDQOa33ItBZXwYjEC9Qokg00bUFHXYRv7EQg7ihkbLFqQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:45pm",
+                            "10:00pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "2:00pm",
+                            "7:30pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Wuthering Heights",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSszlmDCQdJ-kDNU5nkj-SkuQP9JDSIt6uJQUjx0-N3vDQTVWB81A3xCq-XgSIxHGn-p2jtbV7K3iNwKCU0rT7lSKJibb_tP4IWC556B98yzK9g7mh45IDjCBn5Zto4gAA92UIC0%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:15pm",
+                            "4:30pm",
+                            "7:45pm",
+                            "9:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "EPiC: Elvis Presley in Concert",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=EPiC:+Elvis+Presley+in+Concert&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSjghhEzS8Ax68fHk3xvDwAhjLycqDa4NY_s2VIXHMGGKslYah7w1SDTEOsK9MoXeKSii5pazHGJEj18IiBu08O4RoY9c05bVzNioPwye_YY2kjL2Ofv1dzMHFLVnkC4waVlKqoI%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:00pm",
+                            "3:35pm",
+                            "6:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "I Can Only Imagine 2",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqeGollB_06YkUf7k5jX4xdELaggM-sEkOADTmjCG1B7CbKKT_2-kfKr5ff6ufINmAmNAXPqvO0oGRBZTBmghI8I4TkMjMnMbTsJAijrmZAOieNBosMVWRYvyoHI7ziL4dZLVcU%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqeGollB_06YkUf7k5jX4xdELaggM-sEkOADTmjCG1B7CbKKT_2-kfKr5ff6ufINmAmNAXPqvO0oGRBZTBmghI8I4TkMjMnMbTsJAijrmZAOieNBosMVWRYvyoHI7ziL4dZLVcU%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:00pm",
+                            "7:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Crime 101",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Crime+101&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSli3PEDTyp0au_TfAVcsIZzJP7gI50ZTD5HXKp_-5o3xj57zjg_C_NorICSQ57tUeZIsz4WEvpw-GC8J5t1c27_fEuXPc1rLMj_1lLclwbAdUavtk6-qlWJQDRsRyYLGNckI-Pw%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Send Help",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Send+Help&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSm-VrVaEnvqYXout3dX-5HpD5L7InRWttjldyk9y_W8iQRNTU5IumrPJsurEZhz6uXTJUE6Bnzn8UfUiOhK5DSZAXFoOOHHwKubmBIq5lEIp-QpDWH5ihoI0B6-31dnniqAvWSA%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:30pm",
+                            "9:30pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "5:15pm",
+                            "8:15pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Protector",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Protector&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpDthHd5X_MJeftBA9I0hx70ENiEdaE_DWrDXRJHkcl60mJa7U_vrTFDHAwAYeS5Av1Imguh8K86AS32pv9x9x94sOpKLB1NxE2J4zhdhNUY10K7Kam7VrQ3XkMErn92DnJDv8Q%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:30pm",
+                            "4:15pm",
+                            "6:45pm",
+                            "9:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Solo Mio",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Solo+Mio&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmoAfLGZ51AmGG7XinnNL5-B8-t4YIB0Se07DEpBBVBZwmMtvcOP46s6V1wsPq0lcJZWGXbDjcdc3FPCPey87wy8Rt7ihEIy9uHIZ6Ew15x88F7IA3yIzHYyvu48KbRjwray5dk%3D",
                 "showing": [
                     {
                         "time": [
@@ -1028,23 +1223,8 @@
                 ]
             },
             {
-                "name": "Protector",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Protector&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpDthHd5X_MJeftBA9I0hx70ENiEdaE_DWrDXRJHkcl60mJa7U_vrTFDHAwAYeS5Av1Imguh8K86AS32pv9x9x94sOpKLB1NxE2J4zhdhNUY10K7Kam7VrQ3XkMErn92DnJDv8Q%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:45pm",
-                            "4:15pm",
-                            "6:45pm",
-                            "9:15pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSgHctYGoBrSlEQkB-wrCmJUBfRly9N_GvSQHWMzHe5Ggv__W-0gyKvDpR0JL78UFDcC-kB7Ppytwy842FQTkFGgSNyji_h6Q9r1o4eJualA2mhv0Slu8cldGB6pMfkCL2MwbQ8k%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSgHctYGoBrSlEQkB-wrCmJUBfRly9N_GvSQHWMzHe5Ggv__W-0gyKvDpR0JL78UFDcC-kB7Ppytwy842FQTkFGgSNyji_h6Q9r1o4eJualA2mhv0Slu8cldGB6pMfkCL2MwbQ8k%3D",
                 "showing": [
                     {
                         "time": [
@@ -1061,8 +1241,20 @@
                 ]
             },
             {
+                "name": "How to Make a Killing",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs2VkS9M6t5GEZQkthLE-_TSmf_Frr0febWSnZoeMCN7HsBKdn2MZZNEUSooqYefRAhtJklw6ENHdCQFTXAIo8OtwEWXe49ZO-L5fu6PCwQxxEhEYmUXIT2dJc_LgVdPMtxcCrQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "Dolly",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Dolly&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnyCNpxHTpcHUSwXJSNPqL3t6X1rVvOE84mu3wiOr22KuPyPS-f1d2NcD30VSbQZCdF_Mpr5YF8HL5UwBr29drc3kuR4v3uA9lhjolwcleDqix2pwtyes1aZDXNiNzhNubvN8Cw%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Dolly&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnyCNpxHTpcHUSwXJSNPqL3t6X1rVvOE84mu3wiOr22KuPyPS-f1d2NcD30VSbQZCdF_Mpr5YF8HL5UwBr29drc3kuR4v3uA9lhjolwcleDqix2pwtyes1aZDXNiNzhNubvN8Cw%3D",
                 "showing": [
                     {
                         "time": [
@@ -1073,25 +1265,79 @@
                 ]
             },
             {
-                "name": "Youngblood",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Youngblood&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSteanWjZG8UryZ9C0Kvg65lvhS1o9XBxpcLeeey9uB6d8OeQUIYdDBYN6xTNnrGa3PnwA8EqyJ_yEbBzeUM7wY8WD29dtfJgsba4TCiXxuP_CAbEQ23n9zNWIKZzNWkawn-7fKs%3D",
+                "name": "Avatar: Fire and Ash",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Avatar:+Fire+and+Ash&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSi3mgVGEMzMcfAMFap9UdCctL9ZMPXTi9HJ9G_nOe4c4EuMMwBEfP9fDDKm3pZuFXL7aa7K4v07v9mPHnpiyEkjyRYc3O6EB_tMddQ-kI59WiU2wiYqxfoHEO_tXbYWkp-tG_5c%3D",
                 "showing": [
                     {
                         "time": [
+                            "3:45pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Umamusume: Pretty Derby - Beginning of a New Era",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Umamusume:+Pretty+Derby+-+Beginning+of+a+New+Era&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrTtLKs8M1jZwf4SN2izf3wLdMoSPZJJrqx5-CyR0hiH9rKuWwcy5Guwe6hRrwk7UT_9C8vUtz3kKmH4HjAw33wVAlKF4hiYbpbZxSlyGfD54EfpbylrTCrcbMKrWCvKSjY70S0%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:00pm",
                             "4:15pm",
-                            "7:00pm"
+                            "7:00pm",
+                            "9:45pm"
                         ],
                         "type": "Standard"
                     }
                 ]
             },
             {
-                "name": "Little Women",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Little+Women&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdStkQ2ml5elS7k8wWyIC00qLR9pIbTh85pB1nrl754uLA8D7wpxL_LX1xzuvJ0bE7AjEkQLqBPi7ilH3Fj2J8OPFligPzbK7sHfAWcMFWIaIK03qmqzH75tCWizcBWGK4fzO9q_I%3D",
+                "name": "Youngblood",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Youngblood&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSteanWjZG8UryZ9C0Kvg65lvhS1o9XBxpcLeeey9uB6d8OeQUIYdDBYN6xTNnrGa3PnwA8EqyJ_yEbBzeUM7wY8WD29dtfJgsba4TCiXxuP_CAbEQ23n9zNWIKZzNWkawn-7fKs%3D",
                 "showing": [
                     {
                         "time": [
-                            "2:00pm"
+                            "4:00pm",
+                            "6:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Good Luck, Have Fun, Don't Die",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiouYUirIbRAUlpgB_pJwpogMY-booZDz4Nadpd-ZFRU9N-BpjA9DZSF89XqshKrNsENW-koTLRUzTU0K7djRCgaqZvUcDZlz6EjqPXuz_WQosomYUZUbcXIoRk92WNo0Fi6MTs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:00pm",
+                            "3:45pm",
+                            "6:45pm",
+                            "10:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Hamnet",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Hamnet&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiiNJJgt1R4GRjtIJ-pHOrtLsvSdT8GCXb7uDJOAD-JLMrNejnxn1gQdD7yfsCz-weuDTu75PVAxyUAiWXv68TEeHtvC-sNQOLDdI3MHggDS7DvQWemAEvNx7h0idAHwt1tctbk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "K-Pops!",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=K-Pops!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuQsjvaP9Ce5J7UdaPsQ001jJ1YmVvC9zRJC7ow-2qv2OndcT8MQWsuC_tuaRnbR5CsOKXGPrTolIsZBYGm5z7i3cmRHgKCfq2TH5FAE5kdwVOEvbbqEgZC146n3wDi5aXDkZBk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -1099,11 +1345,23 @@
             },
             {
                 "name": "I Still Believe",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=I+Still+Believe&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuTXHtlyqdQFBJfHb1eRrmWU6yJ928otdELTOYK0oJewv3j2PBMPOo4O8WrY7M-8VoioQyVW9Voj4lAgKc0rSe4d26j8D0w5p7hyI6YjXOZNBWd_hUb4GudUTBHeyww_ZEo5aE4%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=I+Still+Believe&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuTXHtlyqdQFBJfHb1eRrmWU6yJ928otdELTOYK0oJewv3j2PBMPOo4O8WrY7M-8VoioQyVW9Voj4lAgKc0rSe4d26j8D0w5p7hyI6YjXOZNBWd_hUb4GudUTBHeyww_ZEo5aE4%3D",
                 "showing": [
                     {
                         "time": [
                             "4:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Little Women",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Little+Women&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdStkQ2ml5elS7k8wWyIC00qLR9pIbTh85pB1nrl754uLA8D7wpxL_LX1xzuvJ0bE7AjEkQLqBPi7ilH3Fj2J8OPFligPzbK7sHfAWcMFWIaIK03qmqzH75tCWizcBWGK4fzO9q_I%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -1117,11 +1375,10 @@
         "movies": [
             {
                 "name": "Hoppers",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Hoppers&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmFXsoRCrsp1baeHj9z8r_FGbP0xvJO1T3rbtOjZIad9ZqIkkU4hBrUI_iFdJFU2Qz9y35KLxaGZ-xlzVx0LTKxgHLBfcITItNkl1Yf0cqjpjSELmpnIBnb0Qy4qBZT7NAl4gIM%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Hoppers&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmFXsoRCrsp1baeHj9z8r_FGbP0xvJO1T3rbtOjZIad9ZqIkkU4hBrUI_iFdJFU2Qz9y35KLxaGZ-xlzVx0LTKxgHLBfcITItNkl1Yf0cqjpjSELmpnIBnb0Qy4qBZT7NAl4gIM%3D",
                 "showing": [
                     {
                         "time": [
-                            "7:00pm",
                             "9:00pm"
                         ],
                         "type": "Standard"
@@ -1134,13 +1391,15 @@
                     },
                     {
                         "time": [
-                            "4:15pm"
+                            "4:45pm",
+                            "7:30pm"
                         ],
                         "type": "3D"
                     },
                     {
                         "time": [
-                            "2:00pm"
+                            "2:00pm",
+                            "4:30pm"
                         ],
                         "type": "Dolby Cinema"
                     }
@@ -1148,10 +1407,13 @@
             },
             {
                 "name": "Scream 7",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D",
                 "showing": [
                     {
                         "time": [
+                            "2:00pm",
+                            "3:00pm",
+                            "6:00pm",
                             "9:00pm"
                         ],
                         "type": "Standard"
@@ -1160,7 +1422,7 @@
             },
             {
                 "name": "The Bride!",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=The+Bride!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShYbUJkt_wZ7cjWYY2UKVdABCIZiEHFk0ZDPC72jzeonRLkb11KNkyw40E7U-Hxqig3xR3ZuGdtQtIyaBiz8M0we8b0knw-p2QFpJERcpWY0E3EHQ1OA7qG8CbKMISNHmlQ1nSc%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=The+Bride!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShYbUJkt_wZ7cjWYY2UKVdABCIZiEHFk0ZDPC72jzeonRLkb11KNkyw40E7U-Hxqig3xR3ZuGdtQtIyaBiz8M0we8b0knw-p2QFpJERcpWY0E3EHQ1OA7qG8CbKMISNHmlQ1nSc%3D",
                 "showing": [
                     {
                         "time": [
@@ -1181,25 +1443,104 @@
                 ]
             },
             {
-                "name": "Undertone",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Undertone&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSkgdaxN60sLQLiJVJkqsUSl76rVHaeHzEBF3TECCUgEkFa-ouqmBzrvq2QZkpASWyxsu6iwptfmhKkwOuZYwO40sfFt6cE6Nv4YA7MKXSPFirIavO4sOlUwINWuYRgblKWI02Vg%3D",
+                "name": "Goat",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Goat&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs9LiapGf3oCcOA-TlmrU5kdvI4d7NDn1UEB4H8_3tgGsgrXxRDw71UyPVvUxMhaiJEmyfCdOsT1N6gyBLIOJOJSSqPDQOa33ItBZXwYjEC9Qokg00bUFHXYRv7EQg7ihkbLFqQ%3D",
                 "showing": [
                     {
                         "time": [
-                            "7:00pm"
+                            "3:15pm"
                         ],
-                        "type": "Dolby Cinema"
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "5:00pm",
+                            "7:45pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Wuthering Heights",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSszlmDCQdJ-kDNU5nkj-SkuQP9JDSIt6uJQUjx0-N3vDQTVWB81A3xCq-XgSIxHGn-p2jtbV7K3iNwKCU0rT7lSKJibb_tP4IWC556B98yzK9g7mh45IDjCBn5Zto4gAA92UIC0%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "5:45pm",
+                            "9:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "EPiC: Elvis Presley in Concert",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=EPiC:+Elvis+Presley+in+Concert&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSjghhEzS8Ax68fHk3xvDwAhjLycqDa4NY_s2VIXHMGGKslYah7w1SDTEOsK9MoXeKSii5pazHGJEj18IiBu08O4RoY9c05bVzNioPwye_YY2kjL2Ofv1dzMHFLVnkC4waVlKqoI%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "4:30pm",
+                            "7:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "I Can Only Imagine 2",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqeGollB_06YkUf7k5jX4xdELaggM-sEkOADTmjCG1B7CbKKT_2-kfKr5ff6ufINmAmNAXPqvO0oGRBZTBmghI8I4TkMjMnMbTsJAijrmZAOieNBosMVWRYvyoHI7ziL4dZLVcU%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Crime 101",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Crime+101&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSli3PEDTyp0au_TfAVcsIZzJP7gI50ZTD5HXKp_-5o3xj57zjg_C_NorICSQ57tUeZIsz4WEvpw-GC8J5t1c27_fEuXPc1rLMj_1lLclwbAdUavtk6-qlWJQDRsRyYLGNckI-Pw%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Send Help",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Send+Help&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSm-VrVaEnvqYXout3dX-5HpD5L7InRWttjldyk9y_W8iQRNTU5IumrPJsurEZhz6uXTJUE6Bnzn8UfUiOhK5DSZAXFoOOHHwKubmBIq5lEIp-QpDWH5ihoI0B6-31dnniqAvWSA%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "4:00pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "6:15pm",
+                            "9:00pm"
+                        ],
+                        "type": "3D"
                     }
                 ]
             },
             {
                 "name": "Protector",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Protector&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpDthHd5X_MJeftBA9I0hx70ENiEdaE_DWrDXRJHkcl60mJa7U_vrTFDHAwAYeS5Av1Imguh8K86AS32pv9x9x94sOpKLB1NxE2J4zhdhNUY10K7Kam7VrQ3XkMErn92DnJDv8Q%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Protector&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpDthHd5X_MJeftBA9I0hx70ENiEdaE_DWrDXRJHkcl60mJa7U_vrTFDHAwAYeS5Av1Imguh8K86AS32pv9x9x94sOpKLB1NxE2J4zhdhNUY10K7Kam7VrQ3XkMErn92DnJDv8Q%3D",
                 "showing": [
                     {
                         "time": [
                             "2:15pm",
-                            "4:45pm",
+                            "5:00pm",
                             "6:30pm",
                             "9:00pm"
                         ],
@@ -1208,8 +1549,20 @@
                 ]
             },
             {
+                "name": "Solo Mio",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Solo+Mio&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmoAfLGZ51AmGG7XinnNL5-B8-t4YIB0Se07DEpBBVBZwmMtvcOP46s6V1wsPq0lcJZWGXbDjcdc3FPCPey87wy8Rt7ihEIy9uHIZ6Ew15x88F7IA3yIzHYyvu48KbRjwray5dk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSgHctYGoBrSlEQkB-wrCmJUBfRly9N_GvSQHWMzHe5Ggv__W-0gyKvDpR0JL78UFDcC-kB7Ppytwy842FQTkFGgSNyji_h6Q9r1o4eJualA2mhv0Slu8cldGB6pMfkCL2MwbQ8k%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSgHctYGoBrSlEQkB-wrCmJUBfRly9N_GvSQHWMzHe5Ggv__W-0gyKvDpR0JL78UFDcC-kB7Ppytwy842FQTkFGgSNyji_h6Q9r1o4eJualA2mhv0Slu8cldGB6pMfkCL2MwbQ8k%3D",
                 "showing": [
                     {
                         "time": [
@@ -1219,7 +1572,19 @@
                     },
                     {
                         "time": [
-                            "3:45pm"
+                            "3:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "How to Make a Killing",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs2VkS9M6t5GEZQkthLE-_TSmf_Frr0febWSnZoeMCN7HsBKdn2MZZNEUSooqYefRAhtJklw6ENHdCQFTXAIo8OtwEWXe49ZO-L5fu6PCwQxxEhEYmUXIT2dJc_LgVdPMtxcCrQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm"
                         ],
                         "type": "Standard"
                     }
@@ -1227,7 +1592,7 @@
             },
             {
                 "name": "Dolly",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Dolly&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnyCNpxHTpcHUSwXJSNPqL3t6X1rVvOE84mu3wiOr22KuPyPS-f1d2NcD30VSbQZCdF_Mpr5YF8HL5UwBr29drc3kuR4v3uA9lhjolwcleDqix2pwtyes1aZDXNiNzhNubvN8Cw%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Dolly&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnyCNpxHTpcHUSwXJSNPqL3t6X1rVvOE84mu3wiOr22KuPyPS-f1d2NcD30VSbQZCdF_Mpr5YF8HL5UwBr29drc3kuR4v3uA9lhjolwcleDqix2pwtyes1aZDXNiNzhNubvN8Cw%3D",
                 "showing": [
                     {
                         "time": [
@@ -1238,15 +1603,90 @@
                 ]
             },
             {
-                "name": "Youngblood",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Youngblood&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSteanWjZG8UryZ9C0Kvg65lvhS1o9XBxpcLeeey9uB6d8OeQUIYdDBYN6xTNnrGa3PnwA8EqyJ_yEbBzeUM7wY8WD29dtfJgsba4TCiXxuP_CAbEQ23n9zNWIKZzNWkawn-7fKs%3D",
+                "name": "Avatar: Fire and Ash",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Avatar:+Fire+and+Ash&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSi3mgVGEMzMcfAMFap9UdCctL9ZMPXTi9HJ9G_nOe4c4EuMMwBEfP9fDDKm3pZuFXL7aa7K4v07v9mPHnpiyEkjyRYc3O6EB_tMddQ-kI59WiU2wiYqxfoHEO_tXbYWkp-tG_5c%3D",
                 "showing": [
                     {
                         "time": [
-                            "4:15pm",
-                            "7:00pm"
+                            "2:00pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Marty Supreme",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Marty+Supreme&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShhgiJ1-s7WdBD31ve5MsPq7_8F_SQcOqEr7rz1_4eeN1Vej_YIN2kqmQAkSIjgcqrkjWZdqimzSGjWEHTdBYzegutBgIxhD5EzShnOlEIa1AOZATGcXNp_yfidmh-KjSO1M8nE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:15pm"
                         ],
                         "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Umamusume: Pretty Derby - Beginning of a New Era",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Umamusume:+Pretty+Derby+-+Beginning+of+a+New+Era&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrTtLKs8M1jZwf4SN2izf3wLdMoSPZJJrqx5-CyR0hiH9rKuWwcy5Guwe6hRrwk7UT_9C8vUtz3kKmH4HjAw33wVAlKF4hiYbpbZxSlyGfD54EfpbylrTCrcbMKrWCvKSjY70S0%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "4:45pm",
+                            "7:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Youngblood",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Youngblood&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSteanWjZG8UryZ9C0Kvg65lvhS1o9XBxpcLeeey9uB6d8OeQUIYdDBYN6xTNnrGa3PnwA8EqyJ_yEbBzeUM7wY8WD29dtfJgsba4TCiXxuP_CAbEQ23n9zNWIKZzNWkawn-7fKs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Good Luck, Have Fun, Don't Die",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiouYUirIbRAUlpgB_pJwpogMY-booZDz4Nadpd-ZFRU9N-BpjA9DZSF89XqshKrNsENW-koTLRUzTU0K7djRCgaqZvUcDZlz6EjqPXuz_WQosomYUZUbcXIoRk92WNo0Fi6MTs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:45pm",
+                            "5:15pm",
+                            "8:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "K-Pops!",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=K-Pops!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuQsjvaP9Ce5J7UdaPsQ001jJ1YmVvC9zRJC7ow-2qv2OndcT8MQWsuC_tuaRnbR5CsOKXGPrTolIsZBYGm5z7i3cmRHgKCfq2TH5FAE5kdwVOEvbbqEgZC146n3wDi5aXDkZBk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "6:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Undertone - Dolby Cinema Early Access",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Undertone+-+Dolby+Cinema+Early+Access&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs1A3k-i2Sonk6SZWsuq6KAoTAZecTllFuBSnKmpvPBL-1r3PaB1iBPxHCjJW7xW6KOM86n7UpOoTRS3UV-wuIhjolPVcXJ94o5yCD43IZrlLUJPC8W__0rHgq_Hs0qH5HIk-wo%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "7:00pm"
+                        ],
+                        "type": "Dolby Cinema"
                     }
                 ]
             }
@@ -1258,11 +1698,11 @@
         "movies": [
             {
                 "name": "Hoppers",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Hoppers&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmFXsoRCrsp1baeHj9z8r_FGbP0xvJO1T3rbtOjZIad9ZqIkkU4hBrUI_iFdJFU2Qz9y35KLxaGZ-xlzVx0LTKxgHLBfcITItNkl1Yf0cqjpjSELmpnIBnb0Qy4qBZT7NAl4gIM%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Hoppers&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmFXsoRCrsp1baeHj9z8r_FGbP0xvJO1T3rbtOjZIad9ZqIkkU4hBrUI_iFdJFU2Qz9y35KLxaGZ-xlzVx0LTKxgHLBfcITItNkl1Yf0cqjpjSELmpnIBnb0Qy4qBZT7NAl4gIM%3D",
                 "showing": [
                     {
                         "time": [
-                            "7:15pm",
+                            "6:00pm",
                             "9:00pm"
                         ],
                         "type": "Standard"
@@ -1282,7 +1722,8 @@
                     },
                     {
                         "time": [
-                            "2:00pm"
+                            "3:30pm",
+                            "6:15pm"
                         ],
                         "type": "Dolby Cinema"
                     }
@@ -1290,19 +1731,27 @@
             },
             {
                 "name": "Scream 7",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D",
                 "showing": [
+                    {
+                        "time": [
+                            "2:15pm",
+                            "4:45pm",
+                            "7:45pm"
+                        ],
+                        "type": "Standard"
+                    },
                     {
                         "time": [
                             "9:00pm"
                         ],
-                        "type": "Standard"
+                        "type": "Dolby Cinema"
                     }
                 ]
             },
             {
                 "name": "The Bride!",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=The+Bride!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShYbUJkt_wZ7cjWYY2UKVdABCIZiEHFk0ZDPC72jzeonRLkb11KNkyw40E7U-Hxqig3xR3ZuGdtQtIyaBiz8M0we8b0knw-p2QFpJERcpWY0E3EHQ1OA7qG8CbKMISNHmlQ1nSc%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=The+Bride!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShYbUJkt_wZ7cjWYY2UKVdABCIZiEHFk0ZDPC72jzeonRLkb11KNkyw40E7U-Hxqig3xR3ZuGdtQtIyaBiz8M0we8b0knw-p2QFpJERcpWY0E3EHQ1OA7qG8CbKMISNHmlQ1nSc%3D",
                 "showing": [
                     {
                         "time": [
@@ -1322,15 +1771,104 @@
                 ]
             },
             {
+                "name": "Goat",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Goat&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs9LiapGf3oCcOA-TlmrU5kdvI4d7NDn1UEB4H8_3tgGsgrXxRDw71UyPVvUxMhaiJEmyfCdOsT1N6gyBLIOJOJSSqPDQOa33ItBZXwYjEC9Qokg00bUFHXYRv7EQg7ihkbLFqQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:15pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "5:15pm",
+                            "7:45pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Wuthering Heights",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSszlmDCQdJ-kDNU5nkj-SkuQP9JDSIt6uJQUjx0-N3vDQTVWB81A3xCq-XgSIxHGn-p2jtbV7K3iNwKCU0rT7lSKJibb_tP4IWC556B98yzK9g7mh45IDjCBn5Zto4gAA92UIC0%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "5:15pm",
+                            "8:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "EPiC: Elvis Presley in Concert",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=EPiC:+Elvis+Presley+in+Concert&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSjghhEzS8Ax68fHk3xvDwAhjLycqDa4NY_s2VIXHMGGKslYah7w1SDTEOsK9MoXeKSii5pazHGJEj18IiBu08O4RoY9c05bVzNioPwye_YY2kjL2Ofv1dzMHFLVnkC4waVlKqoI%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "4:00pm",
+                            "7:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "I Can Only Imagine 2",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqeGollB_06YkUf7k5jX4xdELaggM-sEkOADTmjCG1B7CbKKT_2-kfKr5ff6ufINmAmNAXPqvO0oGRBZTBmghI8I4TkMjMnMbTsJAijrmZAOieNBosMVWRYvyoHI7ziL4dZLVcU%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Crime 101",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Crime+101&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSli3PEDTyp0au_TfAVcsIZzJP7gI50ZTD5HXKp_-5o3xj57zjg_C_NorICSQ57tUeZIsz4WEvpw-GC8J5t1c27_fEuXPc1rLMj_1lLclwbAdUavtk6-qlWJQDRsRyYLGNckI-Pw%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "8:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Send Help",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Send+Help&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSm-VrVaEnvqYXout3dX-5HpD5L7InRWttjldyk9y_W8iQRNTU5IumrPJsurEZhz6uXTJUE6Bnzn8UfUiOhK5DSZAXFoOOHHwKubmBIq5lEIp-QpDWH5ihoI0B6-31dnniqAvWSA%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:00pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "6:15pm",
+                            "9:00pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
                 "name": "Protector",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Protector&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpDthHd5X_MJeftBA9I0hx70ENiEdaE_DWrDXRJHkcl60mJa7U_vrTFDHAwAYeS5Av1Imguh8K86AS32pv9x9x94sOpKLB1NxE2J4zhdhNUY10K7Kam7VrQ3XkMErn92DnJDv8Q%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Protector&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpDthHd5X_MJeftBA9I0hx70ENiEdaE_DWrDXRJHkcl60mJa7U_vrTFDHAwAYeS5Av1Imguh8K86AS32pv9x9x94sOpKLB1NxE2J4zhdhNUY10K7Kam7VrQ3XkMErn92DnJDv8Q%3D",
                 "showing": [
                     {
                         "time": [
                             "2:15pm",
                             "4:45pm",
                             "6:30pm",
-                            "7:15pm",
                             "9:00pm"
                         ],
                         "type": "Standard"
@@ -1338,8 +1876,20 @@
                 ]
             },
             {
+                "name": "Solo Mio",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Solo+Mio&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmoAfLGZ51AmGG7XinnNL5-B8-t4YIB0Se07DEpBBVBZwmMtvcOP46s6V1wsPq0lcJZWGXbDjcdc3FPCPey87wy8Rt7ihEIy9uHIZ6Ew15x88F7IA3yIzHYyvu48KbRjwray5dk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSgHctYGoBrSlEQkB-wrCmJUBfRly9N_GvSQHWMzHe5Ggv__W-0gyKvDpR0JL78UFDcC-kB7Ppytwy842FQTkFGgSNyji_h6Q9r1o4eJualA2mhv0Slu8cldGB6pMfkCL2MwbQ8k%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSgHctYGoBrSlEQkB-wrCmJUBfRly9N_GvSQHWMzHe5Ggv__W-0gyKvDpR0JL78UFDcC-kB7Ppytwy842FQTkFGgSNyji_h6Q9r1o4eJualA2mhv0Slu8cldGB6pMfkCL2MwbQ8k%3D",
                 "showing": [
                     {
                         "time": [
@@ -1356,8 +1906,20 @@
                 ]
             },
             {
+                "name": "How to Make a Killing",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs2VkS9M6t5GEZQkthLE-_TSmf_Frr0febWSnZoeMCN7HsBKdn2MZZNEUSooqYefRAhtJklw6ENHdCQFTXAIo8OtwEWXe49ZO-L5fu6PCwQxxEhEYmUXIT2dJc_LgVdPMtxcCrQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "9:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "Dolly",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Dolly&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnyCNpxHTpcHUSwXJSNPqL3t6X1rVvOE84mu3wiOr22KuPyPS-f1d2NcD30VSbQZCdF_Mpr5YF8HL5UwBr29drc3kuR4v3uA9lhjolwcleDqix2pwtyes1aZDXNiNzhNubvN8Cw%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Dolly&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnyCNpxHTpcHUSwXJSNPqL3t6X1rVvOE84mu3wiOr22KuPyPS-f1d2NcD30VSbQZCdF_Mpr5YF8HL5UwBr29drc3kuR4v3uA9lhjolwcleDqix2pwtyes1aZDXNiNzhNubvN8Cw%3D",
                 "showing": [
                     {
                         "time": [
@@ -1368,8 +1930,32 @@
                 ]
             },
             {
+                "name": "Avatar: Fire and Ash",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Avatar:+Fire+and+Ash&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSi3mgVGEMzMcfAMFap9UdCctL9ZMPXTi9HJ9G_nOe4c4EuMMwBEfP9fDDKm3pZuFXL7aa7K4v07v9mPHnpiyEkjyRYc3O6EB_tMddQ-kI59WiU2wiYqxfoHEO_tXbYWkp-tG_5c%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Umamusume: Pretty Derby - Beginning of a New Era",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Umamusume:+Pretty+Derby+-+Beginning+of+a+New+Era&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrTtLKs8M1jZwf4SN2izf3wLdMoSPZJJrqx5-CyR0hiH9rKuWwcy5Guwe6hRrwk7UT_9C8vUtz3kKmH4HjAw33wVAlKF4hiYbpbZxSlyGfD54EfpbylrTCrcbMKrWCvKSjY70S0%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "Youngblood",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Youngblood&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSteanWjZG8UryZ9C0Kvg65lvhS1o9XBxpcLeeey9uB6d8OeQUIYdDBYN6xTNnrGa3PnwA8EqyJ_yEbBzeUM7wY8WD29dtfJgsba4TCiXxuP_CAbEQ23n9zNWIKZzNWkawn-7fKs%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Youngblood&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSteanWjZG8UryZ9C0Kvg65lvhS1o9XBxpcLeeey9uB6d8OeQUIYdDBYN6xTNnrGa3PnwA8EqyJ_yEbBzeUM7wY8WD29dtfJgsba4TCiXxuP_CAbEQ23n9zNWIKZzNWkawn-7fKs%3D",
                 "showing": [
                     {
                         "time": [
@@ -1381,8 +1967,46 @@
                 ]
             },
             {
+                "name": "Good Luck, Have Fun, Don't Die",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiouYUirIbRAUlpgB_pJwpogMY-booZDz4Nadpd-ZFRU9N-BpjA9DZSF89XqshKrNsENW-koTLRUzTU0K7djRCgaqZvUcDZlz6EjqPXuz_WQosomYUZUbcXIoRk92WNo0Fi6MTs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:45pm",
+                            "5:15pm",
+                            "8:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "One Battle After Another",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=One+Battle+After+Another&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSi5QhzzkHnJmXGDIk_WN06yZt1Tx8X7y9WFGDnvXCpwxn7kQ_ZGpL6SciaMEGY7-ii4w6mdNVb1DEUU0-RRhYy-GIljh1LaeHcbztQZQom84h3ng71olE2RwFTbkP071UQiSKQo%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "K-Pops!",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=K-Pops!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuQsjvaP9Ce5J7UdaPsQ001jJ1YmVvC9zRJC7ow-2qv2OndcT8MQWsuC_tuaRnbR5CsOKXGPrTolIsZBYGm5z7i3cmRHgKCfq2TH5FAE5kdwVOEvbbqEgZC146n3wDi5aXDkZBk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "6:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "Little Women",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=Little+Women&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdStkQ2ml5elS7k8wWyIC00qLR9pIbTh85pB1nrl754uLA8D7wpxL_LX1xzuvJ0bE7AjEkQLqBPi7ilH3Fj2J8OPFligPzbK7sHfAWcMFWIaIK03qmqzH75tCWizcBWGK4fzO9q_I%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Little+Women&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdStkQ2ml5elS7k8wWyIC00qLR9pIbTh85pB1nrl754uLA8D7wpxL_LX1xzuvJ0bE7AjEkQLqBPi7ilH3Fj2J8OPFligPzbK7sHfAWcMFWIaIK03qmqzH75tCWizcBWGK4fzO9q_I%3D",
                 "showing": [
                     {
                         "time": [
@@ -1394,11 +2018,348 @@
             },
             {
                 "name": "One Piece: Into the Grand Line - Fan Event",
-                "link": "https://www.google.com/search?sca_esv=b99d1670b8afc25c&gl=us&hl=en&q=One+Piece:+Into+the+Grand+Line+-+Fan+Event&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuRC9ror3QgLR7UQ5ckRp_cY2IlUCb92A60uNZEVSoBZPupgtD5R9PNwYdHdxbmlHS1-LDQ1JXRJCJkyWd_cJJyz1J0yK1F-8JKMlwA8b5rsaFiFHGVB2IB2cpyuX0Jxq-l_myM%3D",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=One+Piece:+Into+the+Grand+Line+-+Fan+Event&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuRC9ror3QgLR7UQ5ckRp_cY2IlUCb92A60uNZEVSoBZPupgtD5R9PNwYdHdxbmlHS1-LDQ1JXRJCJkyWd_cJJyz1J0yK1F-8JKMlwA8b5rsaFiFHGVB2IB2cpyuX0Jxq-l_myM%3D",
                 "showing": [
                     {
                         "time": [
                             "6:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Wed",
+        "date": "Mar 11",
+        "movies": [
+            {
+                "name": "Hoppers",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Hoppers&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmFXsoRCrsp1baeHj9z8r_FGbP0xvJO1T3rbtOjZIad9ZqIkkU4hBrUI_iFdJFU2Qz9y35KLxaGZ-xlzVx0LTKxgHLBfcITItNkl1Yf0cqjpjSELmpnIBnb0Qy4qBZT7NAl4gIM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:20pm",
+                            "9:00pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "2:00pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "7:00pm"
+                        ],
+                        "type": "3D"
+                    },
+                    {
+                        "time": [
+                            "3:30pm",
+                            "6:15pm"
+                        ],
+                        "type": "Dolby Cinema"
+                    }
+                ]
+            },
+            {
+                "name": "Scream 7",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Scream+7&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrsrpMwOhEh-Ipf340hc33y3hgPnrbTkxgWHPaDOmHR47DP_56jhB0yOrBIai56xIZRQlLry8KdQvja8tKS430nFFh1W5erZ7N64GLlk7J-vH5kBhJYRSLsb-xCW77O38cLM68Q%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:15pm",
+                            "4:30pm",
+                            "7:30pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "9:00pm"
+                        ],
+                        "type": "Dolby Cinema"
+                    }
+                ]
+            },
+            {
+                "name": "The Bride!",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=The+Bride!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdShYbUJkt_wZ7cjWYY2UKVdABCIZiEHFk0ZDPC72jzeonRLkb11KNkyw40E7U-Hxqig3xR3ZuGdtQtIyaBiz8M0we8b0knw-p2QFpJERcpWY0E3EHQ1OA7qG8CbKMISNHmlQ1nSc%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:30pm",
+                            "5:45pm",
+                            "9:00pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "4:45pm",
+                            "8:00pm"
+                        ],
+                        "type": "IMAX"
+                    }
+                ]
+            },
+            {
+                "name": "Goat",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Goat&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs9LiapGf3oCcOA-TlmrU5kdvI4d7NDn1UEB4H8_3tgGsgrXxRDw71UyPVvUxMhaiJEmyfCdOsT1N6gyBLIOJOJSSqPDQOa33ItBZXwYjEC9Qokg00bUFHXYRv7EQg7ihkbLFqQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:15pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "5:15pm",
+                            "7:45pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Wuthering Heights",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Wuthering+Heights&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSszlmDCQdJ-kDNU5nkj-SkuQP9JDSIt6uJQUjx0-N3vDQTVWB81A3xCq-XgSIxHGn-p2jtbV7K3iNwKCU0rT7lSKJibb_tP4IWC556B98yzK9g7mh45IDjCBn5Zto4gAA92UIC0%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "4:00pm",
+                            "7:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "EPiC: Elvis Presley in Concert",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=EPiC:+Elvis+Presley+in+Concert&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSjghhEzS8Ax68fHk3xvDwAhjLycqDa4NY_s2VIXHMGGKslYah7w1SDTEOsK9MoXeKSii5pazHGJEj18IiBu08O4RoY9c05bVzNioPwye_YY2kjL2Ofv1dzMHFLVnkC4waVlKqoI%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "6:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "I Can Only Imagine 2",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=I+Can+Only+Imagine+2&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqeGollB_06YkUf7k5jX4xdELaggM-sEkOADTmjCG1B7CbKKT_2-kfKr5ff6ufINmAmNAXPqvO0oGRBZTBmghI8I4TkMjMnMbTsJAijrmZAOieNBosMVWRYvyoHI7ziL4dZLVcU%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:00pm",
+                            "7:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Crime 101",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Crime+101&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSli3PEDTyp0au_TfAVcsIZzJP7gI50ZTD5HXKp_-5o3xj57zjg_C_NorICSQ57tUeZIsz4WEvpw-GC8J5t1c27_fEuXPc1rLMj_1lLclwbAdUavtk6-qlWJQDRsRyYLGNckI-Pw%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "8:40pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Send Help",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Send+Help&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSm-VrVaEnvqYXout3dX-5HpD5L7InRWttjldyk9y_W8iQRNTU5IumrPJsurEZhz6uXTJUE6Bnzn8UfUiOhK5DSZAXFoOOHHwKubmBIq5lEIp-QpDWH5ihoI0B6-31dnniqAvWSA%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "6:15pm",
+                            "9:00pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Protector",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Protector&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSpDthHd5X_MJeftBA9I0hx70ENiEdaE_DWrDXRJHkcl60mJa7U_vrTFDHAwAYeS5Av1Imguh8K86AS32pv9x9x94sOpKLB1NxE2J4zhdhNUY10K7Kam7VrQ3XkMErn92DnJDv8Q%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "4:00pm",
+                            "6:30pm",
+                            "9:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Solo Mio",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Solo+Mio&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmoAfLGZ51AmGG7XinnNL5-B8-t4YIB0Se07DEpBBVBZwmMtvcOP46s6V1wsPq0lcJZWGXbDjcdc3FPCPey87wy8Rt7ihEIy9uHIZ6Ew15x88F7IA3yIzHYyvu48KbRjwray5dk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "6:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Demon Slayer: Kimetsu No Yaiba The Movie: Infinity Castle",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Demon+Slayer:+Kimetsu+No+Yaiba+The+Movie:+Infinity+Castle&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSgHctYGoBrSlEQkB-wrCmJUBfRly9N_GvSQHWMzHe5Ggv__W-0gyKvDpR0JL78UFDcC-kB7Ppytwy842FQTkFGgSNyji_h6Q9r1o4eJualA2mhv0Slu8cldGB6pMfkCL2MwbQ8k%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "7:30pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "3:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "How to Make a Killing",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=How+to+Make+a+Killing&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSs2VkS9M6t5GEZQkthLE-_TSmf_Frr0febWSnZoeMCN7HsBKdn2MZZNEUSooqYefRAhtJklw6ENHdCQFTXAIo8OtwEWXe49ZO-L5fu6PCwQxxEhEYmUXIT2dJc_LgVdPMtxcCrQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Dolly",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Dolly&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnyCNpxHTpcHUSwXJSNPqL3t6X1rVvOE84mu3wiOr22KuPyPS-f1d2NcD30VSbQZCdF_Mpr5YF8HL5UwBr29drc3kuR4v3uA9lhjolwcleDqix2pwtyes1aZDXNiNzhNubvN8Cw%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "8:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Avatar: Fire and Ash",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Avatar:+Fire+and+Ash&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSi3mgVGEMzMcfAMFap9UdCctL9ZMPXTi9HJ9G_nOe4c4EuMMwBEfP9fDDKm3pZuFXL7aa7K4v07v9mPHnpiyEkjyRYc3O6EB_tMddQ-kI59WiU2wiYqxfoHEO_tXbYWkp-tG_5c%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm"
+                        ],
+                        "type": "3D"
+                    }
+                ]
+            },
+            {
+                "name": "Umamusume: Pretty Derby - Beginning of a New Era",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Umamusume:+Pretty+Derby+-+Beginning+of+a+New+Era&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrTtLKs8M1jZwf4SN2izf3wLdMoSPZJJrqx5-CyR0hiH9rKuWwcy5Guwe6hRrwk7UT_9C8vUtz3kKmH4HjAw33wVAlKF4hiYbpbZxSlyGfD54EfpbylrTCrcbMKrWCvKSjY70S0%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "4:45pm",
+                            "7:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Youngblood",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Youngblood&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSteanWjZG8UryZ9C0Kvg65lvhS1o9XBxpcLeeey9uB6d8OeQUIYdDBYN6xTNnrGa3PnwA8EqyJ_yEbBzeUM7wY8WD29dtfJgsba4TCiXxuP_CAbEQ23n9zNWIKZzNWkawn-7fKs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Good Luck, Have Fun, Don't Die",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=Good+Luck,+Have+Fun,+Don%27t+Die&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiouYUirIbRAUlpgB_pJwpogMY-booZDz4Nadpd-ZFRU9N-BpjA9DZSF89XqshKrNsENW-koTLRUzTU0K7djRCgaqZvUcDZlz6EjqPXuz_WQosomYUZUbcXIoRk92WNo0Fi6MTs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:30pm",
+                            "5:15pm",
+                            "8:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Secret Agent",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=The+Secret+Agent&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSkSqCbyn8zVVWY-4ZDk8lmfu9diP0tlbP_c3N-5rHh0NcjSdQIrbYQQzChMZH4QH1y3FWCMH3fjS_dSg1zX6AZ2b6L0l8aFtp9MFNW7HjPJqn2Gp_sGu02Pa0wnlar6CH967vKg%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Optimist: The Bravest Act Is Truth",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=The+Optimist:+The+Bravest+Act+Is+Truth&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdStJ_p9Pqjk0Y1ZJnBZl_dTYtKfc02yW7tjOvLK7PNT8PtBO_QTfk3Qf03RcRLvbtSzQ2XT3SwIe9HqQjjITMpyu8sbxnxhWQM3LYAqNbnowCFCXjo1gAxkagexMEoMTWiSk4yAU%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "6:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "K-Pops!",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=K-Pops!&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuQsjvaP9Ce5J7UdaPsQ001jJ1YmVvC9zRJC7ow-2qv2OndcT8MQWsuC_tuaRnbR5CsOKXGPrTolIsZBYGm5z7i3cmRHgKCfq2TH5FAE5kdwVOEvbbqEgZC146n3wDi5aXDkZBk%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "5:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "I Still Believe",
+                "link": "https://www.google.com/search?sca_esv=e44a3b63b1b18493&gl=us&hl=en&q=I+Still+Believe&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSuTXHtlyqdQFBJfHb1eRrmWU6yJ928otdELTOYK0oJewv3j2PBMPOo4O8WrY7M-8VoioQyVW9Voj4lAgKc0rSe4d26j8D0w5p7hyI6YjXOZNBWd_hUb4GudUTBHeyww_ZEo5aE4%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "7:00pm"
                         ],
                         "type": "Standard"
                     }
