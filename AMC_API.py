@@ -8,7 +8,7 @@ def google_request(amc_name):
     print("API Key is set" if api_key else "API Key not found")
     params = {
         "q": amc_name,
-        "location": "Chicago, Illinois, United States",
+        "location": "Charlotte, North Carolina, United States",
         "hl": "en",
         "gl": "us",
         "api_key": api_key
@@ -35,9 +35,9 @@ def google_request(amc_name):
 
 def main():
     #movie_request()
-    google_request('AMC Village Crossing 18')
-    google_request('AMC River East 21')
-    google_request('AMC Evanston 12')
+    google_request('AMC Concord Mills 24')
+    google_request('AMC Carolina Pavilion 22')
+    google_request('AMC North Lake 14')
 
 if __name__ == "__main__":
     main()
