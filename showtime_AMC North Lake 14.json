@@ -3,160 +3,8 @@
         "day": "Today",
         "movies": [
             {
-                "name": "The Super Mario Galaxy Movie",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D&sa=X&ved=2ahUKEwjgn4Di5YCUAxXCmSYFHfyyLq4QxyZ6BQiMARAT",
-                "showing": [
-                    {
-                        "time": [
-                            "2:45pm",
-                            "4:15pm",
-                            "7:00pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "9:15pm"
-                        ],
-                        "type": "3D"
-                    },
-                    {
-                        "time": [
-                            "3:20pm"
-                        ],
-                        "type": "Dolby Cinema"
-                    }
-                ]
-            },
-            {
-                "name": "Project Hail Mary",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D&sa=X&ved=2ahUKEwjgn4Di5YCUAxXCmSYFHfyyLq4QxyZ6BQiMARAd",
-                "showing": [
-                    {
-                        "time": [
-                            "2:25pm",
-                            "6:00pm",
-                            "9:00pm"
-                        ],
-                        "type": "Standard"
-                    },
-                    {
-                        "time": [
-                            "3:25pm"
-                        ],
-                        "type": "IMAX"
-                    }
-                ]
-            },
-            {
-                "name": "Lee Cronin's The Mummy",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D&sa=X&ved=2ahUKEwjgn4Di5YCUAxXCmSYFHfyyLq4QxyZ6BQiMARAl",
-                "showing": [
-                    {
-                        "time": [
-                            "2:35pm",
-                            "8:15pm",
-                            "9:35pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "You, Me & Tuscany",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "2:00pm",
-                            "4:35pm",
-                            "6:45pm",
-                            "9:25pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "The Drama",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:30pm",
-                            "6:15pm",
-                            "9:35pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Normal",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "2:00pm",
-                            "4:20pm",
-                            "7:15pm",
-                            "9:40pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
-                "name": "Fight Club 4K Remaster",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "6:00pm"
-                        ],
-                        "type": "4K"
-                    }
-                ]
-            },
-            {
-                "name": "Michael Early Access Screenings",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Michael+Early+Access+Screenings&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSjiXjWj4Rn9A0EZrfH8Lo2gwoBUKXexrKsYK2ebkx7SpJ-bPUjSy-CcOrfHJPbYT4PVdm1PQw_sUs4GSvz50RBQo7aCDh-wjrD2OntssK2sUhiVFn5yzv-SRQZCkEjhUFGB369I%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "7:00pm"
-                        ],
-                        "type": "IMAX"
-                    },
-                    {
-                        "time": [
-                            "6:00pm",
-                            "9:15pm"
-                        ],
-                        "type": "Dolby Cinema"
-                    }
-                ]
-            },
-            {
-                "name": "Ferris Bueller's Day Off",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Ferris+Bueller%27s+Day+Off&si=AL3DRZFaIDRhfOhxhs_-rJcBcIaBavX7lfHq2gvKG3BEusbSvlsAa9uA-KInIvJBOtLwzC8UwkpTRDJxlf_VR2E4XD9vSxxLZnrrET6JoOQezS-PdNFes9e45Gc7JiTqeKNH6bjW90iCjzVSnnMe256yV2uO1GSgcxJQN_RHPGLbIH2LRwf6Iys%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "5:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            }
-        ]
-    },
-    {
-        "day": "Tomorrow",
-        "movies": [
-            {
                 "name": "Michael",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Michael&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSun7Qo50HeuO7UDYhZ8BUIs0kI0lPx6z_flM3k36AabI0x8Lml6FOAvoZu-UtZuUtOrq6BSFmv7Gz83jMhcZCLBZa4vm1pRyjzGiGOR7jkja2uP0T3OkCZ4AUuOSD7-OitgjeyM%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Michael&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSun7Qo50HeuO7UDYhZ8BUIs0kI0lPx6z_flM3k36AabI0x8Lml6FOAvoZu-UtZuUtOrq6BSFmv7Gz83jMhcZCLBZa4vm1pRyjzGiGOR7jkja2uP0T3OkCZ4AUuOSD7-OitgjeyM%3D&sa=X&ved=2ahUKEwijq7-9qIOUAxVf1vACHVQKJqwQxyZ6BAhHEBM",
                 "showing": [
                     {
                         "time": [
@@ -186,7 +34,7 @@
             },
             {
                 "name": "The Super Mario Galaxy Movie",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D&sa=X&ved=2ahUKEwijq7-9qIOUAxVf1vACHVQKJqwQxyZ6BAhHECE",
                 "showing": [
                     {
                         "time": [
@@ -200,7 +48,7 @@
             },
             {
                 "name": "Project Hail Mary",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D&sa=X&ved=2ahUKEwijq7-9qIOUAxVf1vACHVQKJqwQxyZ6BAhHECc",
                 "showing": [
                     {
                         "time": [
@@ -214,7 +62,7 @@
             },
             {
                 "name": "Lee Cronin's The Mummy",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D",
                 "showing": [
                     {
                         "time": [
@@ -227,8 +75,21 @@
                 ]
             },
             {
+                "name": "The Drama",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "4:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "You, Me & Tuscany",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
                 "showing": [
                     {
                         "time": [
@@ -241,21 +102,8 @@
                 ]
             },
             {
-                "name": "The Drama",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "2:00pm",
-                            "4:45pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "Normal",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
                 "showing": [
                     {
                         "time": [
@@ -267,7 +115,7 @@
             },
             {
                 "name": "Mother Mary",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Mother+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmMl8ST6uoeMTQYoI_TJk06IKhPOKyQGdoKUsuBYca6vDmwIFGkjR7Af0BFQb_Vv5up012w4SwfcDMkRGGZnn0TDYQYPjsH8iHsdXLSwHYOblbE2sGZGhQ9alORLeq4_XTfFD7Y%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Mother+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmMl8ST6uoeMTQYoI_TJk06IKhPOKyQGdoKUsuBYca6vDmwIFGkjR7Af0BFQb_Vv5up012w4SwfcDMkRGGZnn0TDYQYPjsH8iHsdXLSwHYOblbE2sGZGhQ9alORLeq4_XTfFD7Y%3D",
                 "showing": [
                     {
                         "time": [
@@ -281,7 +129,7 @@
             },
             {
                 "name": "Fight Club 4K Remaster",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
                 "showing": [
                     {
                         "time": [
@@ -294,12 +142,11 @@
         ]
     },
     {
-        "day": "Fri",
-        "date": "Apr 24",
+        "day": "Tomorrow",
         "movies": [
             {
                 "name": "Michael",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Michael&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSun7Qo50HeuO7UDYhZ8BUIs0kI0lPx6z_flM3k36AabI0x8Lml6FOAvoZu-UtZuUtOrq6BSFmv7Gz83jMhcZCLBZa4vm1pRyjzGiGOR7jkja2uP0T3OkCZ4AUuOSD7-OitgjeyM%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Michael&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSun7Qo50HeuO7UDYhZ8BUIs0kI0lPx6z_flM3k36AabI0x8Lml6FOAvoZu-UtZuUtOrq6BSFmv7Gz83jMhcZCLBZa4vm1pRyjzGiGOR7jkja2uP0T3OkCZ4AUuOSD7-OitgjeyM%3D",
                 "showing": [
                     {
                         "time": [
@@ -330,7 +177,7 @@
             },
             {
                 "name": "The Super Mario Galaxy Movie",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D",
                 "showing": [
                     {
                         "time": [
@@ -345,7 +192,7 @@
             },
             {
                 "name": "Project Hail Mary",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D",
                 "showing": [
                     {
                         "time": [
@@ -359,7 +206,7 @@
             },
             {
                 "name": "Lee Cronin's The Mummy",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D",
                 "showing": [
                     {
                         "time": [
@@ -373,8 +220,21 @@
                 ]
             },
             {
+                "name": "The Drama",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "1:00pm",
+                            "3:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "You, Me & Tuscany",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
                 "showing": [
                     {
                         "time": [
@@ -388,21 +248,8 @@
                 ]
             },
             {
-                "name": "The Drama",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "1:00pm",
-                            "3:45pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "Normal",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
                 "showing": [
                     {
                         "time": [
@@ -414,7 +261,7 @@
             },
             {
                 "name": "Mother Mary",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Mother+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmMl8ST6uoeMTQYoI_TJk06IKhPOKyQGdoKUsuBYca6vDmwIFGkjR7Af0BFQb_Vv5up012w4SwfcDMkRGGZnn0TDYQYPjsH8iHsdXLSwHYOblbE2sGZGhQ9alORLeq4_XTfFD7Y%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Mother+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmMl8ST6uoeMTQYoI_TJk06IKhPOKyQGdoKUsuBYca6vDmwIFGkjR7Af0BFQb_Vv5up012w4SwfcDMkRGGZnn0TDYQYPjsH8iHsdXLSwHYOblbE2sGZGhQ9alORLeq4_XTfFD7Y%3D",
                 "showing": [
                     {
                         "time": [
@@ -429,7 +276,7 @@
             },
             {
                 "name": "Fight Club 4K Remaster",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
                 "showing": [
                     {
                         "time": [
@@ -447,7 +294,7 @@
         "movies": [
             {
                 "name": "Michael",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Michael&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSun7Qo50HeuO7UDYhZ8BUIs0kI0lPx6z_flM3k36AabI0x8Lml6FOAvoZu-UtZuUtOrq6BSFmv7Gz83jMhcZCLBZa4vm1pRyjzGiGOR7jkja2uP0T3OkCZ4AUuOSD7-OitgjeyM%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Michael&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSun7Qo50HeuO7UDYhZ8BUIs0kI0lPx6z_flM3k36AabI0x8Lml6FOAvoZu-UtZuUtOrq6BSFmv7Gz83jMhcZCLBZa4vm1pRyjzGiGOR7jkja2uP0T3OkCZ4AUuOSD7-OitgjeyM%3D",
                 "showing": [
                     {
                         "time": [
@@ -479,7 +326,7 @@
             },
             {
                 "name": "The Super Mario Galaxy Movie",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D",
                 "showing": [
                     {
                         "time": [
@@ -495,7 +342,7 @@
             },
             {
                 "name": "Project Hail Mary",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D",
                 "showing": [
                     {
                         "time": [
@@ -510,7 +357,7 @@
             },
             {
                 "name": "Lee Cronin's The Mummy",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D",
                 "showing": [
                     {
                         "time": [
@@ -524,8 +371,21 @@
                 ]
             },
             {
+                "name": "The Drama",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "11:45am",
+                            "8:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "You, Me & Tuscany",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
                 "showing": [
                     {
                         "time": [
@@ -539,21 +399,8 @@
                 ]
             },
             {
-                "name": "The Drama",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "11:45am",
-                            "8:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "Normal",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
                 "showing": [
                     {
                         "time": [
@@ -565,7 +412,7 @@
             },
             {
                 "name": "Mother Mary",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Mother+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmMl8ST6uoeMTQYoI_TJk06IKhPOKyQGdoKUsuBYca6vDmwIFGkjR7Af0BFQb_Vv5up012w4SwfcDMkRGGZnn0TDYQYPjsH8iHsdXLSwHYOblbE2sGZGhQ9alORLeq4_XTfFD7Y%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Mother+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmMl8ST6uoeMTQYoI_TJk06IKhPOKyQGdoKUsuBYca6vDmwIFGkjR7Af0BFQb_Vv5up012w4SwfcDMkRGGZnn0TDYQYPjsH8iHsdXLSwHYOblbE2sGZGhQ9alORLeq4_XTfFD7Y%3D",
                 "showing": [
                     {
                         "time": [
@@ -581,7 +428,7 @@
             },
             {
                 "name": "Fight Club 4K Remaster",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
                 "showing": [
                     {
                         "time": [
@@ -599,7 +446,7 @@
         "movies": [
             {
                 "name": "Michael",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Michael&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSun7Qo50HeuO7UDYhZ8BUIs0kI0lPx6z_flM3k36AabI0x8Lml6FOAvoZu-UtZuUtOrq6BSFmv7Gz83jMhcZCLBZa4vm1pRyjzGiGOR7jkja2uP0T3OkCZ4AUuOSD7-OitgjeyM%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Michael&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSun7Qo50HeuO7UDYhZ8BUIs0kI0lPx6z_flM3k36AabI0x8Lml6FOAvoZu-UtZuUtOrq6BSFmv7Gz83jMhcZCLBZa4vm1pRyjzGiGOR7jkja2uP0T3OkCZ4AUuOSD7-OitgjeyM%3D",
                 "showing": [
                     {
                         "time": [
@@ -631,7 +478,7 @@
             },
             {
                 "name": "The Super Mario Galaxy Movie",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D",
                 "showing": [
                     {
                         "time": [
@@ -647,7 +494,7 @@
             },
             {
                 "name": "Project Hail Mary",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D",
                 "showing": [
                     {
                         "time": [
@@ -662,7 +509,7 @@
             },
             {
                 "name": "Lee Cronin's The Mummy",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D",
                 "showing": [
                     {
                         "time": [
@@ -676,8 +523,21 @@
                 ]
             },
             {
+                "name": "The Drama",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "11:45am",
+                            "8:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "You, Me & Tuscany",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
                 "showing": [
                     {
                         "time": [
@@ -691,21 +551,8 @@
                 ]
             },
             {
-                "name": "The Drama",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "11:45am",
-                            "8:30pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "Normal",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
                 "showing": [
                     {
                         "time": [
@@ -717,7 +564,7 @@
             },
             {
                 "name": "Mother Mary",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Mother+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmMl8ST6uoeMTQYoI_TJk06IKhPOKyQGdoKUsuBYca6vDmwIFGkjR7Af0BFQb_Vv5up012w4SwfcDMkRGGZnn0TDYQYPjsH8iHsdXLSwHYOblbE2sGZGhQ9alORLeq4_XTfFD7Y%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Mother+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmMl8ST6uoeMTQYoI_TJk06IKhPOKyQGdoKUsuBYca6vDmwIFGkjR7Af0BFQb_Vv5up012w4SwfcDMkRGGZnn0TDYQYPjsH8iHsdXLSwHYOblbE2sGZGhQ9alORLeq4_XTfFD7Y%3D",
                 "showing": [
                     {
                         "time": [
@@ -733,7 +580,7 @@
             },
             {
                 "name": "Fight Club 4K Remaster",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
                 "showing": [
                     {
                         "time": [
@@ -751,7 +598,7 @@
         "movies": [
             {
                 "name": "Michael",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Michael&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSun7Qo50HeuO7UDYhZ8BUIs0kI0lPx6z_flM3k36AabI0x8Lml6FOAvoZu-UtZuUtOrq6BSFmv7Gz83jMhcZCLBZa4vm1pRyjzGiGOR7jkja2uP0T3OkCZ4AUuOSD7-OitgjeyM%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Michael&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSun7Qo50HeuO7UDYhZ8BUIs0kI0lPx6z_flM3k36AabI0x8Lml6FOAvoZu-UtZuUtOrq6BSFmv7Gz83jMhcZCLBZa4vm1pRyjzGiGOR7jkja2uP0T3OkCZ4AUuOSD7-OitgjeyM%3D",
                 "showing": [
                     {
                         "time": [
@@ -780,7 +627,7 @@
             },
             {
                 "name": "The Super Mario Galaxy Movie",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D",
                 "showing": [
                     {
                         "time": [
@@ -795,7 +642,7 @@
             },
             {
                 "name": "Project Hail Mary",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D",
                 "showing": [
                     {
                         "time": [
@@ -809,7 +656,7 @@
             },
             {
                 "name": "Lee Cronin's The Mummy",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D",
                 "showing": [
                     {
                         "time": [
@@ -822,8 +669,20 @@
                 ]
             },
             {
+                "name": "The Drama",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "You, Me & Tuscany",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
                 "showing": [
                     {
                         "time": [
@@ -836,20 +695,8 @@
                 ]
             },
             {
-                "name": "The Drama",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "3:35pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "Normal",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
                 "showing": [
                     {
                         "time": [
@@ -861,7 +708,7 @@
             },
             {
                 "name": "Mother Mary",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Mother+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmMl8ST6uoeMTQYoI_TJk06IKhPOKyQGdoKUsuBYca6vDmwIFGkjR7Af0BFQb_Vv5up012w4SwfcDMkRGGZnn0TDYQYPjsH8iHsdXLSwHYOblbE2sGZGhQ9alORLeq4_XTfFD7Y%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Mother+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmMl8ST6uoeMTQYoI_TJk06IKhPOKyQGdoKUsuBYca6vDmwIFGkjR7Af0BFQb_Vv5up012w4SwfcDMkRGGZnn0TDYQYPjsH8iHsdXLSwHYOblbE2sGZGhQ9alORLeq4_XTfFD7Y%3D",
                 "showing": [
                     {
                         "time": [
@@ -875,7 +722,7 @@
             },
             {
                 "name": "Fight Club 4K Remaster",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
                 "showing": [
                     {
                         "time": [
@@ -893,7 +740,7 @@
         "movies": [
             {
                 "name": "Michael",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Michael&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSun7Qo50HeuO7UDYhZ8BUIs0kI0lPx6z_flM3k36AabI0x8Lml6FOAvoZu-UtZuUtOrq6BSFmv7Gz83jMhcZCLBZa4vm1pRyjzGiGOR7jkja2uP0T3OkCZ4AUuOSD7-OitgjeyM%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Michael&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSun7Qo50HeuO7UDYhZ8BUIs0kI0lPx6z_flM3k36AabI0x8Lml6FOAvoZu-UtZuUtOrq6BSFmv7Gz83jMhcZCLBZa4vm1pRyjzGiGOR7jkja2uP0T3OkCZ4AUuOSD7-OitgjeyM%3D",
                 "showing": [
                     {
                         "time": [
@@ -922,7 +769,7 @@
             },
             {
                 "name": "The Super Mario Galaxy Movie",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D",
                 "showing": [
                     {
                         "time": [
@@ -936,7 +783,7 @@
             },
             {
                 "name": "Project Hail Mary",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D",
                 "showing": [
                     {
                         "time": [
@@ -950,7 +797,7 @@
             },
             {
                 "name": "Lee Cronin's The Mummy",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D",
                 "showing": [
                     {
                         "time": [
@@ -963,8 +810,21 @@
                 ]
             },
             {
+                "name": "The Drama",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "4:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
                 "name": "You, Me & Tuscany",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
                 "showing": [
                     {
                         "time": [
@@ -977,21 +837,8 @@
                 ]
             },
             {
-                "name": "The Drama",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
-                "showing": [
-                    {
-                        "time": [
-                            "2:00pm",
-                            "4:45pm"
-                        ],
-                        "type": "Standard"
-                    }
-                ]
-            },
-            {
                 "name": "Normal",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
                 "showing": [
                     {
                         "time": [
@@ -1003,7 +850,7 @@
             },
             {
                 "name": "Mother Mary",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Mother+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmMl8ST6uoeMTQYoI_TJk06IKhPOKyQGdoKUsuBYca6vDmwIFGkjR7Af0BFQb_Vv5up012w4SwfcDMkRGGZnn0TDYQYPjsH8iHsdXLSwHYOblbE2sGZGhQ9alORLeq4_XTfFD7Y%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Mother+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmMl8ST6uoeMTQYoI_TJk06IKhPOKyQGdoKUsuBYca6vDmwIFGkjR7Af0BFQb_Vv5up012w4SwfcDMkRGGZnn0TDYQYPjsH8iHsdXLSwHYOblbE2sGZGhQ9alORLeq4_XTfFD7Y%3D",
                 "showing": [
                     {
                         "time": [
@@ -1017,7 +864,149 @@
             },
             {
                 "name": "Fight Club 4K Remaster",
-                "link": "https://www.google.com/search?sca_esv=8b90a2d696e076c2&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "8:00pm"
+                        ],
+                        "type": "4K"
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "day": "Wed",
+        "date": "Apr 29",
+        "movies": [
+            {
+                "name": "Michael",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Michael&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSun7Qo50HeuO7UDYhZ8BUIs0kI0lPx6z_flM3k36AabI0x8Lml6FOAvoZu-UtZuUtOrq6BSFmv7Gz83jMhcZCLBZa4vm1pRyjzGiGOR7jkja2uP0T3OkCZ4AUuOSD7-OitgjeyM%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:00pm",
+                            "7:15pm"
+                        ],
+                        "type": "Standard"
+                    },
+                    {
+                        "time": [
+                            "3:00pm",
+                            "6:15pm",
+                            "9:30pm"
+                        ],
+                        "type": "IMAX"
+                    },
+                    {
+                        "time": [
+                            "2:00pm",
+                            "5:15pm",
+                            "8:30pm"
+                        ],
+                        "type": "Dolby Cinema"
+                    }
+                ]
+            },
+            {
+                "name": "The Super Mario Galaxy Movie",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Super+Mario+Galaxy+Movie&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqA8VrHnAIdT0KreT1bh0ROcxaHnIw1IR4VDaLFToKuAPcO72J5jpn8tfM8wjwniMcJt5_tH1xtgqmVPZFIovo2B30Ks4LeOlRHrTTA4RBZXLTc2Aja8Q9OCrl7RONzbvR3u2ec%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "4:20pm",
+                            "7:00pm",
+                            "9:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Project Hail Mary",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Project+Hail+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSnTge1aic2ux-xM2-XIY23crVGF4XamFVosfO-omSstYEN8iHPFgdqqRqywy0QfGE2zl56p-Qc-OItAcmMMWl02exzfE15o8Y2-2l7DKQewQlv0YQcWqXYUzzwTBGVqaYpX6lMQ%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:35pm",
+                            "6:00pm",
+                            "9:00pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Lee Cronin's The Mummy",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Lee+Cronin%27s+The+Mummy&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSrGYNBHY5ztKMZIbQqVDZW7XgExnQAkcoxBVgaR1PQipB8Ir205RTy_6qxh7Lo26r5EVbJBBLhzqCFlkiV_KXa2JJ5AMZ1-K4GWUtMqM5NVlonZiMG_VyPWFH2ThOAN3-ODbKhE%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:45pm",
+                            "6:00pm",
+                            "9:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "The Drama",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=The+Drama&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiukmHo4xBtJE2kWslQHxQ8qWtVQplyQmn_4Sd5mOKI9MMqWjb4hP6uowEYiCMYLzQ1UcOD7VWZQd-nL7CBh4TMHM4WiLYy7I4uAE80lzAB26gUP-4hoUJQhRkSu7IsrYADBcas%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "2:00pm",
+                            "4:45pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "You, Me & Tuscany",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=You,+Me+%26+Tuscany&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSsK4ETXeKccr4Q2LNnXalagEKH63IW3FVqUy41GdxVYu6iYzqQwYz8IHMRdpEHl-6G5B3YnC-kctdz_EP7bYEc4nfi0KCGtUvUe1M52J7mPg4-TlKihgALGIW142m0csIv1mlwI%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:15pm",
+                            "6:15pm",
+                            "9:35pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Normal",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Normal&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSiAPEuuPE0UuSOpmbmhscpB0MO00E_q2qOPqCY7oSffOiodCVYU4Dg5inw5n2GvCcezYwywEx3XNzYN5j2sLKJuob_MrcMqKxpa10ctoafD12tkAY0oILjF3U6rOfXfojUACfMc%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "7:30pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Mother Mary",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Mother+Mary&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSmMl8ST6uoeMTQYoI_TJk06IKhPOKyQGdoKUsuBYca6vDmwIFGkjR7Af0BFQb_Vv5up012w4SwfcDMkRGGZnn0TDYQYPjsH8iHsdXLSwHYOblbE2sGZGhQ9alORLeq4_XTfFD7Y%3D",
+                "showing": [
+                    {
+                        "time": [
+                            "3:30pm",
+                            "6:25pm",
+                            "9:15pm"
+                        ],
+                        "type": "Standard"
+                    }
+                ]
+            },
+            {
+                "name": "Fight Club 4K Remaster",
+                "link": "https://www.google.com/search?sca_esv=eab6250d847a03c3&gl=us&hl=en&q=Fight+Club+4K+Remaster&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSvTwzkye4taRAe_t0HnjDqUPeKlK2zEejimjf63rXaB3S752y9F-DiTA1q1Ofc0a7u11UzuQQ6tOpdXpinifyKqhxjDEvPiC9LnkuKh4ahkPhCgPRWGCyLmYthHWtUNruR1L5Cs%3D",
                 "showing": [
                     {
                         "time": [
