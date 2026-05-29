@@ -1,179 +1,619 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Movie Showtimes</title>
-    <style>
-        body {
-            background: url('assets/pic1.jpg') no-repeat center center fixed;
-            background-size: cover;
-            position: relative;
-            margin: 0;
-            padding: 0;
-        }
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Showtimes Weekly Planner</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --bg: #f4f8fb;
+      --bg-grad-a: #f8fafc;
+      --bg-grad-b: #eaf3ff;
+      --card: rgba(255, 255, 255, 0.86);
+      --text: #0f1f33;
+      --muted: #607088;
+      --line: #dbe6f3;
+      --primary: #0a6f66;
+      --primary-soft: #d7f3f0;
+      --accent: #124578;
+      --accent-soft: #d8e8ff;
+      --warn-soft: #fff4db;
+      --shadow: 0 16px 40px rgba(17, 42, 75, 0.08);
+      --radius-lg: 20px;
+      --radius-md: 14px;
+      --radius-sm: 10px;
+    }
 
-        body::before {
-            content: "";
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(255, 255, 255, 0.5); /* Adjust transparency for readability */
-            z-index: -1;
-        }
-        .movies {
-            display: flex;
-            flex-wrap: wrap;
-            gap: 10px;
-        }
-        .movie {
-            background: rgba(255, 255, 255, 0.9); /* White background with slight transparency */
-            padding: 15px;
-            border-radius: 8px;
-            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Light shadow for contrast */
-            transition: background-color 0.3s ease;
-        }
-        .showtimes {
-            font-size: 0.85rem;
-            color: #333;
-        }
-        /* Color coding for the number of showings */
-        .shows-1 { background-color: rgba(179, 229, 252, 0.5); } /* Cooler color, fewer shows */
-        .shows-2 { background-color: rgba(129, 212, 250, 0.5); }
-        .shows-3 { background-color: rgba(79, 195, 247, 0.5); }
-        .shows-4 { background-color: rgba(255, 204, 128, 0.5); }
-        .shows-5-more { background-color: rgba(255, 138, 101, 0.5); } /* Warmer color, more shows */
-        .last-updated {
-            font-size: 0.8rem; /* Small font size */
-            margin-left: 10px; /* A bit of spacing from the main title */
-            color: #666; /* Subtle color */
-        }
-        .next-refresh {
-            font-size: 0.8rem; /* Small font size */
-            margin-left: 10px; /* A bit of spacing from the main title */
-            color: #666; /* Subtle color */
-        }
-        /* Style for hyperlinks within movie boxes */
-        a.movie-link {
-            color: black; /* Set text color to black */
-            text-decoration: none; /* Remove underline from links */
-        }
+    * {
+      box-sizing: border-box;
+    }
 
-        /* Optional: Add hover effects for better user experience */
-        a.movie-link:hover {
-            text-decoration: underline; /* Adds underline on hover */
-            color: #222; /* Optional: Slightly darker color on hover */
-        }
+    body {
+      margin: 0;
+      font-family: 'Manrope', sans-serif;
+      color: var(--text);
+      background:
+        radial-gradient(1000px 500px at -5% -10%, #dbecff 0%, transparent 60%),
+        radial-gradient(800px 400px at 120% 10%, #d7f3f0 0%, transparent 55%),
+        linear-gradient(180deg, var(--bg-grad-a), var(--bg-grad-b));
+      min-height: 100vh;
+      padding: 24px;
+    }
 
-    </style>
+    .app {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: grid;
+      gap: 18px;
+    }
+
+    .panel {
+      background: var(--card);
+      backdrop-filter: blur(10px);
+      border: 1px solid rgba(255, 255, 255, 0.75);
+      border-radius: var(--radius-lg);
+      box-shadow: var(--shadow);
+    }
+
+    .header {
+      padding: 22px 24px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 16px;
+    }
+
+    .header h1 {
+      margin: 0;
+      font-family: 'Space Grotesk', sans-serif;
+      font-size: clamp(1.6rem, 1.2rem + 1vw, 2.2rem);
+      letter-spacing: -0.02em;
+    }
+
+    .subline {
+      margin-top: 8px;
+      color: var(--muted);
+      font-size: 0.95rem;
+    }
+
+    .status-chip {
+      background: var(--accent-soft);
+      color: var(--accent);
+      border-radius: 999px;
+      padding: 8px 12px;
+      font-size: 0.8rem;
+      font-weight: 700;
+      white-space: nowrap;
+    }
+
+    .controls {
+      padding: 18px;
+      display: grid;
+      gap: 14px;
+    }
+
+    .control-row {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      gap: 10px;
+    }
+
+    label {
+      font-size: 0.84rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--muted);
+    }
+
+    select,
+    button {
+      font: inherit;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      padding: 10px 12px;
+      background: white;
+      color: var(--text);
+    }
+
+    select {
+      min-width: min(100%, 360px);
+      font-weight: 600;
+    }
+
+    button {
+      cursor: pointer;
+      font-weight: 700;
+      background: linear-gradient(90deg, var(--primary), #0b7c6a);
+      color: white;
+      border: none;
+    }
+
+    button:hover {
+      filter: brightness(1.05);
+    }
+
+    .calendar {
+      display: grid;
+      gap: 8px;
+    }
+
+    .calendar-weekdays,
+    .calendar-grid {
+      display: grid;
+      grid-template-columns: repeat(7, minmax(0, 1fr));
+      gap: 8px;
+    }
+
+    .weekday {
+      text-align: center;
+      color: var(--muted);
+      font-size: 0.78rem;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+    }
+
+    .calendar-day {
+      min-height: 70px;
+      border-radius: var(--radius-sm);
+      border: 1px solid var(--line);
+      background: #fff;
+      padding: 8px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      cursor: pointer;
+      transition: 0.15s ease;
+    }
+
+    .calendar-day:hover {
+      border-color: #a9bfd8;
+      transform: translateY(-1px);
+    }
+
+    .calendar-day.is-selected {
+      border-color: var(--primary);
+      background: var(--primary-soft);
+      box-shadow: inset 0 0 0 1px rgba(10, 111, 102, 0.12);
+    }
+
+    .calendar-day .date-num {
+      font-weight: 800;
+      font-size: 1rem;
+    }
+
+    .calendar-day .week-label {
+      font-size: 0.72rem;
+      color: var(--muted);
+    }
+
+    .metrics {
+      padding: 0 18px 18px;
+      display: grid;
+      gap: 10px;
+      grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+    }
+
+    .metric {
+      background: #fff;
+      border: 1px solid var(--line);
+      border-radius: var(--radius-md);
+      padding: 12px;
+    }
+
+    .metric .title {
+      font-size: 0.78rem;
+      color: var(--muted);
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      font-weight: 700;
+    }
+
+    .metric .value {
+      margin-top: 6px;
+      font-size: 1.2rem;
+      font-weight: 800;
+    }
+
+    .week-board {
+      padding: 18px;
+      display: grid;
+      gap: 12px;
+      grid-template-columns: repeat(7, minmax(240px, 1fr));
+      overflow-x: auto;
+    }
+
+    .day-card {
+      background: #fff;
+      border-radius: var(--radius-md);
+      border: 1px solid var(--line);
+      padding: 12px;
+      min-height: 420px;
+      display: grid;
+      grid-template-rows: auto 1fr;
+      gap: 10px;
+    }
+
+    .day-card.projected {
+      background: linear-gradient(180deg, #ffffff 0%, #fffbef 100%);
+    }
+
+    .day-head {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+    }
+
+    .day-title {
+      margin: 0;
+      font-size: 1rem;
+      font-weight: 800;
+    }
+
+    .day-date {
+      color: var(--muted);
+      font-size: 0.85rem;
+      margin-top: 3px;
+    }
+
+    .projected-tag {
+      background: var(--warn-soft);
+      color: #7a5900;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      padding: 5px 8px;
+      white-space: nowrap;
+    }
+
+    .movies {
+      display: grid;
+      gap: 8px;
+      align-content: start;
+    }
+
+    .movie {
+      border: 1px solid var(--line);
+      border-radius: var(--radius-sm);
+      padding: 9px;
+      background: #fcfdff;
+    }
+
+    .movie a {
+      color: inherit;
+      font-weight: 700;
+      text-decoration: none;
+      display: inline-block;
+      margin-bottom: 4px;
+      line-height: 1.25;
+    }
+
+    .movie a:hover {
+      text-decoration: underline;
+    }
+
+    .movie-meta {
+      font-size: 0.79rem;
+      color: #3b4c64;
+      line-height: 1.4;
+    }
+
+    .empty {
+      color: var(--muted);
+      font-size: 0.88rem;
+      border: 1px dashed var(--line);
+      border-radius: var(--radius-sm);
+      padding: 10px;
+      background: #fbfcff;
+    }
+
+    @media (max-width: 900px) {
+      body {
+        padding: 14px;
+      }
+
+      .header {
+        flex-direction: column;
+      }
+
+      .week-board {
+        padding: 12px;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Movie Showtimes<span id="last-updated" class="last-updated"></span><span id="next-refresh" class="next-refresh"></span></h1>
-    <button onclick="fetchShowtimes('showtime_AMC Concord Mills 24.json')">AMC Concord Mills 24</button>
-    <button onclick="fetchShowtimes('showtime_AMC Carolina Pavilion 22.json')">AMC Carolina Pavilion 22</button>
-    <button onclick="fetchShowtimes('showtime_AMC North Lake 14.json')">AMC North Lake 14</button>
-<!--    <button onclick="fetchShowtimes('showtime_AMC Parkway Pointe 15.json')">Parkway Pointe 15</button>-->
-    <div id="showtimes-container"></div>
+  <main class="app">
+    <section class="panel header">
+      <div>
+        <h1>AMC Weekly Showtimes Planner</h1>
+        <div class="subline" id="subtitle">Loading theater data...</div>
+      </div>
+      <div class="status-chip" id="generated-status">Preparing feed...</div>
+    </section>
 
-    <script>
-        const REFRESH_INTERVAL_MS = 300000; // 5 minutes in milliseconds
-        let currentData = null;
+    <section class="panel controls">
+      <div class="control-row">
+        <label for="theater-select">Theater</label>
+        <select id="theater-select"></select>
+        <button id="reload-btn" type="button">Reload Data</button>
+      </div>
+      <div class="calendar" id="calendar"></div>
+    </section>
 
-        document.addEventListener('DOMContentLoaded', function() {
-            updateLastUpdatedTime(); // Update the last updated time on initial load
-            updateNextRefreshTime(); // Update the next refresh time on initial load
-            fetchShowtimes('showtime_AMC Concord Mills 24.json');
-            setInterval(() => {
-                fetchShowtimes('showtime_AMC Concord Mills 24.json', true);
-                updateNextRefreshTime(); // Update the next refresh time each time new data is fetched
-            }, REFRESH_INTERVAL_MS); // Check for updates every 5 minutes
+    <section class="metrics" id="metrics"></section>
+
+    <section class="panel week-board" id="week-board"></section>
+  </main>
+
+  <script>
+    const state = {
+      manifest: null,
+      theaterData: null,
+      selectedSlug: null,
+      selectedWeekIndex: 0,
+    };
+
+    async function fetchJson(url) {
+      const response = await fetch(`${url}?ts=${Date.now()}`);
+      if (!response.ok) {
+        throw new Error(`Failed to fetch ${url}`);
+      }
+      return response.json();
+    }
+
+    function isoToDate(iso) {
+      const [year, month, day] = iso.split('-').map(Number);
+      return new Date(year, month - 1, day);
+    }
+
+    function formatReadableDate(iso) {
+      return isoToDate(iso).toLocaleDateString(undefined, {
+        weekday: 'short',
+        month: 'short',
+        day: 'numeric',
+      });
+    }
+
+    function totalShowings(movie) {
+      return (movie.showing || []).reduce((sum, item) => sum + (item.time || []).length, 0);
+    }
+
+    function getWeekDays() {
+      if (!state.theaterData) {
+        return [];
+      }
+      const selected = state.theaterData.week_ranges[state.selectedWeekIndex];
+      if (!selected) {
+        return [];
+      }
+
+      const start = selected.start;
+      const end = selected.end;
+      return state.theaterData.days.filter((day) => day.iso_date >= start && day.iso_date <= end);
+    }
+
+    function renderTheaterSelect() {
+      const select = document.getElementById('theater-select');
+      select.innerHTML = '';
+
+      state.manifest.theaters.forEach((theater) => {
+        const option = document.createElement('option');
+        option.value = theater.slug;
+        option.textContent = theater.name;
+        if (theater.slug === state.selectedSlug) {
+          option.selected = true;
+        }
+        select.appendChild(option);
+      });
+    }
+
+    function renderCalendar() {
+      const calendar = document.getElementById('calendar');
+      calendar.innerHTML = '';
+      if (!state.theaterData) {
+        return;
+      }
+
+      const selectedWeek = state.theaterData.week_ranges[state.selectedWeekIndex];
+      const info = document.createElement('div');
+      info.className = 'subline';
+      info.textContent = `Week selected: ${selectedWeek.label}`;
+      calendar.appendChild(info);
+
+      const weekdays = document.createElement('div');
+      weekdays.className = 'calendar-weekdays';
+      ['Sun', 'Mon', 'Tue', 'Wed', 'Thu', 'Fri', 'Sat'].forEach((label) => {
+        const el = document.createElement('div');
+        el.className = 'weekday';
+        el.textContent = label;
+        weekdays.appendChild(el);
+      });
+      calendar.appendChild(weekdays);
+
+      const grid = document.createElement('div');
+      grid.className = 'calendar-grid';
+
+      state.theaterData.days.forEach((day) => {
+        const weekIndex = state.theaterData.week_ranges.findIndex(
+          (week) => day.iso_date >= week.start && day.iso_date <= week.end
+        );
+
+        const dayCell = document.createElement('button');
+        dayCell.type = 'button';
+        dayCell.className = `calendar-day ${weekIndex === state.selectedWeekIndex ? 'is-selected' : ''}`;
+        dayCell.innerHTML = `
+          <span class="date-num">${isoToDate(day.iso_date).getDate()}</span>
+          <span class="week-label">W${weekIndex + 1}</span>
+        `;
+
+        dayCell.addEventListener('click', () => {
+          state.selectedWeekIndex = weekIndex;
+          render();
         });
 
-        function fetchShowtimes(file, checkUpdate = false) {
-            fetch(file + '?cacheBust=' + new Date().getTime())
-            .then(response => response.json())
-            .then(data => {
-                if (checkUpdate && JSON.stringify(data) === JSON.stringify(currentData)) {
-                    console.log('No updates found');
-                    return;
-                }
-                currentData = data;
-                displayShowtimes(data);
-                updateLastUpdatedTime(); // Update the last updated time each time new data is fetched
-            })
-            .catch(error => console.error('Error fetching data: ', error));
+        grid.appendChild(dayCell);
+      });
+
+      calendar.appendChild(grid);
+    }
+
+    function renderMetrics() {
+      const days = getWeekDays();
+      const uniqueMovies = new Set();
+      let showingsCount = 0;
+      let projectedDays = 0;
+
+      days.forEach((day) => {
+        if (day.is_projected) {
+          projectedDays += 1;
         }
 
-        function displayShowtimes(data) {
-            const container = document.getElementById('showtimes-container');
-            container.innerHTML = ''; // Clear previous content
-            data.forEach(day_info => {
-                const dayElement = document.createElement('div');
-                dayElement.innerHTML = `<h2>Day: ${day_info.day}${day_info.date ? ', ' + day_info.date : ''}</h2>`;
-                const moviesElement = document.createElement('div');
-                moviesElement.className = 'movies';
+        (day.movies || []).forEach((movie) => {
+          uniqueMovies.add(movie.name);
+          showingsCount += totalShowings(movie);
+        });
+      });
 
-                // Sort movies by total showings descending
-                const sortedMovies = day_info.movies.sort((a, b) => {
-                    const totalShowingsA = getTotalShowings(a);
-                    const totalShowingsB = getTotalShowings(b);
-                    return totalShowingsB - totalShowingsA;
-                });
+      const metrics = [
+        { title: 'Week Days Loaded', value: String(days.length) },
+        { title: 'Unique Movies', value: String(uniqueMovies.size) },
+        { title: 'Total Showings', value: String(showingsCount) },
+        { title: 'Projected Days', value: String(projectedDays) },
+      ];
 
-                sortedMovies.forEach(movie => {
-                    const movieElement = document.createElement('div');
-                    const totalShowings = getTotalShowings(movie);
-                    movieElement.className = 'movie ' + getColorClass(totalShowings);
+      const metricsRoot = document.getElementById('metrics');
+      metricsRoot.innerHTML = '';
+      metrics.forEach((item) => {
+        const card = document.createElement('div');
+        card.className = 'metric';
+        card.innerHTML = `<div class="title">${item.title}</div><div class="value">${item.value}</div>`;
+        metricsRoot.appendChild(card);
+      });
+    }
 
-                    // Create an anchor tag that wraps the movie details
-                    const linkElement = document.createElement('a');
-                    linkElement.href = movie.link;  // Use the link from the JSON data
-                    linkElement.target = "_blank"; // Opens the link in a new tab
-                    linkElement.className = "movie-link"; // Apply custom styles to keep the text black
+    function renderWeekBoard() {
+      const board = document.getElementById('week-board');
+      board.innerHTML = '';
 
-                    let showingsDetail = movie.showing.map(show => {
-                        const times = show.time;
-                        const showCount = times.length;
-                        const displayTimes = showCount > 3 ? `${times.slice(0, 3).join(', ')}...(${showCount} total)` : times.join(', ');
-                        return `${show.type}: ${displayTimes}`;
-                    }).join('<br>');
+      const weekDays = getWeekDays();
+      if (!weekDays.length) {
+        board.innerHTML = '<div class="empty">No week data available.</div>';
+        return;
+      }
 
-                    linkElement.innerHTML = `<strong>${movie.name}</strong><div class='showtimes'>${showingsDetail}</div>`;
-                    movieElement.appendChild(linkElement);
-                    moviesElement.appendChild(movieElement);
-                });
-                dayElement.appendChild(moviesElement);
-                container.appendChild(dayElement);
-            });
+      weekDays.forEach((day) => {
+        const card = document.createElement('article');
+        card.className = `day-card ${day.is_projected ? 'projected' : ''}`;
+
+        const movies = [...(day.movies || [])].sort((a, b) => totalShowings(b) - totalShowings(a));
+        const moviesHtml = movies.length
+          ? movies
+              .map((movie) => {
+                const showings = (movie.showing || [])
+                  .map((fmt) => {
+                    const times = fmt.time || [];
+                    const snippet = times.slice(0, 4).join(', ');
+                    const suffix = times.length > 4 ? ` +${times.length - 4} more` : '';
+                    return `<div class="movie-meta"><strong>${fmt.type}:</strong> ${snippet}${suffix}</div>`;
+                  })
+                  .join('');
+
+                return `
+                  <article class="movie">
+                    <a href="${movie.link}" target="_blank" rel="noopener noreferrer">${movie.name}</a>
+                    ${showings}
+                  </article>
+                `;
+              })
+              .join('')
+          : '<div class="empty">No movies listed for this day.</div>';
+
+        card.innerHTML = `
+          <div class="day-head">
+            <div>
+              <h3 class="day-title">${day.weekday}</h3>
+              <div class="day-date">${formatReadableDate(day.iso_date)}</div>
+            </div>
+            ${day.is_projected ? '<span class="projected-tag">Projected</span>' : ''}
+          </div>
+          <div class="movies">${moviesHtml}</div>
+        `;
+
+        board.appendChild(card);
+      });
+    }
+
+    function renderTopMeta() {
+      const subtitle = document.getElementById('subtitle');
+      const status = document.getElementById('generated-status');
+
+      if (!state.manifest || !state.theaterData) {
+        subtitle.textContent = 'Loading theater data...';
+        status.textContent = 'Preparing feed...';
+        return;
+      }
+
+      const anchor = formatReadableDate(state.manifest.anchor_date);
+      const horizon = state.manifest.horizon_days;
+      const generatedAt = new Date(state.theaterData.generated_at).toLocaleString();
+      const selectedWeek = state.theaterData.week_ranges[state.selectedWeekIndex];
+
+      subtitle.textContent = `${state.theaterData.theater} • ${selectedWeek.label} • ${horizon}-day horizon from ${anchor}`;
+      status.textContent = `Feed generated ${generatedAt}`;
+    }
+
+    function render() {
+      renderTopMeta();
+      renderTheaterSelect();
+      renderCalendar();
+      renderMetrics();
+      renderWeekBoard();
+    }
+
+    async function loadTheater(slug) {
+      state.selectedSlug = slug;
+      state.theaterData = await fetchJson(`data/${slug}.json`);
+      state.selectedWeekIndex = 0;
+      render();
+    }
+
+    async function init() {
+      state.manifest = await fetchJson('data/manifest.json');
+      const first = state.manifest.theaters[0];
+      if (!first) {
+        throw new Error('No theaters found in data/manifest.json');
+      }
+
+      await loadTheater(first.slug);
+
+      document.getElementById('theater-select').addEventListener('change', async (event) => {
+        await loadTheater(event.target.value);
+      });
+
+      document.getElementById('reload-btn').addEventListener('click', async () => {
+        state.manifest = await fetchJson('data/manifest.json');
+        const selectedExists = state.manifest.theaters.some((theater) => theater.slug === state.selectedSlug);
+        const slug = selectedExists ? state.selectedSlug : state.manifest.theaters[0]?.slug;
+        if (!slug) {
+          return;
         }
+        await loadTheater(slug);
+      });
+    }
 
-        function getTotalShowings(movie) {
-            return movie.showing.reduce((acc, cur) => acc + cur.time.length, 0);
-        }
-
-        function getColorClass(totalShowings) {
-            if (totalShowings >= 7) return 'shows-5-more';
-            else if (totalShowings >= 5) return 'shows-4';
-            else if (totalShowings >= 3) return 'shows-3';
-            else if (totalShowings >= 2) return 'shows-2';
-            else return 'shows-1';
-        }
-
-        function updateLastUpdatedTime() {
-            const now = new Date();
-            const lastUpdatedElement = document.getElementById('last-updated');
-            lastUpdatedElement.textContent = `Current time: ${now.toLocaleString()} (This page refreshes automatically every 5 minutes)`;
-        }
-
-        function updateNextRefreshTime() {
-            const now = new Date();
-            //next refresh is in 5 minutes
-            const nextRefresh = new Date(now.getTime() + REFRESH_INTERVAL_MS);
-            const nextRefreshElement = document.getElementById('next-refresh');
-            nextRefreshElement.textContent = `Next refresh: ${nextRefresh.toLocaleString()}`;
-        }
-    </script>
+    init().catch((error) => {
+      document.getElementById('subtitle').textContent = 'Failed to load data. Run: python AMC_API.py';
+      document.getElementById('generated-status').textContent = 'Load error';
+      document.getElementById('week-board').innerHTML = `<div class="empty">${error.message}</div>`;
+      console.error(error);
+    });
+  </script>
 </body>
 </html>

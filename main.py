@@ -1,16 +1,19 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
+from http.server import SimpleHTTPRequestHandler, ThreadingHTTPServer
 
 
-def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+class NoCacheHandler(SimpleHTTPRequestHandler):
+    def end_headers(self):
+        self.send_header("Cache-Control", "no-cache, no-store, must-revalidate")
+        self.send_header("Pragma", "no-cache")
+        self.send_header("Expires", "0")
+        super().end_headers()
 
 
-# Press the green button in the gutter to run the script.
-if __name__ == '__main__':
-    print_hi('PyCharm')
+def run_server(port: int = 8000):
+    server = ThreadingHTTPServer(("0.0.0.0", port), NoCacheHandler)
+    print(f"Serving showtimes dashboard at http://localhost:{port}")
+    server.serve_forever()
 
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
+
+if __name__ == "__main__":
+    run_server()
