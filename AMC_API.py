@@ -9,7 +9,7 @@ from typing import Optional
 
 DEFAULT_LOCATION = "Charlotte, North Carolina, United States"
 OUTPUT_DIR = Path("data")
-MONTH_DAYS = 35
+MONTH_DAYS = 30
 QUERY_WEEK_STEP = 7
 DEFAULT_THEATERS = [
     "AMC Carolina Pavilion 22",
@@ -80,7 +80,27 @@ def normalize_day_entry(day_entry, iso: date):
     item["iso_date"] = iso.isoformat()
     item["weekday"] = iso.strftime("%a")
     item["date"] = item.get("date") or iso.strftime("%b %-d")
+    item["has_data"] = True
     return item
+
+
+def build_empty_day(iso: date, anchor: date):
+    offset = (iso - anchor).days
+    if offset == 0:
+        day_label = "Today"
+    elif offset == 1:
+        day_label = "Tomorrow"
+    else:
+        day_label = iso.strftime("%a")
+
+    return {
+        "day": day_label,
+        "date": iso.strftime("%b %-d"),
+        "iso_date": iso.isoformat(),
+        "weekday": iso.strftime("%a"),
+        "movies": [],
+        "has_data": False,
+    }
 
 
 def fetch_showtimes_for_query(query: str, location: str = DEFAULT_LOCATION):
@@ -151,15 +171,25 @@ def normalize_days_from_raw(raw_days, anchor: date, days: int):
 
         normalized.append(normalize_day_entry(raw, inferred))
 
-    normalized.sort(key=lambda item: item["iso_date"])
-
     unique = {}
     for item in normalized:
         key = item["iso_date"]
         if key not in unique or movie_count(item) > movie_count(unique[key]):
             unique[key] = item
 
-    return [unique[key] for key in sorted(unique.keys())]
+    return unique
+
+
+def build_day_timeline(raw_days, anchor: date, days: int):
+    known_days = normalize_days_from_raw(raw_days, anchor=anchor, days=days)
+    timeline = []
+
+    for offset in range(days):
+        current = anchor + timedelta(days=offset)
+        key = current.isoformat()
+        timeline.append(known_days.get(key, build_empty_day(current, anchor)))
+
+    return timeline
 
 
 def compute_week_ranges(days_data):
@@ -189,7 +219,8 @@ def compute_week_ranges(days_data):
 
 
 def build_monthly_payload(theater_name: str, raw_days, anchor: date, days: int = MONTH_DAYS):
-    normalized_days = normalize_days_from_raw(raw_days, anchor=anchor, days=days)
+    timeline_days = build_day_timeline(raw_days, anchor=anchor, days=days)
+    real_days_loaded = sum(1 for day in timeline_days if day.get("has_data"))
 
     return {
         "theater": theater_name,
@@ -197,8 +228,9 @@ def build_monthly_payload(theater_name: str, raw_days, anchor: date, days: int =
         "generated_at": datetime.now().isoformat(),
         "anchor_date": anchor.isoformat(),
         "horizon_days": days,
-        "week_ranges": compute_week_ranges(normalized_days),
-        "days": normalized_days,
+        "real_days_loaded": real_days_loaded,
+        "week_ranges": compute_week_ranges(timeline_days),
+        "days": timeline_days,
     }
 
 
@@ -226,7 +258,7 @@ def build_monthly_files(theaters, anchor: date, days: int = MONTH_DAYS):
                 "name": theater_name,
                 "slug": payload["slug"],
                 "path": str(output_path),
-                "days_loaded": len(payload["days"]),
+                "days_loaded": payload["real_days_loaded"],
             }
         )
 

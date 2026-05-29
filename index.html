@@ -486,6 +486,7 @@
       const days = getWeekDays();
       const uniqueMovies = new Set();
       let showingsCount = 0;
+      const realDaysLoaded = state.theaterData?.real_days_loaded ?? 0;
       days.forEach((day) => {
         (day.movies || []).forEach((movie) => {
           uniqueMovies.add(movie.name);
@@ -497,6 +498,7 @@
         { title: 'Week Days Loaded', value: String(days.length) },
         { title: 'Unique Movies', value: String(uniqueMovies.size) },
         { title: 'Total Showings', value: String(showingsCount) },
+        { title: 'Real Data Days (30d)', value: String(realDaysLoaded) },
       ];
 
       const metricsRoot = document.getElementById('metrics');
