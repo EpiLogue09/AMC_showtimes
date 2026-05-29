@@ -1,15 +1,40 @@
 {
   "theater": "AMC North Lake 14",
   "slug": "amc-north-lake-14",
-  "generated_at": "2026-05-29T01:03:32.037477",
+  "generated_at": "2026-05-29T01:10:31.606957",
   "anchor_date": "2026-05-29",
-  "horizon_days": 35,
+  "horizon_days": 30,
+  "real_days_loaded": 6,
   "week_ranges": [
     {
       "index": 0,
       "start": "2026-05-29",
-      "end": "2026-06-03",
-      "label": "May 29 - Jun 3"
+      "end": "2026-06-04",
+      "label": "May 29 - Jun 4"
+    },
+    {
+      "index": 1,
+      "start": "2026-06-05",
+      "end": "2026-06-11",
+      "label": "Jun 5 - Jun 11"
+    },
+    {
+      "index": 2,
+      "start": "2026-06-12",
+      "end": "2026-06-18",
+      "label": "Jun 12 - Jun 18"
+    },
+    {
+      "index": 3,
+      "start": "2026-06-19",
+      "end": "2026-06-25",
+      "label": "Jun 19 - Jun 25"
+    },
+    {
+      "index": 4,
+      "start": "2026-06-26",
+      "end": "2026-06-27",
+      "label": "Jun 26 - Jun 27"
     }
   ],
   "days": [
@@ -117,7 +142,8 @@
       ],
       "iso_date": "2026-05-29",
       "weekday": "Fri",
-      "date": "May 29"
+      "date": "May 29",
+      "has_data": true
     },
     {
       "day": "Tomorrow",
@@ -176,7 +202,8 @@
       ],
       "iso_date": "2026-05-30",
       "weekday": "Sat",
-      "date": "May 30"
+      "date": "May 30",
+      "has_data": true
     },
     {
       "day": "Sun",
@@ -241,7 +268,8 @@
         }
       ],
       "iso_date": "2026-05-31",
-      "weekday": "Sun"
+      "weekday": "Sun",
+      "has_data": true
     },
     {
       "day": "Mon",
@@ -286,7 +314,8 @@
         }
       ],
       "iso_date": "2026-06-01",
-      "weekday": "Mon"
+      "weekday": "Mon",
+      "has_data": true
     },
     {
       "day": "Tue",
@@ -362,7 +391,8 @@
         }
       ],
       "iso_date": "2026-06-02",
-      "weekday": "Tue"
+      "weekday": "Tue",
+      "has_data": true
     },
     {
       "day": "Wed",
@@ -448,7 +478,200 @@
         }
       ],
       "iso_date": "2026-06-03",
-      "weekday": "Wed"
+      "weekday": "Wed",
+      "has_data": true
+    },
+    {
+      "day": "Thu",
+      "date": "Jun 4",
+      "iso_date": "2026-06-04",
+      "weekday": "Thu",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Fri",
+      "date": "Jun 5",
+      "iso_date": "2026-06-05",
+      "weekday": "Fri",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Sat",
+      "date": "Jun 6",
+      "iso_date": "2026-06-06",
+      "weekday": "Sat",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Sun",
+      "date": "Jun 7",
+      "iso_date": "2026-06-07",
+      "weekday": "Sun",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Mon",
+      "date": "Jun 8",
+      "iso_date": "2026-06-08",
+      "weekday": "Mon",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Tue",
+      "date": "Jun 9",
+      "iso_date": "2026-06-09",
+      "weekday": "Tue",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Wed",
+      "date": "Jun 10",
+      "iso_date": "2026-06-10",
+      "weekday": "Wed",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Thu",
+      "date": "Jun 11",
+      "iso_date": "2026-06-11",
+      "weekday": "Thu",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Fri",
+      "date": "Jun 12",
+      "iso_date": "2026-06-12",
+      "weekday": "Fri",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Sat",
+      "date": "Jun 13",
+      "iso_date": "2026-06-13",
+      "weekday": "Sat",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Sun",
+      "date": "Jun 14",
+      "iso_date": "2026-06-14",
+      "weekday": "Sun",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Mon",
+      "date": "Jun 15",
+      "iso_date": "2026-06-15",
+      "weekday": "Mon",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Tue",
+      "date": "Jun 16",
+      "iso_date": "2026-06-16",
+      "weekday": "Tue",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Wed",
+      "date": "Jun 17",
+      "iso_date": "2026-06-17",
+      "weekday": "Wed",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Thu",
+      "date": "Jun 18",
+      "iso_date": "2026-06-18",
+      "weekday": "Thu",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Fri",
+      "date": "Jun 19",
+      "iso_date": "2026-06-19",
+      "weekday": "Fri",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Sat",
+      "date": "Jun 20",
+      "iso_date": "2026-06-20",
+      "weekday": "Sat",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Sun",
+      "date": "Jun 21",
+      "iso_date": "2026-06-21",
+      "weekday": "Sun",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Mon",
+      "date": "Jun 22",
+      "iso_date": "2026-06-22",
+      "weekday": "Mon",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Tue",
+      "date": "Jun 23",
+      "iso_date": "2026-06-23",
+      "weekday": "Tue",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Wed",
+      "date": "Jun 24",
+      "iso_date": "2026-06-24",
+      "weekday": "Wed",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Thu",
+      "date": "Jun 25",
+      "iso_date": "2026-06-25",
+      "weekday": "Thu",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Fri",
+      "date": "Jun 26",
+      "iso_date": "2026-06-26",
+      "weekday": "Fri",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Sat",
+      "date": "Jun 27",
+      "iso_date": "2026-06-27",
+      "weekday": "Sat",
+      "movies": [],
+      "has_data": false
     }
   ]
 }
