@@ -5,6 +5,7 @@ import os
 import re
 from datetime import date, datetime, timedelta
 from pathlib import Path
+from typing import Optional
 
 DEFAULT_LOCATION = "Charlotte, North Carolina, United States"
 OUTPUT_DIR = Path("data")
@@ -42,7 +43,7 @@ def parse_month_day(value: str, reference: date):
     return None
 
 
-def infer_iso_date(day_entry, *, anchor: date, index: int | None, allow_relative: bool):
+def infer_iso_date(day_entry, *, anchor: date, index: Optional[int], allow_relative: bool):
     iso_text = day_entry.get("iso_date")
     if iso_text:
         try:
