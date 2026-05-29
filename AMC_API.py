@@ -1,6 +1,5 @@
 import argparse
 import copy
-import glob
 import json
 import os
 import re
@@ -8,23 +7,82 @@ from datetime import date, datetime, timedelta
 from pathlib import Path
 
 DEFAULT_LOCATION = "Charlotte, North Carolina, United States"
-RAW_PATTERN = "showtime_*.json"
 OUTPUT_DIR = Path("data")
 MONTH_DAYS = 35
+QUERY_WEEK_STEP = 7
+DEFAULT_THEATERS = [
+    "AMC Carolina Pavilion 22",
+    "AMC Concord Mills 24",
+    "AMC North Lake 14",
+]
 
 
 def slugify(value: str) -> str:
     return re.sub(r"[^a-z0-9]+", "-", value.lower()).strip("-")
 
 
-def parse_theater_name(path: str) -> str:
-    name = Path(path).stem
-    if name.startswith("showtime_"):
-        return name[len("showtime_"):]
-    return name
+def raw_filename_for_theater(theater_name: str) -> Path:
+    return Path(f"showtime_{theater_name}.json")
 
 
-def fetch_theater_showtimes(theater_name: str, location: str = DEFAULT_LOCATION):
+def parse_month_day(value: str, reference: date):
+    if not value:
+        return None
+
+    normalized = value.replace(",", "").strip()
+    for fmt in ("%b %d", "%B %d"):
+        try:
+            parsed = datetime.strptime(normalized, fmt).date().replace(year=reference.year)
+            if parsed < reference - timedelta(days=31):
+                parsed = parsed.replace(year=reference.year + 1)
+            return parsed
+        except ValueError:
+            continue
+
+    return None
+
+
+def infer_iso_date(day_entry, *, anchor: date, index: int | None, allow_relative: bool):
+    iso_text = day_entry.get("iso_date")
+    if iso_text:
+        try:
+            return datetime.strptime(iso_text, "%Y-%m-%d").date()
+        except ValueError:
+            pass
+
+    parsed_from_date = parse_month_day(day_entry.get("date"), reference=anchor)
+    if parsed_from_date:
+        return parsed_from_date
+
+    if not allow_relative:
+        return None
+
+    day_label = (day_entry.get("day") or "").strip().lower()
+    if day_label == "today":
+        return anchor
+    if day_label == "tomorrow":
+        return anchor + timedelta(days=1)
+
+    if index is not None:
+        return anchor + timedelta(days=index)
+
+    return None
+
+
+def movie_count(day_entry):
+    movies = day_entry.get("movies") or day_entry.get("theaters") or []
+    return len(movies)
+
+
+def normalize_day_entry(day_entry, iso: date):
+    item = copy.deepcopy(day_entry)
+    item["iso_date"] = iso.isoformat()
+    item["weekday"] = iso.strftime("%a")
+    item["date"] = item.get("date") or iso.strftime("%b %-d")
+    return item
+
+
+def fetch_showtimes_for_query(query: str, location: str = DEFAULT_LOCATION):
     import serpapi
 
     api_key = os.getenv("API_KEY")
@@ -32,18 +90,47 @@ def fetch_theater_showtimes(theater_name: str, location: str = DEFAULT_LOCATION)
         raise RuntimeError("API_KEY environment variable is not set.")
 
     params = {
-        "q": theater_name,
+        "q": query,
         "location": location,
         "hl": "en",
         "gl": "us",
+        "no_cache": "true",
         "api_key": api_key,
     }
 
     results = serpapi.search(params).as_dict()
-    if "showtimes" not in results:
-        raise RuntimeError(f"No showtimes found for {theater_name}.")
+    return results.get("showtimes", [])
 
-    return results["showtimes"]
+
+def collect_extended_showtimes(theater_name: str, *, location: str, anchor: date, days: int):
+    day_map = {}
+
+    queries = [(theater_name, anchor, True)]
+    for offset in range(QUERY_WEEK_STEP, days, QUERY_WEEK_STEP):
+        target = anchor + timedelta(days=offset)
+        hint_query = f"{theater_name} showtimes {target.strftime('%B %-d %Y')}"
+        queries.append((hint_query, target, False))
+
+    for query, query_anchor, allow_relative in queries:
+        raw_days = fetch_showtimes_for_query(query=query, location=location)
+        for index, entry in enumerate(raw_days):
+            inferred = infer_iso_date(
+                entry,
+                anchor=query_anchor,
+                index=index if allow_relative else None,
+                allow_relative=allow_relative,
+            )
+            if not inferred:
+                continue
+            if inferred < anchor or inferred > anchor + timedelta(days=days - 1):
+                continue
+
+            normalized = normalize_day_entry(entry, inferred)
+            key = inferred.isoformat()
+            if key not in day_map or movie_count(normalized) > movie_count(day_map[key]):
+                day_map[key] = normalized
+
+    return [day_map[key] for key in sorted(day_map.keys())]
 
 
 def save_raw_showtimes(theater_name: str, showtimes):
@@ -52,63 +139,56 @@ def save_raw_showtimes(theater_name: str, showtimes):
         json.dump(showtimes, file, indent=2)
 
 
-def normalize_day_entries(raw_days, anchor: date):
+def normalize_days_from_raw(raw_days, anchor: date, days: int):
     normalized = []
-    for offset, raw in enumerate(raw_days):
-        current_date = anchor + timedelta(days=offset)
-        item = copy.deepcopy(raw)
-        item["iso_date"] = current_date.isoformat()
-        item["display_date"] = current_date.strftime("%b %-d")
-        item["weekday"] = current_date.strftime("%a")
-        item["day"] = "Today" if offset == 0 else ("Tomorrow" if offset == 1 else item.get("weekday", current_date.strftime("%a")))
-        item["is_projected"] = False
-        normalized.append(item)
+    for index, raw in enumerate(raw_days):
+        inferred = infer_iso_date(raw, anchor=anchor, index=index, allow_relative=True)
+        if not inferred:
+            continue
+        if inferred < anchor or inferred > anchor + timedelta(days=days - 1):
+            continue
 
-    return normalized
+        normalized.append(normalize_day_entry(raw, inferred))
 
+    normalized.sort(key=lambda item: item["iso_date"])
 
-def expand_to_month(normalized_week, anchor: date, days: int = MONTH_DAYS):
-    if not normalized_week:
-        return []
+    unique = {}
+    for item in normalized:
+        key = item["iso_date"]
+        if key not in unique or movie_count(item) > movie_count(unique[key]):
+            unique[key] = item
 
-    expanded = []
-    for offset in range(days):
-        current_date = anchor + timedelta(days=offset)
-        template = copy.deepcopy(normalized_week[offset % len(normalized_week)])
-
-        template["iso_date"] = current_date.isoformat()
-        template["display_date"] = current_date.strftime("%b %-d")
-        template["weekday"] = current_date.strftime("%a")
-        template["day"] = "Today" if offset == 0 else ("Tomorrow" if offset == 1 else current_date.strftime("%a"))
-        template["is_projected"] = offset >= len(normalized_week)
-
-        expanded.append(template)
-
-    return expanded
+    return [unique[key] for key in sorted(unique.keys())]
 
 
-def compute_week_ranges(anchor: date, days: int = MONTH_DAYS):
+def compute_week_ranges(days_data):
     ranges = []
-    offset = 0
-    while offset < days:
-        start = anchor + timedelta(days=offset)
-        end = min(anchor + timedelta(days=days - 1), start + timedelta(days=6))
+    if not days_data:
+        return ranges
+
+    sorted_dates = [
+        datetime.strptime(day_item["iso_date"], "%Y-%m-%d").date()
+        for day_item in sorted(days_data, key=lambda item: item["iso_date"])
+    ]
+
+    for index, start_idx in enumerate(range(0, len(sorted_dates), 7)):
+        chunk = sorted_dates[start_idx : start_idx + 7]
+        start = chunk[0]
+        end = chunk[-1]
         ranges.append(
             {
-                "index": len(ranges),
+                "index": index,
                 "start": start.isoformat(),
                 "end": end.isoformat(),
                 "label": f"{start.strftime('%b %-d')} - {end.strftime('%b %-d')}",
             }
         )
-        offset += 7
 
     return ranges
 
 
 def build_monthly_payload(theater_name: str, raw_days, anchor: date, days: int = MONTH_DAYS):
-    normalized = normalize_day_entries(raw_days[:7], anchor)
-    expanded_days = expand_to_month(normalized, anchor, days=days)
+    normalized_days = normalize_days_from_raw(raw_days, anchor=anchor, days=days)
 
     return {
         "theater": theater_name,
@@ -116,23 +196,21 @@ def build_monthly_payload(theater_name: str, raw_days, anchor: date, days: int =
         "generated_at": datetime.now().isoformat(),
         "anchor_date": anchor.isoformat(),
         "horizon_days": days,
-        "week_ranges": compute_week_ranges(anchor, days=days),
-        "days": expanded_days,
+        "week_ranges": compute_week_ranges(normalized_days),
+        "days": normalized_days,
     }
 
 
-def build_monthly_files(anchor: date, days: int = MONTH_DAYS):
+def build_monthly_files(theaters, anchor: date, days: int = MONTH_DAYS):
     OUTPUT_DIR.mkdir(exist_ok=True)
+    built = []
 
-    manifest = {
-        "generated_at": datetime.now().isoformat(),
-        "anchor_date": anchor.isoformat(),
-        "horizon_days": days,
-        "theaters": [],
-    }
+    for theater_name in theaters:
+        path = raw_filename_for_theater(theater_name)
+        if not path.exists():
+            print(f"Skipping missing raw file: {path}")
+            continue
 
-    for path in sorted(glob.glob(RAW_PATTERN)):
-        theater_name = parse_theater_name(path)
         with open(path, "r", encoding="utf-8") as file:
             raw_days = json.load(file)
 
@@ -142,24 +220,26 @@ def build_monthly_files(anchor: date, days: int = MONTH_DAYS):
         with output_path.open("w", encoding="utf-8") as file:
             json.dump(payload, file, indent=2)
 
-        manifest["theaters"].append(
+        built.append(
             {
                 "name": theater_name,
                 "slug": payload["slug"],
                 "path": str(output_path),
+                "days_loaded": len(payload["days"]),
             }
         )
 
-    manifest_path = OUTPUT_DIR / "manifest.json"
-    with manifest_path.open("w", encoding="utf-8") as file:
-        json.dump(manifest, file, indent=2)
-
-    return manifest
+    return built
 
 
-def refresh_raw_theaters(theaters, location: str):
+def refresh_raw_theaters(theaters, *, location: str, anchor: date, days: int):
     for theater in theaters:
-        showtimes = fetch_theater_showtimes(theater, location=location)
+        showtimes = collect_extended_showtimes(
+            theater,
+            location=location,
+            anchor=anchor,
+            days=days,
+        )
         save_raw_showtimes(theater, showtimes)
 
 
@@ -168,13 +248,13 @@ def parse_args():
     parser.add_argument(
         "--refresh-raw",
         action="store_true",
-        help="Fetch fresh 7-day snapshots from SerpApi before generating monthly files.",
+        help="Fetch fresh showtimes from SerpApi before generating UI data.",
     )
     parser.add_argument(
         "--theater",
         action="append",
         default=[],
-        help="Theater name to refresh (can be used multiple times).",
+        help="Theater name to include (can be used multiple times).",
     )
     parser.add_argument(
         "--location",
@@ -185,7 +265,7 @@ def parse_args():
         "--days",
         type=int,
         default=MONTH_DAYS,
-        help="Number of forward days to expand from the snapshot anchor date.",
+        help="Maximum number of forward days to collect.",
     )
     return parser.parse_args()
 
@@ -193,16 +273,20 @@ def parse_args():
 def main():
     args = parse_args()
     anchor = date.today()
+    target_theaters = args.theater or DEFAULT_THEATERS
 
     if args.refresh_raw:
-        if not args.theater:
-            raise RuntimeError("--refresh-raw requires at least one --theater value.")
-        refresh_raw_theaters(args.theater, location=args.location)
+        refresh_raw_theaters(
+            target_theaters,
+            location=args.location,
+            anchor=anchor,
+            days=args.days,
+        )
 
-    manifest = build_monthly_files(anchor=anchor, days=args.days)
+    built = build_monthly_files(target_theaters, anchor=anchor, days=args.days)
     print(
-        f"Built monthly files for {len(manifest['theaters'])} theaters "
-        f"into {OUTPUT_DIR}/ (anchor={manifest['anchor_date']}, days={args.days})."
+        f"Built UI files for {len(built)} theaters into {OUTPUT_DIR}/ "
+        f"(anchor={anchor.isoformat()}, days={args.days})."
     )
 
 

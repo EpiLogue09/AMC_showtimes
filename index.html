@@ -20,7 +20,6 @@
       --primary-soft: #d7f3f0;
       --accent: #124578;
       --accent-soft: #d8e8ff;
-      --warn-soft: #fff4db;
       --shadow: 0 16px 40px rgba(17, 42, 75, 0.08);
       --radius-lg: 20px;
       --radius-md: 14px;
@@ -239,10 +238,6 @@
       gap: 10px;
     }
 
-    .day-card.projected {
-      background: linear-gradient(180deg, #ffffff 0%, #fffbef 100%);
-    }
-
     .day-head {
       display: flex;
       justify-content: space-between;
@@ -260,16 +255,6 @@
       color: var(--muted);
       font-size: 0.85rem;
       margin-top: 3px;
-    }
-
-    .projected-tag {
-      background: var(--warn-soft);
-      color: #7a5900;
-      border-radius: 999px;
-      font-size: 0.7rem;
-      font-weight: 700;
-      padding: 5px 8px;
-      white-space: nowrap;
     }
 
     .movies {
@@ -353,10 +338,15 @@
   </main>
 
   <script>
+    const THEATERS = [
+      { name: 'AMC Carolina Pavilion 22', slug: 'amc-carolina-pavilion-22' },
+      { name: 'AMC Concord Mills 24', slug: 'amc-concord-mills-24' },
+      { name: 'AMC North Lake 14', slug: 'amc-north-lake-14' },
+    ];
+
     const state = {
-      manifest: null,
       theaterData: null,
-      selectedSlug: null,
+      selectedSlug: THEATERS[0].slug,
       selectedWeekIndex: 0,
     };
 
@@ -403,7 +393,7 @@
       const select = document.getElementById('theater-select');
       select.innerHTML = '';
 
-      state.manifest.theaters.forEach((theater) => {
+      THEATERS.forEach((theater) => {
         const option = document.createElement('option');
         option.value = theater.slug;
         option.textContent = theater.name;
@@ -422,6 +412,10 @@
       }
 
       const selectedWeek = state.theaterData.week_ranges[state.selectedWeekIndex];
+      if (!selectedWeek) {
+        calendar.innerHTML = '<div class="empty">No dated showtimes available for this theater.</div>';
+        return;
+      }
       const info = document.createElement('div');
       info.className = 'subline';
       info.textContent = `Week selected: ${selectedWeek.label}`;
@@ -468,13 +462,7 @@
       const days = getWeekDays();
       const uniqueMovies = new Set();
       let showingsCount = 0;
-      let projectedDays = 0;
-
       days.forEach((day) => {
-        if (day.is_projected) {
-          projectedDays += 1;
-        }
-
         (day.movies || []).forEach((movie) => {
           uniqueMovies.add(movie.name);
           showingsCount += totalShowings(movie);
@@ -485,7 +473,6 @@
         { title: 'Week Days Loaded', value: String(days.length) },
         { title: 'Unique Movies', value: String(uniqueMovies.size) },
         { title: 'Total Showings', value: String(showingsCount) },
-        { title: 'Projected Days', value: String(projectedDays) },
       ];
 
       const metricsRoot = document.getElementById('metrics');
@@ -510,7 +497,7 @@
 
       weekDays.forEach((day) => {
         const card = document.createElement('article');
-        card.className = `day-card ${day.is_projected ? 'projected' : ''}`;
+        card.className = 'day-card';
 
         const movies = [...(day.movies || [])].sort((a, b) => totalShowings(b) - totalShowings(a));
         const moviesHtml = movies.length
@@ -541,7 +528,6 @@
               <h3 class="day-title">${day.weekday}</h3>
               <div class="day-date">${formatReadableDate(day.iso_date)}</div>
             </div>
-            ${day.is_projected ? '<span class="projected-tag">Projected</span>' : ''}
           </div>
           <div class="movies">${moviesHtml}</div>
         `;
@@ -554,16 +540,21 @@
       const subtitle = document.getElementById('subtitle');
       const status = document.getElementById('generated-status');
 
-      if (!state.manifest || !state.theaterData) {
+      if (!state.theaterData) {
         subtitle.textContent = 'Loading theater data...';
         status.textContent = 'Preparing feed...';
         return;
       }
 
-      const anchor = formatReadableDate(state.manifest.anchor_date);
-      const horizon = state.manifest.horizon_days;
+      const anchor = formatReadableDate(state.theaterData.anchor_date);
+      const horizon = state.theaterData.horizon_days;
       const generatedAt = new Date(state.theaterData.generated_at).toLocaleString();
       const selectedWeek = state.theaterData.week_ranges[state.selectedWeekIndex];
+      if (!selectedWeek) {
+        subtitle.textContent = `${state.theaterData.theater} • no loaded days in ${horizon}-day horizon from ${anchor}`;
+        status.textContent = `Feed generated ${generatedAt}`;
+        return;
+      }
 
       subtitle.textContent = `${state.theaterData.theater} • ${selectedWeek.label} • ${horizon}-day horizon from ${anchor}`;
       status.textContent = `Feed generated ${generatedAt}`;
@@ -585,26 +576,14 @@
     }
 
     async function init() {
-      state.manifest = await fetchJson('data/manifest.json');
-      const first = state.manifest.theaters[0];
-      if (!first) {
-        throw new Error('No theaters found in data/manifest.json');
-      }
-
-      await loadTheater(first.slug);
+      await loadTheater(state.selectedSlug);
 
       document.getElementById('theater-select').addEventListener('change', async (event) => {
         await loadTheater(event.target.value);
       });
 
       document.getElementById('reload-btn').addEventListener('click', async () => {
-        state.manifest = await fetchJson('data/manifest.json');
-        const selectedExists = state.manifest.theaters.some((theater) => theater.slug === state.selectedSlug);
-        const slug = selectedExists ? state.selectedSlug : state.manifest.theaters[0]?.slug;
-        if (!slug) {
-          return;
-        }
-        await loadTheater(slug);
+        await loadTheater(state.selectedSlug);
       });
     }
 
