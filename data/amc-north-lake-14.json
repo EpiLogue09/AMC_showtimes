@@ -1,40 +1,40 @@
 {
   "theater": "AMC North Lake 14",
   "slug": "amc-north-lake-14",
-  "generated_at": "2026-05-31T06:45:36.354057",
-  "anchor_date": "2026-05-31",
+  "generated_at": "2026-06-01T07:11:33.346170",
+  "anchor_date": "2026-06-01",
   "horizon_days": 30,
-  "real_days_loaded": 4,
+  "real_days_loaded": 3,
   "week_ranges": [
     {
       "index": 0,
-      "start": "2026-05-31",
-      "end": "2026-06-06",
-      "label": "May 31 - Jun 6"
+      "start": "2026-06-01",
+      "end": "2026-06-07",
+      "label": "Jun 1 - Jun 7"
     },
     {
       "index": 1,
-      "start": "2026-06-07",
-      "end": "2026-06-13",
-      "label": "Jun 7 - Jun 13"
+      "start": "2026-06-08",
+      "end": "2026-06-14",
+      "label": "Jun 8 - Jun 14"
     },
     {
       "index": 2,
-      "start": "2026-06-14",
-      "end": "2026-06-20",
-      "label": "Jun 14 - Jun 20"
+      "start": "2026-06-15",
+      "end": "2026-06-21",
+      "label": "Jun 15 - Jun 21"
     },
     {
       "index": 3,
-      "start": "2026-06-21",
-      "end": "2026-06-27",
-      "label": "Jun 21 - Jun 27"
+      "start": "2026-06-22",
+      "end": "2026-06-28",
+      "label": "Jun 22 - Jun 28"
     },
     {
       "index": 4,
-      "start": "2026-06-28",
-      "end": "2026-06-29",
-      "label": "Jun 28 - Jun 29"
+      "start": "2026-06-29",
+      "end": "2026-06-30",
+      "label": "Jun 29 - Jun 30"
     }
   ],
   "days": [
@@ -140,9 +140,9 @@
           ]
         }
       ],
-      "iso_date": "2026-05-31",
-      "weekday": "Sun",
-      "date": "May 31",
+      "iso_date": "2026-06-01",
+      "weekday": "Mon",
+      "date": "Jun 1",
       "has_data": true
     },
     {
@@ -200,86 +200,9 @@
           ]
         }
       ],
-      "iso_date": "2026-06-01",
-      "weekday": "Mon",
-      "date": "Jun 1",
-      "has_data": true
-    },
-    {
-      "day": "Tue",
-      "date": "Jun 2",
-      "movies": [
-        {
-          "name": "Star Wars: The Mandalorian and Grogu",
-          "link": "https://www.google.com/search?sca_esv=bfe94a51adf7a8b8&hl=en&gl=us&q=Star+Wars:+The+Mandalorian+and+Grogu&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSo_Y-3vDjeGtC-9sh7tWBtT5VQSBNr1k2tSjH-B0B3Tp8OUepf-88EjL5TU55RNGk504SEUreEGIBs8eU5Pc_x6FlBpaM7kJ-a49Y0N2o-hFGkbNpaTdNhZRbxHqqGudiy9QxUY%3D",
-          "showing": [
-            {
-              "time": [
-                "2:00pm",
-                "5:15pm"
-              ],
-              "type": "Standard"
-            },
-            {
-              "time": [
-                "1:00pm",
-                "7:30pm"
-              ],
-              "type": "IMAX"
-            },
-            {
-              "time": [
-                "4:15pm"
-              ],
-              "type": "IMAX 3D"
-            },
-            {
-              "time": [
-                "8:30pm"
-              ],
-              "type": "3D"
-            },
-            {
-              "time": [
-                "3:00pm",
-                "6:15pm",
-                "9:30pm"
-              ],
-              "type": "Dolby Cinema"
-            }
-          ]
-        },
-        {
-          "name": "Backrooms",
-          "link": "https://www.google.com/search?sca_esv=bfe94a51adf7a8b8&hl=en&gl=us&q=Backrooms&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdStnL8faY6drsAB_EQ1KTUKRNIPf9SKRftcaBIqBtOg-ltk2OSJQ1ZmyqeyrXVw4cnSODxkkLcuFGqgQeSgsYbLFNbdCHBegp6nGlZOeB8xtY-0ElhYJMd45A3v-K5L_NWqa8veQ%3D",
-          "showing": [
-            {
-              "time": [
-                "2:00pm",
-                "5:00pm",
-                "7:00pm",
-                "9:45pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "The Breadwinner",
-          "link": "https://www.google.com/search?sca_esv=bfe94a51adf7a8b8&hl=en&gl=us&q=The+Breadwinner&si=AL3DRZG-UCzEGDccX6uss1lzaIiFumE1FsCdzA9yXpbt18qdSqkESyrHBwVrjLjlicVkIHdFyoQlXlUkhWG19Heb10anxnus2NUlBlAGH-u5njgCnux8TRM2cn5c9PsFvTIZvxRaV23at8ruENYrKhC4h9bDEY0u8fkg-J9GhDF0FOAP0v_IBzk%3D",
-          "showing": [
-            {
-              "time": [
-                "4:15pm",
-                "7:45pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        }
-      ],
       "iso_date": "2026-06-02",
       "weekday": "Tue",
+      "date": "Jun 2",
       "has_data": true
     },
     {
@@ -574,6 +497,14 @@
       "date": "Jun 29",
       "iso_date": "2026-06-29",
       "weekday": "Mon",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Tue",
+      "date": "Jun 30",
+      "iso_date": "2026-06-30",
+      "weekday": "Tue",
       "movies": [],
       "has_data": false
     }
