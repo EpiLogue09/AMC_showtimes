@@ -1,40 +1,40 @@
 {
   "theater": "AMC North Lake 14",
   "slug": "amc-north-lake-14",
-  "generated_at": "2026-06-30T06:47:21.929210",
-  "anchor_date": "2026-06-30",
+  "generated_at": "2026-07-15T07:26:46.079644",
+  "anchor_date": "2026-07-15",
   "horizon_days": 30,
-  "real_days_loaded": 9,
+  "real_days_loaded": 8,
   "week_ranges": [
     {
       "index": 0,
-      "start": "2026-06-30",
-      "end": "2026-07-06",
-      "label": "Jun 30 - Jul 6"
+      "start": "2026-07-15",
+      "end": "2026-07-21",
+      "label": "Jul 15 - Jul 21"
     },
     {
       "index": 1,
-      "start": "2026-07-07",
-      "end": "2026-07-13",
-      "label": "Jul 7 - Jul 13"
+      "start": "2026-07-22",
+      "end": "2026-07-28",
+      "label": "Jul 22 - Jul 28"
     },
     {
       "index": 2,
-      "start": "2026-07-14",
-      "end": "2026-07-20",
-      "label": "Jul 14 - Jul 20"
+      "start": "2026-07-29",
+      "end": "2026-08-04",
+      "label": "Jul 29 - Aug 4"
     },
     {
       "index": 3,
-      "start": "2026-07-21",
-      "end": "2026-07-27",
-      "label": "Jul 21 - Jul 27"
+      "start": "2026-08-05",
+      "end": "2026-08-11",
+      "label": "Aug 5 - Aug 11"
     },
     {
       "index": 4,
-      "start": "2026-07-28",
-      "end": "2026-07-29",
-      "label": "Jul 28 - Jul 29"
+      "start": "2026-08-12",
+      "end": "2026-08-13",
+      "label": "Aug 12 - Aug 13"
     }
   ],
   "days": [
@@ -42,82 +42,57 @@
       "day": "Today",
       "movies": [
         {
-          "name": "Toy Story 5",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Toy+Story+5&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInKoIySdXjgY4aqSs-qIl3ogBJXuHdsZFbEPL9bDfMTgky0Zp3D-tJuLIuvDTqXVbAocUaCcqdSHcnpSlx5GgpPdZ0mNJE5QzJ3458Ishsp3GkyMA6PvBNdfmYfTOySeYcRiT6Y%3D&sa=X&ved=2ahUKEwjNyMeIr66VAxUqC0QIHdzWPPcQxyZ6BAh-EBM",
+          "name": "Moana",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Moana&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIu4EkUjlTD7tVFXKQSF1nrfKymhhfJZlT6LzkkA09ylr9RqiXB3K8X4_4r9_UuMHDrjnKtdNxy610NNbGKbtqrStaJg7kouoXSDN9q5DPPX1rKUkOESwT3ef8FynRLOugx0MwuQ%3D&sa=X&ved=2ahUKEwi_neDpk9SVAxVNEkQIHTPNEAkQxyZ6BQiEARAT",
           "showing": [
             {
               "time": [
                 "1:00pm",
-                "3:45pm",
-                "6:30pm",
-                "9:15pm"
-              ],
-              "type": "Standard"
-            },
-            {
-              "time": [
-                "12:00pm",
                 "2:45pm",
-                "5:30pm",
-                "8:30pm"
-              ],
-              "type": "3D"
-            },
-            {
-              "time": [
-                "11:30am",
-                "2:15pm",
-                "5:00pm",
-                "7:45pm"
-              ],
-              "type": "Dolby Cinema"
-            }
-          ]
-        },
-        {
-          "name": "Supergirl",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Supergirl&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItxcCg6RI9nDik1qnTRCAOnABRuv62ZDlKds5PeU_L5o3hjxAwoilX9QNUmR7b-78-tkA0Emxue-hEpmujnVr5ikzq35QQA2xPk3EwkyQL9Vo0jMp4xCDj_dWT6QucF1Gs31voY%3D&sa=X&ved=2ahUKEwjNyMeIr66VAxUqC0QIHdzWPPcQxyZ6BAh-ECQ",
-          "showing": [
-            {
-              "time": [
-                "1:00pm",
-                "7:00pm"
+                "7:00pm",
+                "10:00pm"
               ],
               "type": "Standard"
             },
             {
               "time": [
-                "12:00pm",
-                "3:00pm",
-                "6:00pm",
-                "9:00pm"
+                "11:00am",
+                "2:00pm",
+                "5:00pm",
+                "8:00pm"
               ],
               "type": "IMAX"
             },
             {
               "time": [
+                "11:45am",
                 "4:00pm",
-                "9:45pm"
+                "5:45pm"
               ],
               "type": "3D"
             },
             {
               "time": [
-                "10:30pm"
+                "12:15pm",
+                "3:15pm",
+                "6:15pm"
               ],
               "type": "Dolby Cinema"
             }
           ]
         },
         {
-          "name": "Jackass: Best and Last",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Jackass:+Best+and+Last&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItPBTaIX_bMpBqEiT08Hy9efqfSq30iRqLv1mK_4oQD0vHQfQzVJKZtS6uct0bOCix6XgH_YoW1Xdfn7TjGwe9qNh-o-qHqQfpZ0de0NON7twFuIjrsyvxGmbDEq1jSvCMcpd6g%3D&sa=X&ved=2ahUKEwjNyMeIr66VAxUqC0QIHdzWPPcQxyZ6BAh-EDM",
+          "name": "Minions & Monsters",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D&sa=X&ved=2ahUKEwi_neDpk9SVAxVNEkQIHTPNEAkQxyZ6BQiEARAn",
           "showing": [
             {
               "time": [
-                "11:30am",
-                "2:15pm",
-                "5:00pm",
+                "12:00pm",
+                "1:00pm",
+                "2:45pm",
+                "4:45pm",
+                "5:15pm",
+                "6:30pm",
                 "7:45pm",
                 "10:15pm"
               ],
@@ -126,60 +101,56 @@
           ]
         },
         {
-          "name": "Obsession",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Obsession&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInAkcr9Nt46iPfBBNgtmVuIqiKe6-GHxhvxCcds7jqjj8Ks_QZNMDgEliJJ8k07hKZK1FBc12MKQ7nSrIlhSBguG8m_u8hBFtiF8H5I1qAL5wnVBUsp5PAlvzNBRkmOntuKmlLw%3D",
+          "name": "Toy Story 5",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Toy+Story+5&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInKoIySdXjgY4aqSs-qIl3ogBJXuHdsZFbEPL9bDfMTgky0Zp3D-tJuLIuvDTqXVbAocUaCcqdSHcnpSlx5GgpPdZ0mNJE5QzJ3458Ishsp3GkyMA6PvBNdfmYfTOySeYcRiT6Y%3D&sa=X&ved=2ahUKEwi_neDpk9SVAxVNEkQIHTPNEAkQxyZ6BQiEARAy",
+          "showing": [
+            {
+              "time": [
+                "4:00pm",
+                "9:30pm"
+              ],
+              "type": "Standard"
+            },
+            {
+              "time": [
+                "1:15pm",
+                "6:45pm"
+              ],
+              "type": "3D"
+            }
+          ]
+        },
+        {
+          "name": "Evil Dead Burn",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Evil+Dead+Burn&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIk841sTrC5dp7ZNv1AQvyYrTXILEQ4usKBHuKVxin5RCfGCSFgzbBkiQYbrJzRaqt8MYBT84cchEZuAFsNrGREyr1nCTMFlldJa2tIreDb3IrM13MAUPi0cECGQR1l27lH_MshE%3D",
           "showing": [
             {
               "time": [
                 "11:00am",
                 "1:45pm",
-                "4:30pm",
-                "7:15pm",
-                "10:15pm"
+                "4:45pm",
+                "7:45pm",
+                "9:45pm"
               ],
               "type": "Standard"
+            },
+            {
+              "time": [
+                "9:15pm"
+              ],
+              "type": "Dolby Cinema"
             }
           ]
         },
         {
-          "name": "Disclosure Day",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Disclosure+Day&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIuelrctJ7MG-0Z8lnBQfWA0eOn8Q_6tacP0-Jy4QYj02Txqg7UTLGa2BEcVEpaGLHio6Ll-P1xmkNxF7Sa-GJbs1T4SULAhdMAOYloNAA1H__4iua9d5S1mFCbQ62zvEV0Biu2A%3D",
+          "name": "Young Washington",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Young+Washington&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIreO0lXXKHGku9bl62q4sPOFQyLEL-FQL5DTENblWcNtHlOs3nYuIvE7DmHFlchJTv5KWTeJSFEkgX35PRkWV_EezuSzd8xu8jOwmnx13MrZZwgWEFoLR_SfXdBh_-oXFljM_PQ%3D",
           "showing": [
             {
               "time": [
                 "11:15am",
-                "2:45pm",
-                "6:15pm",
-                "9:45pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "Backrooms",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Backrooms&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIvJEBWnDNBUUrTQ33ll7smn1KPqOhzsLg8mUEiCROATBYncNj2axHi-pr75vMyx5lj_FIDvjpeD8OVFt6geDBsnMlydIljY6aJ-9o70Zhn-9PvWgNy0ixl_rNkZW2G4pyFFw1Oo%3D",
-          "showing": [
-            {
-              "time": [
-                "11:00am",
-                "2:05pm",
-                "5:00pm",
-                "8:00pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "Scary Movie",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Scary+Movie&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsRjfToZrvvTvV2PZ8uxb2iNVZaSLNjqJHt0bLA-lo9KccZ-lC3ttOgUBrB1rktNHUd6eilH5wDa4kAtEXiRzaRYdGfVaLoZiMpV7XnZOysYQ94L68tr-eVI7IoLEQb9ZcB-wE0%3D",
-          "showing": [
-            {
-              "time": [
-                "11:30am",
-                "2:50pm",
-                "5:40pm",
+                "2:15pm",
+                "5:15pm",
                 "8:15pm"
               ],
               "type": "Standard"
@@ -187,220 +158,29 @@
           ]
         },
         {
-          "name": "Masters of the Universe",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Masters+of+the+Universe&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIpzYobZ4d_GzTLGc_--VclU_l6VvDE0rHi8Ozn6W0ndMYDmESMea-b9xeizkIrVXmOh3vSHGUijZMoc05bphdnVNxBSLLWPOHtyzBIifcJ8IcTu6ZFWXX1NCLpKMNRCfpY9G-LU%3D",
-          "showing": [
-            {
-              "time": [
-                "11:00am",
-                "2:15pm",
-                "5:30pm",
-                "8:45pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "Leviticus",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Leviticus&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIpqJal4x81rHLdK74_lTbEQmbOTQ4v1Idvt7TJ8pJirXAbLocMBrHYWfvL1psjb-LTqWE_yHLBkbzcLrsqrn2OuQGCNa23yL-XweteUtNM2TbAFnKdNfMKkYX5PBthPLUAutXSU%3D",
-          "showing": [
-            {
-              "time": [
-                "1:15pm",
-                "3:45pm",
-                "6:15pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "BLEACH : Thousand-Year Blood War - The Calamity",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=BLEACH+:+Thousand-Year+Blood+War+-+The+Calamity&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIshd-geULe7kM_VbojtmI5Zzs2Xwd_2rqrKJQ2q7_WT3c2LiH9u6NqUBSkA-tuSaOIvmEF-J9UyU8YSxjEfMIe7wLyhpkWtS-jfboQE1IHE2eyzRgoJoLzhvb1fOvecWVv2t80I%3D",
+          "name": "The Invite",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Invite&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIvmqnJUlRn16ddFWQV2dcM37ADAJhKVC0QUnKf6O1NqYIOfHwVXDsm1thpX9FH80ofa3JD5VGp6s5FJ9Byrqal4Uk-DFXjFxnW8WqBj-Z1qdL9yMMRwpoPmF4g16zLMAJ4OfXo8%3D",
           "showing": [
             {
               "time": [
                 "11:15am",
-                "7:00pm"
+                "2:00pm",
+                "4:45pm",
+                "7:30pm",
+                "10:15pm"
               ],
               "type": "Standard"
-            },
-            {
-              "time": [
-                "4:40pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "Couture",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Couture&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIpMI632sF9zkCHgqRGKCkOO5rlmEulpfpn_SJ5saNRSkLAL6aB3QKla_pU9E8Z9TKrgoFAKg1bTNpo-_AyxFlq93WdaXjjjsafGAWAORZD6-34zpuyExEMrl6mlU9_cDoAvwhMw%3D",
-          "showing": [
-            {
-              "time": [
-                "1:15pm",
-                "4:00pm",
-                "6:45pm",
-                "9:30pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "The Furious",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=The+Furious&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIlO-FVAYXeJ3FOYJ1zUEiRsIN1RradKUXas1BtilBR0_Q4Nxjqy40F3hXh-Fdg4AGJJV7vzE43LcnAo8cDi283nffL6lN_1UZfm-N74wuRiVnG0V1KrO2zkIHWjGq1DmeKKS1p4%3D",
-          "showing": [
-            {
-              "time": [
-                "1:50pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "Welcome to the Jungle",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Welcome+to+the+Jungle&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIgk_JGhBAAxtdSnMjnUb4I4WvvDz45Qqi0JTgZ0cbfF3asjg4bVPZTbO3NeYsRr22sPed9MiatTmdPaCmfHEVV0WpHORrJ2_T_M1HevOWCA94NPNYwCciW0D8R245qJI4bml3i4%3D",
-          "showing": [
-            {
-              "time": [
-                "8:45pm",
-                "9:00pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        }
-      ],
-      "iso_date": "2026-06-30",
-      "weekday": "Tue",
-      "date": "Jun 30",
-      "has_data": true
-    },
-    {
-      "day": "Tomorrow",
-      "movies": [
-        {
-          "name": "Minions & Monsters",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D",
-          "showing": [
-            {
-              "time": [
-                "12:30pm",
-                "3:15pm",
-                "6:00pm",
-                "8:45pm"
-              ],
-              "type": "Standard"
-            },
-            {
-              "time": [
-                "11:45am",
-                "2:30pm",
-                "5:15pm",
-                "7:45pm"
-              ],
-              "type": "IMAX"
-            },
-            {
-              "time": [
-                "1:00pm",
-                "3:45pm",
-                "6:30pm",
-                "9:15pm"
-              ],
-              "type": "3D"
-            },
-            {
-              "time": [
-                "11:00am",
-                "1:30pm",
-                "4:15pm",
-                "7:00pm",
-                "9:45pm"
-              ],
-              "type": "Dolby Cinema"
-            }
-          ]
-        },
-        {
-          "name": "Toy Story 5",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Toy+Story+5&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInKoIySdXjgY4aqSs-qIl3ogBJXuHdsZFbEPL9bDfMTgky0Zp3D-tJuLIuvDTqXVbAocUaCcqdSHcnpSlx5GgpPdZ0mNJE5QzJ3458Ishsp3GkyMA6PvBNdfmYfTOySeYcRiT6Y%3D",
-          "showing": [
-            {
-              "time": [
-                "12:45pm",
-                "3:30pm",
-                "6:15pm",
-                "9:00pm"
-              ],
-              "type": "Standard"
-            },
-            {
-              "time": [
-                "11:45am",
-                "2:30pm",
-                "5:15pm",
-                "8:00pm"
-              ],
-              "type": "3D"
             }
           ]
         },
         {
           "name": "Supergirl",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Supergirl&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItxcCg6RI9nDik1qnTRCAOnABRuv62ZDlKds5PeU_L5o3hjxAwoilX9QNUmR7b-78-tkA0Emxue-hEpmujnVr5ikzq35QQA2xPk3EwkyQL9Vo0jMp4xCDj_dWT6QucF1Gs31voY%3D",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Supergirl&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItxcCg6RI9nDik1qnTRCAOnABRuv62ZDlKds5PeU_L5o3hjxAwoilX9QNUmR7b-78-tkA0Emxue-hEpmujnVr5ikzq35QQA2xPk3EwkyQL9Vo0jMp4xCDj_dWT6QucF1Gs31voY%3D",
           "showing": [
             {
               "time": [
-                "12:00pm",
-                "6:00pm"
-              ],
-              "type": "Standard"
-            },
-            {
-              "time": [
-                "10:15pm"
-              ],
-              "type": "IMAX"
-            },
-            {
-              "time": [
-                "3:00pm",
-                "9:00pm"
-              ],
-              "type": "3D"
-            }
-          ]
-        },
-        {
-          "name": "Jackass: Best and Last",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Jackass:+Best+and+Last&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItPBTaIX_bMpBqEiT08Hy9efqfSq30iRqLv1mK_4oQD0vHQfQzVJKZtS6uct0bOCix6XgH_YoW1Xdfn7TjGwe9qNh-o-qHqQfpZ0de0NON7twFuIjrsyvxGmbDEq1jSvCMcpd6g%3D",
-          "showing": [
-            {
-              "time": [
-                "11:30am",
-                "2:15pm",
-                "5:00pm",
-                "7:45pm",
-                "10:30pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "Obsession",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Obsession&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInAkcr9Nt46iPfBBNgtmVuIqiKe6-GHxhvxCcds7jqjj8Ks_QZNMDgEliJJ8k07hKZK1FBc12MKQ7nSrIlhSBguG8m_u8hBFtiF8H5I1qAL5wnVBUsp5PAlvzNBRkmOntuKmlLw%3D",
-          "showing": [
-            {
-              "time": [
-                "11:00am",
-                "1:45pm",
-                "4:30pm",
+                "1:00pm",
+                "3:45pm",
                 "7:15pm",
                 "10:00pm"
               ],
@@ -409,110 +189,8 @@
           ]
         },
         {
-          "name": "Disclosure Day",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Disclosure+Day&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIuelrctJ7MG-0Z8lnBQfWA0eOn8Q_6tacP0-Jy4QYj02Txqg7UTLGa2BEcVEpaGLHio6Ll-P1xmkNxF7Sa-GJbs1T4SULAhdMAOYloNAA1H__4iua9d5S1mFCbQ62zvEV0Biu2A%3D",
-          "showing": [
-            {
-              "time": [
-                "11:15am",
-                "2:45pm",
-                "6:15pm",
-                "9:45pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "Backrooms",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Backrooms&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIvJEBWnDNBUUrTQ33ll7smn1KPqOhzsLg8mUEiCROATBYncNj2axHi-pr75vMyx5lj_FIDvjpeD8OVFt6geDBsnMlydIljY6aJ-9o70Zhn-9PvWgNy0ixl_rNkZW2G4pyFFw1Oo%3D",
-          "showing": [
-            {
-              "time": [
-                "11:00am",
-                "2:05pm",
-                "5:00pm",
-                "8:00pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "Scary Movie",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Scary+Movie&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsRjfToZrvvTvV2PZ8uxb2iNVZaSLNjqJHt0bLA-lo9KccZ-lC3ttOgUBrB1rktNHUd6eilH5wDa4kAtEXiRzaRYdGfVaLoZiMpV7XnZOysYQ94L68tr-eVI7IoLEQb9ZcB-wE0%3D",
-          "showing": [
-            {
-              "time": [
-                "12:15pm",
-                "3:00pm",
-                "5:45pm",
-                "8:30pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "BLEACH : Thousand-Year Blood War - The Calamity",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=BLEACH+:+Thousand-Year+Blood+War+-+The+Calamity&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIshd-geULe7kM_VbojtmI5Zzs2Xwd_2rqrKJQ2q7_WT3c2LiH9u6NqUBSkA-tuSaOIvmEF-J9UyU8YSxjEfMIe7wLyhpkWtS-jfboQE1IHE2eyzRgoJoLzhvb1fOvecWVv2t80I%3D",
-          "showing": [
-            {
-              "time": [
-                "7:00pm"
-              ],
-              "type": "Standard"
-            },
-            {
-              "time": [
-                "4:40pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "Couture",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Couture&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIpMI632sF9zkCHgqRGKCkOO5rlmEulpfpn_SJ5saNRSkLAL6aB3QKla_pU9E8Z9TKrgoFAKg1bTNpo-_AyxFlq93WdaXjjjsafGAWAORZD6-34zpuyExEMrl6mlU9_cDoAvwhMw%3D",
-          "showing": [
-            {
-              "time": [
-                "1:15pm",
-                "4:00pm",
-                "6:45pm",
-                "9:30pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "David",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=David&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsvHtJ1Pp3RqwegbzzpFme1-JMt1F7wTRzCzWapCIYKkYiGdLS7Sa02GPqxBFV47bdzxC7rDOkkrXswWlq5M-VIqmkoAV8pK1FZTTlLVpbJgt0L4NPxHRm8P8q1wXgDDGdeeKK4%3D",
-          "showing": [
-            {
-              "time": [
-                "11:00am"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "The Furious",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=The+Furious&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIlO-FVAYXeJ3FOYJ1zUEiRsIN1RradKUXas1BtilBR0_Q4Nxjqy40F3hXh-Fdg4AGJJV7vzE43LcnAo8cDi283nffL6lN_1UZfm-N74wuRiVnG0V1KrO2zkIHWjGq1DmeKKS1p4%3D",
-          "showing": [
-            {
-              "time": [
-                "1:50pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        },
-        {
-          "name": "Welcome to the Jungle",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Welcome+to+the+Jungle&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIgk_JGhBAAxtdSnMjnUb4I4WvvDz45Qqi0JTgZ0cbfF3asjg4bVPZTbO3NeYsRr22sPed9MiatTmdPaCmfHEVV0WpHORrJ2_T_M1HevOWCA94NPNYwCciW0D8R245qJI4bml3i4%3D",
+          "name": "Obsession",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Obsession&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInAkcr9Nt46iPfBBNgtmVuIqiKe6-GHxhvxCcds7jqjj8Ks_QZNMDgEliJJ8k07hKZK1FBc12MKQ7nSrIlhSBguG8m_u8hBFtiF8H5I1qAL5wnVBUsp5PAlvzNBRkmOntuKmlLw%3D",
           "showing": [
             {
               "time": [
@@ -521,103 +199,29 @@
               "type": "Standard"
             }
           ]
-        }
-      ],
-      "iso_date": "2026-07-01",
-      "weekday": "Wed",
-      "date": "Jul 1",
-      "has_data": true
-    },
-    {
-      "day": "Thu",
-      "date": "Jul 2",
-      "movies": [
+        },
         {
-          "name": "Minions & Monsters",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D",
+          "name": "Disclosure Day",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Disclosure+Day&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIuelrctJ7MG-0Z8lnBQfWA0eOn8Q_6tacP0-Jy4QYj02Txqg7UTLGa2BEcVEpaGLHio6Ll-P1xmkNxF7Sa-GJbs1T4SULAhdMAOYloNAA1H__4iua9d5S1mFCbQ62zvEV0Biu2A%3D",
           "showing": [
             {
               "time": [
-                "12:30pm",
-                "3:15pm",
-                "6:00pm",
                 "8:45pm"
               ],
               "type": "Standard"
-            },
-            {
-              "time": [
-                "11:45am",
-                "2:30pm",
-                "5:15pm"
-              ],
-              "type": "IMAX"
-            },
-            {
-              "time": [
-                "11:00am",
-                "1:30pm",
-                "4:15pm",
-                "7:00pm",
-                "9:45pm"
-              ],
-              "type": "Dolby Cinema"
             }
           ]
         },
         {
-          "name": "Toy Story 5",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Toy+Story+5&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInKoIySdXjgY4aqSs-qIl3ogBJXuHdsZFbEPL9bDfMTgky0Zp3D-tJuLIuvDTqXVbAocUaCcqdSHcnpSlx5GgpPdZ0mNJE5QzJ3458Ishsp3GkyMA6PvBNdfmYfTOySeYcRiT6Y%3D",
+          "name": "Gail Daughtry and the Celebrity Sex Pass",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Gail+Daughtry+and+the+Celebrity+Sex+Pass&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgImHbcJlRZhOLv_DjV8rR6vQaVtaCfpcWSCHHwv9xx5aMGaqCHa72Yyp4TGEA-DuQXp1mR5qfDTv1tB1l_3kwBwW2m1M7NTyrBfVzHZO1L_m6SUctZSJr5N0C0qeQfaF1P4sOzjA%3D",
           "showing": [
             {
               "time": [
-                "12:45pm",
-                "3:30pm",
-                "6:15pm",
-                "9:00pm"
-              ],
-              "type": "Standard"
-            },
-            {
-              "time": [
+                "11:30am",
                 "2:00pm",
-                "4:45pm",
-                "7:30pm",
-                "10:15pm"
-              ],
-              "type": "3D"
-            }
-          ]
-        },
-        {
-          "name": "Supergirl",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Supergirl&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItxcCg6RI9nDik1qnTRCAOnABRuv62ZDlKds5PeU_L5o3hjxAwoilX9QNUmR7b-78-tkA0Emxue-hEpmujnVr5ikzq35QQA2xPk3EwkyQL9Vo0jMp4xCDj_dWT6QucF1Gs31voY%3D",
-          "showing": [
-            {
-              "time": [
-                "1:00pm",
-                "7:00pm"
-              ],
-              "type": "Standard"
-            },
-            {
-              "time": [
-                "4:00pm",
-                "10:00pm"
-              ],
-              "type": "3D"
-            }
-          ]
-        },
-        {
-          "name": "Young Washington",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Young+Washington&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIreO0lXXKHGku9bl62q4sPOFQyLEL-FQL5DTENblWcNtHlOs3nYuIvE7DmHFlchJTv5KWTeJSFEkgX35PRkWV_EezuSzd8xu8jOwmnx13MrZZwgWEFoLR_SfXdBh_-oXFljM_PQ%3D",
-          "showing": [
-            {
-              "time": [
-                "12:15pm",
-                "3:30pm",
-                "6:45pm"
+                "4:30pm",
+                "7:15pm"
               ],
               "type": "Standard"
             }
@@ -625,302 +229,31 @@
         },
         {
           "name": "Jackass: Best and Last",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Jackass:+Best+and+Last&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItPBTaIX_bMpBqEiT08Hy9efqfSq30iRqLv1mK_4oQD0vHQfQzVJKZtS6uct0bOCix6XgH_YoW1Xdfn7TjGwe9qNh-o-qHqQfpZ0de0NON7twFuIjrsyvxGmbDEq1jSvCMcpd6g%3D",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Jackass:+Best+and+Last&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItPBTaIX_bMpBqEiT08Hy9efqfSq30iRqLv1mK_4oQD0vHQfQzVJKZtS6uct0bOCix6XgH_YoW1Xdfn7TjGwe9qNh-o-qHqQfpZ0de0NON7twFuIjrsyvxGmbDEq1jSvCMcpd6g%3D",
           "showing": [
             {
               "time": [
-                "11:30am",
-                "2:15pm",
-                "5:00pm",
-                "7:45pm",
-                "10:30pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        }
-      ],
-      "iso_date": "2026-07-02",
-      "weekday": "Thu",
-      "has_data": true
-    },
-    {
-      "day": "Fri",
-      "date": "Jul 3",
-      "movies": [
-        {
-          "name": "Minions & Monsters",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D",
-          "showing": [
-            {
-              "time": [
-                "12:30pm",
-                "3:15pm",
-                "6:00pm",
-                "8:45pm"
-              ],
-              "type": "Standard"
-            },
-            {
-              "time": [
-                "12:00pm",
-                "2:45pm",
-                "5:30pm"
-              ],
-              "type": "IMAX"
-            },
-            {
-              "time": [
-                "1:00pm",
-                "3:45pm",
-                "6:30pm",
-                "9:15pm"
-              ],
-              "type": "3D"
-            },
-            {
-              "time": [
-                "11:00am",
-                "1:30pm",
-                "4:15pm",
-                "7:00pm",
-                "9:45pm"
-              ],
-              "type": "Dolby Cinema"
-            }
-          ]
-        },
-        {
-          "name": "Toy Story 5",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Toy+Story+5&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInKoIySdXjgY4aqSs-qIl3ogBJXuHdsZFbEPL9bDfMTgky0Zp3D-tJuLIuvDTqXVbAocUaCcqdSHcnpSlx5GgpPdZ0mNJE5QzJ3458Ishsp3GkyMA6PvBNdfmYfTOySeYcRiT6Y%3D",
-          "showing": [
-            {
-              "time": [
-                "2:00pm",
-                "4:45pm",
-                "7:30pm",
-                "10:15pm"
-              ],
-              "type": "3D"
-            }
-          ]
-        },
-        {
-          "name": "Young Washington",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Young+Washington&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIreO0lXXKHGku9bl62q4sPOFQyLEL-FQL5DTENblWcNtHlOs3nYuIvE7DmHFlchJTv5KWTeJSFEkgX35PRkWV_EezuSzd8xu8jOwmnx13MrZZwgWEFoLR_SfXdBh_-oXFljM_PQ%3D",
-          "showing": [
-            {
-              "time": [
-                "12:45pm",
-                "4:00pm",
-                "7:15pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        }
-      ],
-      "iso_date": "2026-07-03",
-      "weekday": "Fri",
-      "has_data": true
-    },
-    {
-      "day": "Sat",
-      "date": "Jul 4",
-      "movies": [
-        {
-          "name": "Minions & Monsters",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D",
-          "showing": [
-            {
-              "time": [
-                "12:30pm",
-                "3:15pm",
-                "6:00pm",
-                "8:45pm"
-              ],
-              "type": "Standard"
-            },
-            {
-              "time": [
-                "12:00pm",
-                "2:45pm",
-                "5:30pm"
-              ],
-              "type": "IMAX"
-            },
-            {
-              "time": [
-                "10:30am",
-                "1:00pm",
-                "3:45pm",
-                "6:30pm",
-                "9:15pm"
-              ],
-              "type": "3D"
-            },
-            {
-              "time": [
-                "11:00am",
-                "1:30pm",
-                "4:15pm",
-                "7:00pm",
-                "9:45pm"
-              ],
-              "type": "Dolby Cinema"
-            }
-          ]
-        },
-        {
-          "name": "Young Washington",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Young+Washington&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIreO0lXXKHGku9bl62q4sPOFQyLEL-FQL5DTENblWcNtHlOs3nYuIvE7DmHFlchJTv5KWTeJSFEkgX35PRkWV_EezuSzd8xu8jOwmnx13MrZZwgWEFoLR_SfXdBh_-oXFljM_PQ%3D",
-          "showing": [
-            {
-              "time": [
-                "10:45am",
-                "12:45pm",
-                "4:00pm",
-                "7:15pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        }
-      ],
-      "iso_date": "2026-07-04",
-      "weekday": "Sat",
-      "has_data": true
-    },
-    {
-      "day": "Sun",
-      "date": "Jul 5",
-      "movies": [
-        {
-          "name": "Minions & Monsters",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D",
-          "showing": [
-            {
-              "time": [
-                "12:30pm",
-                "3:15pm",
-                "6:00pm",
-                "8:45pm"
-              ],
-              "type": "Standard"
-            },
-            {
-              "time": [
-                "12:00pm",
-                "2:45pm",
-                "5:30pm"
-              ],
-              "type": "IMAX"
-            },
-            {
-              "time": [
-                "10:30am",
-                "1:00pm",
-                "3:45pm",
-                "6:30pm",
-                "9:15pm"
-              ],
-              "type": "3D"
-            },
-            {
-              "time": [
-                "11:00am",
-                "1:30pm",
-                "4:15pm",
-                "7:00pm",
-                "9:45pm"
-              ],
-              "type": "Dolby Cinema"
-            }
-          ]
-        },
-        {
-          "name": "Young Washington",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Young+Washington&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIreO0lXXKHGku9bl62q4sPOFQyLEL-FQL5DTENblWcNtHlOs3nYuIvE7DmHFlchJTv5KWTeJSFEkgX35PRkWV_EezuSzd8xu8jOwmnx13MrZZwgWEFoLR_SfXdBh_-oXFljM_PQ%3D",
-          "showing": [
-            {
-              "time": [
-                "10:45am",
-                "12:45pm",
-                "4:00pm",
-                "7:15pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        }
-      ],
-      "iso_date": "2026-07-05",
-      "weekday": "Sun",
-      "has_data": true
-    },
-    {
-      "day": "Mon",
-      "date": "Jul 6",
-      "movies": [
-        {
-          "name": "Minions & Monsters",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D",
-          "showing": [
-            {
-              "time": [
-                "12:30pm",
-                "3:15pm",
-                "6:00pm",
-                "8:45pm"
-              ],
-              "type": "Standard"
-            },
-            {
-              "time": [
-                "12:00pm",
-                "2:45pm",
-                "5:30pm"
-              ],
-              "type": "IMAX"
-            },
-            {
-              "time": [
-                "1:00pm",
-                "3:45pm",
-                "6:30pm",
-                "9:15pm"
-              ],
-              "type": "3D"
-            },
-            {
-              "time": [
-                "11:00am",
-                "1:30pm",
-                "4:15pm",
-                "7:00pm",
-                "9:45pm"
-              ],
-              "type": "Dolby Cinema"
-            }
-          ]
-        },
-        {
-          "name": "Young Washington",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Young+Washington&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIreO0lXXKHGku9bl62q4sPOFQyLEL-FQL5DTENblWcNtHlOs3nYuIvE7DmHFlchJTv5KWTeJSFEkgX35PRkWV_EezuSzd8xu8jOwmnx13MrZZwgWEFoLR_SfXdBh_-oXFljM_PQ%3D",
-          "showing": [
-            {
-              "time": [
-                "12:45pm",
-                "4:00pm",
-                "7:15pm"
+                "9:00pm"
               ],
               "type": "Standard"
             }
           ]
         },
         {
-          "name": "How to Train Your Dragon",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=How+to+Train+Your+Dragon&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIs564XUgK4DoekWUst9gwxxWhy4Wjq9aWmxjJMfpVObPJUfHKV_PsMrP2L7a4ZWziNQUKHlsElTy6a80_tvOMY0ilH7uT70OJT5vbAb6xtkZpG7mmYZ6-tbdSwj92UnJpdVid1Q%3D",
+          "name": "Dhamaal 4",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Dhamaal+4&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItrrG62HmyLj48aFVeNDVNNOU-MJ8K97wlbdtsGjUy-IdRSDX_FSWURpPlPDNLCK4hqCMdquGoNaL34X0xC9n1WWWJj31SLspX-8yZ5ssvWGuEQDb5mzyU_75Wzba9SKxsaUldY%3D",
+          "showing": [
+            {
+              "time": [
+                "3:30pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Lego Movie",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Lego+Movie&si=APenkKmVZkKRkzLWo1aueLpZRI7fmnX1a1N4vPthM382cfULdfU5mnV-5FFbzicyywG5Gfb0ejEJ-uXH6vZ7tfAhsU_0WrvNeHGylSF156zv1MxWFHXjwsUcfKFw3ukFf6S3c8tmzXYrDtNTFqOd4e48OhFs2THY61KAXi8xHt7jOoLgiRVyLxY%3D",
           "showing": [
             {
               "time": [
@@ -932,190 +265,20 @@
           ]
         }
       ],
-      "iso_date": "2026-07-06",
-      "weekday": "Mon",
-      "has_data": true
-    },
-    {
-      "day": "Tue",
-      "date": "Jul 7",
-      "movies": [
-        {
-          "name": "Minions & Monsters",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D&sa=X&ved=2ahUKEwi75I-Mr66VAxXxVTABHd3iBicQxyZ6BAgaEA0",
-          "showing": [
-            {
-              "time": [
-                "12:30pm",
-                "3:15pm",
-                "6:00pm",
-                "8:45pm"
-              ],
-              "type": "Standard"
-            },
-            {
-              "time": [
-                "12:00pm",
-                "2:45pm",
-                "5:30pm"
-              ],
-              "type": "IMAX"
-            },
-            {
-              "time": [
-                "1:00pm",
-                "3:45pm",
-                "6:30pm",
-                "9:15pm"
-              ],
-              "type": "3D"
-            },
-            {
-              "time": [
-                "11:00am",
-                "1:30pm",
-                "4:15pm",
-                "7:00pm",
-                "9:45pm"
-              ],
-              "type": "Dolby Cinema"
-            }
-          ]
-        },
-        {
-          "name": "Young Washington",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Young+Washington&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIreO0lXXKHGku9bl62q4sPOFQyLEL-FQL5DTENblWcNtHlOs3nYuIvE7DmHFlchJTv5KWTeJSFEkgX35PRkWV_EezuSzd8xu8jOwmnx13MrZZwgWEFoLR_SfXdBh_-oXFljM_PQ%3D&sa=X&ved=2ahUKEwi75I-Mr66VAxXxVTABHd3iBicQxyZ6BAgaECM",
-          "showing": [
-            {
-              "time": [
-                "12:45pm",
-                "4:00pm",
-                "7:15pm"
-              ],
-              "type": "Standard"
-            }
-          ]
-        }
-      ],
-      "iso_date": "2026-07-07",
-      "weekday": "Tue",
-      "has_data": true
-    },
-    {
-      "day": "Wed",
-      "date": "Jul 8",
-      "iso_date": "2026-07-08",
-      "weekday": "Wed",
-      "movies": [],
-      "has_data": false
-    },
-    {
-      "day": "Thu",
-      "date": "Jul 9",
-      "iso_date": "2026-07-09",
-      "weekday": "Thu",
-      "movies": [],
-      "has_data": false
-    },
-    {
-      "day": "Fri",
-      "date": "Jul 10",
-      "iso_date": "2026-07-10",
-      "weekday": "Fri",
-      "movies": [],
-      "has_data": false
-    },
-    {
-      "day": "Sat",
-      "date": "Jul 11",
-      "iso_date": "2026-07-11",
-      "weekday": "Sat",
-      "movies": [],
-      "has_data": false
-    },
-    {
-      "day": "Sun",
-      "date": "Jul 12",
-      "iso_date": "2026-07-12",
-      "weekday": "Sun",
-      "movies": [],
-      "has_data": false
-    },
-    {
-      "day": "Mon",
-      "date": "Jul 13",
-      "iso_date": "2026-07-13",
-      "weekday": "Mon",
-      "movies": [],
-      "has_data": false
-    },
-    {
-      "day": "Tue",
-      "date": "Jul 14",
-      "iso_date": "2026-07-14",
-      "weekday": "Tue",
-      "movies": [],
-      "has_data": false
-    },
-    {
-      "day": "Wed",
-      "date": "Jul 15",
       "iso_date": "2026-07-15",
       "weekday": "Wed",
-      "movies": [],
-      "has_data": false
+      "date": "Jul 15",
+      "has_data": true
     },
     {
-      "day": "Thu",
-      "date": "Jul 16",
-      "iso_date": "2026-07-16",
-      "weekday": "Thu",
-      "movies": [],
-      "has_data": false
-    },
-    {
-      "day": "Fri",
-      "date": "Jul 17",
-      "iso_date": "2026-07-17",
-      "weekday": "Fri",
-      "movies": [],
-      "has_data": false
-    },
-    {
-      "day": "Sat",
-      "date": "Jul 18",
-      "iso_date": "2026-07-18",
-      "weekday": "Sat",
-      "movies": [],
-      "has_data": false
-    },
-    {
-      "day": "Sun",
-      "date": "Jul 19",
-      "iso_date": "2026-07-19",
-      "weekday": "Sun",
-      "movies": [],
-      "has_data": false
-    },
-    {
-      "day": "Mon",
-      "date": "Jul 20",
-      "iso_date": "2026-07-20",
-      "weekday": "Mon",
-      "movies": [],
-      "has_data": false
-    },
-    {
-      "day": "Tue",
-      "date": "Jul 21",
+      "day": "Tomorrow",
       "movies": [
         {
           "name": "The Odyssey",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=The+Odyssey&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIti5E_XrHrmf91g9GWFhQZlWuCrciNuoaCDIFxcJopPrF2CBk44y_O5poe9KCxW2AH4-9IqbkCcQfDbJl8yuMpXODDeNKsoJIo4pnGnW6Vd0aI6hLtpTRf2Eq9NEbGNHpUVUvYc%3D&sa=X&ved=2ahUKEwj40pCPr66VAxUVvokEHeXRCIkQxyZ6BAgaEA0",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIti5E_XrHrmf91g9GWFhQZlWuCrciNuoaCDIFxcJopPrF2CBk44y_O5poe9KCxW2AH4-9IqbkCcQfDbJl8yuMpXODDeNKsoJIo4pnGnW6Vd0aI6hLtpTRf2Eq9NEbGNHpUVUvYc%3D",
           "showing": [
             {
               "time": [
-                "12:00pm",
                 "4:00pm",
                 "8:00pm"
               ],
@@ -1124,13 +287,319 @@
           ]
         },
         {
+          "name": "Moana",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Moana&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIu4EkUjlTD7tVFXKQSF1nrfKymhhfJZlT6LzkkA09ylr9RqiXB3K8X4_4r9_UuMHDrjnKtdNxy610NNbGKbtqrStaJg7kouoXSDN9q5DPPX1rKUkOESwT3ef8FynRLOugx0MwuQ%3D",
+          "showing": [
+            {
+              "time": [
+                "1:00pm",
+                "2:30pm",
+                "3:20pm",
+                "5:30pm",
+                "7:00pm",
+                "8:30pm"
+              ],
+              "type": "Standard"
+            },
+            {
+              "time": [
+                "4:00pm",
+                "10:00pm"
+              ],
+              "type": "3D"
+            },
+            {
+              "time": [
+                "12:00pm"
+              ],
+              "type": "Dolby Cinema"
+            }
+          ]
+        },
+        {
+          "name": "Minions & Monsters",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D",
+          "showing": [
+            {
+              "time": [
+                "12:45pm",
+                "2:05pm",
+                "4:30pm",
+                "7:05pm",
+                "9:30pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Toy Story 5",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Toy+Story+5&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInKoIySdXjgY4aqSs-qIl3ogBJXuHdsZFbEPL9bDfMTgky0Zp3D-tJuLIuvDTqXVbAocUaCcqdSHcnpSlx5GgpPdZ0mNJE5QzJ3458Ishsp3GkyMA6PvBNdfmYfTOySeYcRiT6Y%3D",
+          "showing": [
+            {
+              "time": [
+                "12:45pm",
+                "6:15pm",
+                "9:05pm"
+              ],
+              "type": "Standard"
+            },
+            {
+              "time": [
+                "3:30pm"
+              ],
+              "type": "3D"
+            }
+          ]
+        },
+        {
           "name": "Evil Dead Burn",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=Evil+Dead+Burn&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIk841sTrC5dp7ZNv1AQvyYrTXILEQ4usKBHuKVxin5RCfGCSFgzbBkiQYbrJzRaqt8MYBT84cchEZuAFsNrGREyr1nCTMFlldJa2tIreDb3IrM13MAUPi0cECGQR1l27lH_MshE%3D&sa=X&ved=2ahUKEwj40pCPr66VAxUVvokEHeXRCIkQxyZ6BAgaEBM",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Evil+Dead+Burn&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIk841sTrC5dp7ZNv1AQvyYrTXILEQ4usKBHuKVxin5RCfGCSFgzbBkiQYbrJzRaqt8MYBT84cchEZuAFsNrGREyr1nCTMFlldJa2tIreDb3IrM13MAUPi0cECGQR1l27lH_MshE%3D",
+          "showing": [
+            {
+              "time": [
+                "1:45pm",
+                "4:45pm",
+                "7:45pm",
+                "10:30pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Young Washington",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Young+Washington&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIreO0lXXKHGku9bl62q4sPOFQyLEL-FQL5DTENblWcNtHlOs3nYuIvE7DmHFlchJTv5KWTeJSFEkgX35PRkWV_EezuSzd8xu8jOwmnx13MrZZwgWEFoLR_SfXdBh_-oXFljM_PQ%3D",
+          "showing": [
+            {
+              "time": [
+                "1:10pm",
+                "4:10pm",
+                "7:15pm",
+                "10:25pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Invite",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Invite&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIvmqnJUlRn16ddFWQV2dcM37ADAJhKVC0QUnKf6O1NqYIOfHwVXDsm1thpX9FH80ofa3JD5VGp6s5FJ9Byrqal4Uk-DFXjFxnW8WqBj-Z1qdL9yMMRwpoPmF4g16zLMAJ4OfXo8%3D",
+          "showing": [
+            {
+              "time": [
+                "2:00pm",
+                "4:45pm",
+                "7:30pm",
+                "10:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Supergirl",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Supergirl&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItxcCg6RI9nDik1qnTRCAOnABRuv62ZDlKds5PeU_L5o3hjxAwoilX9QNUmR7b-78-tkA0Emxue-hEpmujnVr5ikzq35QQA2xPk3EwkyQL9Vo0jMp4xCDj_dWT6QucF1Gs31voY%3D",
+          "showing": [
+            {
+              "time": [
+                "2:00pm",
+                "4:45pm",
+                "7:30pm",
+                "10:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Obsession",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Obsession&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInAkcr9Nt46iPfBBNgtmVuIqiKe6-GHxhvxCcds7jqjj8Ks_QZNMDgEliJJ8k07hKZK1FBc12MKQ7nSrIlhSBguG8m_u8hBFtiF8H5I1qAL5wnVBUsp5PAlvzNBRkmOntuKmlLw%3D",
+          "showing": [
+            {
+              "time": [
+                "1:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Odyssey (IMAX)",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey+(IMAX)&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIhuK2D0GnwpQiPSHsQQ5AVv0zOSMKba7r2GlAsDgxdwWUteQXY6wafII-Fo6JAVZ7M2q4lrVjHgYLpcf1rUaSKwtfnTlBP6iWSxe7KXWQRSzeaaYAqX2fjhrvqjfKJwUzOKcp3s%3D",
+          "showing": [
+            {
+              "time": [
+                "2:00pm",
+                "6:00pm",
+                "10:00pm"
+              ],
+              "type": "IMAX"
+            }
+          ]
+        },
+        {
+          "name": "Disclosure Day",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Disclosure+Day&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIuelrctJ7MG-0Z8lnBQfWA0eOn8Q_6tacP0-Jy4QYj02Txqg7UTLGa2BEcVEpaGLHio6Ll-P1xmkNxF7Sa-GJbs1T4SULAhdMAOYloNAA1H__4iua9d5S1mFCbQ62zvEV0Biu2A%3D",
+          "showing": [
+            {
+              "time": [
+                "1:10pm",
+                "9:45pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Odyssey Premium",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey+Premium&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIrOG9-0zsTKh_vYZp8EqRYHsOa4PovXhQW2Awrng54wwVWtcSfGPVMdFZxK4Iu2BU9742ZoXBLnFeB_W-wNDFP-Jf6oZszCp5TEOKV39QZUd8l04F0AqApNVP6JKkQFqlW0imR0%3D",
+          "showing": [
+            {
+              "time": [
+                "3:00pm",
+                "7:00pm"
+              ],
+              "type": "Dolby Cinema"
+            }
+          ]
+        },
+        {
+          "name": "Gail Daughtry and the Celebrity Sex Pass",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Gail+Daughtry+and+the+Celebrity+Sex+Pass&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgImHbcJlRZhOLv_DjV8rR6vQaVtaCfpcWSCHHwv9xx5aMGaqCHa72Yyp4TGEA-DuQXp1mR5qfDTv1tB1l_3kwBwW2m1M7NTyrBfVzHZO1L_m6SUctZSJr5N0C0qeQfaF1P4sOzjA%3D",
+          "showing": [
+            {
+              "time": [
+                "4:30pm",
+                "7:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Jackass: Best and Last",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Jackass:+Best+and+Last&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItPBTaIX_bMpBqEiT08Hy9efqfSq30iRqLv1mK_4oQD0vHQfQzVJKZtS6uct0bOCix6XgH_YoW1Xdfn7TjGwe9qNh-o-qHqQfpZ0de0NON7twFuIjrsyvxGmbDEq1jSvCMcpd6g%3D",
+          "showing": [
+            {
+              "time": [
+                "12:00pm",
+                "9:50pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Oh..! Sukumari",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Oh..!+Sukumari&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIteFQQ-3wh76ibPbk_m50br2POqlVNjCXoCy3m4UJHIWjDn2XKTWYNbOwGhKKzOREc0-0kCy5fRNPlC9IznMWn_IDWk2oI8OPpLnzt9G5gdh_xXg8PEt96xFeyp44b7TBijxz-s%3D",
+          "showing": [
+            {
+              "time": [
+                "6:30pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        }
+      ],
+      "iso_date": "2026-07-16",
+      "weekday": "Thu",
+      "date": "Jul 16",
+      "has_data": true
+    },
+    {
+      "day": "Fri",
+      "date": "Jul 17",
+      "movies": [
+        {
+          "name": "The Odyssey",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIti5E_XrHrmf91g9GWFhQZlWuCrciNuoaCDIFxcJopPrF2CBk44y_O5poe9KCxW2AH4-9IqbkCcQfDbJl8yuMpXODDeNKsoJIo4pnGnW6Vd0aI6hLtpTRf2Eq9NEbGNHpUVUvYc%3D",
+          "showing": [
+            {
+              "time": [
+                "12:00pm",
+                "1:00pm",
+                "4:00pm",
+                "5:00pm",
+                "8:00pm",
+                "9:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Moana",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Moana&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIu4EkUjlTD7tVFXKQSF1nrfKymhhfJZlT6LzkkA09ylr9RqiXB3K8X4_4r9_UuMHDrjnKtdNxy610NNbGKbtqrStaJg7kouoXSDN9q5DPPX1rKUkOESwT3ef8FynRLOugx0MwuQ%3D",
+          "showing": [
+            {
+              "time": [
+                "10:15am",
+                "11:45am",
+                "2:45pm",
+                "4:15pm",
+                "5:45pm",
+                "8:45pm",
+                "10:15pm"
+              ],
+              "type": "Standard"
+            },
+            {
+              "time": [
+                "1:15pm",
+                "7:15pm"
+              ],
+              "type": "3D"
+            }
+          ]
+        },
+        {
+          "name": "Minions & Monsters",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "11:30am",
+                "1:05pm",
+                "3:45pm",
+                "6:45pm",
+                "9:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Toy Story 5",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Toy+Story+5&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInKoIySdXjgY4aqSs-qIl3ogBJXuHdsZFbEPL9bDfMTgky0Zp3D-tJuLIuvDTqXVbAocUaCcqdSHcnpSlx5GgpPdZ0mNJE5QzJ3458Ishsp3GkyMA6PvBNdfmYfTOySeYcRiT6Y%3D",
+          "showing": [
+            {
+              "time": [
+                "10:15am",
+                "5:00pm",
+                "7:45pm",
+                "10:30pm"
+              ],
+              "type": "Standard"
+            },
+            {
+              "time": [
+                "2:15pm"
+              ],
+              "type": "3D"
+            }
+          ]
+        },
+        {
+          "name": "Evil Dead Burn",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Evil+Dead+Burn&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIk841sTrC5dp7ZNv1AQvyYrTXILEQ4usKBHuKVxin5RCfGCSFgzbBkiQYbrJzRaqt8MYBT84cchEZuAFsNrGREyr1nCTMFlldJa2tIreDb3IrM13MAUPi0cECGQR1l27lH_MshE%3D",
           "showing": [
             {
               "time": [
                 "10:30am",
-                "1:30pm",
+                "1:25pm",
                 "4:30pm",
                 "7:30pm",
                 "10:30pm"
@@ -1140,8 +609,56 @@
           ]
         },
         {
+          "name": "Young Washington",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Young+Washington&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIreO0lXXKHGku9bl62q4sPOFQyLEL-FQL5DTENblWcNtHlOs3nYuIvE7DmHFlchJTv5KWTeJSFEkgX35PRkWV_EezuSzd8xu8jOwmnx13MrZZwgWEFoLR_SfXdBh_-oXFljM_PQ%3D",
+          "showing": [
+            {
+              "time": [
+                "10:45am",
+                "2:00pm",
+                "5:00pm",
+                "8:00pm",
+                "11:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Invite",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Invite&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIvmqnJUlRn16ddFWQV2dcM37ADAJhKVC0QUnKf6O1NqYIOfHwVXDsm1thpX9FH80ofa3JD5VGp6s5FJ9Byrqal4Uk-DFXjFxnW8WqBj-Z1qdL9yMMRwpoPmF4g16zLMAJ4OfXo8%3D",
+          "showing": [
+            {
+              "time": [
+                "11:45am",
+                "2:30pm",
+                "5:15pm",
+                "8:15pm",
+                "11:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Supergirl",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Supergirl&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItxcCg6RI9nDik1qnTRCAOnABRuv62ZDlKds5PeU_L5o3hjxAwoilX9QNUmR7b-78-tkA0Emxue-hEpmujnVr5ikzq35QQA2xPk3EwkyQL9Vo0jMp4xCDj_dWT6QucF1Gs31voY%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "12:45pm",
+                "3:30pm",
+                "6:30pm",
+                "9:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
           "name": "The Odyssey (IMAX)",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=The+Odyssey+(IMAX)&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIhuK2D0GnwpQiPSHsQQ5AVv0zOSMKba7r2GlAsDgxdwWUteQXY6wafII-Fo6JAVZ7M2q4lrVjHgYLpcf1rUaSKwtfnTlBP6iWSxe7KXWQRSzeaaYAqX2fjhrvqjfKJwUzOKcp3s%3D&sa=X&ved=2ahUKEwj40pCPr66VAxUVvokEHeXRCIkQxyZ6BAgaEBs",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey+(IMAX)&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIhuK2D0GnwpQiPSHsQQ5AVv0zOSMKba7r2GlAsDgxdwWUteQXY6wafII-Fo6JAVZ7M2q4lrVjHgYLpcf1rUaSKwtfnTlBP6iWSxe7KXWQRSzeaaYAqX2fjhrvqjfKJwUzOKcp3s%3D",
           "showing": [
             {
               "time": [
@@ -1155,8 +672,437 @@
           ]
         },
         {
+          "name": "Disclosure Day",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Disclosure+Day&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIuelrctJ7MG-0Z8lnBQfWA0eOn8Q_6tacP0-Jy4QYj02Txqg7UTLGa2BEcVEpaGLHio6Ll-P1xmkNxF7Sa-GJbs1T4SULAhdMAOYloNAA1H__4iua9d5S1mFCbQ62zvEV0Biu2A%3D",
+          "showing": [
+            {
+              "time": [
+                "3:30pm",
+                "10:30pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
           "name": "The Odyssey Premium",
-          "link": "https://www.google.com/search?sca_esv=2b8deb8d39e39eab&hl=en&gl=us&q=The+Odyssey+Premium&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIrOG9-0zsTKh_vYZp8EqRYHsOa4PovXhQW2Awrng54wwVWtcSfGPVMdFZxK4Iu2BU9742ZoXBLnFeB_W-wNDFP-Jf6oZszCp5TEOKV39QZUd8l04F0AqApNVP6JKkQFqlW0imR0%3D",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey+Premium&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIrOG9-0zsTKh_vYZp8EqRYHsOa4PovXhQW2Awrng54wwVWtcSfGPVMdFZxK4Iu2BU9742ZoXBLnFeB_W-wNDFP-Jf6oZszCp5TEOKV39QZUd8l04F0AqApNVP6JKkQFqlW0imR0%3D",
+          "showing": [
+            {
+              "time": [
+                "11:00am",
+                "3:00pm",
+                "7:00pm",
+                "11:00pm"
+              ],
+              "type": "Dolby Cinema"
+            }
+          ]
+        },
+        {
+          "name": "Oh..! Sukumari",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Oh..!+Sukumari&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIteFQQ-3wh76ibPbk_m50br2POqlVNjCXoCy3m4UJHIWjDn2XKTWYNbOwGhKKzOREc0-0kCy5fRNPlC9IznMWn_IDWk2oI8OPpLnzt9G5gdh_xXg8PEt96xFeyp44b7TBijxz-s%3D",
+          "showing": [
+            {
+              "time": [
+                "7:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        }
+      ],
+      "iso_date": "2026-07-17",
+      "weekday": "Fri",
+      "has_data": true
+    },
+    {
+      "day": "Sat",
+      "date": "Jul 18",
+      "movies": [
+        {
+          "name": "The Odyssey",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIti5E_XrHrmf91g9GWFhQZlWuCrciNuoaCDIFxcJopPrF2CBk44y_O5poe9KCxW2AH4-9IqbkCcQfDbJl8yuMpXODDeNKsoJIo4pnGnW6Vd0aI6hLtpTRf2Eq9NEbGNHpUVUvYc%3D",
+          "showing": [
+            {
+              "time": [
+                "12:00pm",
+                "1:00pm",
+                "4:00pm",
+                "5:00pm",
+                "8:00pm",
+                "9:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Moana",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Moana&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIu4EkUjlTD7tVFXKQSF1nrfKymhhfJZlT6LzkkA09ylr9RqiXB3K8X4_4r9_UuMHDrjnKtdNxy610NNbGKbtqrStaJg7kouoXSDN9q5DPPX1rKUkOESwT3ef8FynRLOugx0MwuQ%3D",
+          "showing": [
+            {
+              "time": [
+                "10:15am",
+                "11:45am",
+                "2:45pm",
+                "4:15pm",
+                "5:45pm",
+                "8:45pm",
+                "10:15pm"
+              ],
+              "type": "Standard"
+            },
+            {
+              "time": [
+                "1:15pm",
+                "7:15pm"
+              ],
+              "type": "3D"
+            }
+          ]
+        },
+        {
+          "name": "Minions & Monsters",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "11:30am",
+                "1:05pm",
+                "3:45pm",
+                "6:45pm",
+                "9:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Toy Story 5",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Toy+Story+5&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInKoIySdXjgY4aqSs-qIl3ogBJXuHdsZFbEPL9bDfMTgky0Zp3D-tJuLIuvDTqXVbAocUaCcqdSHcnpSlx5GgpPdZ0mNJE5QzJ3458Ishsp3GkyMA6PvBNdfmYfTOySeYcRiT6Y%3D",
+          "showing": [
+            {
+              "time": [
+                "10:15am",
+                "5:00pm",
+                "7:45pm",
+                "10:30pm"
+              ],
+              "type": "Standard"
+            },
+            {
+              "time": [
+                "2:15pm"
+              ],
+              "type": "3D"
+            }
+          ]
+        },
+        {
+          "name": "Evil Dead Burn",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Evil+Dead+Burn&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIk841sTrC5dp7ZNv1AQvyYrTXILEQ4usKBHuKVxin5RCfGCSFgzbBkiQYbrJzRaqt8MYBT84cchEZuAFsNrGREyr1nCTMFlldJa2tIreDb3IrM13MAUPi0cECGQR1l27lH_MshE%3D",
+          "showing": [
+            {
+              "time": [
+                "10:30am",
+                "1:30pm",
+                "4:30pm",
+                "7:30pm",
+                "10:30pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Young Washington",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Young+Washington&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIreO0lXXKHGku9bl62q4sPOFQyLEL-FQL5DTENblWcNtHlOs3nYuIvE7DmHFlchJTv5KWTeJSFEkgX35PRkWV_EezuSzd8xu8jOwmnx13MrZZwgWEFoLR_SfXdBh_-oXFljM_PQ%3D",
+          "showing": [
+            {
+              "time": [
+                "10:45am",
+                "2:00pm",
+                "5:00pm",
+                "8:00pm",
+                "11:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Invite",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Invite&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIvmqnJUlRn16ddFWQV2dcM37ADAJhKVC0QUnKf6O1NqYIOfHwVXDsm1thpX9FH80ofa3JD5VGp6s5FJ9Byrqal4Uk-DFXjFxnW8WqBj-Z1qdL9yMMRwpoPmF4g16zLMAJ4OfXo8%3D",
+          "showing": [
+            {
+              "time": [
+                "11:45am",
+                "2:30pm",
+                "5:15pm",
+                "8:15pm",
+                "11:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Supergirl",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Supergirl&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItxcCg6RI9nDik1qnTRCAOnABRuv62ZDlKds5PeU_L5o3hjxAwoilX9QNUmR7b-78-tkA0Emxue-hEpmujnVr5ikzq35QQA2xPk3EwkyQL9Vo0jMp4xCDj_dWT6QucF1Gs31voY%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "12:45pm",
+                "3:30pm",
+                "6:30pm",
+                "9:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Odyssey (IMAX)",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey+(IMAX)&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIhuK2D0GnwpQiPSHsQQ5AVv0zOSMKba7r2GlAsDgxdwWUteQXY6wafII-Fo6JAVZ7M2q4lrVjHgYLpcf1rUaSKwtfnTlBP6iWSxe7KXWQRSzeaaYAqX2fjhrvqjfKJwUzOKcp3s%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "2:00pm",
+                "6:00pm",
+                "10:00pm"
+              ],
+              "type": "IMAX"
+            }
+          ]
+        },
+        {
+          "name": "Disclosure Day",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Disclosure+Day&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIuelrctJ7MG-0Z8lnBQfWA0eOn8Q_6tacP0-Jy4QYj02Txqg7UTLGa2BEcVEpaGLHio6Ll-P1xmkNxF7Sa-GJbs1T4SULAhdMAOYloNAA1H__4iua9d5S1mFCbQ62zvEV0Biu2A%3D",
+          "showing": [
+            {
+              "time": [
+                "3:30pm",
+                "10:30pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Odyssey Premium",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey+Premium&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIrOG9-0zsTKh_vYZp8EqRYHsOa4PovXhQW2Awrng54wwVWtcSfGPVMdFZxK4Iu2BU9742ZoXBLnFeB_W-wNDFP-Jf6oZszCp5TEOKV39QZUd8l04F0AqApNVP6JKkQFqlW0imR0%3D",
+          "showing": [
+            {
+              "time": [
+                "11:00am",
+                "3:00pm",
+                "7:00pm",
+                "11:00pm"
+              ],
+              "type": "Dolby Cinema"
+            }
+          ]
+        },
+        {
+          "name": "Oh..! Sukumari",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Oh..!+Sukumari&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIteFQQ-3wh76ibPbk_m50br2POqlVNjCXoCy3m4UJHIWjDn2XKTWYNbOwGhKKzOREc0-0kCy5fRNPlC9IznMWn_IDWk2oI8OPpLnzt9G5gdh_xXg8PEt96xFeyp44b7TBijxz-s%3D",
+          "showing": [
+            {
+              "time": [
+                "7:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        }
+      ],
+      "iso_date": "2026-07-18",
+      "weekday": "Sat",
+      "has_data": true
+    },
+    {
+      "day": "Sun",
+      "date": "Jul 19",
+      "movies": [
+        {
+          "name": "The Odyssey",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIti5E_XrHrmf91g9GWFhQZlWuCrciNuoaCDIFxcJopPrF2CBk44y_O5poe9KCxW2AH4-9IqbkCcQfDbJl8yuMpXODDeNKsoJIo4pnGnW6Vd0aI6hLtpTRf2Eq9NEbGNHpUVUvYc%3D",
+          "showing": [
+            {
+              "time": [
+                "12:00pm",
+                "1:00pm",
+                "4:00pm",
+                "5:00pm",
+                "8:00pm",
+                "9:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Moana",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Moana&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIu4EkUjlTD7tVFXKQSF1nrfKymhhfJZlT6LzkkA09ylr9RqiXB3K8X4_4r9_UuMHDrjnKtdNxy610NNbGKbtqrStaJg7kouoXSDN9q5DPPX1rKUkOESwT3ef8FynRLOugx0MwuQ%3D",
+          "showing": [
+            {
+              "time": [
+                "10:15am",
+                "11:45am",
+                "2:45pm",
+                "4:15pm",
+                "5:45pm",
+                "8:45pm",
+                "10:15pm"
+              ],
+              "type": "Standard"
+            },
+            {
+              "time": [
+                "1:15pm",
+                "7:15pm"
+              ],
+              "type": "3D"
+            }
+          ]
+        },
+        {
+          "name": "Minions & Monsters",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "11:30am",
+                "1:05pm",
+                "3:45pm",
+                "6:45pm",
+                "9:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Toy Story 5",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Toy+Story+5&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInKoIySdXjgY4aqSs-qIl3ogBJXuHdsZFbEPL9bDfMTgky0Zp3D-tJuLIuvDTqXVbAocUaCcqdSHcnpSlx5GgpPdZ0mNJE5QzJ3458Ishsp3GkyMA6PvBNdfmYfTOySeYcRiT6Y%3D",
+          "showing": [
+            {
+              "time": [
+                "10:15am",
+                "5:00pm",
+                "7:45pm",
+                "10:30pm"
+              ],
+              "type": "Standard"
+            },
+            {
+              "time": [
+                "2:15pm"
+              ],
+              "type": "3D"
+            }
+          ]
+        },
+        {
+          "name": "Evil Dead Burn",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Evil+Dead+Burn&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIk841sTrC5dp7ZNv1AQvyYrTXILEQ4usKBHuKVxin5RCfGCSFgzbBkiQYbrJzRaqt8MYBT84cchEZuAFsNrGREyr1nCTMFlldJa2tIreDb3IrM13MAUPi0cECGQR1l27lH_MshE%3D",
+          "showing": [
+            {
+              "time": [
+                "10:30am",
+                "1:30pm",
+                "4:30pm",
+                "7:30pm",
+                "10:30pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Young Washington",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Young+Washington&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIreO0lXXKHGku9bl62q4sPOFQyLEL-FQL5DTENblWcNtHlOs3nYuIvE7DmHFlchJTv5KWTeJSFEkgX35PRkWV_EezuSzd8xu8jOwmnx13MrZZwgWEFoLR_SfXdBh_-oXFljM_PQ%3D",
+          "showing": [
+            {
+              "time": [
+                "10:45am",
+                "2:00pm",
+                "5:00pm",
+                "8:00pm",
+                "11:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Invite",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Invite&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIvmqnJUlRn16ddFWQV2dcM37ADAJhKVC0QUnKf6O1NqYIOfHwVXDsm1thpX9FH80ofa3JD5VGp6s5FJ9Byrqal4Uk-DFXjFxnW8WqBj-Z1qdL9yMMRwpoPmF4g16zLMAJ4OfXo8%3D",
+          "showing": [
+            {
+              "time": [
+                "11:45am",
+                "2:30pm",
+                "5:15pm",
+                "8:15pm",
+                "11:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Supergirl",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Supergirl&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItxcCg6RI9nDik1qnTRCAOnABRuv62ZDlKds5PeU_L5o3hjxAwoilX9QNUmR7b-78-tkA0Emxue-hEpmujnVr5ikzq35QQA2xPk3EwkyQL9Vo0jMp4xCDj_dWT6QucF1Gs31voY%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "12:45pm",
+                "3:30pm",
+                "6:30pm",
+                "9:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Odyssey (IMAX)",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey+(IMAX)&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIhuK2D0GnwpQiPSHsQQ5AVv0zOSMKba7r2GlAsDgxdwWUteQXY6wafII-Fo6JAVZ7M2q4lrVjHgYLpcf1rUaSKwtfnTlBP6iWSxe7KXWQRSzeaaYAqX2fjhrvqjfKJwUzOKcp3s%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "2:00pm",
+                "6:00pm",
+                "10:00pm"
+              ],
+              "type": "IMAX"
+            }
+          ]
+        },
+        {
+          "name": "Disclosure Day",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Disclosure+Day&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIuelrctJ7MG-0Z8lnBQfWA0eOn8Q_6tacP0-Jy4QYj02Txqg7UTLGa2BEcVEpaGLHio6Ll-P1xmkNxF7Sa-GJbs1T4SULAhdMAOYloNAA1H__4iua9d5S1mFCbQ62zvEV0Biu2A%3D",
+          "showing": [
+            {
+              "time": [
+                "3:30pm",
+                "10:30pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Odyssey Premium",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey+Premium&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIrOG9-0zsTKh_vYZp8EqRYHsOa4PovXhQW2Awrng54wwVWtcSfGPVMdFZxK4Iu2BU9742ZoXBLnFeB_W-wNDFP-Jf6oZszCp5TEOKV39QZUd8l04F0AqApNVP6JKkQFqlW0imR0%3D",
           "showing": [
             {
               "time": [
@@ -1165,6 +1111,444 @@
                 "7:00pm"
               ],
               "type": "Dolby Cinema"
+            }
+          ]
+        },
+        {
+          "name": "Oh..! Sukumari",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Oh..!+Sukumari&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIteFQQ-3wh76ibPbk_m50br2POqlVNjCXoCy3m4UJHIWjDn2XKTWYNbOwGhKKzOREc0-0kCy5fRNPlC9IznMWn_IDWk2oI8OPpLnzt9G5gdh_xXg8PEt96xFeyp44b7TBijxz-s%3D",
+          "showing": [
+            {
+              "time": [
+                "7:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        }
+      ],
+      "iso_date": "2026-07-19",
+      "weekday": "Sun",
+      "has_data": true
+    },
+    {
+      "day": "Mon",
+      "date": "Jul 20",
+      "movies": [
+        {
+          "name": "The Odyssey",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIti5E_XrHrmf91g9GWFhQZlWuCrciNuoaCDIFxcJopPrF2CBk44y_O5poe9KCxW2AH4-9IqbkCcQfDbJl8yuMpXODDeNKsoJIo4pnGnW6Vd0aI6hLtpTRf2Eq9NEbGNHpUVUvYc%3D",
+          "showing": [
+            {
+              "time": [
+                "12:00pm",
+                "1:00pm",
+                "4:00pm",
+                "5:00pm",
+                "8:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Moana",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Moana&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIu4EkUjlTD7tVFXKQSF1nrfKymhhfJZlT6LzkkA09ylr9RqiXB3K8X4_4r9_UuMHDrjnKtdNxy610NNbGKbtqrStaJg7kouoXSDN9q5DPPX1rKUkOESwT3ef8FynRLOugx0MwuQ%3D",
+          "showing": [
+            {
+              "time": [
+                "10:15am",
+                "11:45am",
+                "2:45pm",
+                "4:15pm",
+                "5:45pm",
+                "8:45pm",
+                "10:15pm"
+              ],
+              "type": "Standard"
+            },
+            {
+              "time": [
+                "1:15pm",
+                "7:15pm"
+              ],
+              "type": "3D"
+            }
+          ]
+        },
+        {
+          "name": "Minions & Monsters",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "1:05pm",
+                "3:45pm",
+                "6:45pm",
+                "9:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Toy Story 5",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Toy+Story+5&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInKoIySdXjgY4aqSs-qIl3ogBJXuHdsZFbEPL9bDfMTgky0Zp3D-tJuLIuvDTqXVbAocUaCcqdSHcnpSlx5GgpPdZ0mNJE5QzJ3458Ishsp3GkyMA6PvBNdfmYfTOySeYcRiT6Y%3D",
+          "showing": [
+            {
+              "time": [
+                "10:15am",
+                "1:00pm",
+                "7:40pm"
+              ],
+              "type": "Standard"
+            },
+            {
+              "time": [
+                "5:00pm",
+                "10:20pm"
+              ],
+              "type": "3D"
+            }
+          ]
+        },
+        {
+          "name": "Evil Dead Burn",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Evil+Dead+Burn&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIk841sTrC5dp7ZNv1AQvyYrTXILEQ4usKBHuKVxin5RCfGCSFgzbBkiQYbrJzRaqt8MYBT84cchEZuAFsNrGREyr1nCTMFlldJa2tIreDb3IrM13MAUPi0cECGQR1l27lH_MshE%3D",
+          "showing": [
+            {
+              "time": [
+                "10:30am",
+                "1:30pm",
+                "4:30pm",
+                "7:30pm",
+                "10:30pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Young Washington",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Young+Washington&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIreO0lXXKHGku9bl62q4sPOFQyLEL-FQL5DTENblWcNtHlOs3nYuIvE7DmHFlchJTv5KWTeJSFEkgX35PRkWV_EezuSzd8xu8jOwmnx13MrZZwgWEFoLR_SfXdBh_-oXFljM_PQ%3D",
+          "showing": [
+            {
+              "time": [
+                "10:45am",
+                "1:45pm",
+                "4:45pm",
+                "7:45pm",
+                "10:45pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Invite",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Invite&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIvmqnJUlRn16ddFWQV2dcM37ADAJhKVC0QUnKf6O1NqYIOfHwVXDsm1thpX9FH80ofa3JD5VGp6s5FJ9Byrqal4Uk-DFXjFxnW8WqBj-Z1qdL9yMMRwpoPmF4g16zLMAJ4OfXo8%3D",
+          "showing": [
+            {
+              "time": [
+                "10:15am",
+                "1:45pm",
+                "4:30pm",
+                "7:15pm",
+                "10:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Supergirl",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Supergirl&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItxcCg6RI9nDik1qnTRCAOnABRuv62ZDlKds5PeU_L5o3hjxAwoilX9QNUmR7b-78-tkA0Emxue-hEpmujnVr5ikzq35QQA2xPk3EwkyQL9Vo0jMp4xCDj_dWT6QucF1Gs31voY%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "12:45pm",
+                "3:30pm",
+                "6:30pm",
+                "9:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Odyssey (IMAX)",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey+(IMAX)&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIhuK2D0GnwpQiPSHsQQ5AVv0zOSMKba7r2GlAsDgxdwWUteQXY6wafII-Fo6JAVZ7M2q4lrVjHgYLpcf1rUaSKwtfnTlBP6iWSxe7KXWQRSzeaaYAqX2fjhrvqjfKJwUzOKcp3s%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "2:00pm",
+                "6:00pm",
+                "10:00pm"
+              ],
+              "type": "IMAX"
+            }
+          ]
+        },
+        {
+          "name": "Disclosure Day",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Disclosure+Day&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIuelrctJ7MG-0Z8lnBQfWA0eOn8Q_6tacP0-Jy4QYj02Txqg7UTLGa2BEcVEpaGLHio6Ll-P1xmkNxF7Sa-GJbs1T4SULAhdMAOYloNAA1H__4iua9d5S1mFCbQ62zvEV0Biu2A%3D",
+          "showing": [
+            {
+              "time": [
+                "3:40pm",
+                "9:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Odyssey Premium",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey+Premium&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIrOG9-0zsTKh_vYZp8EqRYHsOa4PovXhQW2Awrng54wwVWtcSfGPVMdFZxK4Iu2BU9742ZoXBLnFeB_W-wNDFP-Jf6oZszCp5TEOKV39QZUd8l04F0AqApNVP6JKkQFqlW0imR0%3D",
+          "showing": [
+            {
+              "time": [
+                "11:00am",
+                "3:00pm",
+                "7:00pm"
+              ],
+              "type": "Dolby Cinema"
+            }
+          ]
+        },
+        {
+          "name": "Sonic the Hedgehog 3",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Sonic+the+Hedgehog+3&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIoddGV0Ph0WXaoGc5nqJarQeMdpE0NW9VL0sWTkBabqIRHoCrpqu5kageBIz9UGFSiAjZkmmjV8Y0WJ8hww6TBNv8SBx590MmKfd7YS2zaenY6p_G2Ks8JGE_MB-SnszQ_LLBqo%3D",
+          "showing": [
+            {
+              "time": [
+                "11:00am",
+                "2:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Oh..! Sukumari",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Oh..!+Sukumari&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIteFQQ-3wh76ibPbk_m50br2POqlVNjCXoCy3m4UJHIWjDn2XKTWYNbOwGhKKzOREc0-0kCy5fRNPlC9IznMWn_IDWk2oI8OPpLnzt9G5gdh_xXg8PEt96xFeyp44b7TBijxz-s%3D",
+          "showing": [
+            {
+              "time": [
+                "9:45pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        }
+      ],
+      "iso_date": "2026-07-20",
+      "weekday": "Mon",
+      "has_data": true
+    },
+    {
+      "day": "Tue",
+      "date": "Jul 21",
+      "movies": [
+        {
+          "name": "The Odyssey",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIti5E_XrHrmf91g9GWFhQZlWuCrciNuoaCDIFxcJopPrF2CBk44y_O5poe9KCxW2AH4-9IqbkCcQfDbJl8yuMpXODDeNKsoJIo4pnGnW6Vd0aI6hLtpTRf2Eq9NEbGNHpUVUvYc%3D",
+          "showing": [
+            {
+              "time": [
+                "12:00pm",
+                "1:00pm",
+                "4:00pm",
+                "5:00pm",
+                "8:00pm",
+                "9:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Moana",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Moana&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIu4EkUjlTD7tVFXKQSF1nrfKymhhfJZlT6LzkkA09ylr9RqiXB3K8X4_4r9_UuMHDrjnKtdNxy610NNbGKbtqrStaJg7kouoXSDN9q5DPPX1rKUkOESwT3ef8FynRLOugx0MwuQ%3D",
+          "showing": [
+            {
+              "time": [
+                "10:15am",
+                "11:45am",
+                "2:45pm",
+                "4:15pm",
+                "5:45pm",
+                "8:45pm",
+                "10:15pm"
+              ],
+              "type": "Standard"
+            },
+            {
+              "time": [
+                "1:15pm",
+                "7:15pm"
+              ],
+              "type": "3D"
+            }
+          ]
+        },
+        {
+          "name": "Minions & Monsters",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Minions+%26+Monsters&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIsGBnhB6D4EUpUsNI1gSsqLkD22ZqqtuJpA6Yg-0btTTB5NNqSp6GoM2MDswZXx7eOnb3KBldPpdUVWs9PemLidGccANXY9s91SYpo7BwmgyFR_JV7nJmzJawhp8q9Xr5_UZ_Vg%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "1:05pm",
+                "3:45pm",
+                "6:45pm",
+                "9:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Toy Story 5",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Toy+Story+5&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInKoIySdXjgY4aqSs-qIl3ogBJXuHdsZFbEPL9bDfMTgky0Zp3D-tJuLIuvDTqXVbAocUaCcqdSHcnpSlx5GgpPdZ0mNJE5QzJ3458Ishsp3GkyMA6PvBNdfmYfTOySeYcRiT6Y%3D",
+          "showing": [
+            {
+              "time": [
+                "10:15am",
+                "1:00pm",
+                "7:40pm"
+              ],
+              "type": "Standard"
+            },
+            {
+              "time": [
+                "5:00pm",
+                "10:20pm"
+              ],
+              "type": "3D"
+            }
+          ]
+        },
+        {
+          "name": "Evil Dead Burn",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Evil+Dead+Burn&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIk841sTrC5dp7ZNv1AQvyYrTXILEQ4usKBHuKVxin5RCfGCSFgzbBkiQYbrJzRaqt8MYBT84cchEZuAFsNrGREyr1nCTMFlldJa2tIreDb3IrM13MAUPi0cECGQR1l27lH_MshE%3D",
+          "showing": [
+            {
+              "time": [
+                "10:30am",
+                "1:30pm",
+                "4:30pm",
+                "7:30pm",
+                "10:30pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Young Washington",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Young+Washington&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIreO0lXXKHGku9bl62q4sPOFQyLEL-FQL5DTENblWcNtHlOs3nYuIvE7DmHFlchJTv5KWTeJSFEkgX35PRkWV_EezuSzd8xu8jOwmnx13MrZZwgWEFoLR_SfXdBh_-oXFljM_PQ%3D",
+          "showing": [
+            {
+              "time": [
+                "10:45am",
+                "1:45pm",
+                "4:45pm",
+                "7:45pm",
+                "10:45pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Invite",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Invite&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIvmqnJUlRn16ddFWQV2dcM37ADAJhKVC0QUnKf6O1NqYIOfHwVXDsm1thpX9FH80ofa3JD5VGp6s5FJ9Byrqal4Uk-DFXjFxnW8WqBj-Z1qdL9yMMRwpoPmF4g16zLMAJ4OfXo8%3D",
+          "showing": [
+            {
+              "time": [
+                "10:15am",
+                "1:45pm",
+                "4:30pm",
+                "7:15pm",
+                "10:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Supergirl",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Supergirl&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgItxcCg6RI9nDik1qnTRCAOnABRuv62ZDlKds5PeU_L5o3hjxAwoilX9QNUmR7b-78-tkA0Emxue-hEpmujnVr5ikzq35QQA2xPk3EwkyQL9Vo0jMp4xCDj_dWT6QucF1Gs31voY%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "12:45pm",
+                "3:30pm",
+                "6:30pm",
+                "9:15pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Odyssey (IMAX)",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey+(IMAX)&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIhuK2D0GnwpQiPSHsQQ5AVv0zOSMKba7r2GlAsDgxdwWUteQXY6wafII-Fo6JAVZ7M2q4lrVjHgYLpcf1rUaSKwtfnTlBP6iWSxe7KXWQRSzeaaYAqX2fjhrvqjfKJwUzOKcp3s%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "2:00pm",
+                "6:00pm",
+                "10:00pm"
+              ],
+              "type": "IMAX"
+            }
+          ]
+        },
+        {
+          "name": "Disclosure Day",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Disclosure+Day&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIuelrctJ7MG-0Z8lnBQfWA0eOn8Q_6tacP0-Jy4QYj02Txqg7UTLGa2BEcVEpaGLHio6Ll-P1xmkNxF7Sa-GJbs1T4SULAhdMAOYloNAA1H__4iua9d5S1mFCbQ62zvEV0Biu2A%3D",
+          "showing": [
+            {
+              "time": [
+                "10:00am",
+                "3:40pm",
+                "7:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Odyssey Premium",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey+Premium&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIrOG9-0zsTKh_vYZp8EqRYHsOa4PovXhQW2Awrng54wwVWtcSfGPVMdFZxK4Iu2BU9742ZoXBLnFeB_W-wNDFP-Jf6oZszCp5TEOKV39QZUd8l04F0AqApNVP6JKkQFqlW0imR0%3D",
+          "showing": [
+            {
+              "time": [
+                "11:00am",
+                "3:00pm",
+                "7:00pm"
+              ],
+              "type": "Dolby Cinema"
+            }
+          ]
+        },
+        {
+          "name": "Oh..! Sukumari",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Oh..!+Sukumari&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIteFQQ-3wh76ibPbk_m50br2POqlVNjCXoCy3m4UJHIWjDn2XKTWYNbOwGhKKzOREc0-0kCy5fRNPlC9IznMWn_IDWk2oI8OPpLnzt9G5gdh_xXg8PEt96xFeyp44b7TBijxz-s%3D",
+          "showing": [
+            {
+              "time": [
+                "1:30pm",
+                "10:20pm"
+              ],
+              "type": "Standard"
             }
           ]
         }
@@ -1232,8 +1616,209 @@
     {
       "day": "Wed",
       "date": "Jul 29",
+      "movies": [
+        {
+          "name": "The Odyssey (IMAX)",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Odyssey+(IMAX)&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIhuK2D0GnwpQiPSHsQQ5AVv0zOSMKba7r2GlAsDgxdwWUteQXY6wafII-Fo6JAVZ7M2q4lrVjHgYLpcf1rUaSKwtfnTlBP6iWSxe7KXWQRSzeaaYAqX2fjhrvqjfKJwUzOKcp3s%3D&sa=X&ved=2ahUKEwjfk47rk9SVAxXwiCsGHftSH14QxyZ6BAgaEA0",
+          "showing": [
+            {
+              "time": [
+                "2:00pm",
+                "6:00pm",
+                "10:00pm"
+              ],
+              "type": "IMAX"
+            }
+          ]
+        },
+        {
+          "name": "Hadestown",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Hadestown&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIlY0KKA6Z3nKFb2IGK9wVVUictKzwkVC5MewQ_Jkb6CH9zTiVrXQ53gtCBZEl6qyKqqI2DtbojNN7qCIyaieqDFKKT44A8jUjFce3mrdIWlTEd0dLqFOiT5me5Gc1nplDT0pDgk%3D&sa=X&ved=2ahUKEwjfk47rk9SVAxXwiCsGHftSH14QxyZ6BAgaEBM",
+          "showing": [
+            {
+              "time": [
+                "2:50pm",
+                "6:15pm",
+                "9:45pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Motor City",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Motor+City&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIp0nW8iJBc-GlrYbDL4iBAgF_Tjbt5cdYlS8Q581cvX2N598p6utMWnPk6ox_8fSg-_RGMM2RVw7koUPzhcT7qcf0tGqdqK79VJ3S0hRnFRZbhCUtc5BYor51gwkQ7gLm3apZ6M%3D&sa=X&ved=2ahUKEwjfk47rk9SVAxXwiCsGHftSH14QxyZ6BAgaEBk",
+          "showing": [
+            {
+              "time": [
+                "7:30pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Her Private Hell",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Her+Private+Hell&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgInXzpIprWtzoUd-q6glsSsJI8AHt__jYIu8B_F7VYKSJno2GlxfmoWM-Pe9F7r6KB8lxb7qiKrAq4YeuHbYQN2F3QZstF9dc4jREGuwsgqUdVX6UTusqo2mkMg7NY1mkMMRIAFM%3D",
+          "showing": [
+            {
+              "time": [
+                "4:30pm",
+                "7:15pm",
+                "10:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "The Bad Guys 2",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=The+Bad+Guys+2&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIl4RkwDgq5vAAgeiPRXhchJoaEpA_RJQw6QDdNWJxYcQIxuLhQjIVWg1S70H9qNO7RjL3NpQBNWqbAvJBU1-dK5Yi-FvTRMO9SHagAaNxpHj6rwMQOS_p80vtRDymi5pcdrqa4I%3D",
+          "showing": [
+            {
+              "time": [
+                "11:00am",
+                "2:00pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        },
+        {
+          "name": "Haunted Heist",
+          "link": "https://www.google.com/search?sca_esv=5e96d5e0bf8ebf29&hl=en&gl=us&q=Haunted+Heist&si=APenkKkgKrxC0p-6IeyTGDynYMqpD238lNqQf1FS5G73VOUgIvpPY1sPS2a0Dd8FIra516k9WGY5S6MpB7C6w0Epqy1lI3eDKcUi-uODPWnEOoA7QIt-izs1U_pRxj-K0zfObAqroP-1lSLOr3m6L-z4rLoceIpK-YGAtJKRm_UCqdgOIoaghFY%3D",
+          "showing": [
+            {
+              "time": [
+                "7:15pm",
+                "9:45pm"
+              ],
+              "type": "Standard"
+            }
+          ]
+        }
+      ],
       "iso_date": "2026-07-29",
       "weekday": "Wed",
+      "has_data": true
+    },
+    {
+      "day": "Thu",
+      "date": "Jul 30",
+      "iso_date": "2026-07-30",
+      "weekday": "Thu",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Fri",
+      "date": "Jul 31",
+      "iso_date": "2026-07-31",
+      "weekday": "Fri",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Sat",
+      "date": "Aug 1",
+      "iso_date": "2026-08-01",
+      "weekday": "Sat",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Sun",
+      "date": "Aug 2",
+      "iso_date": "2026-08-02",
+      "weekday": "Sun",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Mon",
+      "date": "Aug 3",
+      "iso_date": "2026-08-03",
+      "weekday": "Mon",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Tue",
+      "date": "Aug 4",
+      "iso_date": "2026-08-04",
+      "weekday": "Tue",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Wed",
+      "date": "Aug 5",
+      "iso_date": "2026-08-05",
+      "weekday": "Wed",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Thu",
+      "date": "Aug 6",
+      "iso_date": "2026-08-06",
+      "weekday": "Thu",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Fri",
+      "date": "Aug 7",
+      "iso_date": "2026-08-07",
+      "weekday": "Fri",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Sat",
+      "date": "Aug 8",
+      "iso_date": "2026-08-08",
+      "weekday": "Sat",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Sun",
+      "date": "Aug 9",
+      "iso_date": "2026-08-09",
+      "weekday": "Sun",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Mon",
+      "date": "Aug 10",
+      "iso_date": "2026-08-10",
+      "weekday": "Mon",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Tue",
+      "date": "Aug 11",
+      "iso_date": "2026-08-11",
+      "weekday": "Tue",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Wed",
+      "date": "Aug 12",
+      "iso_date": "2026-08-12",
+      "weekday": "Wed",
+      "movies": [],
+      "has_data": false
+    },
+    {
+      "day": "Thu",
+      "date": "Aug 13",
+      "iso_date": "2026-08-13",
+      "weekday": "Thu",
       "movies": [],
       "has_data": false
     }
