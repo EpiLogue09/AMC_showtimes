@@ -4,529 +4,7 @@
     "movies": [
       {
         "name": "Resident Evil",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D&sa=X&ved=2ahUKEwiq9eTq8fyWAxVxkIkEHUSsMrkQxyZ6BAhwEBM",
-        "showing": [
-          {
-            "time": [
-              "1:30pm",
-              "3:00pm",
-              "4:15pm",
-              "7:00pm",
-              "9:45pm"
-            ],
-            "type": "Standard"
-          },
-          {
-            "time": [
-              "2:00pm",
-              "4:45pm",
-              "7:30pm",
-              "10:15pm"
-            ],
-            "type": "IMAX"
-          },
-          {
-            "time": [
-              "5:35pm"
-            ],
-            "type": "Standard"
-          },
-          {
-            "time": [
-              "12:00pm",
-              "2:45pm",
-              "5:30pm",
-              "8:15pm",
-              "11:00pm"
-            ],
-            "type": "Dolby Cinema"
-          },
-          {
-            "time": [
-              "12:45pm",
-              "3:30pm",
-              "6:15pm",
-              "9:00pm"
-            ],
-            "type": "ScreenX"
-          }
-        ]
-      },
-      {
-        "name": "Practical Magic 2",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Practical+Magic+2&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIIGlKNzBGBpnmhaiM8MKmgfh9tVS2f78uO3l5MWc0rR2P5BTlQSxkx6JeDDcqpzg2jH-tOgliEZvlJxPrEnP43hW8j5oB6RFlhjDePXb3yPPh8FQIG4ei6xTrgLA6NGfJpTkv0%3D&sa=X&ved=2ahUKEwiq9eTq8fyWAxVxkIkEHUSsMrkQxyZ6BAhwEC0",
-        "showing": [
-          {
-            "time": [
-              "12:00pm",
-              "2:30pm",
-              "3:15pm",
-              "6:30pm",
-              "9:45pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Spider-Man: Brand New Day",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Spider-Man:+Brand+New+Day&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XLC1hTZdDhffNnyDQis7Vl5xRWlgl3AYxoTrmVo_30bCXVEETrS7yRQRjjwKKiTaqZJXpQiUpYejazqDtfc6EihSJFzoe1jz9zFm6vTNAGLj2fbAcLPP9mr1ZXketzPCnuCf_ok%3D&sa=X&ved=2ahUKEwiq9eTq8fyWAxVxkIkEHUSsMrkQxyZ6BAhwEDU",
-        "showing": [
-          {
-            "time": [
-              "12:45pm",
-              "3:45pm",
-              "7:30pm",
-              "10:15pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Coyote vs. Acme",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Coyote+vs.+Acme&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG2lD_yrrHQ_Ub7lKoT9IXspRvCyYM7YuxjPXLJad-38aj-Yar5rbs007tMvQ9Xd41hYr-0Q0xmPufysnyPxiRlobXWqKwVtKa5xBF9306Tb3X33OAnh6CRQAzjVP5xW-JrUMwI%3D",
-        "showing": [
-          {
-            "time": [
-              "12:30pm",
-              "4:15pm",
-              "10:45pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Runner",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Runner&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XDbysJnkVF-ZUgeT_dhlJJl6xuAHVKAT5aGG8nBQF0uV902G33FEY02QY_h2pcPqnHfgCzQ-yyKKukQl8nhsyIfoZOHaRKZY3wuUdnt8p_EzpbxTEelVlV2_3TK4RggzaYf_SV0%3D",
-        "showing": [
-          {
-            "time": [
-              "1:15pm",
-              "5:00pm",
-              "7:30pm",
-              "10:30pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Shaun the Sheep: The Beast of Mossy Bottom",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Shaun+the+Sheep:+The+Beast+of+Mossy+Bottom&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA5AAGodTvwBI7wkzvgveptzHLVXR11f8WoDvGVCEl-uQFIr0wiNlCMpwB1qKcFTkaHssOP203paS-9eaOj4R7fYs6ns6BFavZbL3Vyh5C_OxMd3KQuP8ed4egjcNfC5HLJIIr0%3D",
-        "showing": [
-          {
-            "time": [
-              "12:30pm",
-              "1:00pm",
-              "4:30pm",
-              "7:15pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "The Weight",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Weight&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNfcCNNvFVJzeCByMFshvza5qqzgZNb3BuCECjwKnx9Tr1SnpUSHiDyJ9NLrhjSs-TY8dNqdAbQ7AMxqqxarMkFhKa5G0YDvz_wwZRwUplUE_rOZKEbYlBu1LO9Z25oHqW0eNRc%3D",
-        "showing": [
-          {
-            "time": [
-              "12:30pm",
-              "4:15pm",
-              "7:15pm",
-              "11:00pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "The Uprising",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Uprising&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK1lL35JTQ6h3MX3CxOwZ4pEPfe0ZmIhwEd23e1ag12DJUq-lbmA04QIHShlN4YPW3M966rwrDpITomcT5OGiozjs-_aiz_3amJ9B-He31HdlUJNuts5OQYSs2Mi0ykLaDG0p5E%3D",
-        "showing": [
-          {
-            "time": [
-              "1:15pm",
-              "4:00pm",
-              "6:45pm",
-              "10:00pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Daniel and the Fiery Furnace",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Daniel+and+the+Fiery+Furnace&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XPvk10IIuRHU1jVE7NR4LsZRb8qcXssD6XXHRXwLmkde6TA560r73gxEU9E8dERIwR54C6awCB2yd5cIwbGo3Eoy-k6EYxG0loqBlp3TtZ96FX60l4g2ik-JjWqXjZ4tXZdqz-I%3D",
-        "showing": [
-          {
-            "time": [
-              "12:15pm",
-              "4:40pm",
-              "7:45pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "The Odyssey",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Odyssey&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNBezGY-ulhAJCL4yxZH_7X2zW6Tpfe1ZYx5ZtJhq83kk_aWdaLdjz1YqURybimIlugdoHRSdxCdgn7qJvYdYJzt8azpSf1V_nLUg0sdJV_EyrYov6xeIyQBbRSgm8cARwGY0Es%3D",
-        "showing": [
-          {
-            "time": [
-              "12:00pm",
-              "4:00pm",
-              "6:45pm",
-              "9:15pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Buddy",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Buddy&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFFPN6UFbvN3irLG2S5Pvyva-pHghvocp5Z1DKGMKNtZP2tdkC-hhwZlc5fV4Mt_J94YfJrWt9XdrDhGkS27kohr81QH72pJpxEz8C8VFoun2Mk2ha6DWJfvedq3RKZLx7EC5YU%3D",
-        "showing": [
-          {
-            "time": [
-              "12:00pm",
-              "3:15pm",
-              "7:15pm",
-              "10:45pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Insidious: Out of the Further",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Insidious:+Out+of+the+Further&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMAHTrN1gp738voEbw_pJVmTyZxBnNIlspMwevz_wZ2LpJ9UvJrCdK6wxv_aR2CfcUzTdOyVVT4RnljMXJmBOPhY_VRqUKtTwb79goIDCh6-fNqiuUxFjJoJvShzghPUlNuUMJw%3D",
-        "showing": [
-          {
-            "time": [
-              "1:30pm",
-              "3:15pm",
-              "6:00pm",
-              "11:00pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "The Transformers: The Movie",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Transformers:+The+Movie&si=APenkKlsOMFuBZLoy--im5siVBMfs4mvK5LhrB47M1xy1bYJzwcNH1pNgJ_zedOa7CDjdb2qgBuEw36wrUl8oIENYeFShVoFsec8IzLJzwDpEoFwgxI5EjT-wuC-wSQsbBgFHCS7x88hHGeo48ep9QTMFekegxz2AxeJgnMmOr4FXAG13KcFhLA%3D",
-        "showing": [
-          {
-            "time": [
-              "1:45pm",
-              "4:00pm",
-              "7:00pm",
-              "9:15pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Hope",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Hope&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGvL-ygKl___0uy5zsdQPmfrFaqbl-9wtFIQitGdfjYpLu_iE_jBjWOH_AtDwB7wmV_uGQohQYfWrKRDt7T1Zd3uBprjGsPZKD2t3B-lkulJ_s2VoeZP-PdVo2ApNTZQgDTD7C4%3D",
-        "showing": [
-          {
-            "time": [
-              "12:15pm",
-              "7:15pm",
-              "9:00pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "By Any Means",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=By+Any+Means&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XHelxJA7zPJG0MApziojavCjQ-0X6IlvWl0BzKWZv3thEXn_b7_5U807Xvk1qbhi3pDFRi0AP4l92o4-9SeC0YanQe7d6Kn69WvSfKBIXMu3scg6mxDCSCtbIGZGIjJ_vZoQErY%3D",
-        "showing": [
-          {
-            "time": [
-              "2:00pm",
-              "7:45pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Paw Patrol: The Dino Movie",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Paw+Patrol:+The+Dino+Movie&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA12AlhPA9sVAxE153ZCnUBjsCLa8IG5K_J_u1scjFOotkQ6ZRPgt_wgQBxEyrWg_rafKB9VOvK8MVCjT9IuwU60BVfRsDJHnmhfb2WWm6_PKrjXdJZoLOO7HqUWXE5IKYn6KSk%3D",
-        "showing": [
-          {
-            "time": [
-              "1:45pm",
-              "3:30pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Ghost in the Shell 30th Anniversary 4K",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Ghost+in+the+Shell+30th+Anniversary+4K&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XD86DgokVvo3mz6f5vjnJCDRku_RFyCj8PFmhGgy3UoOa0A6vV6Kmb6KavKHSOFabzcPGzvTewu4Yvo67wzOcwt3ilNSGasAJIEn-UuGk2W_EJsUNQPiZRiP_H0WV1iynwfOjm0%3D",
-        "showing": [
-          {
-            "time": [
-              "5:00pm"
-            ],
-            "type": "4K"
-          }
-        ]
-      },
-      {
-        "name": "Oasis: Don't Look Back in Anger",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Oasis:+Don%27t+Look+Back+in+Anger&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGQ3lbvyUQUnIeSNQ7RZwVVL_Zfvqakxd7sFjA7db-XTpVqUN-Gg3FxNcMb635_jTLrdraxYz5OeM-elSN8efaWHI9W-n-A-wmN1pv1eIaCI51WxUeCB8zzz7Nk6jzuMmotgQUs%3D",
-        "showing": [
-          {
-            "time": [
-              "1:15pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Heaven in Stone and Glass",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Heaven+in+Stone+and+Glass&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJylcDKYmDvm2hmrZaIhw3pFHS4BVLnl1nh5KPIx121A304dT5CXq7jhSiFGePW2Z0KlMLPKrvX4SDlzEAl6SSYwj_lljVL3ZLiTvSqpDg5SxWx6Fz9om3IWg3g4wkWoi_m85eI%3D",
-        "showing": [
-          {
-            "time": [
-              "7:00pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Tiny Fugitives",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Tiny+Fugitives&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XADW2kKI-AtdU5ThtpaOki_tcNoB4pvOyuA91PqRU7ZeW6B54r_HEGGUO7DdkfQBn868GkMOWm7ncRxdAgg9HAeWSgm2wkNN3OKakxxImfRZm2zHFr_jTE0S1IiiptKZhWfQlJI%3D",
-        "showing": [
-          {
-            "time": [
-              "6:00pm",
-              "11:00pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "If I Go Will They Miss Me",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=If+I+Go+Will+They+Miss+Me&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNkmEitIRSpXZ-vSkOMx8esZZFHjajODuoteer3ll2FmJb726MooBZgeB9VN7aapIyGzQRUZoSVNQZbGiP-W1hWmbAsWzfVaXA-h7qjmoXKUWH_goIN16qb_ZIDHvmgmEDQ47AM%3D",
-        "showing": [
-          {
-            "time": [
-              "6:15pm",
-              "10:45pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Hanuman Ansh",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Hanuman+Ansh&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIauDnB47xwXBaKD8Jwn_YZ09o8dbxSRlqSnN27w2rDLMn_BHYyhqBtpbvcsicuRJDMAyM3Qe6fScLItZmG7rVsNeJ9KaqrngwwBi-kBvtdt9fpd5VMwQbjeo2x8BZwx7AU5Ptw%3D",
-        "showing": [
-          {
-            "time": [
-              "5:45pm",
-              "9:45pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "The Musical",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Musical&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG66bve3W_DDnIRflJHL2B1sd6W8gCvUJvpXyKGWbVOTPtPC59LztAixg5z70qvXP4hGTnWkfJ1xMZOLpELPBDOfUTlOZmIqUZsQ5vt88O_rUuA5M7DvBl4XAainZkTpY7NrE2Q%3D",
-        "showing": [
-          {
-            "time": [
-              "8:40pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Without Blood",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Without+Blood&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEaPeFUAkDr0soJ4GshOoCy_zrycgi3Ew7s92CDVRl43HlO-dAR3M_uVxszLqzHANkrNdBlJRjaWz9qIrOH9NNY1R7Ezcd6g151QGCRAm_TeizesSZ5CvmJ4LhkjytY93c1AniA%3D",
-        "showing": [
-          {
-            "time": [
-              "4:15pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Fall 2: Deadpoint",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Fall+2:+Deadpoint&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMKVple-LijR3vDmVdyZqJtz_P4kCaILNe79U0HHOBEU9qkl89-KlQN5zO7KOFMzSez-R2flek1agXfIKsFuLZgkYBFs4iKsYVUf8mTuReQZ12elqUh9oSDEvOQ4-Aio4Xv87Fs%3D",
-        "showing": [
-          {
-            "time": [
-              "8:15pm",
-              "11:00pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Daayra",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Daayra&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAe9cgshSdwSFGrFBX7PaPBhY9Tj-hRWsmtDf8MnVS_k7FEFGvVAuaikgr-KATunsOVJ2Y2jLUI3CllzB74iQtXOJRqNQcW41CP71-N1eQTS5kmvK6Ks_cvwlPYZcOOLLiRqIcI%3D",
-        "showing": [
-          {
-            "time": [
-              "10:15pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "The LEGO Batman Movie",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+LEGO+Batman+Movie&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGEMNgLjTVZaslaNzDCsGvE3Zo3QzElOU2q0enM15sJaQ9NWybW2R-wmW0XBAW-JWjMQy6NQ4gOsJvEzFWfM_Yxhyrl2lJ07ynIXqDZwm4Xjo6fD7XZjlbbtr2dIhUG5cYwvmG8%3D",
-        "showing": [
-          {
-            "time": [
-              "1:00pm"
-            ],
-            "type": "3D"
-          }
-        ]
-      },
-      {
-        "name": "Dora and the Lost City of Gold",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Dora+and+the+Lost+City+of+Gold&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFjbCL2-x8nLsFruEy6cHwbelD1u4g6HgOXupFqLJsqDUoPP-wFVz9R1WilIarHiOY78YZPtdWCQCMsC_pxQMS_a4lC3-tsXruk29Cp9ZY-d6v4cSPPZ51Lc3o8Z7-b3CRowzmI%3D",
-        "showing": [
-          {
-            "time": [
-              "4:00pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Forgotten Island Early Access",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Forgotten+Island+Early+Access&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJxTho0KMOeDJLAQy4VpXJ5VE8FovBEUzSyoob71o3uLdGaLTPSH0FB7W_ybkRJjuxepbD68tzWht_DxjNN7QUQiIppY8yA7yIj-pNMCbnO8w2Sb9muDxhn-GcCvAgSFqI0D76E%3D",
-        "showing": [
-          {
-            "time": [
-              "3:30pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Vibe",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Vibe&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK_tI4gllT-lQmE4ojbEPUYVi8vnSHUpjbCBReK6-skweTcDHqaV-S1OnLZfwDFrZoKDLAmSMl9JG5Ce2gJz-DBUgmQd-Txti7qN8AelolQeZum727xs2ZU4YCr_RFJ-ey4tMAQ%3D",
-        "showing": [
-          {
-            "time": [
-              "9:45pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "NCT 127 5TH TOUR \u2018NEO CITY : SEOUL - THE REDLINE\u2019 in CINEMAS",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=NCT+127+5TH+TOUR+%E2%80%98NEO+CITY+:+SEOUL+-+THE+REDLINE%E2%80%99+in+CINEMAS&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFcY5LuwNpz44rjtXhsw4KexRHWM4E0RielLrnrUNTD5rc822NPBrdBDqrXC30uSn8XV6gCZqrCRBJyf81zWFSq4JX6bSTdZQLn0HS9MWbDuDhl4WPQ18i1STFJi0lMV4yr2LpQ%3D",
-        "showing": [
-          {
-            "time": [
-              "6:00pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Happy Journey",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Happy+Journey&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNnU4cDEyuvXKf_w5BcF0WQTmNElRwfsQiC5Y1bsEI0GyiGGj8ZJPEfk29UETTrn8aOyTlSJJUI8uSh5Ze7-EzShlqpaRYHg8A2-lT9snkUFp0x_WQ1Muo6EJwv5ukjY_IH5TGY%3D",
-        "showing": [
-          {
-            "time": [
-              "1:35pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Mirzapur",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Mirzapur&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XKn-ReIW5_KLTx7nUviLsd4cBeyiC1bSI0DH3SBy39Jf_zZgaXL66Rzig39exutA5u_FB80LN7HhZ4Qf1cKBaC2w5H8ihHhR8agcPu_HhsPNd4B6nIyNzPxx3WJ1Zp-4kO0S7Hg%3D",
-        "showing": [
-          {
-            "time": [
-              "9:15pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Epic",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Epic&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJ3KU3o8KzGHFTTcOK43Ye_1YvED4tp4HDt6zSgRjJLZaWC2OYOZIHCqjx1fJv7ZxioW1dRHjuyqbMcTQLVbKLQNzGat1HBTR9Xzvc4MvPpeNyjEjbAwh4PTC6ytuCt39Ic34e8%3D",
-        "showing": [
-          {
-            "time": [
-              "8:45pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Rocket league world championship final 2025",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Rocket+league+world+championship+final+2025&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XHcnhvSizdXkEjV-ZPBIRqvey9LuH63hAOWeV-0SsglV1RDH1weAczFBDklP7eCkkpB8pUebAeXa3-gBXLi2Fb-KQVtHz5tCChtIrMHYv1xP8lRQGLQFcdIljPO5UbyIHX7UJK4%3D",
-        "showing": [
-          {
-            "time": [
-              "12:00pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
-        "name": "Sardar 2",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Sardar+2&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XDcXq7_KfIR9Rg_MvxFuMNGby078IK42KkrqkBXGPUKYX_u8Lb-DL8yWHq9OWArBMydvTeVZZLVAt0fOGwMTwm_2Qh9iwlBpK7iswfknUzLQzL_3jQdsdYs5GRS3XN27gtbhXAA%3D",
-        "showing": [
-          {
-            "time": [
-              "9:45pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      }
-    ],
-    "iso_date": "2026-09-20",
-    "weekday": "Sun",
-    "date": "Sep 20",
-    "has_data": true
-  },
-  {
-    "day": "Tomorrow",
-    "movies": [
-      {
-        "name": "Resident Evil",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D&sa=X&ved=2ahUKEwjO__fuwP-WAxWeHoYAHQGtKc4QxyZ6BQiCARAT",
         "showing": [
           {
             "time": [
@@ -575,7 +53,7 @@
       },
       {
         "name": "Practical Magic 2",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Practical+Magic+2&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIIGlKNzBGBpnmhaiM8MKmgfh9tVS2f78uO3l5MWc0rR2P5BTlQSxkx6JeDDcqpzg2jH-tOgliEZvlJxPrEnP43hW8j5oB6RFlhjDePXb3yPPh8FQIG4ei6xTrgLA6NGfJpTkv0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Practical+Magic+2&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIIGlKNzBGBpnmhaiM8MKmgfh9tVS2f78uO3l5MWc0rR2P5BTlQSxkx6JeDDcqpzg2jH-tOgliEZvlJxPrEnP43hW8j5oB6RFlhjDePXb3yPPh8FQIG4ei6xTrgLA6NGfJpTkv0%3D&sa=X&ved=2ahUKEwjO__fuwP-WAxWeHoYAHQGtKc4QxyZ6BQiCARAs",
         "showing": [
           {
             "time": [
@@ -590,7 +68,7 @@
       },
       {
         "name": "Spider-Man: Brand New Day",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Spider-Man:+Brand+New+Day&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XLC1hTZdDhffNnyDQis7Vl5xRWlgl3AYxoTrmVo_30bCXVEETrS7yRQRjjwKKiTaqZJXpQiUpYejazqDtfc6EihSJFzoe1jz9zFm6vTNAGLj2fbAcLPP9mr1ZXketzPCnuCf_ok%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Spider-Man:+Brand+New+Day&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XLC1hTZdDhffNnyDQis7Vl5xRWlgl3AYxoTrmVo_30bCXVEETrS7yRQRjjwKKiTaqZJXpQiUpYejazqDtfc6EihSJFzoe1jz9zFm6vTNAGLj2fbAcLPP9mr1ZXketzPCnuCf_ok%3D&sa=X&ved=2ahUKEwjO__fuwP-WAxWeHoYAHQGtKc4QxyZ6BQiCARAz",
         "showing": [
           {
             "time": [
@@ -606,7 +84,7 @@
       },
       {
         "name": "Coyote vs. Acme",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Coyote+vs.+Acme&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG2lD_yrrHQ_Ub7lKoT9IXspRvCyYM7YuxjPXLJad-38aj-Yar5rbs007tMvQ9Xd41hYr-0Q0xmPufysnyPxiRlobXWqKwVtKa5xBF9306Tb3X33OAnh6CRQAzjVP5xW-JrUMwI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Coyote+vs.+Acme&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG2lD_yrrHQ_Ub7lKoT9IXspRvCyYM7YuxjPXLJad-38aj-Yar5rbs007tMvQ9Xd41hYr-0Q0xmPufysnyPxiRlobXWqKwVtKa5xBF9306Tb3X33OAnh6CRQAzjVP5xW-JrUMwI%3D",
         "showing": [
           {
             "time": [
@@ -621,7 +99,7 @@
       },
       {
         "name": "Runner",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Runner&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XDbysJnkVF-ZUgeT_dhlJJl6xuAHVKAT5aGG8nBQF0uV902G33FEY02QY_h2pcPqnHfgCzQ-yyKKukQl8nhsyIfoZOHaRKZY3wuUdnt8p_EzpbxTEelVlV2_3TK4RggzaYf_SV0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Runner&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XDbysJnkVF-ZUgeT_dhlJJl6xuAHVKAT5aGG8nBQF0uV902G33FEY02QY_h2pcPqnHfgCzQ-yyKKukQl8nhsyIfoZOHaRKZY3wuUdnt8p_EzpbxTEelVlV2_3TK4RggzaYf_SV0%3D",
         "showing": [
           {
             "time": [
@@ -637,7 +115,7 @@
       },
       {
         "name": "Shaun the Sheep: The Beast of Mossy Bottom",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Shaun+the+Sheep:+The+Beast+of+Mossy+Bottom&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA5AAGodTvwBI7wkzvgveptzHLVXR11f8WoDvGVCEl-uQFIr0wiNlCMpwB1qKcFTkaHssOP203paS-9eaOj4R7fYs6ns6BFavZbL3Vyh5C_OxMd3KQuP8ed4egjcNfC5HLJIIr0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Shaun+the+Sheep:+The+Beast+of+Mossy+Bottom&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA5AAGodTvwBI7wkzvgveptzHLVXR11f8WoDvGVCEl-uQFIr0wiNlCMpwB1qKcFTkaHssOP203paS-9eaOj4R7fYs6ns6BFavZbL3Vyh5C_OxMd3KQuP8ed4egjcNfC5HLJIIr0%3D",
         "showing": [
           {
             "time": [
@@ -650,7 +128,7 @@
       },
       {
         "name": "The Weight",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Weight&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNfcCNNvFVJzeCByMFshvza5qqzgZNb3BuCECjwKnx9Tr1SnpUSHiDyJ9NLrhjSs-TY8dNqdAbQ7AMxqqxarMkFhKa5G0YDvz_wwZRwUplUE_rOZKEbYlBu1LO9Z25oHqW0eNRc%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Weight&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNfcCNNvFVJzeCByMFshvza5qqzgZNb3BuCECjwKnx9Tr1SnpUSHiDyJ9NLrhjSs-TY8dNqdAbQ7AMxqqxarMkFhKa5G0YDvz_wwZRwUplUE_rOZKEbYlBu1LO9Z25oHqW0eNRc%3D",
         "showing": [
           {
             "time": [
@@ -665,7 +143,7 @@
       },
       {
         "name": "The Uprising",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Uprising&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK1lL35JTQ6h3MX3CxOwZ4pEPfe0ZmIhwEd23e1ag12DJUq-lbmA04QIHShlN4YPW3M966rwrDpITomcT5OGiozjs-_aiz_3amJ9B-He31HdlUJNuts5OQYSs2Mi0ykLaDG0p5E%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Uprising&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK1lL35JTQ6h3MX3CxOwZ4pEPfe0ZmIhwEd23e1ag12DJUq-lbmA04QIHShlN4YPW3M966rwrDpITomcT5OGiozjs-_aiz_3amJ9B-He31HdlUJNuts5OQYSs2Mi0ykLaDG0p5E%3D",
         "showing": [
           {
             "time": [
@@ -679,21 +157,8 @@
         ]
       },
       {
-        "name": "Daniel and the Fiery Furnace",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Daniel+and+the+Fiery+Furnace&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XPvk10IIuRHU1jVE7NR4LsZRb8qcXssD6XXHRXwLmkde6TA560r73gxEU9E8dERIwR54C6awCB2yd5cIwbGo3Eoy-k6EYxG0loqBlp3TtZ96FX60l4g2ik-JjWqXjZ4tXZdqz-I%3D",
-        "showing": [
-          {
-            "time": [
-              "4:40pm",
-              "7:30pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
         "name": "The Odyssey",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Odyssey&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNBezGY-ulhAJCL4yxZH_7X2zW6Tpfe1ZYx5ZtJhq83kk_aWdaLdjz1YqURybimIlugdoHRSdxCdgn7qJvYdYJzt8azpSf1V_nLUg0sdJV_EyrYov6xeIyQBbRSgm8cARwGY0Es%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Odyssey&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNBezGY-ulhAJCL4yxZH_7X2zW6Tpfe1ZYx5ZtJhq83kk_aWdaLdjz1YqURybimIlugdoHRSdxCdgn7qJvYdYJzt8azpSf1V_nLUg0sdJV_EyrYov6xeIyQBbRSgm8cARwGY0Es%3D",
         "showing": [
           {
             "time": [
@@ -707,8 +172,21 @@
         ]
       },
       {
+        "name": "Daniel and the Fiery Furnace",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Daniel+and+the+Fiery+Furnace&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XPvk10IIuRHU1jVE7NR4LsZRb8qcXssD6XXHRXwLmkde6TA560r73gxEU9E8dERIwR54C6awCB2yd5cIwbGo3Eoy-k6EYxG0loqBlp3TtZ96FX60l4g2ik-JjWqXjZ4tXZdqz-I%3D",
+        "showing": [
+          {
+            "time": [
+              "4:40pm",
+              "7:30pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
         "name": "Buddy",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Buddy&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFFPN6UFbvN3irLG2S5Pvyva-pHghvocp5Z1DKGMKNtZP2tdkC-hhwZlc5fV4Mt_J94YfJrWt9XdrDhGkS27kohr81QH72pJpxEz8C8VFoun2Mk2ha6DWJfvedq3RKZLx7EC5YU%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Buddy&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFFPN6UFbvN3irLG2S5Pvyva-pHghvocp5Z1DKGMKNtZP2tdkC-hhwZlc5fV4Mt_J94YfJrWt9XdrDhGkS27kohr81QH72pJpxEz8C8VFoun2Mk2ha6DWJfvedq3RKZLx7EC5YU%3D",
         "showing": [
           {
             "time": [
@@ -723,7 +201,7 @@
       },
       {
         "name": "Insidious: Out of the Further",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Insidious:+Out+of+the+Further&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMAHTrN1gp738voEbw_pJVmTyZxBnNIlspMwevz_wZ2LpJ9UvJrCdK6wxv_aR2CfcUzTdOyVVT4RnljMXJmBOPhY_VRqUKtTwb79goIDCh6-fNqiuUxFjJoJvShzghPUlNuUMJw%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Insidious:+Out+of+the+Further&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMAHTrN1gp738voEbw_pJVmTyZxBnNIlspMwevz_wZ2LpJ9UvJrCdK6wxv_aR2CfcUzTdOyVVT4RnljMXJmBOPhY_VRqUKtTwb79goIDCh6-fNqiuUxFjJoJvShzghPUlNuUMJw%3D",
         "showing": [
           {
             "time": [
@@ -737,23 +215,8 @@
         ]
       },
       {
-        "name": "The Transformers: The Movie",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Transformers:+The+Movie&si=APenkKlsOMFuBZLoy--im5siVBMfs4mvK5LhrB47M1xy1bYJzwcNH1pNgJ_zedOa7CDjdb2qgBuEw36wrUl8oIENYeFShVoFsec8IzLJzwDpEoFwgxI5EjT-wuC-wSQsbBgFHCS7x88hHGeo48ep9QTMFekegxz2AxeJgnMmOr4FXAG13KcFhLA%3D",
-        "showing": [
-          {
-            "time": [
-              "1:45pm",
-              "4:00pm",
-              "7:00pm",
-              "9:15pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
         "name": "Hope",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Hope&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGvL-ygKl___0uy5zsdQPmfrFaqbl-9wtFIQitGdfjYpLu_iE_jBjWOH_AtDwB7wmV_uGQohQYfWrKRDt7T1Zd3uBprjGsPZKD2t3B-lkulJ_s2VoeZP-PdVo2ApNTZQgDTD7C4%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Hope&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGvL-ygKl___0uy5zsdQPmfrFaqbl-9wtFIQitGdfjYpLu_iE_jBjWOH_AtDwB7wmV_uGQohQYfWrKRDt7T1Zd3uBprjGsPZKD2t3B-lkulJ_s2VoeZP-PdVo2ApNTZQgDTD7C4%3D",
         "showing": [
           {
             "time": [
@@ -768,7 +231,7 @@
       },
       {
         "name": "By Any Means",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=By+Any+Means&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XHelxJA7zPJG0MApziojavCjQ-0X6IlvWl0BzKWZv3thEXn_b7_5U807Xvk1qbhi3pDFRi0AP4l92o4-9SeC0YanQe7d6Kn69WvSfKBIXMu3scg6mxDCSCtbIGZGIjJ_vZoQErY%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=By+Any+Means&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XHelxJA7zPJG0MApziojavCjQ-0X6IlvWl0BzKWZv3thEXn_b7_5U807Xvk1qbhi3pDFRi0AP4l92o4-9SeC0YanQe7d6Kn69WvSfKBIXMu3scg6mxDCSCtbIGZGIjJ_vZoQErY%3D",
         "showing": [
           {
             "time": [
@@ -780,8 +243,23 @@
         ]
       },
       {
+        "name": "The Transformers: The Movie",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Transformers:+The+Movie&si=APenkKlsOMFuBZLoy--im5siVBMfs4mvK5LhrB47M1xy1bYJzwcNH1pNgJ_zedOa7CDjdb2qgBuEw36wrUl8oIENYeFShVoFsec8IzLJzwDpEoFwgxI5EjT-wuC-wSQsbBgFHCS7x88hHGeo48ep9QTMFekegxz2AxeJgnMmOr4FXAG13KcFhLA%3D",
+        "showing": [
+          {
+            "time": [
+              "1:45pm",
+              "4:00pm",
+              "7:00pm",
+              "9:15pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
         "name": "Paw Patrol: The Dino Movie",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Paw+Patrol:+The+Dino+Movie&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA12AlhPA9sVAxE153ZCnUBjsCLa8IG5K_J_u1scjFOotkQ6ZRPgt_wgQBxEyrWg_rafKB9VOvK8MVCjT9IuwU60BVfRsDJHnmhfb2WWm6_PKrjXdJZoLOO7HqUWXE5IKYn6KSk%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Paw+Patrol:+The+Dino+Movie&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA12AlhPA9sVAxE153ZCnUBjsCLa8IG5K_J_u1scjFOotkQ6ZRPgt_wgQBxEyrWg_rafKB9VOvK8MVCjT9IuwU60BVfRsDJHnmhfb2WWm6_PKrjXdJZoLOO7HqUWXE5IKYn6KSk%3D",
         "showing": [
           {
             "time": [
@@ -794,7 +272,7 @@
       },
       {
         "name": "Ghost in the Shell 30th Anniversary 4K",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Ghost+in+the+Shell+30th+Anniversary+4K&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XD86DgokVvo3mz6f5vjnJCDRku_RFyCj8PFmhGgy3UoOa0A6vV6Kmb6KavKHSOFabzcPGzvTewu4Yvo67wzOcwt3ilNSGasAJIEn-UuGk2W_EJsUNQPiZRiP_H0WV1iynwfOjm0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Ghost+in+the+Shell+30th+Anniversary+4K&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XD86DgokVvo3mz6f5vjnJCDRku_RFyCj8PFmhGgy3UoOa0A6vV6Kmb6KavKHSOFabzcPGzvTewu4Yvo67wzOcwt3ilNSGasAJIEn-UuGk2W_EJsUNQPiZRiP_H0WV1iynwfOjm0%3D",
         "showing": [
           {
             "time": [
@@ -807,7 +285,7 @@
       },
       {
         "name": "Oasis: Don't Look Back in Anger",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Oasis:+Don%27t+Look+Back+in+Anger&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGQ3lbvyUQUnIeSNQ7RZwVVL_Zfvqakxd7sFjA7db-XTpVqUN-Gg3FxNcMb635_jTLrdraxYz5OeM-elSN8efaWHI9W-n-A-wmN1pv1eIaCI51WxUeCB8zzz7Nk6jzuMmotgQUs%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Oasis:+Don%27t+Look+Back+in+Anger&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGQ3lbvyUQUnIeSNQ7RZwVVL_Zfvqakxd7sFjA7db-XTpVqUN-Gg3FxNcMb635_jTLrdraxYz5OeM-elSN8efaWHI9W-n-A-wmN1pv1eIaCI51WxUeCB8zzz7Nk6jzuMmotgQUs%3D",
         "showing": [
           {
             "time": [
@@ -819,7 +297,7 @@
       },
       {
         "name": "Tiny Fugitives",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Tiny+Fugitives&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XADW2kKI-AtdU5ThtpaOki_tcNoB4pvOyuA91PqRU7ZeW6B54r_HEGGUO7DdkfQBn868GkMOWm7ncRxdAgg9HAeWSgm2wkNN3OKakxxImfRZm2zHFr_jTE0S1IiiptKZhWfQlJI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Tiny+Fugitives&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XADW2kKI-AtdU5ThtpaOki_tcNoB4pvOyuA91PqRU7ZeW6B54r_HEGGUO7DdkfQBn868GkMOWm7ncRxdAgg9HAeWSgm2wkNN3OKakxxImfRZm2zHFr_jTE0S1IiiptKZhWfQlJI%3D",
         "showing": [
           {
             "time": [
@@ -832,7 +310,7 @@
       },
       {
         "name": "If I Go Will They Miss Me",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=If+I+Go+Will+They+Miss+Me&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNkmEitIRSpXZ-vSkOMx8esZZFHjajODuoteer3ll2FmJb726MooBZgeB9VN7aapIyGzQRUZoSVNQZbGiP-W1hWmbAsWzfVaXA-h7qjmoXKUWH_goIN16qb_ZIDHvmgmEDQ47AM%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=If+I+Go+Will+They+Miss+Me&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNkmEitIRSpXZ-vSkOMx8esZZFHjajODuoteer3ll2FmJb726MooBZgeB9VN7aapIyGzQRUZoSVNQZbGiP-W1hWmbAsWzfVaXA-h7qjmoXKUWH_goIN16qb_ZIDHvmgmEDQ47AM%3D",
         "showing": [
           {
             "time": [
@@ -845,7 +323,7 @@
       },
       {
         "name": "Hanuman Ansh",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Hanuman+Ansh&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIauDnB47xwXBaKD8Jwn_YZ09o8dbxSRlqSnN27w2rDLMn_BHYyhqBtpbvcsicuRJDMAyM3Qe6fScLItZmG7rVsNeJ9KaqrngwwBi-kBvtdt9fpd5VMwQbjeo2x8BZwx7AU5Ptw%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Hanuman+Ansh&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIauDnB47xwXBaKD8Jwn_YZ09o8dbxSRlqSnN27w2rDLMn_BHYyhqBtpbvcsicuRJDMAyM3Qe6fScLItZmG7rVsNeJ9KaqrngwwBi-kBvtdt9fpd5VMwQbjeo2x8BZwx7AU5Ptw%3D",
         "showing": [
           {
             "time": [
@@ -858,7 +336,7 @@
       },
       {
         "name": "The Musical",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Musical&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG66bve3W_DDnIRflJHL2B1sd6W8gCvUJvpXyKGWbVOTPtPC59LztAixg5z70qvXP4hGTnWkfJ1xMZOLpELPBDOfUTlOZmIqUZsQ5vt88O_rUuA5M7DvBl4XAainZkTpY7NrE2Q%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Musical&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG66bve3W_DDnIRflJHL2B1sd6W8gCvUJvpXyKGWbVOTPtPC59LztAixg5z70qvXP4hGTnWkfJ1xMZOLpELPBDOfUTlOZmIqUZsQ5vt88O_rUuA5M7DvBl4XAainZkTpY7NrE2Q%3D",
         "showing": [
           {
             "time": [
@@ -870,7 +348,7 @@
       },
       {
         "name": "Without Blood",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Without+Blood&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEaPeFUAkDr0soJ4GshOoCy_zrycgi3Ew7s92CDVRl43HlO-dAR3M_uVxszLqzHANkrNdBlJRjaWz9qIrOH9NNY1R7Ezcd6g151QGCRAm_TeizesSZ5CvmJ4LhkjytY93c1AniA%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Without+Blood&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEaPeFUAkDr0soJ4GshOoCy_zrycgi3Ew7s92CDVRl43HlO-dAR3M_uVxszLqzHANkrNdBlJRjaWz9qIrOH9NNY1R7Ezcd6g151QGCRAm_TeizesSZ5CvmJ4LhkjytY93c1AniA%3D",
         "showing": [
           {
             "time": [
@@ -882,7 +360,7 @@
       },
       {
         "name": "Fall 2: Deadpoint",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Fall+2:+Deadpoint&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMKVple-LijR3vDmVdyZqJtz_P4kCaILNe79U0HHOBEU9qkl89-KlQN5zO7KOFMzSez-R2flek1agXfIKsFuLZgkYBFs4iKsYVUf8mTuReQZ12elqUh9oSDEvOQ4-Aio4Xv87Fs%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Fall+2:+Deadpoint&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMKVple-LijR3vDmVdyZqJtz_P4kCaILNe79U0HHOBEU9qkl89-KlQN5zO7KOFMzSez-R2flek1agXfIKsFuLZgkYBFs4iKsYVUf8mTuReQZ12elqUh9oSDEvOQ4-Aio4Xv87Fs%3D",
         "showing": [
           {
             "time": [
@@ -895,7 +373,7 @@
       },
       {
         "name": "Daayra",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Daayra&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAe9cgshSdwSFGrFBX7PaPBhY9Tj-hRWsmtDf8MnVS_k7FEFGvVAuaikgr-KATunsOVJ2Y2jLUI3CllzB74iQtXOJRqNQcW41CP71-N1eQTS5kmvK6Ks_cvwlPYZcOOLLiRqIcI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Daayra&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAe9cgshSdwSFGrFBX7PaPBhY9Tj-hRWsmtDf8MnVS_k7FEFGvVAuaikgr-KATunsOVJ2Y2jLUI3CllzB74iQtXOJRqNQcW41CP71-N1eQTS5kmvK6Ks_cvwlPYZcOOLLiRqIcI%3D",
         "showing": [
           {
             "time": [
@@ -907,7 +385,7 @@
       },
       {
         "name": "Dora and the Lost City of Gold",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Dora+and+the+Lost+City+of+Gold&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFjbCL2-x8nLsFruEy6cHwbelD1u4g6HgOXupFqLJsqDUoPP-wFVz9R1WilIarHiOY78YZPtdWCQCMsC_pxQMS_a4lC3-tsXruk29Cp9ZY-d6v4cSPPZ51Lc3o8Z7-b3CRowzmI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Dora+and+the+Lost+City+of+Gold&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFjbCL2-x8nLsFruEy6cHwbelD1u4g6HgOXupFqLJsqDUoPP-wFVz9R1WilIarHiOY78YZPtdWCQCMsC_pxQMS_a4lC3-tsXruk29Cp9ZY-d6v4cSPPZ51Lc3o8Z7-b3CRowzmI%3D",
         "showing": [
           {
             "time": [
@@ -919,7 +397,7 @@
       },
       {
         "name": "Vibe",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Vibe&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK_tI4gllT-lQmE4ojbEPUYVi8vnSHUpjbCBReK6-skweTcDHqaV-S1OnLZfwDFrZoKDLAmSMl9JG5Ce2gJz-DBUgmQd-Txti7qN8AelolQeZum727xs2ZU4YCr_RFJ-ey4tMAQ%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Vibe&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK_tI4gllT-lQmE4ojbEPUYVi8vnSHUpjbCBReK6-skweTcDHqaV-S1OnLZfwDFrZoKDLAmSMl9JG5Ce2gJz-DBUgmQd-Txti7qN8AelolQeZum727xs2ZU4YCr_RFJ-ey4tMAQ%3D",
         "showing": [
           {
             "time": [
@@ -931,7 +409,7 @@
       },
       {
         "name": "Happy Journey",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Happy+Journey&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNnU4cDEyuvXKf_w5BcF0WQTmNElRwfsQiC5Y1bsEI0GyiGGj8ZJPEfk29UETTrn8aOyTlSJJUI8uSh5Ze7-EzShlqpaRYHg8A2-lT9snkUFp0x_WQ1Muo6EJwv5ukjY_IH5TGY%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Happy+Journey&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNnU4cDEyuvXKf_w5BcF0WQTmNElRwfsQiC5Y1bsEI0GyiGGj8ZJPEfk29UETTrn8aOyTlSJJUI8uSh5Ze7-EzShlqpaRYHg8A2-lT9snkUFp0x_WQ1Muo6EJwv5ukjY_IH5TGY%3D",
         "showing": [
           {
             "time": [
@@ -943,7 +421,7 @@
       },
       {
         "name": "Mirzapur",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Mirzapur&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XKn-ReIW5_KLTx7nUviLsd4cBeyiC1bSI0DH3SBy39Jf_zZgaXL66Rzig39exutA5u_FB80LN7HhZ4Qf1cKBaC2w5H8ihHhR8agcPu_HhsPNd4B6nIyNzPxx3WJ1Zp-4kO0S7Hg%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Mirzapur&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XKn-ReIW5_KLTx7nUviLsd4cBeyiC1bSI0DH3SBy39Jf_zZgaXL66Rzig39exutA5u_FB80LN7HhZ4Qf1cKBaC2w5H8ihHhR8agcPu_HhsPNd4B6nIyNzPxx3WJ1Zp-4kO0S7Hg%3D",
         "showing": [
           {
             "time": [
@@ -955,7 +433,7 @@
       },
       {
         "name": "Epic",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Epic&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJ3KU3o8KzGHFTTcOK43Ye_1YvED4tp4HDt6zSgRjJLZaWC2OYOZIHCqjx1fJv7ZxioW1dRHjuyqbMcTQLVbKLQNzGat1HBTR9Xzvc4MvPpeNyjEjbAwh4PTC6ytuCt39Ic34e8%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Epic&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJ3KU3o8KzGHFTTcOK43Ye_1YvED4tp4HDt6zSgRjJLZaWC2OYOZIHCqjx1fJv7ZxioW1dRHjuyqbMcTQLVbKLQNzGat1HBTR9Xzvc4MvPpeNyjEjbAwh4PTC6ytuCt39Ic34e8%3D",
         "showing": [
           {
             "time": [
@@ -967,7 +445,7 @@
       },
       {
         "name": "Sardar 2",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Sardar+2&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XDcXq7_KfIR9Rg_MvxFuMNGby078IK42KkrqkBXGPUKYX_u8Lb-DL8yWHq9OWArBMydvTeVZZLVAt0fOGwMTwm_2Qh9iwlBpK7iswfknUzLQzL_3jQdsdYs5GRS3XN27gtbhXAA%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Sardar+2&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XDcXq7_KfIR9Rg_MvxFuMNGby078IK42KkrqkBXGPUKYX_u8Lb-DL8yWHq9OWArBMydvTeVZZLVAt0fOGwMTwm_2Qh9iwlBpK7iswfknUzLQzL_3jQdsdYs5GRS3XN27gtbhXAA%3D",
         "showing": [
           {
             "time": [
@@ -984,12 +462,11 @@
     "has_data": true
   },
   {
-    "day": "Tue",
-    "date": "Sep 22",
+    "day": "Tomorrow",
     "movies": [
       {
         "name": "Resident Evil",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D",
         "showing": [
           {
             "time": [
@@ -1039,7 +516,7 @@
       },
       {
         "name": "Practical Magic 2",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Practical+Magic+2&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIIGlKNzBGBpnmhaiM8MKmgfh9tVS2f78uO3l5MWc0rR2P5BTlQSxkx6JeDDcqpzg2jH-tOgliEZvlJxPrEnP43hW8j5oB6RFlhjDePXb3yPPh8FQIG4ei6xTrgLA6NGfJpTkv0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Practical+Magic+2&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIIGlKNzBGBpnmhaiM8MKmgfh9tVS2f78uO3l5MWc0rR2P5BTlQSxkx6JeDDcqpzg2jH-tOgliEZvlJxPrEnP43hW8j5oB6RFlhjDePXb3yPPh8FQIG4ei6xTrgLA6NGfJpTkv0%3D",
         "showing": [
           {
             "time": [
@@ -1054,7 +531,7 @@
       },
       {
         "name": "Spider-Man: Brand New Day",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Spider-Man:+Brand+New+Day&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XLC1hTZdDhffNnyDQis7Vl5xRWlgl3AYxoTrmVo_30bCXVEETrS7yRQRjjwKKiTaqZJXpQiUpYejazqDtfc6EihSJFzoe1jz9zFm6vTNAGLj2fbAcLPP9mr1ZXketzPCnuCf_ok%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Spider-Man:+Brand+New+Day&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XLC1hTZdDhffNnyDQis7Vl5xRWlgl3AYxoTrmVo_30bCXVEETrS7yRQRjjwKKiTaqZJXpQiUpYejazqDtfc6EihSJFzoe1jz9zFm6vTNAGLj2fbAcLPP9mr1ZXketzPCnuCf_ok%3D",
         "showing": [
           {
             "time": [
@@ -1070,7 +547,7 @@
       },
       {
         "name": "Coyote vs. Acme",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Coyote+vs.+Acme&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG2lD_yrrHQ_Ub7lKoT9IXspRvCyYM7YuxjPXLJad-38aj-Yar5rbs007tMvQ9Xd41hYr-0Q0xmPufysnyPxiRlobXWqKwVtKa5xBF9306Tb3X33OAnh6CRQAzjVP5xW-JrUMwI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Coyote+vs.+Acme&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG2lD_yrrHQ_Ub7lKoT9IXspRvCyYM7YuxjPXLJad-38aj-Yar5rbs007tMvQ9Xd41hYr-0Q0xmPufysnyPxiRlobXWqKwVtKa5xBF9306Tb3X33OAnh6CRQAzjVP5xW-JrUMwI%3D",
         "showing": [
           {
             "time": [
@@ -1085,7 +562,7 @@
       },
       {
         "name": "Runner",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Runner&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XDbysJnkVF-ZUgeT_dhlJJl6xuAHVKAT5aGG8nBQF0uV902G33FEY02QY_h2pcPqnHfgCzQ-yyKKukQl8nhsyIfoZOHaRKZY3wuUdnt8p_EzpbxTEelVlV2_3TK4RggzaYf_SV0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Runner&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XDbysJnkVF-ZUgeT_dhlJJl6xuAHVKAT5aGG8nBQF0uV902G33FEY02QY_h2pcPqnHfgCzQ-yyKKukQl8nhsyIfoZOHaRKZY3wuUdnt8p_EzpbxTEelVlV2_3TK4RggzaYf_SV0%3D",
         "showing": [
           {
             "time": [
@@ -1101,7 +578,7 @@
       },
       {
         "name": "Shaun the Sheep: The Beast of Mossy Bottom",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Shaun+the+Sheep:+The+Beast+of+Mossy+Bottom&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA5AAGodTvwBI7wkzvgveptzHLVXR11f8WoDvGVCEl-uQFIr0wiNlCMpwB1qKcFTkaHssOP203paS-9eaOj4R7fYs6ns6BFavZbL3Vyh5C_OxMd3KQuP8ed4egjcNfC5HLJIIr0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Shaun+the+Sheep:+The+Beast+of+Mossy+Bottom&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA5AAGodTvwBI7wkzvgveptzHLVXR11f8WoDvGVCEl-uQFIr0wiNlCMpwB1qKcFTkaHssOP203paS-9eaOj4R7fYs6ns6BFavZbL3Vyh5C_OxMd3KQuP8ed4egjcNfC5HLJIIr0%3D",
         "showing": [
           {
             "time": [
@@ -1114,7 +591,7 @@
       },
       {
         "name": "The Weight",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Weight&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNfcCNNvFVJzeCByMFshvza5qqzgZNb3BuCECjwKnx9Tr1SnpUSHiDyJ9NLrhjSs-TY8dNqdAbQ7AMxqqxarMkFhKa5G0YDvz_wwZRwUplUE_rOZKEbYlBu1LO9Z25oHqW0eNRc%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Weight&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNfcCNNvFVJzeCByMFshvza5qqzgZNb3BuCECjwKnx9Tr1SnpUSHiDyJ9NLrhjSs-TY8dNqdAbQ7AMxqqxarMkFhKa5G0YDvz_wwZRwUplUE_rOZKEbYlBu1LO9Z25oHqW0eNRc%3D",
         "showing": [
           {
             "time": [
@@ -1129,7 +606,7 @@
       },
       {
         "name": "The Uprising",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Uprising&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK1lL35JTQ6h3MX3CxOwZ4pEPfe0ZmIhwEd23e1ag12DJUq-lbmA04QIHShlN4YPW3M966rwrDpITomcT5OGiozjs-_aiz_3amJ9B-He31HdlUJNuts5OQYSs2Mi0ykLaDG0p5E%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Uprising&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK1lL35JTQ6h3MX3CxOwZ4pEPfe0ZmIhwEd23e1ag12DJUq-lbmA04QIHShlN4YPW3M966rwrDpITomcT5OGiozjs-_aiz_3amJ9B-He31HdlUJNuts5OQYSs2Mi0ykLaDG0p5E%3D",
         "showing": [
           {
             "time": [
@@ -1143,21 +620,8 @@
         ]
       },
       {
-        "name": "Daniel and the Fiery Furnace",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Daniel+and+the+Fiery+Furnace&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XPvk10IIuRHU1jVE7NR4LsZRb8qcXssD6XXHRXwLmkde6TA560r73gxEU9E8dERIwR54C6awCB2yd5cIwbGo3Eoy-k6EYxG0loqBlp3TtZ96FX60l4g2ik-JjWqXjZ4tXZdqz-I%3D",
-        "showing": [
-          {
-            "time": [
-              "4:40pm",
-              "7:30pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
         "name": "The Odyssey",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Odyssey&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNBezGY-ulhAJCL4yxZH_7X2zW6Tpfe1ZYx5ZtJhq83kk_aWdaLdjz1YqURybimIlugdoHRSdxCdgn7qJvYdYJzt8azpSf1V_nLUg0sdJV_EyrYov6xeIyQBbRSgm8cARwGY0Es%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Odyssey&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNBezGY-ulhAJCL4yxZH_7X2zW6Tpfe1ZYx5ZtJhq83kk_aWdaLdjz1YqURybimIlugdoHRSdxCdgn7qJvYdYJzt8azpSf1V_nLUg0sdJV_EyrYov6xeIyQBbRSgm8cARwGY0Es%3D",
         "showing": [
           {
             "time": [
@@ -1171,8 +635,21 @@
         ]
       },
       {
+        "name": "Daniel and the Fiery Furnace",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Daniel+and+the+Fiery+Furnace&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XPvk10IIuRHU1jVE7NR4LsZRb8qcXssD6XXHRXwLmkde6TA560r73gxEU9E8dERIwR54C6awCB2yd5cIwbGo3Eoy-k6EYxG0loqBlp3TtZ96FX60l4g2ik-JjWqXjZ4tXZdqz-I%3D",
+        "showing": [
+          {
+            "time": [
+              "4:40pm",
+              "7:30pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
         "name": "Buddy",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Buddy&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFFPN6UFbvN3irLG2S5Pvyva-pHghvocp5Z1DKGMKNtZP2tdkC-hhwZlc5fV4Mt_J94YfJrWt9XdrDhGkS27kohr81QH72pJpxEz8C8VFoun2Mk2ha6DWJfvedq3RKZLx7EC5YU%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Buddy&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFFPN6UFbvN3irLG2S5Pvyva-pHghvocp5Z1DKGMKNtZP2tdkC-hhwZlc5fV4Mt_J94YfJrWt9XdrDhGkS27kohr81QH72pJpxEz8C8VFoun2Mk2ha6DWJfvedq3RKZLx7EC5YU%3D",
         "showing": [
           {
             "time": [
@@ -1187,7 +664,7 @@
       },
       {
         "name": "Insidious: Out of the Further",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Insidious:+Out+of+the+Further&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMAHTrN1gp738voEbw_pJVmTyZxBnNIlspMwevz_wZ2LpJ9UvJrCdK6wxv_aR2CfcUzTdOyVVT4RnljMXJmBOPhY_VRqUKtTwb79goIDCh6-fNqiuUxFjJoJvShzghPUlNuUMJw%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Insidious:+Out+of+the+Further&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMAHTrN1gp738voEbw_pJVmTyZxBnNIlspMwevz_wZ2LpJ9UvJrCdK6wxv_aR2CfcUzTdOyVVT4RnljMXJmBOPhY_VRqUKtTwb79goIDCh6-fNqiuUxFjJoJvShzghPUlNuUMJw%3D",
         "showing": [
           {
             "time": [
@@ -1201,23 +678,8 @@
         ]
       },
       {
-        "name": "The Transformers: The Movie",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Transformers:+The+Movie&si=APenkKlsOMFuBZLoy--im5siVBMfs4mvK5LhrB47M1xy1bYJzwcNH1pNgJ_zedOa7CDjdb2qgBuEw36wrUl8oIENYeFShVoFsec8IzLJzwDpEoFwgxI5EjT-wuC-wSQsbBgFHCS7x88hHGeo48ep9QTMFekegxz2AxeJgnMmOr4FXAG13KcFhLA%3D",
-        "showing": [
-          {
-            "time": [
-              "1:45pm",
-              "4:00pm",
-              "7:00pm",
-              "9:15pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
         "name": "Hope",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Hope&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGvL-ygKl___0uy5zsdQPmfrFaqbl-9wtFIQitGdfjYpLu_iE_jBjWOH_AtDwB7wmV_uGQohQYfWrKRDt7T1Zd3uBprjGsPZKD2t3B-lkulJ_s2VoeZP-PdVo2ApNTZQgDTD7C4%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Hope&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGvL-ygKl___0uy5zsdQPmfrFaqbl-9wtFIQitGdfjYpLu_iE_jBjWOH_AtDwB7wmV_uGQohQYfWrKRDt7T1Zd3uBprjGsPZKD2t3B-lkulJ_s2VoeZP-PdVo2ApNTZQgDTD7C4%3D",
         "showing": [
           {
             "time": [
@@ -1232,7 +694,7 @@
       },
       {
         "name": "By Any Means",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=By+Any+Means&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XHelxJA7zPJG0MApziojavCjQ-0X6IlvWl0BzKWZv3thEXn_b7_5U807Xvk1qbhi3pDFRi0AP4l92o4-9SeC0YanQe7d6Kn69WvSfKBIXMu3scg6mxDCSCtbIGZGIjJ_vZoQErY%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=By+Any+Means&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XHelxJA7zPJG0MApziojavCjQ-0X6IlvWl0BzKWZv3thEXn_b7_5U807Xvk1qbhi3pDFRi0AP4l92o4-9SeC0YanQe7d6Kn69WvSfKBIXMu3scg6mxDCSCtbIGZGIjJ_vZoQErY%3D",
         "showing": [
           {
             "time": [
@@ -1244,8 +706,23 @@
         ]
       },
       {
+        "name": "The Transformers: The Movie",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Transformers:+The+Movie&si=APenkKlsOMFuBZLoy--im5siVBMfs4mvK5LhrB47M1xy1bYJzwcNH1pNgJ_zedOa7CDjdb2qgBuEw36wrUl8oIENYeFShVoFsec8IzLJzwDpEoFwgxI5EjT-wuC-wSQsbBgFHCS7x88hHGeo48ep9QTMFekegxz2AxeJgnMmOr4FXAG13KcFhLA%3D",
+        "showing": [
+          {
+            "time": [
+              "1:45pm",
+              "4:00pm",
+              "7:00pm",
+              "9:15pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
         "name": "Paw Patrol: The Dino Movie",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Paw+Patrol:+The+Dino+Movie&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA12AlhPA9sVAxE153ZCnUBjsCLa8IG5K_J_u1scjFOotkQ6ZRPgt_wgQBxEyrWg_rafKB9VOvK8MVCjT9IuwU60BVfRsDJHnmhfb2WWm6_PKrjXdJZoLOO7HqUWXE5IKYn6KSk%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Paw+Patrol:+The+Dino+Movie&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA12AlhPA9sVAxE153ZCnUBjsCLa8IG5K_J_u1scjFOotkQ6ZRPgt_wgQBxEyrWg_rafKB9VOvK8MVCjT9IuwU60BVfRsDJHnmhfb2WWm6_PKrjXdJZoLOO7HqUWXE5IKYn6KSk%3D",
         "showing": [
           {
             "time": [
@@ -1258,7 +735,7 @@
       },
       {
         "name": "Ghost in the Shell 30th Anniversary 4K",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Ghost+in+the+Shell+30th+Anniversary+4K&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XD86DgokVvo3mz6f5vjnJCDRku_RFyCj8PFmhGgy3UoOa0A6vV6Kmb6KavKHSOFabzcPGzvTewu4Yvo67wzOcwt3ilNSGasAJIEn-UuGk2W_EJsUNQPiZRiP_H0WV1iynwfOjm0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Ghost+in+the+Shell+30th+Anniversary+4K&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XD86DgokVvo3mz6f5vjnJCDRku_RFyCj8PFmhGgy3UoOa0A6vV6Kmb6KavKHSOFabzcPGzvTewu4Yvo67wzOcwt3ilNSGasAJIEn-UuGk2W_EJsUNQPiZRiP_H0WV1iynwfOjm0%3D",
         "showing": [
           {
             "time": [
@@ -1276,7 +753,7 @@
       },
       {
         "name": "Oasis: Don't Look Back in Anger",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Oasis:+Don%27t+Look+Back+in+Anger&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGQ3lbvyUQUnIeSNQ7RZwVVL_Zfvqakxd7sFjA7db-XTpVqUN-Gg3FxNcMb635_jTLrdraxYz5OeM-elSN8efaWHI9W-n-A-wmN1pv1eIaCI51WxUeCB8zzz7Nk6jzuMmotgQUs%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Oasis:+Don%27t+Look+Back+in+Anger&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGQ3lbvyUQUnIeSNQ7RZwVVL_Zfvqakxd7sFjA7db-XTpVqUN-Gg3FxNcMb635_jTLrdraxYz5OeM-elSN8efaWHI9W-n-A-wmN1pv1eIaCI51WxUeCB8zzz7Nk6jzuMmotgQUs%3D",
         "showing": [
           {
             "time": [
@@ -1288,7 +765,7 @@
       },
       {
         "name": "Tiny Fugitives",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Tiny+Fugitives&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XADW2kKI-AtdU5ThtpaOki_tcNoB4pvOyuA91PqRU7ZeW6B54r_HEGGUO7DdkfQBn868GkMOWm7ncRxdAgg9HAeWSgm2wkNN3OKakxxImfRZm2zHFr_jTE0S1IiiptKZhWfQlJI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Tiny+Fugitives&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XADW2kKI-AtdU5ThtpaOki_tcNoB4pvOyuA91PqRU7ZeW6B54r_HEGGUO7DdkfQBn868GkMOWm7ncRxdAgg9HAeWSgm2wkNN3OKakxxImfRZm2zHFr_jTE0S1IiiptKZhWfQlJI%3D",
         "showing": [
           {
             "time": [
@@ -1301,7 +778,7 @@
       },
       {
         "name": "If I Go Will They Miss Me",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=If+I+Go+Will+They+Miss+Me&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNkmEitIRSpXZ-vSkOMx8esZZFHjajODuoteer3ll2FmJb726MooBZgeB9VN7aapIyGzQRUZoSVNQZbGiP-W1hWmbAsWzfVaXA-h7qjmoXKUWH_goIN16qb_ZIDHvmgmEDQ47AM%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=If+I+Go+Will+They+Miss+Me&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNkmEitIRSpXZ-vSkOMx8esZZFHjajODuoteer3ll2FmJb726MooBZgeB9VN7aapIyGzQRUZoSVNQZbGiP-W1hWmbAsWzfVaXA-h7qjmoXKUWH_goIN16qb_ZIDHvmgmEDQ47AM%3D",
         "showing": [
           {
             "time": [
@@ -1315,7 +792,7 @@
       },
       {
         "name": "Hanuman Ansh",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Hanuman+Ansh&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIauDnB47xwXBaKD8Jwn_YZ09o8dbxSRlqSnN27w2rDLMn_BHYyhqBtpbvcsicuRJDMAyM3Qe6fScLItZmG7rVsNeJ9KaqrngwwBi-kBvtdt9fpd5VMwQbjeo2x8BZwx7AU5Ptw%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Hanuman+Ansh&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIauDnB47xwXBaKD8Jwn_YZ09o8dbxSRlqSnN27w2rDLMn_BHYyhqBtpbvcsicuRJDMAyM3Qe6fScLItZmG7rVsNeJ9KaqrngwwBi-kBvtdt9fpd5VMwQbjeo2x8BZwx7AU5Ptw%3D",
         "showing": [
           {
             "time": [
@@ -1328,7 +805,7 @@
       },
       {
         "name": "The Musical",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Musical&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG66bve3W_DDnIRflJHL2B1sd6W8gCvUJvpXyKGWbVOTPtPC59LztAixg5z70qvXP4hGTnWkfJ1xMZOLpELPBDOfUTlOZmIqUZsQ5vt88O_rUuA5M7DvBl4XAainZkTpY7NrE2Q%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Musical&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG66bve3W_DDnIRflJHL2B1sd6W8gCvUJvpXyKGWbVOTPtPC59LztAixg5z70qvXP4hGTnWkfJ1xMZOLpELPBDOfUTlOZmIqUZsQ5vt88O_rUuA5M7DvBl4XAainZkTpY7NrE2Q%3D",
         "showing": [
           {
             "time": [
@@ -1340,7 +817,7 @@
       },
       {
         "name": "Without Blood",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Without+Blood&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEaPeFUAkDr0soJ4GshOoCy_zrycgi3Ew7s92CDVRl43HlO-dAR3M_uVxszLqzHANkrNdBlJRjaWz9qIrOH9NNY1R7Ezcd6g151QGCRAm_TeizesSZ5CvmJ4LhkjytY93c1AniA%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Without+Blood&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEaPeFUAkDr0soJ4GshOoCy_zrycgi3Ew7s92CDVRl43HlO-dAR3M_uVxszLqzHANkrNdBlJRjaWz9qIrOH9NNY1R7Ezcd6g151QGCRAm_TeizesSZ5CvmJ4LhkjytY93c1AniA%3D",
         "showing": [
           {
             "time": [
@@ -1352,7 +829,7 @@
       },
       {
         "name": "Fall 2: Deadpoint",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Fall+2:+Deadpoint&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMKVple-LijR3vDmVdyZqJtz_P4kCaILNe79U0HHOBEU9qkl89-KlQN5zO7KOFMzSez-R2flek1agXfIKsFuLZgkYBFs4iKsYVUf8mTuReQZ12elqUh9oSDEvOQ4-Aio4Xv87Fs%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Fall+2:+Deadpoint&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMKVple-LijR3vDmVdyZqJtz_P4kCaILNe79U0HHOBEU9qkl89-KlQN5zO7KOFMzSez-R2flek1agXfIKsFuLZgkYBFs4iKsYVUf8mTuReQZ12elqUh9oSDEvOQ4-Aio4Xv87Fs%3D",
         "showing": [
           {
             "time": [
@@ -1366,7 +843,7 @@
       },
       {
         "name": "Daayra",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Daayra&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAe9cgshSdwSFGrFBX7PaPBhY9Tj-hRWsmtDf8MnVS_k7FEFGvVAuaikgr-KATunsOVJ2Y2jLUI3CllzB74iQtXOJRqNQcW41CP71-N1eQTS5kmvK6Ks_cvwlPYZcOOLLiRqIcI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Daayra&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAe9cgshSdwSFGrFBX7PaPBhY9Tj-hRWsmtDf8MnVS_k7FEFGvVAuaikgr-KATunsOVJ2Y2jLUI3CllzB74iQtXOJRqNQcW41CP71-N1eQTS5kmvK6Ks_cvwlPYZcOOLLiRqIcI%3D",
         "showing": [
           {
             "time": [
@@ -1378,7 +855,7 @@
       },
       {
         "name": "Dora and the Lost City of Gold",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Dora+and+the+Lost+City+of+Gold&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFjbCL2-x8nLsFruEy6cHwbelD1u4g6HgOXupFqLJsqDUoPP-wFVz9R1WilIarHiOY78YZPtdWCQCMsC_pxQMS_a4lC3-tsXruk29Cp9ZY-d6v4cSPPZ51Lc3o8Z7-b3CRowzmI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Dora+and+the+Lost+City+of+Gold&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFjbCL2-x8nLsFruEy6cHwbelD1u4g6HgOXupFqLJsqDUoPP-wFVz9R1WilIarHiOY78YZPtdWCQCMsC_pxQMS_a4lC3-tsXruk29Cp9ZY-d6v4cSPPZ51Lc3o8Z7-b3CRowzmI%3D",
         "showing": [
           {
             "time": [
@@ -1390,7 +867,7 @@
       },
       {
         "name": "Vibe",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Vibe&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK_tI4gllT-lQmE4ojbEPUYVi8vnSHUpjbCBReK6-skweTcDHqaV-S1OnLZfwDFrZoKDLAmSMl9JG5Ce2gJz-DBUgmQd-Txti7qN8AelolQeZum727xs2ZU4YCr_RFJ-ey4tMAQ%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Vibe&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK_tI4gllT-lQmE4ojbEPUYVi8vnSHUpjbCBReK6-skweTcDHqaV-S1OnLZfwDFrZoKDLAmSMl9JG5Ce2gJz-DBUgmQd-Txti7qN8AelolQeZum727xs2ZU4YCr_RFJ-ey4tMAQ%3D",
         "showing": [
           {
             "time": [
@@ -1402,7 +879,7 @@
       },
       {
         "name": "Happy Journey",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Happy+Journey&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNnU4cDEyuvXKf_w5BcF0WQTmNElRwfsQiC5Y1bsEI0GyiGGj8ZJPEfk29UETTrn8aOyTlSJJUI8uSh5Ze7-EzShlqpaRYHg8A2-lT9snkUFp0x_WQ1Muo6EJwv5ukjY_IH5TGY%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Happy+Journey&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNnU4cDEyuvXKf_w5BcF0WQTmNElRwfsQiC5Y1bsEI0GyiGGj8ZJPEfk29UETTrn8aOyTlSJJUI8uSh5Ze7-EzShlqpaRYHg8A2-lT9snkUFp0x_WQ1Muo6EJwv5ukjY_IH5TGY%3D",
         "showing": [
           {
             "time": [
@@ -1414,7 +891,7 @@
       },
       {
         "name": "Mirzapur",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Mirzapur&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XKn-ReIW5_KLTx7nUviLsd4cBeyiC1bSI0DH3SBy39Jf_zZgaXL66Rzig39exutA5u_FB80LN7HhZ4Qf1cKBaC2w5H8ihHhR8agcPu_HhsPNd4B6nIyNzPxx3WJ1Zp-4kO0S7Hg%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Mirzapur&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XKn-ReIW5_KLTx7nUviLsd4cBeyiC1bSI0DH3SBy39Jf_zZgaXL66Rzig39exutA5u_FB80LN7HhZ4Qf1cKBaC2w5H8ihHhR8agcPu_HhsPNd4B6nIyNzPxx3WJ1Zp-4kO0S7Hg%3D",
         "showing": [
           {
             "time": [
@@ -1426,7 +903,7 @@
       },
       {
         "name": "Epic",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Epic&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJ3KU3o8KzGHFTTcOK43Ye_1YvED4tp4HDt6zSgRjJLZaWC2OYOZIHCqjx1fJv7ZxioW1dRHjuyqbMcTQLVbKLQNzGat1HBTR9Xzvc4MvPpeNyjEjbAwh4PTC6ytuCt39Ic34e8%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Epic&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJ3KU3o8KzGHFTTcOK43Ye_1YvED4tp4HDt6zSgRjJLZaWC2OYOZIHCqjx1fJv7ZxioW1dRHjuyqbMcTQLVbKLQNzGat1HBTR9Xzvc4MvPpeNyjEjbAwh4PTC6ytuCt39Ic34e8%3D",
         "showing": [
           {
             "time": [
@@ -1438,7 +915,7 @@
       },
       {
         "name": "Sardar 2",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Sardar+2&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XDcXq7_KfIR9Rg_MvxFuMNGby078IK42KkrqkBXGPUKYX_u8Lb-DL8yWHq9OWArBMydvTeVZZLVAt0fOGwMTwm_2Qh9iwlBpK7iswfknUzLQzL_3jQdsdYs5GRS3XN27gtbhXAA%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Sardar+2&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XDcXq7_KfIR9Rg_MvxFuMNGby078IK42KkrqkBXGPUKYX_u8Lb-DL8yWHq9OWArBMydvTeVZZLVAt0fOGwMTwm_2Qh9iwlBpK7iswfknUzLQzL_3jQdsdYs5GRS3XN27gtbhXAA%3D",
         "showing": [
           {
             "time": [
@@ -1451,6 +928,7 @@
     ],
     "iso_date": "2026-09-22",
     "weekday": "Tue",
+    "date": "Sep 22",
     "has_data": true
   },
   {
@@ -1459,7 +937,7 @@
     "movies": [
       {
         "name": "Resident Evil",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D",
         "showing": [
           {
             "time": [
@@ -1501,7 +979,7 @@
       },
       {
         "name": "Practical Magic 2",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Practical+Magic+2&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIIGlKNzBGBpnmhaiM8MKmgfh9tVS2f78uO3l5MWc0rR2P5BTlQSxkx6JeDDcqpzg2jH-tOgliEZvlJxPrEnP43hW8j5oB6RFlhjDePXb3yPPh8FQIG4ei6xTrgLA6NGfJpTkv0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Practical+Magic+2&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIIGlKNzBGBpnmhaiM8MKmgfh9tVS2f78uO3l5MWc0rR2P5BTlQSxkx6JeDDcqpzg2jH-tOgliEZvlJxPrEnP43hW8j5oB6RFlhjDePXb3yPPh8FQIG4ei6xTrgLA6NGfJpTkv0%3D",
         "showing": [
           {
             "time": [
@@ -1516,7 +994,7 @@
       },
       {
         "name": "Spider-Man: Brand New Day",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Spider-Man:+Brand+New+Day&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XLC1hTZdDhffNnyDQis7Vl5xRWlgl3AYxoTrmVo_30bCXVEETrS7yRQRjjwKKiTaqZJXpQiUpYejazqDtfc6EihSJFzoe1jz9zFm6vTNAGLj2fbAcLPP9mr1ZXketzPCnuCf_ok%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Spider-Man:+Brand+New+Day&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XLC1hTZdDhffNnyDQis7Vl5xRWlgl3AYxoTrmVo_30bCXVEETrS7yRQRjjwKKiTaqZJXpQiUpYejazqDtfc6EihSJFzoe1jz9zFm6vTNAGLj2fbAcLPP9mr1ZXketzPCnuCf_ok%3D",
         "showing": [
           {
             "time": [
@@ -1531,7 +1009,7 @@
       },
       {
         "name": "Coyote vs. Acme",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Coyote+vs.+Acme&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG2lD_yrrHQ_Ub7lKoT9IXspRvCyYM7YuxjPXLJad-38aj-Yar5rbs007tMvQ9Xd41hYr-0Q0xmPufysnyPxiRlobXWqKwVtKa5xBF9306Tb3X33OAnh6CRQAzjVP5xW-JrUMwI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Coyote+vs.+Acme&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG2lD_yrrHQ_Ub7lKoT9IXspRvCyYM7YuxjPXLJad-38aj-Yar5rbs007tMvQ9Xd41hYr-0Q0xmPufysnyPxiRlobXWqKwVtKa5xBF9306Tb3X33OAnh6CRQAzjVP5xW-JrUMwI%3D",
         "showing": [
           {
             "time": [
@@ -1545,7 +1023,7 @@
       },
       {
         "name": "Runner",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Runner&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XDbysJnkVF-ZUgeT_dhlJJl6xuAHVKAT5aGG8nBQF0uV902G33FEY02QY_h2pcPqnHfgCzQ-yyKKukQl8nhsyIfoZOHaRKZY3wuUdnt8p_EzpbxTEelVlV2_3TK4RggzaYf_SV0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Runner&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XDbysJnkVF-ZUgeT_dhlJJl6xuAHVKAT5aGG8nBQF0uV902G33FEY02QY_h2pcPqnHfgCzQ-yyKKukQl8nhsyIfoZOHaRKZY3wuUdnt8p_EzpbxTEelVlV2_3TK4RggzaYf_SV0%3D",
         "showing": [
           {
             "time": [
@@ -1559,7 +1037,7 @@
       },
       {
         "name": "Shaun the Sheep: The Beast of Mossy Bottom",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Shaun+the+Sheep:+The+Beast+of+Mossy+Bottom&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA5AAGodTvwBI7wkzvgveptzHLVXR11f8WoDvGVCEl-uQFIr0wiNlCMpwB1qKcFTkaHssOP203paS-9eaOj4R7fYs6ns6BFavZbL3Vyh5C_OxMd3KQuP8ed4egjcNfC5HLJIIr0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Shaun+the+Sheep:+The+Beast+of+Mossy+Bottom&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA5AAGodTvwBI7wkzvgveptzHLVXR11f8WoDvGVCEl-uQFIr0wiNlCMpwB1qKcFTkaHssOP203paS-9eaOj4R7fYs6ns6BFavZbL3Vyh5C_OxMd3KQuP8ed4egjcNfC5HLJIIr0%3D",
         "showing": [
           {
             "time": [
@@ -1571,7 +1049,7 @@
       },
       {
         "name": "The Weight",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Weight&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNfcCNNvFVJzeCByMFshvza5qqzgZNb3BuCECjwKnx9Tr1SnpUSHiDyJ9NLrhjSs-TY8dNqdAbQ7AMxqqxarMkFhKa5G0YDvz_wwZRwUplUE_rOZKEbYlBu1LO9Z25oHqW0eNRc%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Weight&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNfcCNNvFVJzeCByMFshvza5qqzgZNb3BuCECjwKnx9Tr1SnpUSHiDyJ9NLrhjSs-TY8dNqdAbQ7AMxqqxarMkFhKa5G0YDvz_wwZRwUplUE_rOZKEbYlBu1LO9Z25oHqW0eNRc%3D",
         "showing": [
           {
             "time": [
@@ -1586,7 +1064,7 @@
       },
       {
         "name": "The Uprising",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Uprising&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK1lL35JTQ6h3MX3CxOwZ4pEPfe0ZmIhwEd23e1ag12DJUq-lbmA04QIHShlN4YPW3M966rwrDpITomcT5OGiozjs-_aiz_3amJ9B-He31HdlUJNuts5OQYSs2Mi0ykLaDG0p5E%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Uprising&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK1lL35JTQ6h3MX3CxOwZ4pEPfe0ZmIhwEd23e1ag12DJUq-lbmA04QIHShlN4YPW3M966rwrDpITomcT5OGiozjs-_aiz_3amJ9B-He31HdlUJNuts5OQYSs2Mi0ykLaDG0p5E%3D",
         "showing": [
           {
             "time": [
@@ -1600,21 +1078,8 @@
         ]
       },
       {
-        "name": "Daniel and the Fiery Furnace",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Daniel+and+the+Fiery+Furnace&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XPvk10IIuRHU1jVE7NR4LsZRb8qcXssD6XXHRXwLmkde6TA560r73gxEU9E8dERIwR54C6awCB2yd5cIwbGo3Eoy-k6EYxG0loqBlp3TtZ96FX60l4g2ik-JjWqXjZ4tXZdqz-I%3D",
-        "showing": [
-          {
-            "time": [
-              "4:40pm",
-              "7:30pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
         "name": "The Odyssey",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Odyssey&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNBezGY-ulhAJCL4yxZH_7X2zW6Tpfe1ZYx5ZtJhq83kk_aWdaLdjz1YqURybimIlugdoHRSdxCdgn7qJvYdYJzt8azpSf1V_nLUg0sdJV_EyrYov6xeIyQBbRSgm8cARwGY0Es%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Odyssey&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNBezGY-ulhAJCL4yxZH_7X2zW6Tpfe1ZYx5ZtJhq83kk_aWdaLdjz1YqURybimIlugdoHRSdxCdgn7qJvYdYJzt8azpSf1V_nLUg0sdJV_EyrYov6xeIyQBbRSgm8cARwGY0Es%3D",
         "showing": [
           {
             "time": [
@@ -1628,8 +1093,21 @@
         ]
       },
       {
+        "name": "Daniel and the Fiery Furnace",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Daniel+and+the+Fiery+Furnace&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XPvk10IIuRHU1jVE7NR4LsZRb8qcXssD6XXHRXwLmkde6TA560r73gxEU9E8dERIwR54C6awCB2yd5cIwbGo3Eoy-k6EYxG0loqBlp3TtZ96FX60l4g2ik-JjWqXjZ4tXZdqz-I%3D",
+        "showing": [
+          {
+            "time": [
+              "4:40pm",
+              "7:30pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
         "name": "Buddy",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Buddy&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFFPN6UFbvN3irLG2S5Pvyva-pHghvocp5Z1DKGMKNtZP2tdkC-hhwZlc5fV4Mt_J94YfJrWt9XdrDhGkS27kohr81QH72pJpxEz8C8VFoun2Mk2ha6DWJfvedq3RKZLx7EC5YU%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Buddy&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFFPN6UFbvN3irLG2S5Pvyva-pHghvocp5Z1DKGMKNtZP2tdkC-hhwZlc5fV4Mt_J94YfJrWt9XdrDhGkS27kohr81QH72pJpxEz8C8VFoun2Mk2ha6DWJfvedq3RKZLx7EC5YU%3D",
         "showing": [
           {
             "time": [
@@ -1644,7 +1122,7 @@
       },
       {
         "name": "Insidious: Out of the Further",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Insidious:+Out+of+the+Further&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMAHTrN1gp738voEbw_pJVmTyZxBnNIlspMwevz_wZ2LpJ9UvJrCdK6wxv_aR2CfcUzTdOyVVT4RnljMXJmBOPhY_VRqUKtTwb79goIDCh6-fNqiuUxFjJoJvShzghPUlNuUMJw%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Insidious:+Out+of+the+Further&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMAHTrN1gp738voEbw_pJVmTyZxBnNIlspMwevz_wZ2LpJ9UvJrCdK6wxv_aR2CfcUzTdOyVVT4RnljMXJmBOPhY_VRqUKtTwb79goIDCh6-fNqiuUxFjJoJvShzghPUlNuUMJw%3D",
         "showing": [
           {
             "time": [
@@ -1658,22 +1136,8 @@
         ]
       },
       {
-        "name": "The Transformers: The Movie",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Transformers:+The+Movie&si=APenkKlsOMFuBZLoy--im5siVBMfs4mvK5LhrB47M1xy1bYJzwcNH1pNgJ_zedOa7CDjdb2qgBuEw36wrUl8oIENYeFShVoFsec8IzLJzwDpEoFwgxI5EjT-wuC-wSQsbBgFHCS7x88hHGeo48ep9QTMFekegxz2AxeJgnMmOr4FXAG13KcFhLA%3D",
-        "showing": [
-          {
-            "time": [
-              "12:45pm",
-              "4:45pm",
-              "7:05pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
         "name": "Hope",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Hope&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGvL-ygKl___0uy5zsdQPmfrFaqbl-9wtFIQitGdfjYpLu_iE_jBjWOH_AtDwB7wmV_uGQohQYfWrKRDt7T1Zd3uBprjGsPZKD2t3B-lkulJ_s2VoeZP-PdVo2ApNTZQgDTD7C4%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Hope&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGvL-ygKl___0uy5zsdQPmfrFaqbl-9wtFIQitGdfjYpLu_iE_jBjWOH_AtDwB7wmV_uGQohQYfWrKRDt7T1Zd3uBprjGsPZKD2t3B-lkulJ_s2VoeZP-PdVo2ApNTZQgDTD7C4%3D",
         "showing": [
           {
             "time": [
@@ -1686,7 +1150,7 @@
       },
       {
         "name": "By Any Means",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=By+Any+Means&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XHelxJA7zPJG0MApziojavCjQ-0X6IlvWl0BzKWZv3thEXn_b7_5U807Xvk1qbhi3pDFRi0AP4l92o4-9SeC0YanQe7d6Kn69WvSfKBIXMu3scg6mxDCSCtbIGZGIjJ_vZoQErY%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=By+Any+Means&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XHelxJA7zPJG0MApziojavCjQ-0X6IlvWl0BzKWZv3thEXn_b7_5U807Xvk1qbhi3pDFRi0AP4l92o4-9SeC0YanQe7d6Kn69WvSfKBIXMu3scg6mxDCSCtbIGZGIjJ_vZoQErY%3D",
         "showing": [
           {
             "time": [
@@ -1698,8 +1162,22 @@
         ]
       },
       {
+        "name": "The Transformers: The Movie",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Transformers:+The+Movie&si=APenkKlsOMFuBZLoy--im5siVBMfs4mvK5LhrB47M1xy1bYJzwcNH1pNgJ_zedOa7CDjdb2qgBuEw36wrUl8oIENYeFShVoFsec8IzLJzwDpEoFwgxI5EjT-wuC-wSQsbBgFHCS7x88hHGeo48ep9QTMFekegxz2AxeJgnMmOr4FXAG13KcFhLA%3D",
+        "showing": [
+          {
+            "time": [
+              "12:45pm",
+              "4:45pm",
+              "7:05pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
         "name": "Paw Patrol: The Dino Movie",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Paw+Patrol:+The+Dino+Movie&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA12AlhPA9sVAxE153ZCnUBjsCLa8IG5K_J_u1scjFOotkQ6ZRPgt_wgQBxEyrWg_rafKB9VOvK8MVCjT9IuwU60BVfRsDJHnmhfb2WWm6_PKrjXdJZoLOO7HqUWXE5IKYn6KSk%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Paw+Patrol:+The+Dino+Movie&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XA12AlhPA9sVAxE153ZCnUBjsCLa8IG5K_J_u1scjFOotkQ6ZRPgt_wgQBxEyrWg_rafKB9VOvK8MVCjT9IuwU60BVfRsDJHnmhfb2WWm6_PKrjXdJZoLOO7HqUWXE5IKYn6KSk%3D",
         "showing": [
           {
             "time": [
@@ -1712,7 +1190,7 @@
       },
       {
         "name": "Ghost in the Shell 30th Anniversary 4K",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Ghost+in+the+Shell+30th+Anniversary+4K&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XD86DgokVvo3mz6f5vjnJCDRku_RFyCj8PFmhGgy3UoOa0A6vV6Kmb6KavKHSOFabzcPGzvTewu4Yvo67wzOcwt3ilNSGasAJIEn-UuGk2W_EJsUNQPiZRiP_H0WV1iynwfOjm0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Ghost+in+the+Shell+30th+Anniversary+4K&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XD86DgokVvo3mz6f5vjnJCDRku_RFyCj8PFmhGgy3UoOa0A6vV6Kmb6KavKHSOFabzcPGzvTewu4Yvo67wzOcwt3ilNSGasAJIEn-UuGk2W_EJsUNQPiZRiP_H0WV1iynwfOjm0%3D",
         "showing": [
           {
             "time": [
@@ -1724,7 +1202,7 @@
       },
       {
         "name": "The Paradise",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Paradise&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGNhX-p1VLNDdXf_bokzmhfEf4-QPZvF1va6rh_Udv4T6va0aRUE_2xYs8wwX_8Lh4C4M-EVownGvu-USFjJIFSNj191kRjZcqxZ_HsvqhKlowjXB1f-EGO24Ib5EHmDcT1Bbho%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Paradise&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGNhX-p1VLNDdXf_bokzmhfEf4-QPZvF1va6rh_Udv4T6va0aRUE_2xYs8wwX_8Lh4C4M-EVownGvu-USFjJIFSNj191kRjZcqxZ_HsvqhKlowjXB1f-EGO24Ib5EHmDcT1Bbho%3D",
         "showing": [
           {
             "time": [
@@ -1748,7 +1226,7 @@
       },
       {
         "name": "Heaven in Stone and Glass",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Heaven+in+Stone+and+Glass&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJylcDKYmDvm2hmrZaIhw3pFHS4BVLnl1nh5KPIx121A304dT5CXq7jhSiFGePW2Z0KlMLPKrvX4SDlzEAl6SSYwj_lljVL3ZLiTvSqpDg5SxWx6Fz9om3IWg3g4wkWoi_m85eI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Heaven+in+Stone+and+Glass&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJylcDKYmDvm2hmrZaIhw3pFHS4BVLnl1nh5KPIx121A304dT5CXq7jhSiFGePW2Z0KlMLPKrvX4SDlzEAl6SSYwj_lljVL3ZLiTvSqpDg5SxWx6Fz9om3IWg3g4wkWoi_m85eI%3D",
         "showing": [
           {
             "time": [
@@ -1761,7 +1239,7 @@
       },
       {
         "name": "Tiny Fugitives",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Tiny+Fugitives&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XADW2kKI-AtdU5ThtpaOki_tcNoB4pvOyuA91PqRU7ZeW6B54r_HEGGUO7DdkfQBn868GkMOWm7ncRxdAgg9HAeWSgm2wkNN3OKakxxImfRZm2zHFr_jTE0S1IiiptKZhWfQlJI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Tiny+Fugitives&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XADW2kKI-AtdU5ThtpaOki_tcNoB4pvOyuA91PqRU7ZeW6B54r_HEGGUO7DdkfQBn868GkMOWm7ncRxdAgg9HAeWSgm2wkNN3OKakxxImfRZm2zHFr_jTE0S1IiiptKZhWfQlJI%3D",
         "showing": [
           {
             "time": [
@@ -1773,7 +1251,7 @@
       },
       {
         "name": "If I Go Will They Miss Me",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=If+I+Go+Will+They+Miss+Me&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNkmEitIRSpXZ-vSkOMx8esZZFHjajODuoteer3ll2FmJb726MooBZgeB9VN7aapIyGzQRUZoSVNQZbGiP-W1hWmbAsWzfVaXA-h7qjmoXKUWH_goIN16qb_ZIDHvmgmEDQ47AM%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=If+I+Go+Will+They+Miss+Me&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNkmEitIRSpXZ-vSkOMx8esZZFHjajODuoteer3ll2FmJb726MooBZgeB9VN7aapIyGzQRUZoSVNQZbGiP-W1hWmbAsWzfVaXA-h7qjmoXKUWH_goIN16qb_ZIDHvmgmEDQ47AM%3D",
         "showing": [
           {
             "time": [
@@ -1786,7 +1264,7 @@
       },
       {
         "name": "Hanuman Ansh",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Hanuman+Ansh&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIauDnB47xwXBaKD8Jwn_YZ09o8dbxSRlqSnN27w2rDLMn_BHYyhqBtpbvcsicuRJDMAyM3Qe6fScLItZmG7rVsNeJ9KaqrngwwBi-kBvtdt9fpd5VMwQbjeo2x8BZwx7AU5Ptw%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Hanuman+Ansh&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIauDnB47xwXBaKD8Jwn_YZ09o8dbxSRlqSnN27w2rDLMn_BHYyhqBtpbvcsicuRJDMAyM3Qe6fScLItZmG7rVsNeJ9KaqrngwwBi-kBvtdt9fpd5VMwQbjeo2x8BZwx7AU5Ptw%3D",
         "showing": [
           {
             "time": [
@@ -1798,7 +1276,7 @@
       },
       {
         "name": "The Musical",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Musical&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG66bve3W_DDnIRflJHL2B1sd6W8gCvUJvpXyKGWbVOTPtPC59LztAixg5z70qvXP4hGTnWkfJ1xMZOLpELPBDOfUTlOZmIqUZsQ5vt88O_rUuA5M7DvBl4XAainZkTpY7NrE2Q%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Musical&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG66bve3W_DDnIRflJHL2B1sd6W8gCvUJvpXyKGWbVOTPtPC59LztAixg5z70qvXP4hGTnWkfJ1xMZOLpELPBDOfUTlOZmIqUZsQ5vt88O_rUuA5M7DvBl4XAainZkTpY7NrE2Q%3D",
         "showing": [
           {
             "time": [
@@ -1810,7 +1288,7 @@
       },
       {
         "name": "Without Blood",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Without+Blood&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEaPeFUAkDr0soJ4GshOoCy_zrycgi3Ew7s92CDVRl43HlO-dAR3M_uVxszLqzHANkrNdBlJRjaWz9qIrOH9NNY1R7Ezcd6g151QGCRAm_TeizesSZ5CvmJ4LhkjytY93c1AniA%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Without+Blood&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEaPeFUAkDr0soJ4GshOoCy_zrycgi3Ew7s92CDVRl43HlO-dAR3M_uVxszLqzHANkrNdBlJRjaWz9qIrOH9NNY1R7Ezcd6g151QGCRAm_TeizesSZ5CvmJ4LhkjytY93c1AniA%3D",
         "showing": [
           {
             "time": [
@@ -1822,7 +1300,7 @@
       },
       {
         "name": "Fall 2: Deadpoint",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Fall+2:+Deadpoint&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMKVple-LijR3vDmVdyZqJtz_P4kCaILNe79U0HHOBEU9qkl89-KlQN5zO7KOFMzSez-R2flek1agXfIKsFuLZgkYBFs4iKsYVUf8mTuReQZ12elqUh9oSDEvOQ4-Aio4Xv87Fs%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Fall+2:+Deadpoint&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XMKVple-LijR3vDmVdyZqJtz_P4kCaILNe79U0HHOBEU9qkl89-KlQN5zO7KOFMzSez-R2flek1agXfIKsFuLZgkYBFs4iKsYVUf8mTuReQZ12elqUh9oSDEvOQ4-Aio4Xv87Fs%3D",
         "showing": [
           {
             "time": [
@@ -1835,7 +1313,7 @@
       },
       {
         "name": "Daayra",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Daayra&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAe9cgshSdwSFGrFBX7PaPBhY9Tj-hRWsmtDf8MnVS_k7FEFGvVAuaikgr-KATunsOVJ2Y2jLUI3CllzB74iQtXOJRqNQcW41CP71-N1eQTS5kmvK6Ks_cvwlPYZcOOLLiRqIcI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Daayra&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAe9cgshSdwSFGrFBX7PaPBhY9Tj-hRWsmtDf8MnVS_k7FEFGvVAuaikgr-KATunsOVJ2Y2jLUI3CllzB74iQtXOJRqNQcW41CP71-N1eQTS5kmvK6Ks_cvwlPYZcOOLLiRqIcI%3D",
         "showing": [
           {
             "time": [
@@ -1847,7 +1325,7 @@
       },
       {
         "name": "Dora and the Lost City of Gold",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Dora+and+the+Lost+City+of+Gold&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFjbCL2-x8nLsFruEy6cHwbelD1u4g6HgOXupFqLJsqDUoPP-wFVz9R1WilIarHiOY78YZPtdWCQCMsC_pxQMS_a4lC3-tsXruk29Cp9ZY-d6v4cSPPZ51Lc3o8Z7-b3CRowzmI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Dora+and+the+Lost+City+of+Gold&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFjbCL2-x8nLsFruEy6cHwbelD1u4g6HgOXupFqLJsqDUoPP-wFVz9R1WilIarHiOY78YZPtdWCQCMsC_pxQMS_a4lC3-tsXruk29Cp9ZY-d6v4cSPPZ51Lc3o8Z7-b3CRowzmI%3D",
         "showing": [
           {
             "time": [
@@ -1859,7 +1337,7 @@
       },
       {
         "name": "Vibe",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Vibe&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK_tI4gllT-lQmE4ojbEPUYVi8vnSHUpjbCBReK6-skweTcDHqaV-S1OnLZfwDFrZoKDLAmSMl9JG5Ce2gJz-DBUgmQd-Txti7qN8AelolQeZum727xs2ZU4YCr_RFJ-ey4tMAQ%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Vibe&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK_tI4gllT-lQmE4ojbEPUYVi8vnSHUpjbCBReK6-skweTcDHqaV-S1OnLZfwDFrZoKDLAmSMl9JG5Ce2gJz-DBUgmQd-Txti7qN8AelolQeZum727xs2ZU4YCr_RFJ-ey4tMAQ%3D",
         "showing": [
           {
             "time": [
@@ -1880,7 +1358,7 @@
     "movies": [
       {
         "name": "Resident Evil",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D",
         "showing": [
           {
             "time": [
@@ -1892,7 +1370,7 @@
       },
       {
         "name": "Forgotten Island",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Forgotten+Island&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XH4UGjyYx62Xo6f2T_cC7k8An7U1gQD5PO8oienbkZYea_knxy5R_1Az7wPmFOfNPKVD6FIiBsHwzCv8-esyIGu3igZiExKpZqTRQJBoQRzwbK4yvpG38RvVyHyJX_g-LLgS030%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Forgotten+Island&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XH4UGjyYx62Xo6f2T_cC7k8An7U1gQD5PO8oienbkZYea_knxy5R_1Az7wPmFOfNPKVD6FIiBsHwzCv8-esyIGu3igZiExKpZqTRQJBoQRzwbK4yvpG38RvVyHyJX_g-LLgS030%3D",
         "showing": [
           {
             "time": [
@@ -1923,7 +1401,7 @@
       },
       {
         "name": "Heart of the Beast",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Heart+of+the+Beast&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XE2t58koBuxfVhLK8dk8KiMWoithKPWHZI6DIfiy9QW5dUR3VpUiLJYrXDGbJNzOIu90NwxsweUwkHpOCXAROTm2QoxapnryFuA3gKu689ckAAFDpjcYY9tqElI-yjJv2REhwAQ%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Heart+of+the+Beast&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XE2t58koBuxfVhLK8dk8KiMWoithKPWHZI6DIfiy9QW5dUR3VpUiLJYrXDGbJNzOIu90NwxsweUwkHpOCXAROTm2QoxapnryFuA3gKu689ckAAFDpjcYY9tqElI-yjJv2REhwAQ%3D",
         "showing": [
           {
             "time": [
@@ -1945,7 +1423,7 @@
       },
       {
         "name": "Avengers: Endgame",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Avengers:+Endgame&si=APenkKmVZkKRkzLWo1aueLpZRI7fXy2DM9G-wLQnMXpKEGiKOU8DTe5tt18kDF6vH9ZTZ3zjbjuwLi0MvWJBl3eO8f3TmANORJNhSbOuVAd7wjMoSyCAI-p1mCBua1W6QTF5MGqwkO04GsDgu-nCIEds8xaO3hhWXjlWnhhgmaLs6xYmKyUjCxA%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Avengers:+Endgame&si=APenkKmVZkKRkzLWo1aueLpZRI7fXy2DM9G-wLQnMXpKEGiKOU8DTe5tt18kDF6vH9ZTZ3zjbjuwLi0MvWJBl3eO8f3TmANORJNhSbOuVAd7wjMoSyCAI-p1mCBua1W6QTF5MGqwkO04GsDgu-nCIEds8xaO3hhWXjlWnhhgmaLs6xYmKyUjCxA%3D",
         "showing": [
           {
             "time": [
@@ -1983,7 +1461,7 @@
       },
       {
         "name": "Primetime",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Primetime&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEdVG7KtvXYZBCGAERv45M37Xt6RPR5fJT9k1xrOXqt_Ejd6LQWvVFLzO__g-ml02ysyD81fuEFlCvcPOKG0eRomlsNIWBk7R3txvHWl5LSzAflish8b-FmyA85SzApsADZKW2k%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Primetime&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEdVG7KtvXYZBCGAERv45M37Xt6RPR5fJT9k1xrOXqt_Ejd6LQWvVFLzO__g-ml02ysyD81fuEFlCvcPOKG0eRomlsNIWBk7R3txvHWl5LSzAflish8b-FmyA85SzApsADZKW2k%3D",
         "showing": [
           {
             "time": [
@@ -1999,7 +1477,7 @@
       },
       {
         "name": "Ha-Chan, Shake Your Booty!",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Ha-Chan,+Shake+Your+Booty!&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XOXWyB0PJSsT2N8S1qQcKBRqJandvp4npgwjolMqv3FVOjCoBzVVT_vHnryE2sQpPwozgYikZjdXT7esvl0UDMKZ1US48EQ0c8O0C6V4gfrn59iOd5K_0CppFFHkeVral40kSK4%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Ha-Chan,+Shake+Your+Booty!&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XOXWyB0PJSsT2N8S1qQcKBRqJandvp4npgwjolMqv3FVOjCoBzVVT_vHnryE2sQpPwozgYikZjdXT7esvl0UDMKZ1US48EQ0c8O0C6V4gfrn59iOd5K_0CppFFHkeVral40kSK4%3D",
         "showing": [
           {
             "time": [
@@ -2012,7 +1490,7 @@
       },
       {
         "name": "The Paradise",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Paradise&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGNhX-p1VLNDdXf_bokzmhfEf4-QPZvF1va6rh_Udv4T6va0aRUE_2xYs8wwX_8Lh4C4M-EVownGvu-USFjJIFSNj191kRjZcqxZ_HsvqhKlowjXB1f-EGO24Ib5EHmDcT1Bbho%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Paradise&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGNhX-p1VLNDdXf_bokzmhfEf4-QPZvF1va6rh_Udv4T6va0aRUE_2xYs8wwX_8Lh4C4M-EVownGvu-USFjJIFSNj191kRjZcqxZ_HsvqhKlowjXB1f-EGO24Ib5EHmDcT1Bbho%3D",
         "showing": [
           {
             "time": [
@@ -2025,7 +1503,7 @@
       },
       {
         "name": "Charlie Harper",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Charlie+Harper&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG9jMZfj8g7DtnFnt3izMsfQFPM3kx43R_Kht4g3FcmgMVejcspSCYJQzeZGSKeN_FEi4o596-6aG7Cm3jmmcdxN7ihmu5RTIlc5AMHK_nzfiyOrIRLtryqtbxIxEP-cNCE2nGQ%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Charlie+Harper&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG9jMZfj8g7DtnFnt3izMsfQFPM3kx43R_Kht4g3FcmgMVejcspSCYJQzeZGSKeN_FEi4o596-6aG7Cm3jmmcdxN7ihmu5RTIlc5AMHK_nzfiyOrIRLtryqtbxIxEP-cNCE2nGQ%3D",
         "showing": [
           {
             "time": [
@@ -2038,7 +1516,7 @@
       },
       {
         "name": "The Stunt Driver",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Stunt+Driver&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAOcHeLCx4hIWCs-w65lbS4s3Zoz2vRlb7MCGlCsoSg6-s0ojY3yhdEq7izA4-fiUOhSocEqhWmC-5MJfVL7fWegXOxXvqfYfIyAFenbK4dkwHfkWim8qPxVB5CgmZUlwu0c0Dk%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Stunt+Driver&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAOcHeLCx4hIWCs-w65lbS4s3Zoz2vRlb7MCGlCsoSg6-s0ojY3yhdEq7izA4-fiUOhSocEqhWmC-5MJfVL7fWegXOxXvqfYfIyAFenbK4dkwHfkWim8qPxVB5CgmZUlwu0c0Dk%3D",
         "showing": [
           {
             "time": [
@@ -2051,7 +1529,7 @@
       },
       {
         "name": "Dora and the Lost City of Gold",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Dora+and+the+Lost+City+of+Gold&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFjbCL2-x8nLsFruEy6cHwbelD1u4g6HgOXupFqLJsqDUoPP-wFVz9R1WilIarHiOY78YZPtdWCQCMsC_pxQMS_a4lC3-tsXruk29Cp9ZY-d6v4cSPPZ51Lc3o8Z7-b3CRowzmI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Dora+and+the+Lost+City+of+Gold&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFjbCL2-x8nLsFruEy6cHwbelD1u4g6HgOXupFqLJsqDUoPP-wFVz9R1WilIarHiOY78YZPtdWCQCMsC_pxQMS_a4lC3-tsXruk29Cp9ZY-d6v4cSPPZ51Lc3o8Z7-b3CRowzmI%3D",
         "showing": [
           {
             "time": [
@@ -2063,7 +1541,7 @@
       },
       {
         "name": "Hello Beautiful",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Hello+Beautiful&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJwr1NY9xdCXZgZH9wzfUSxaPnp9FchZ-zHKo9GbzuRSon0ShabKUALfyEwUuqAzzWYTMLx5jP5pEdhqOmsRx70muq4oCMZQQcajvv9zi48PjUDlIWll-aMxXgNmpPMOTi93vEI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Hello+Beautiful&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJwr1NY9xdCXZgZH9wzfUSxaPnp9FchZ-zHKo9GbzuRSon0ShabKUALfyEwUuqAzzWYTMLx5jP5pEdhqOmsRx70muq4oCMZQQcajvv9zi48PjUDlIWll-aMxXgNmpPMOTi93vEI%3D",
         "showing": [
           {
             "time": [
@@ -2084,7 +1562,7 @@
     "movies": [
       {
         "name": "Resident Evil",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D",
         "showing": [
           {
             "time": [
@@ -2103,7 +1581,7 @@
       },
       {
         "name": "Forgotten Island",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Forgotten+Island&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XH4UGjyYx62Xo6f2T_cC7k8An7U1gQD5PO8oienbkZYea_knxy5R_1Az7wPmFOfNPKVD6FIiBsHwzCv8-esyIGu3igZiExKpZqTRQJBoQRzwbK4yvpG38RvVyHyJX_g-LLgS030%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Forgotten+Island&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XH4UGjyYx62Xo6f2T_cC7k8An7U1gQD5PO8oienbkZYea_knxy5R_1Az7wPmFOfNPKVD6FIiBsHwzCv8-esyIGu3igZiExKpZqTRQJBoQRzwbK4yvpG38RvVyHyJX_g-LLgS030%3D",
         "showing": [
           {
             "time": [
@@ -2136,7 +1614,7 @@
       },
       {
         "name": "Heart of the Beast",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Heart+of+the+Beast&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XE2t58koBuxfVhLK8dk8KiMWoithKPWHZI6DIfiy9QW5dUR3VpUiLJYrXDGbJNzOIu90NwxsweUwkHpOCXAROTm2QoxapnryFuA3gKu689ckAAFDpjcYY9tqElI-yjJv2REhwAQ%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Heart+of+the+Beast&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XE2t58koBuxfVhLK8dk8KiMWoithKPWHZI6DIfiy9QW5dUR3VpUiLJYrXDGbJNzOIu90NwxsweUwkHpOCXAROTm2QoxapnryFuA3gKu689ckAAFDpjcYY9tqElI-yjJv2REhwAQ%3D",
         "showing": [
           {
             "time": [
@@ -2157,7 +1635,7 @@
       },
       {
         "name": "Avengers: Endgame",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Avengers:+Endgame&si=APenkKmVZkKRkzLWo1aueLpZRI7fXy2DM9G-wLQnMXpKEGiKOU8DTe5tt18kDF6vH9ZTZ3zjbjuwLi0MvWJBl3eO8f3TmANORJNhSbOuVAd7wjMoSyCAI-p1mCBua1W6QTF5MGqwkO04GsDgu-nCIEds8xaO3hhWXjlWnhhgmaLs6xYmKyUjCxA%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Avengers:+Endgame&si=APenkKmVZkKRkzLWo1aueLpZRI7fXy2DM9G-wLQnMXpKEGiKOU8DTe5tt18kDF6vH9ZTZ3zjbjuwLi0MvWJBl3eO8f3TmANORJNhSbOuVAd7wjMoSyCAI-p1mCBua1W6QTF5MGqwkO04GsDgu-nCIEds8xaO3hhWXjlWnhhgmaLs6xYmKyUjCxA%3D",
         "showing": [
           {
             "time": [
@@ -2196,7 +1674,7 @@
       },
       {
         "name": "Primetime",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Primetime&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEdVG7KtvXYZBCGAERv45M37Xt6RPR5fJT9k1xrOXqt_Ejd6LQWvVFLzO__g-ml02ysyD81fuEFlCvcPOKG0eRomlsNIWBk7R3txvHWl5LSzAflish8b-FmyA85SzApsADZKW2k%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Primetime&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEdVG7KtvXYZBCGAERv45M37Xt6RPR5fJT9k1xrOXqt_Ejd6LQWvVFLzO__g-ml02ysyD81fuEFlCvcPOKG0eRomlsNIWBk7R3txvHWl5LSzAflish8b-FmyA85SzApsADZKW2k%3D",
         "showing": [
           {
             "time": [
@@ -2213,7 +1691,7 @@
       },
       {
         "name": "Ha-Chan, Shake Your Booty!",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Ha-Chan,+Shake+Your+Booty!&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XOXWyB0PJSsT2N8S1qQcKBRqJandvp4npgwjolMqv3FVOjCoBzVVT_vHnryE2sQpPwozgYikZjdXT7esvl0UDMKZ1US48EQ0c8O0C6V4gfrn59iOd5K_0CppFFHkeVral40kSK4%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Ha-Chan,+Shake+Your+Booty!&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XOXWyB0PJSsT2N8S1qQcKBRqJandvp4npgwjolMqv3FVOjCoBzVVT_vHnryE2sQpPwozgYikZjdXT7esvl0UDMKZ1US48EQ0c8O0C6V4gfrn59iOd5K_0CppFFHkeVral40kSK4%3D",
         "showing": [
           {
             "time": [
@@ -2225,7 +1703,7 @@
       },
       {
         "name": "The Paradise",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Paradise&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGNhX-p1VLNDdXf_bokzmhfEf4-QPZvF1va6rh_Udv4T6va0aRUE_2xYs8wwX_8Lh4C4M-EVownGvu-USFjJIFSNj191kRjZcqxZ_HsvqhKlowjXB1f-EGO24Ib5EHmDcT1Bbho%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Paradise&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGNhX-p1VLNDdXf_bokzmhfEf4-QPZvF1va6rh_Udv4T6va0aRUE_2xYs8wwX_8Lh4C4M-EVownGvu-USFjJIFSNj191kRjZcqxZ_HsvqhKlowjXB1f-EGO24Ib5EHmDcT1Bbho%3D",
         "showing": [
           {
             "time": [
@@ -2237,7 +1715,7 @@
       },
       {
         "name": "Charlie Harper",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Charlie+Harper&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG9jMZfj8g7DtnFnt3izMsfQFPM3kx43R_Kht4g3FcmgMVejcspSCYJQzeZGSKeN_FEi4o596-6aG7Cm3jmmcdxN7ihmu5RTIlc5AMHK_nzfiyOrIRLtryqtbxIxEP-cNCE2nGQ%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Charlie+Harper&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG9jMZfj8g7DtnFnt3izMsfQFPM3kx43R_Kht4g3FcmgMVejcspSCYJQzeZGSKeN_FEi4o596-6aG7Cm3jmmcdxN7ihmu5RTIlc5AMHK_nzfiyOrIRLtryqtbxIxEP-cNCE2nGQ%3D",
         "showing": [
           {
             "time": [
@@ -2249,7 +1727,7 @@
       },
       {
         "name": "The Stunt Driver",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Stunt+Driver&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAOcHeLCx4hIWCs-w65lbS4s3Zoz2vRlb7MCGlCsoSg6-s0ojY3yhdEq7izA4-fiUOhSocEqhWmC-5MJfVL7fWegXOxXvqfYfIyAFenbK4dkwHfkWim8qPxVB5CgmZUlwu0c0Dk%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Stunt+Driver&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAOcHeLCx4hIWCs-w65lbS4s3Zoz2vRlb7MCGlCsoSg6-s0ojY3yhdEq7izA4-fiUOhSocEqhWmC-5MJfVL7fWegXOxXvqfYfIyAFenbK4dkwHfkWim8qPxVB5CgmZUlwu0c0Dk%3D",
         "showing": [
           {
             "time": [
@@ -2261,7 +1739,7 @@
       },
       {
         "name": "Spanglish",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Spanglish&si=APenkKlikuSFV5Zn0CcM560bGMYxPork-kjkM9d4OinI68WHtlb5PsIXdzvwj4W0Hu09gqQvtJy094vXwCClBEqrOoMX8DbjjCBR7PVea_laqhajehNgSs82ZxiKx8nAT9j2xoliBcOBvla2yA-0fWKkozKnLeCwo3Vn_XyJfeq2iRMSFTzGvV0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Spanglish&si=APenkKlikuSFV5Zn0CcM560bGMYxPork-kjkM9d4OinI68WHtlb5PsIXdzvwj4W0Hu09gqQvtJy094vXwCClBEqrOoMX8DbjjCBR7PVea_laqhajehNgSs82ZxiKx8nAT9j2xoliBcOBvla2yA-0fWKkozKnLeCwo3Vn_XyJfeq2iRMSFTzGvV0%3D",
         "showing": [
           {
             "time": [
@@ -2273,7 +1751,7 @@
       },
       {
         "name": "Hello Beautiful",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Hello+Beautiful&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJwr1NY9xdCXZgZH9wzfUSxaPnp9FchZ-zHKo9GbzuRSon0ShabKUALfyEwUuqAzzWYTMLx5jP5pEdhqOmsRx70muq4oCMZQQcajvv9zi48PjUDlIWll-aMxXgNmpPMOTi93vEI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Hello+Beautiful&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJwr1NY9xdCXZgZH9wzfUSxaPnp9FchZ-zHKo9GbzuRSon0ShabKUALfyEwUuqAzzWYTMLx5jP5pEdhqOmsRx70muq4oCMZQQcajvv9zi48PjUDlIWll-aMxXgNmpPMOTi93vEI%3D",
         "showing": [
           {
             "time": [
@@ -2294,7 +1772,7 @@
     "movies": [
       {
         "name": "Resident Evil",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D",
         "showing": [
           {
             "time": [
@@ -2313,7 +1791,7 @@
       },
       {
         "name": "Forgotten Island",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Forgotten+Island&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XH4UGjyYx62Xo6f2T_cC7k8An7U1gQD5PO8oienbkZYea_knxy5R_1Az7wPmFOfNPKVD6FIiBsHwzCv8-esyIGu3igZiExKpZqTRQJBoQRzwbK4yvpG38RvVyHyJX_g-LLgS030%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Forgotten+Island&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XH4UGjyYx62Xo6f2T_cC7k8An7U1gQD5PO8oienbkZYea_knxy5R_1Az7wPmFOfNPKVD6FIiBsHwzCv8-esyIGu3igZiExKpZqTRQJBoQRzwbK4yvpG38RvVyHyJX_g-LLgS030%3D",
         "showing": [
           {
             "time": [
@@ -2351,7 +1829,7 @@
       },
       {
         "name": "Heart of the Beast",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Heart+of+the+Beast&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XE2t58koBuxfVhLK8dk8KiMWoithKPWHZI6DIfiy9QW5dUR3VpUiLJYrXDGbJNzOIu90NwxsweUwkHpOCXAROTm2QoxapnryFuA3gKu689ckAAFDpjcYY9tqElI-yjJv2REhwAQ%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Heart+of+the+Beast&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XE2t58koBuxfVhLK8dk8KiMWoithKPWHZI6DIfiy9QW5dUR3VpUiLJYrXDGbJNzOIu90NwxsweUwkHpOCXAROTm2QoxapnryFuA3gKu689ckAAFDpjcYY9tqElI-yjJv2REhwAQ%3D",
         "showing": [
           {
             "time": [
@@ -2372,7 +1850,7 @@
       },
       {
         "name": "Avengers: Endgame",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Avengers:+Endgame&si=APenkKmVZkKRkzLWo1aueLpZRI7fXy2DM9G-wLQnMXpKEGiKOU8DTe5tt18kDF6vH9ZTZ3zjbjuwLi0MvWJBl3eO8f3TmANORJNhSbOuVAd7wjMoSyCAI-p1mCBua1W6QTF5MGqwkO04GsDgu-nCIEds8xaO3hhWXjlWnhhgmaLs6xYmKyUjCxA%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Avengers:+Endgame&si=APenkKmVZkKRkzLWo1aueLpZRI7fXy2DM9G-wLQnMXpKEGiKOU8DTe5tt18kDF6vH9ZTZ3zjbjuwLi0MvWJBl3eO8f3TmANORJNhSbOuVAd7wjMoSyCAI-p1mCBua1W6QTF5MGqwkO04GsDgu-nCIEds8xaO3hhWXjlWnhhgmaLs6xYmKyUjCxA%3D",
         "showing": [
           {
             "time": [
@@ -2411,7 +1889,7 @@
       },
       {
         "name": "Primetime",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Primetime&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEdVG7KtvXYZBCGAERv45M37Xt6RPR5fJT9k1xrOXqt_Ejd6LQWvVFLzO__g-ml02ysyD81fuEFlCvcPOKG0eRomlsNIWBk7R3txvHWl5LSzAflish8b-FmyA85SzApsADZKW2k%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Primetime&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEdVG7KtvXYZBCGAERv45M37Xt6RPR5fJT9k1xrOXqt_Ejd6LQWvVFLzO__g-ml02ysyD81fuEFlCvcPOKG0eRomlsNIWBk7R3txvHWl5LSzAflish8b-FmyA85SzApsADZKW2k%3D",
         "showing": [
           {
             "time": [
@@ -2428,7 +1906,7 @@
       },
       {
         "name": "Princess Mononoke",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Princess+Mononoke&si=APenkKlsOMFuBZLoy--im5siVBMfs4mvK5LhrB47M1xy1bYJz1xFd5Lafr5B3wNxg7BGLsrga6wp_niz_1xsMXF8-Qk6pAE_A-c-eNaaDZq-vaH3eFVdcye1NoiF0GWE-baIrf5pzpKKFyHHMRt6FvLWaBtDOCUk0FjRRqSvd9UbKb6aTrnN6Ns%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Princess+Mononoke&si=APenkKlsOMFuBZLoy--im5siVBMfs4mvK5LhrB47M1xy1bYJz1xFd5Lafr5B3wNxg7BGLsrga6wp_niz_1xsMXF8-Qk6pAE_A-c-eNaaDZq-vaH3eFVdcye1NoiF0GWE-baIrf5pzpKKFyHHMRt6FvLWaBtDOCUk0FjRRqSvd9UbKb6aTrnN6Ns%3D",
         "showing": [
           {
             "time": [
@@ -2440,7 +1918,7 @@
       },
       {
         "name": "Ha-Chan, Shake Your Booty!",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Ha-Chan,+Shake+Your+Booty!&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XOXWyB0PJSsT2N8S1qQcKBRqJandvp4npgwjolMqv3FVOjCoBzVVT_vHnryE2sQpPwozgYikZjdXT7esvl0UDMKZ1US48EQ0c8O0C6V4gfrn59iOd5K_0CppFFHkeVral40kSK4%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Ha-Chan,+Shake+Your+Booty!&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XOXWyB0PJSsT2N8S1qQcKBRqJandvp4npgwjolMqv3FVOjCoBzVVT_vHnryE2sQpPwozgYikZjdXT7esvl0UDMKZ1US48EQ0c8O0C6V4gfrn59iOd5K_0CppFFHkeVral40kSK4%3D",
         "showing": [
           {
             "time": [
@@ -2451,20 +1929,8 @@
         ]
       },
       {
-        "name": "NO LIMBS, NO LIMITS: The NickV Story",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=NO+LIMBS,+NO+LIMITS:+The+NickV+Story&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJsaS64G3CCqBr6jrmCqldU866Lac8-imbOCc7c3Ozwax6kxN_mKXGbm2tu3LzkiyurZIAbxTlB3wT7QINS_QEvuusV7nZvwcg2Xoih34jXNiMgC_vL_-S7ZLYqsShcpVQOTv_w%3D",
-        "showing": [
-          {
-            "time": [
-              "7:00pm"
-            ],
-            "type": "Standard"
-          }
-        ]
-      },
-      {
         "name": "The Paradise",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Paradise&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGNhX-p1VLNDdXf_bokzmhfEf4-QPZvF1va6rh_Udv4T6va0aRUE_2xYs8wwX_8Lh4C4M-EVownGvu-USFjJIFSNj191kRjZcqxZ_HsvqhKlowjXB1f-EGO24Ib5EHmDcT1Bbho%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Paradise&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGNhX-p1VLNDdXf_bokzmhfEf4-QPZvF1va6rh_Udv4T6va0aRUE_2xYs8wwX_8Lh4C4M-EVownGvu-USFjJIFSNj191kRjZcqxZ_HsvqhKlowjXB1f-EGO24Ib5EHmDcT1Bbho%3D",
         "showing": [
           {
             "time": [
@@ -2475,8 +1941,20 @@
         ]
       },
       {
+        "name": "NO LIMBS, NO LIMITS: The NickV Story",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=NO+LIMBS,+NO+LIMITS:+The+NickV+Story&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJsaS64G3CCqBr6jrmCqldU866Lac8-imbOCc7c3Ozwax6kxN_mKXGbm2tu3LzkiyurZIAbxTlB3wT7QINS_QEvuusV7nZvwcg2Xoih34jXNiMgC_vL_-S7ZLYqsShcpVQOTv_w%3D",
+        "showing": [
+          {
+            "time": [
+              "7:00pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
         "name": "Charlie Harper",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Charlie+Harper&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG9jMZfj8g7DtnFnt3izMsfQFPM3kx43R_Kht4g3FcmgMVejcspSCYJQzeZGSKeN_FEi4o596-6aG7Cm3jmmcdxN7ihmu5RTIlc5AMHK_nzfiyOrIRLtryqtbxIxEP-cNCE2nGQ%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Charlie+Harper&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG9jMZfj8g7DtnFnt3izMsfQFPM3kx43R_Kht4g3FcmgMVejcspSCYJQzeZGSKeN_FEi4o596-6aG7Cm3jmmcdxN7ihmu5RTIlc5AMHK_nzfiyOrIRLtryqtbxIxEP-cNCE2nGQ%3D",
         "showing": [
           {
             "time": [
@@ -2489,7 +1967,7 @@
       },
       {
         "name": "The Stunt Driver",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=The+Stunt+Driver&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAOcHeLCx4hIWCs-w65lbS4s3Zoz2vRlb7MCGlCsoSg6-s0ojY3yhdEq7izA4-fiUOhSocEqhWmC-5MJfVL7fWegXOxXvqfYfIyAFenbK4dkwHfkWim8qPxVB5CgmZUlwu0c0Dk%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Stunt+Driver&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAOcHeLCx4hIWCs-w65lbS4s3Zoz2vRlb7MCGlCsoSg6-s0ojY3yhdEq7izA4-fiUOhSocEqhWmC-5MJfVL7fWegXOxXvqfYfIyAFenbK4dkwHfkWim8qPxVB5CgmZUlwu0c0Dk%3D",
         "showing": [
           {
             "time": [
@@ -2501,7 +1979,7 @@
       },
       {
         "name": "Spanglish",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Spanglish&si=APenkKlikuSFV5Zn0CcM560bGMYxPork-kjkM9d4OinI68WHtlb5PsIXdzvwj4W0Hu09gqQvtJy094vXwCClBEqrOoMX8DbjjCBR7PVea_laqhajehNgSs82ZxiKx8nAT9j2xoliBcOBvla2yA-0fWKkozKnLeCwo3Vn_XyJfeq2iRMSFTzGvV0%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Spanglish&si=APenkKlikuSFV5Zn0CcM560bGMYxPork-kjkM9d4OinI68WHtlb5PsIXdzvwj4W0Hu09gqQvtJy094vXwCClBEqrOoMX8DbjjCBR7PVea_laqhajehNgSs82ZxiKx8nAT9j2xoliBcOBvla2yA-0fWKkozKnLeCwo3Vn_XyJfeq2iRMSFTzGvV0%3D",
         "showing": [
           {
             "time": [
@@ -2513,7 +1991,7 @@
       },
       {
         "name": "Hello Beautiful",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQns5foMnratovUj-lh_0avI2JU4SQA:1789898048230&q=Hello+Beautiful&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJwr1NY9xdCXZgZH9wzfUSxaPnp9FchZ-zHKo9GbzuRSon0ShabKUALfyEwUuqAzzWYTMLx5jP5pEdhqOmsRx70muq4oCMZQQcajvv9zi48PjUDlIWll-aMxXgNmpPMOTi93vEI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Hello+Beautiful&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJwr1NY9xdCXZgZH9wzfUSxaPnp9FchZ-zHKo9GbzuRSon0ShabKUALfyEwUuqAzzWYTMLx5jP5pEdhqOmsRx70muq4oCMZQQcajvv9zi48PjUDlIWll-aMxXgNmpPMOTi93vEI%3D",
         "showing": [
           {
             "time": [
@@ -2530,58 +2008,68 @@
   },
   {
     "day": "Sun",
-    "date": "Oct 4",
+    "date": "Sep 27",
     "movies": [
       {
-        "name": "Forgotten Island",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQnt8EoOMZ8GxnWr572Bw_eYVIxcfQg:1789898061720&q=Forgotten+Island&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XH4UGjyYx62Xo6f2T_cC7k8An7U1gQD5PO8oienbkZYea_knxy5R_1Az7wPmFOfNPKVD6FIiBsHwzCv8-esyIGu3igZiExKpZqTRQJBoQRzwbK4yvpG38RvVyHyJX_g-LLgS030%3D&sa=X&ved=2ahUKEwifm5zx8fyWAxVqQzABHcvOHf0QxyZ6BAgpEA0",
+        "name": "Resident Evil",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D",
         "showing": [
           {
             "time": [
-              "12:45pm",
-              "3:45pm"
+              "7:30pm"
             ],
             "type": "Standard"
           },
           {
             "time": [
-              "6:45pm",
-              "9:45pm"
+              "8:15pm",
+              "11:00pm"
             ],
-            "type": "3D"
+            "type": "IMAX"
           }
         ]
       },
       {
-        "name": "Verity",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQnt8EoOMZ8GxnWr572Bw_eYVIxcfQg:1789898061720&q=Verity&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJ_wVkZeSLvxMIcYVJ7oxDDJrGfKW0PP_Tdf97ZGOjrcJg_pQz_xEcGlHX2EUm4zWQRMUE5lZWFvoXH4XCh0ZWeQ7e0IQ1Bu2JNZr8CEpALe_bMv0AIgQCZFLYAzsTSiD1J6C8I%3D&sa=X&ved=2ahUKEwifm5zx8fyWAxVqQzABHcvOHf0QxyZ6BAgpEBU",
+        "name": "Forgotten Island",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Forgotten+Island&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XH4UGjyYx62Xo6f2T_cC7k8An7U1gQD5PO8oienbkZYea_knxy5R_1Az7wPmFOfNPKVD6FIiBsHwzCv8-esyIGu3igZiExKpZqTRQJBoQRzwbK4yvpG38RvVyHyJX_g-LLgS030%3D",
         "showing": [
           {
             "time": [
-              "12:15pm",
               "3:15pm",
-              "6:15pm",
+              "4:15pm",
               "9:15pm"
             ],
             "type": "Standard"
           },
           {
             "time": [
-              "4:15pm",
-              "7:15pm"
+              "12:15pm",
+              "6:15pm"
+            ],
+            "type": "3D"
+          },
+          {
+            "time": [
+              "1:45pm"
             ],
             "type": "Dolby Cinema"
+          },
+          {
+            "time": [
+              "5:15pm"
+            ],
+            "type": "ScreenX"
           }
         ]
       },
       {
-        "name": "Digger",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQnt8EoOMZ8GxnWr572Bw_eYVIxcfQg:1789898061720&q=Digger&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJd5L91uDgWnb6Ys8n6vbGxWED6H_xOsLuCL4LKEcn-ObwujzawwNtSmBznMcLyZrsdZroTNrVxNolqQeTfq2fHVM_JoeqB7eD4ktyiKvi0i7mUGsslZgrmalClt1Bt4982PGPs%3D&sa=X&ved=2ahUKEwifm5zx8fyWAxVqQzABHcvOHf0QxyZ6BAgpEB8",
+        "name": "Heart of the Beast",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Heart+of+the+Beast&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XE2t58koBuxfVhLK8dk8KiMWoithKPWHZI6DIfiy9QW5dUR3VpUiLJYrXDGbJNzOIu90NwxsweUwkHpOCXAROTm2QoxapnryFuA3gKu689ckAAFDpjcYY9tqElI-yjJv2REhwAQ%3D",
         "showing": [
           {
             "time": [
               "12:15pm",
-              "3:30pm",
+              "3:00pm",
               "6:45pm",
               "9:30pm"
             ],
@@ -2589,48 +2077,70 @@
           },
           {
             "time": [
-              "1:15pm",
-              "4:30pm",
-              "7:45pm",
-              "11:00pm"
-            ],
-            "type": "IMAX"
-          },
-          {
-            "time": [
-              "10:15pm"
+              "4:45pm"
             ],
             "type": "Dolby Cinema"
           }
         ]
       },
       {
-        "name": "The Nightmare Before Christmas",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQnt8EoOMZ8GxnWr572Bw_eYVIxcfQg:1789898061720&q=The+Nightmare+Before+Christmas&si=APenkKlikuSFV5Zn0CcM560bGMYxPork-kjkM9d4OinI68WHtt8S4NVPe1UOQJhp-Rt8NMLrZx-AtmktKufYyljfWI0avG-hzN7Ng0sVosEPDLio1Ll6I1DhbEP3otkEfPMl36PYLBrVEFSiI6FGWlaW98-wfwJrX9atvLkVLhfxAEi5Yhv57lE%3D",
+        "name": "Avengers: Endgame",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Avengers:+Endgame&si=APenkKmVZkKRkzLWo1aueLpZRI7fXy2DM9G-wLQnMXpKEGiKOU8DTe5tt18kDF6vH9ZTZ3zjbjuwLi0MvWJBl3eO8f3TmANORJNhSbOuVAd7wjMoSyCAI-p1mCBua1W6QTF5MGqwkO04GsDgu-nCIEds8xaO3hhWXjlWnhhgmaLs6xYmKyUjCxA%3D",
         "showing": [
           {
             "time": [
-              "4:30pm"
+              "2:30pm"
+            ],
+            "type": "Standard"
+          },
+          {
+            "time": [
+              "4:00pm"
+            ],
+            "type": "IMAX"
+          },
+          {
+            "time": [
+              "12:00pm",
+              "6:45pm",
+              "11:00pm"
             ],
             "type": "3D"
+          },
+          {
+            "time": [
+              "7:45pm"
+            ],
+            "type": "Dolby Cinema"
+          },
+          {
+            "time": [
+              "1:00pm"
+            ],
+            "type": "ScreenX"
           }
         ]
       },
       {
-        "name": "Rolling Loud: The Movie",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQnt8EoOMZ8GxnWr572Bw_eYVIxcfQg:1789898061720&q=Rolling+Loud:+The+Movie&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XIgFxmqaxVNfV42Hd3aqdqLdk0XgsSS6SC4T-8aiCRI9bmM3nqLbYzcLQOhR38Hsf3H2Org7FRjjt61jfT90VrIN8-7l_IC--C36od4ERVhsKC_BFK4iF2FTWCB3ghZlXjZPixg%3D",
+        "name": "Primetime",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Primetime&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEdVG7KtvXYZBCGAERv45M37Xt6RPR5fJT9k1xrOXqt_Ejd6LQWvVFLzO__g-ml02ysyD81fuEFlCvcPOKG0eRomlsNIWBk7R3txvHWl5LSzAflish8b-FmyA85SzApsADZKW2k%3D",
         "showing": [
           {
             "time": [
-              "6:30pm"
+              "12:45pm",
+              "3:45pm",
+              "5:45pm",
+              "7:15pm",
+              "8:45pm",
+              "10:15pm"
             ],
             "type": "Standard"
           }
         ]
       },
       {
-        "name": "ADORE HIM: HE IS HERE",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQnt8EoOMZ8GxnWr572Bw_eYVIxcfQg:1789898061720&q=ADORE+HIM:+HE+IS+HERE&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XO4qFAiqTwXYXEbql_u_qhTGDlNMHz6-v5x5lhFPWk3ruiOnexrTGuSJDFdWNXtHtsfebgAFcLT8QdYXLNmyXnohy1fWkuJEj7sQfXIX7YYM87d7s9LavG0942oD0GkjVVfXo90%3D",
+        "name": "Princess Mononoke",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Princess+Mononoke&si=APenkKlsOMFuBZLoy--im5siVBMfs4mvK5LhrB47M1xy1bYJz1xFd5Lafr5B3wNxg7BGLsrga6wp_niz_1xsMXF8-Qk6pAE_A-c-eNaaDZq-vaH3eFVdcye1NoiF0GWE-baIrf5pzpKKFyHHMRt6FvLWaBtDOCUk0FjRRqSvd9UbKb6aTrnN6Ns%3D",
         "showing": [
           {
             "time": [
@@ -2642,11 +2152,207 @@
         ]
       },
       {
-        "name": "The Influencer Project",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQnt8EoOMZ8GxnWr572Bw_eYVIxcfQg:1789898061720&q=The+Influencer+Project&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XK1hUkFmtiCvCSvt8xMlzGikAlGQvk_2fuRO8elh0gyc_qRNssRg-KEkK0hnUVXHKX61Yz4_73lt18JtkNI0klZRtdACoW3Wzenr3RzYS0iOYrVF5VVtlcv1FmUjVGSa5PHwgRA%3D",
+        "name": "Ha-Chan, Shake Your Booty!",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Ha-Chan,+Shake+Your+Booty!&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XOXWyB0PJSsT2N8S1qQcKBRqJandvp4npgwjolMqv3FVOjCoBzVVT_vHnryE2sQpPwozgYikZjdXT7esvl0UDMKZ1US48EQ0c8O0C6V4gfrn59iOd5K_0CppFFHkeVral40kSK4%3D",
         "showing": [
           {
             "time": [
+              "8:00pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
+        "name": "The Paradise",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Paradise&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XGNhX-p1VLNDdXf_bokzmhfEf4-QPZvF1va6rh_Udv4T6va0aRUE_2xYs8wwX_8Lh4C4M-EVownGvu-USFjJIFSNj191kRjZcqxZ_HsvqhKlowjXB1f-EGO24Ib5EHmDcT1Bbho%3D",
+        "showing": [
+          {
+            "time": [
+              "7:15pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
+        "name": "Charlie Harper",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Charlie+Harper&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG9jMZfj8g7DtnFnt3izMsfQFPM3kx43R_Kht4g3FcmgMVejcspSCYJQzeZGSKeN_FEi4o596-6aG7Cm3jmmcdxN7ihmu5RTIlc5AMHK_nzfiyOrIRLtryqtbxIxEP-cNCE2nGQ%3D",
+        "showing": [
+          {
+            "time": [
+              "6:30pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
+        "name": "The Stunt Driver",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Stunt+Driver&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAOcHeLCx4hIWCs-w65lbS4s3Zoz2vRlb7MCGlCsoSg6-s0ojY3yhdEq7izA4-fiUOhSocEqhWmC-5MJfVL7fWegXOxXvqfYfIyAFenbK4dkwHfkWim8qPxVB5CgmZUlwu0c0Dk%3D",
+        "showing": [
+          {
+            "time": [
+              "5:15pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
+        "name": "Spanglish",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Spanglish&si=APenkKlikuSFV5Zn0CcM560bGMYxPork-kjkM9d4OinI68WHtlb5PsIXdzvwj4W0Hu09gqQvtJy094vXwCClBEqrOoMX8DbjjCBR7PVea_laqhajehNgSs82ZxiKx8nAT9j2xoliBcOBvla2yA-0fWKkozKnLeCwo3Vn_XyJfeq2iRMSFTzGvV0%3D",
+        "showing": [
+          {
+            "time": [
+              "4:00pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
+        "name": "Hello Beautiful",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Hello+Beautiful&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJwr1NY9xdCXZgZH9wzfUSxaPnp9FchZ-zHKo9GbzuRSon0ShabKUALfyEwUuqAzzWYTMLx5jP5pEdhqOmsRx70muq4oCMZQQcajvv9zi48PjUDlIWll-aMxXgNmpPMOTi93vEI%3D",
+        "showing": [
+          {
+            "time": [
+              "4:00pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      }
+    ],
+    "iso_date": "2026-09-27",
+    "weekday": "Sun",
+    "has_data": true
+  },
+  {
+    "day": "Mon",
+    "date": "Sep 28",
+    "movies": [
+      {
+        "name": "Resident Evil",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&hl=en&gl=us&sxsrf=APpeQnsiDahMrypV7W91b-pQhALmnHYjcw:1789987983928&q=Resident+Evil&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNOmJDioPg7K2PjwBLuOLfUNcGaWKhXK54bUJRFrwzy1wgzXuqEGRsh_WiQmSZPBl3DLn7udKXLqahWGF6CGCjWxlLupzbm6VgQBKdYDuiPp9vGTPz2GMTLZG54UnHfOitNowN0%3D&sa=X&ved=2ahUKEwjgrbzvwP-WAxWEJe8CHcVTB74QxyZ6BAgsEA0",
+        "showing": [
+          {
+            "time": [
+              "7:30pm"
+            ],
+            "type": "Standard"
+          },
+          {
+            "time": [
+              "8:15pm",
+              "11:00pm"
+            ],
+            "type": "IMAX"
+          }
+        ]
+      },
+      {
+        "name": "Forgotten Island",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&hl=en&gl=us&sxsrf=APpeQnsiDahMrypV7W91b-pQhALmnHYjcw:1789987983928&q=Forgotten+Island&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XH4UGjyYx62Xo6f2T_cC7k8An7U1gQD5PO8oienbkZYea_knxy5R_1Az7wPmFOfNPKVD6FIiBsHwzCv8-esyIGu3igZiExKpZqTRQJBoQRzwbK4yvpG38RvVyHyJX_g-LLgS030%3D&sa=X&ved=2ahUKEwjgrbzvwP-WAxWEJe8CHcVTB74QxyZ6BAgsEBQ",
+        "showing": [
+          {
+            "time": [
+              "3:15pm",
+              "7:15pm",
+              "9:15pm"
+            ],
+            "type": "Standard"
+          },
+          {
+            "time": [
+              "12:15pm",
+              "6:15pm"
+            ],
+            "type": "3D"
+          },
+          {
+            "time": [
+              "1:45pm"
+            ],
+            "type": "Dolby Cinema"
+          },
+          {
+            "time": [
+              "5:15pm"
+            ],
+            "type": "ScreenX"
+          }
+        ]
+      },
+      {
+        "name": "Heart of the Beast",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&hl=en&gl=us&sxsrf=APpeQnsiDahMrypV7W91b-pQhALmnHYjcw:1789987983928&q=Heart+of+the+Beast&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XE2t58koBuxfVhLK8dk8KiMWoithKPWHZI6DIfiy9QW5dUR3VpUiLJYrXDGbJNzOIu90NwxsweUwkHpOCXAROTm2QoxapnryFuA3gKu689ckAAFDpjcYY9tqElI-yjJv2REhwAQ%3D&sa=X&ved=2ahUKEwjgrbzvwP-WAxWEJe8CHcVTB74QxyZ6BAgsECE",
+        "showing": [
+          {
+            "time": [
+              "12:15pm",
+              "3:00pm",
+              "6:45pm",
+              "9:30pm"
+            ],
+            "type": "Standard"
+          },
+          {
+            "time": [
+              "4:45pm"
+            ],
+            "type": "Dolby Cinema"
+          }
+        ]
+      },
+      {
+        "name": "Avengers: Endgame",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&hl=en&gl=us&sxsrf=APpeQnsiDahMrypV7W91b-pQhALmnHYjcw:1789987983928&q=Avengers:+Endgame&si=APenkKmVZkKRkzLWo1aueLpZRI7fXy2DM9G-wLQnMXpKEGiKOU8DTe5tt18kDF6vH9ZTZ3zjbjuwLi0MvWJBl3eO8f3TmANORJNhSbOuVAd7wjMoSyCAI-p1mCBua1W6QTF5MGqwkO04GsDgu-nCIEds8xaO3hhWXjlWnhhgmaLs6xYmKyUjCxA%3D",
+        "showing": [
+          {
+            "time": [
+              "2:30pm"
+            ],
+            "type": "Standard"
+          },
+          {
+            "time": [
+              "4:00pm"
+            ],
+            "type": "IMAX"
+          },
+          {
+            "time": [
+              "12:00pm",
+              "6:45pm",
+              "11:00pm"
+            ],
+            "type": "3D"
+          },
+          {
+            "time": [
+              "7:45pm"
+            ],
+            "type": "Dolby Cinema"
+          },
+          {
+            "time": [
+              "1:00pm"
+            ],
+            "type": "ScreenX"
+          }
+        ]
+      },
+      {
+        "name": "Primetime",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&hl=en&gl=us&sxsrf=APpeQnsiDahMrypV7W91b-pQhALmnHYjcw:1789987983928&q=Primetime&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEdVG7KtvXYZBCGAERv45M37Xt6RPR5fJT9k1xrOXqt_Ejd6LQWvVFLzO__g-ml02ysyD81fuEFlCvcPOKG0eRomlsNIWBk7R3txvHWl5LSzAflish8b-FmyA85SzApsADZKW2k%3D",
+        "showing": [
+          {
+            "time": [
+              "12:45pm",
+              "3:45pm",
+              "5:45pm",
+              "8:45pm",
               "10:15pm"
             ],
             "type": "Standard"
@@ -2654,8 +2360,8 @@
         ]
       },
       {
-        "name": "Donnie Darko 25th Anniversary",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQnt8EoOMZ8GxnWr572Bw_eYVIxcfQg:1789898061720&q=Donnie+Darko+25th+Anniversary&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XNrTKUH54TFpJPpaSgKf0K068_dagi_3WC9Q0395wZ-erwqJG8LAwlfE6Oa1TtlFe8RF6lTIi--ZAyLMedyVqkNSpQS9vF9xQfeY9TH2Jqe4iVRL1P7_xq2lClQvFQg3u8C1Lp4%3D",
+        "name": "Princess Mononoke",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&hl=en&gl=us&sxsrf=APpeQnsiDahMrypV7W91b-pQhALmnHYjcw:1789987983928&q=Princess+Mononoke&si=APenkKlsOMFuBZLoy--im5siVBMfs4mvK5LhrB47M1xy1bYJz1xFd5Lafr5B3wNxg7BGLsrga6wp_niz_1xsMXF8-Qk6pAE_A-c-eNaaDZq-vaH3eFVdcye1NoiF0GWE-baIrf5pzpKKFyHHMRt6FvLWaBtDOCUk0FjRRqSvd9UbKb6aTrnN6Ns%3D",
         "showing": [
           {
             "time": [
@@ -2666,20 +2372,44 @@
         ]
       },
       {
-        "name": "Moonlight",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQnt8EoOMZ8GxnWr572Bw_eYVIxcfQg:1789898061720&q=Moonlight&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XCrguh5Mv9jOgTo5bQSw68LpO2jYxXSRnm7uhF21bDNAjK417pIDo_I44LDsPsWyKtG4Nzva_SDRjtJKVxRmUM9UdWeUiluUJ4CgkkxktadKw2Jcrhu6_EMKYfXQ8Nmuc2RkbVw%3D",
+        "name": "Ha-Chan, Shake Your Booty!",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&hl=en&gl=us&sxsrf=APpeQnsiDahMrypV7W91b-pQhALmnHYjcw:1789987983928&q=Ha-Chan,+Shake+Your+Booty!&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XOXWyB0PJSsT2N8S1qQcKBRqJandvp4npgwjolMqv3FVOjCoBzVVT_vHnryE2sQpPwozgYikZjdXT7esvl0UDMKZ1US48EQ0c8O0C6V4gfrn59iOd5K_0CppFFHkeVral40kSK4%3D",
         "showing": [
           {
             "time": [
-              "7:30pm"
+              "8:00pm"
             ],
             "type": "Standard"
           }
         ]
       },
       {
-        "name": "Stand and Deliver",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQnt8EoOMZ8GxnWr572Bw_eYVIxcfQg:1789898061720&q=Stand+and+Deliver&si=APenkKlsOMFuBZLoy--im5siVBMfs4mvK5LhrB47M1xy1bYJz62d9uxknQqyU4-uyr60dtH-gl0MjIYwIC52F6MNvdGbXpWzGm0dxD8dyDPu4tlBw5bXaBzYqt7oJ6T8tcbzvdJzCWY73a7PASyMoPBarBb-NANB6oSkj2i6lccbtigMW1wj1LY%3D",
+        "name": "Charlie Harper",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&hl=en&gl=us&sxsrf=APpeQnsiDahMrypV7W91b-pQhALmnHYjcw:1789987983928&q=Charlie+Harper&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG9jMZfj8g7DtnFnt3izMsfQFPM3kx43R_Kht4g3FcmgMVejcspSCYJQzeZGSKeN_FEi4o596-6aG7Cm3jmmcdxN7ihmu5RTIlc5AMHK_nzfiyOrIRLtryqtbxIxEP-cNCE2nGQ%3D",
+        "showing": [
+          {
+            "time": [
+              "6:30pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
+        "name": "The Stunt Driver",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&hl=en&gl=us&sxsrf=APpeQnsiDahMrypV7W91b-pQhALmnHYjcw:1789987983928&q=The+Stunt+Driver&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XAOcHeLCx4hIWCs-w65lbS4s3Zoz2vRlb7MCGlCsoSg6-s0ojY3yhdEq7izA4-fiUOhSocEqhWmC-5MJfVL7fWegXOxXvqfYfIyAFenbK4dkwHfkWim8qPxVB5CgmZUlwu0c0Dk%3D",
+        "showing": [
+          {
+            "time": [
+              "5:15pm"
+            ],
+            "type": "Standard"
+          }
+        ]
+      },
+      {
+        "name": "Spanglish",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&hl=en&gl=us&sxsrf=APpeQnsiDahMrypV7W91b-pQhALmnHYjcw:1789987983928&q=Spanglish&si=APenkKlikuSFV5Zn0CcM560bGMYxPork-kjkM9d4OinI68WHtlb5PsIXdzvwj4W0Hu09gqQvtJy094vXwCClBEqrOoMX8DbjjCBR7PVea_laqhajehNgSs82ZxiKx8nAT9j2xoliBcOBvla2yA-0fWKkozKnLeCwo3Vn_XyJfeq2iRMSFTzGvV0%3D",
         "showing": [
           {
             "time": [
@@ -2690,41 +2420,29 @@
         ]
       },
       {
-        "name": "Ninja Scroll",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQnt8EoOMZ8GxnWr572Bw_eYVIxcfQg:1789898061720&q=Ninja+Scroll&si=APenkKlikuSFV5Zn0CcM560bGMYxPork-kjkM9d4OinI68WHtloEngw9Yjx0ombqvLDIb5BlPSOhfvk-NhgF49sY0LyyJb_ivoQqA0BbeyrEwplgsSSKYg3kRfGld5wsPnJA_0nye2axJeP5T9tPhiD8Q5JQrDXuoaLfWDPS7-cL3elw_gWrBOQ%3D",
+        "name": "Hello Beautiful",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&hl=en&gl=us&sxsrf=APpeQnsiDahMrypV7W91b-pQhALmnHYjcw:1789987983928&q=Hello+Beautiful&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJwr1NY9xdCXZgZH9wzfUSxaPnp9FchZ-zHKo9GbzuRSon0ShabKUALfyEwUuqAzzWYTMLx5jP5pEdhqOmsRx70muq4oCMZQQcajvv9zi48PjUDlIWll-aMxXgNmpPMOTi93vEI%3D",
         "showing": [
           {
             "time": [
               "4:00pm"
-            ],
-            "type": "4K"
-          }
-        ]
-      },
-      {
-        "name": "The Incomer",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&gl=us&hl=en&sxsrf=APpeQnt8EoOMZ8GxnWr572Bw_eYVIxcfQg:1789898061720&q=The+Incomer&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XClAJWyM4CoUFnHExc3WQWXmxvpgCC8H4SFyemwV_hX-0djbsfRGuvXt9DC2qHGm-JPa0J-YaVsPLgGmu_ca3Vmrjm83PaC4rxlIeef3-fy9Odz6dX28Ny-n_AuNk7QZruJOgLA%3D",
-        "showing": [
-          {
-            "time": [
-              "6:00pm"
             ],
             "type": "Standard"
           }
         ]
       }
     ],
-    "iso_date": "2026-10-04",
-    "weekday": "Sun",
+    "iso_date": "2026-09-28",
+    "weekday": "Mon",
     "has_data": true
   },
   {
-    "day": "Sun",
-    "date": "Oct 11",
+    "day": "Mon",
+    "date": "Oct 12",
     "movies": [
       {
         "name": "Verity",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&hl=en&gl=us&q=Verity&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJ_wVkZeSLvxMIcYVJ7oxDDJrGfKW0PP_Tdf97ZGOjrcJg_pQz_xEcGlHX2EUm4zWQRMUE5lZWFvoXH4XCh0ZWeQ7e0IQ1Bu2JNZr8CEpALe_bMv0AIgQCZFLYAzsTSiD1J6C8I%3D&sa=X&ved=2ahUKEwiUt9Hx8fyWAxWbJEQIHc5qFeUQxyZ6BAgiEA0",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Verity&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJ_wVkZeSLvxMIcYVJ7oxDDJrGfKW0PP_Tdf97ZGOjrcJg_pQz_xEcGlHX2EUm4zWQRMUE5lZWFvoXH4XCh0ZWeQ7e0IQ1Bu2JNZr8CEpALe_bMv0AIgQCZFLYAzsTSiD1J6C8I%3D&sa=X&ved=2ahUKEwjcv4GUwf-WAxWnrYkEHWeKG7UQxyZ6BAgsEA0",
         "showing": [
           {
             "time": [
@@ -2736,7 +2454,7 @@
       },
       {
         "name": "Other Mommy",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&hl=en&gl=us&q=Other+Mommy&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XOf0fx0azt_ys8sUHipz5Ccv1XuYVjSZIr7nxP36eqbbxvmqHS9KQBshrdrzfnCH99ceohR4YmTvOjeUDJb0WAFQeAolPwKFG9RwF22_oZYzYSAubaEeB3p5bIO3EJnenMfuQ3g%3D&sa=X&ved=2ahUKEwiUt9Hx8fyWAxWbJEQIHc5qFeUQxyZ6BAgiEBE",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Other+Mommy&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XOf0fx0azt_ys8sUHipz5Ccv1XuYVjSZIr7nxP36eqbbxvmqHS9KQBshrdrzfnCH99ceohR4YmTvOjeUDJb0WAFQeAolPwKFG9RwF22_oZYzYSAubaEeB3p5bIO3EJnenMfuQ3g%3D&sa=X&ved=2ahUKEwjcv4GUwf-WAxWnrYkEHWeKG7UQxyZ6BAgsEBE",
         "showing": [
           {
             "time": [
@@ -2756,7 +2474,7 @@
       },
       {
         "name": "Digger",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&hl=en&gl=us&q=Digger&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJd5L91uDgWnb6Ys8n6vbGxWED6H_xOsLuCL4LKEcn-ObwujzawwNtSmBznMcLyZrsdZroTNrVxNolqQeTfq2fHVM_JoeqB7eD4ktyiKvi0i7mUGsslZgrmalClt1Bt4982PGPs%3D&sa=X&ved=2ahUKEwiUt9Hx8fyWAxWbJEQIHc5qFeUQxyZ6BAgiEBk",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Digger&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XJd5L91uDgWnb6Ys8n6vbGxWED6H_xOsLuCL4LKEcn-ObwujzawwNtSmBznMcLyZrsdZroTNrVxNolqQeTfq2fHVM_JoeqB7eD4ktyiKvi0i7mUGsslZgrmalClt1Bt4982PGPs%3D&sa=X&ved=2ahUKEwjcv4GUwf-WAxWnrYkEHWeKG7UQxyZ6BAgsEBk",
         "showing": [
           {
             "time": [
@@ -2771,11 +2489,10 @@
       },
       {
         "name": "The Social Reckoning",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&hl=en&gl=us&q=The+Social+Reckoning&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG-JsorSuK_sW5HsPnZVIcCNtjNJ4sFh_RwsNblLxTPY1GOdhIVJI5MUp_VqSG9TaRtSP31_0P8lr4SP36hbQ1kC9gFqn0P5IBOk13HF-LhPk2P2u4EDI5KMTh3AZtU2AJXR92Q%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=The+Social+Reckoning&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XG-JsorSuK_sW5HsPnZVIcCNtjNJ4sFh_RwsNblLxTPY1GOdhIVJI5MUp_VqSG9TaRtSP31_0P8lr4SP36hbQ1kC9gFqn0P5IBOk13HF-LhPk2P2u4EDI5KMTh3AZtU2AJXR92Q%3D",
         "showing": [
           {
             "time": [
-              "12:30pm",
               "1:30pm",
               "4:30pm",
               "7:30pm",
@@ -2787,7 +2504,7 @@
       },
       {
         "name": "Angel and the Badman",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&hl=en&gl=us&q=Angel+and+the+Badman&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XLFIauccRZ06Ng0sKYe9De2TtAFHyzqqnf7k1os3JS_Ck_ThPFObMj_m16QHaXQXqAb0o6jcZQelD29GElRJnPqld4wlDXgZJC4mp_ksqVXxOAwyuUL_68vvkDXuSOCpiaY8eBo%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Angel+and+the+Badman&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XLFIauccRZ06Ng0sKYe9De2TtAFHyzqqnf7k1os3JS_Ck_ThPFObMj_m16QHaXQXqAb0o6jcZQelD29GElRJnPqld4wlDXgZJC4mp_ksqVXxOAwyuUL_68vvkDXuSOCpiaY8eBo%3D",
         "showing": [
           {
             "time": [
@@ -2800,23 +2517,23 @@
       },
       {
         "name": "Guillermo del Toro's Pan's Labyrinth 20th Anniversary",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&hl=en&gl=us&q=Guillermo+del+Toro%27s+Pan%27s+Labyrinth+20th+Anniversary&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XKKAXS7HqAG58YT50PnH1GRqtXXufMMYJwMB2jpu_osQwzAwjD9CJHAHF3E3TC1oSwwpUfaH0BeQEpepj1tRFzJozoJRu8YHtn0X6sN8TB5eVK9vHyiaK2fhdF_9s2bxRbUPxpI%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Guillermo+del+Toro%27s+Pan%27s+Labyrinth+20th+Anniversary&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XKKAXS7HqAG58YT50PnH1GRqtXXufMMYJwMB2jpu_osQwzAwjD9CJHAHF3E3TC1oSwwpUfaH0BeQEpepj1tRFzJozoJRu8YHtn0X6sN8TB5eVK9vHyiaK2fhdF_9s2bxRbUPxpI%3D",
         "showing": [
           {
             "time": [
               "7:45pm"
             ],
-            "type": "3D"
+            "type": "Standard"
           }
         ]
       },
       {
         "name": "Gone with the Wind",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&hl=en&gl=us&q=Gone+with+the+Wind&si=APenkKlikuSFV5Zn0CcM560bGMYxPork-kjkM9d4OinI68WHtnk2Eb4sogMzi9hJFWGnDzNjOi1-oXJ1HWfo-QbelPe-UiLmwcWIo6bcgixL4ImoBNDQuQjnqTjIGStT_XMLVpsSlHG7TW5GeCy56L5mlpeBVo8GbeJ6SRBh5Gj7RVGXqK4nIFQ%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Gone+with+the+Wind&si=APenkKlikuSFV5Zn0CcM560bGMYxPork-kjkM9d4OinI68WHtnk2Eb4sogMzi9hJFWGnDzNjOi1-oXJ1HWfo-QbelPe-UiLmwcWIo6bcgixL4ImoBNDQuQjnqTjIGStT_XMLVpsSlHG7TW5GeCy56L5mlpeBVo8GbeJ6SRBh5Gj7RVGXqK4nIFQ%3D",
         "showing": [
           {
             "time": [
-              "2:00pm"
+              "6:00pm"
             ],
             "type": "Standard"
           }
@@ -2824,7 +2541,7 @@
       },
       {
         "name": "Instructions Not Included",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&hl=en&gl=us&q=Instructions+Not+Included&si=APenkKlei-HlMkPjB652f3y8RBkd8m22ku_b1JsztxohP4ST99Sb-EzVscN7Jf3CV4QOoPHz1mAcQRDi9u_UFGMmGJWdgkInoCfVCGdKgY5nPSqiH1cBBsMoTIaZDdzaOi5WcCXnf5nZJdWcaBP3iSagIx8R7rbUXGdlcQ29fWzKH0Ha-iORHKw%3D",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Instructions+Not+Included&si=APenkKlei-HlMkPjB652f3y8RBkd8m22ku_b1JsztxohP4ST99Sb-EzVscN7Jf3CV4QOoPHz1mAcQRDi9u_UFGMmGJWdgkInoCfVCGdKgY5nPSqiH1cBBsMoTIaZDdzaOi5WcCXnf5nZJdWcaBP3iSagIx8R7rbUXGdlcQ29fWzKH0Ha-iORHKw%3D",
         "showing": [
           {
             "time": [
@@ -2835,20 +2552,20 @@
         ]
       },
       {
-        "name": "SB19 Wakas At Simula: The Trilogy Concert Finale In Cinemas",
-        "link": "https://www.google.com/search?sca_esv=306360304c71a31f&hl=en&gl=us&q=SB19+Wakas+At+Simula:+The+Trilogy+Concert+Finale+In+Cinemas&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XEYmCYD2gAVBicXn_ztnkD3Po-hyCG-QpfD2knRMFzx8Rp8f3JO6UqR0Jimf00gTG3HFE8DpZjP-clZlZMjk3WdwC7shQkZkoW7XNPIZZTLIN3caihJhb_izPlUOQiLrmmdVXUo%3D",
+        "name": "Always Lalisa",
+        "link": "https://www.google.com/search?sca_esv=ef3eb8aeaef7656a&gl=us&hl=en&q=Always+Lalisa&si=APenkKnBlllJXMN-DBfmV3x4g6XbZbeeMEzOUDQPFlgOwiu8XFlxibad6h7r5rE3nnEu-eBprGFqO1FGv7Joqe8Riw8VfoZNayiedmHDIh1DT7ZmB9gfkTo2roACmygzE42E_dhdqMQ6IhnkHBlNSQSi617eMIIhGDtp0SgusLSRYQ-qsfu6Uyg%3D",
         "showing": [
           {
             "time": [
-              "5:00pm"
+              "7:00pm"
             ],
-            "type": "ScreenX"
+            "type": "IMAX"
           }
         ]
       }
     ],
-    "iso_date": "2026-10-11",
-    "weekday": "Sun",
+    "iso_date": "2026-10-12",
+    "weekday": "Mon",
     "has_data": true
   }
 ]
